@@ -41,6 +41,7 @@ DFW = [
     "lancaster", "burleson", "weatherford", "roanoke", "trophy club", "midlothian", "waxahachie", "sachse",
     "murphy", "celina", "anna", "forney", "alliance", "dfw", "metroplex",
 ]
+DFW_RE = re.compile(r"\b(" + "|".join(re.escape(c) for c in DFW) + r")\b")
 NON_US = re.compile(
     r"\b(canada|uk|united kingdom|england|london|ireland|dublin|germany|berlin|france|paris|india|bangalore|"
     r"bengaluru|hyderabad|pune|mumbai|delhi|gurgaon|noida|chennai|philippines|manila|mexico|brazil|"
@@ -66,7 +67,7 @@ US_OTHER_NAMES = re.compile(
     r"nebraska|nevada|new hampshire|new jersey|new mexico|new york|north carolina|north dakota|ohio|oklahoma|oregon|"
     r"pennsylvania|rhode island|south carolina|south dakota|tennessee|utah|vermont|virginia|washington|west virginia|"
     r"wisconsin|wyoming|san francisco|seattle|chicago|boston|atlanta|denver|phoenix|los angeles|san jose|san mateo|"
-    r"san diego|miami|tampa|orlando|charlotte|nashville|minneapolis|detroit|philadelphia|pittsburgh|portland)\b", re.I)
+    r"nyc|new york city|soho|brooklyn|manhattan|san diego|miami|tampa|orlando|charlotte|nashville|minneapolis|detroit|philadelphia|pittsburgh|portland)\b", re.I)
 
 
 def other_place(location):
@@ -78,7 +79,8 @@ def other_place(location):
 def location_kind(location, remote_flag=False):
     """Return 'dfw', 'remote', 'texas', or None."""
     loc = (location or "").lower()
-    if any(c in loc for c in DFW):
+    in_tx = bool(re.search(r"\btexas\b|\btx\b", loc))
+    if DFW_RE.search(loc) and (in_tx or not other_place(location)):
         return "dfw"
     if other_place(location):
         return None
