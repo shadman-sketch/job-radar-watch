@@ -8,9 +8,10 @@ TITLE_INCLUDE = re.compile(
     r"technical support (specialist|technician|analyst|associate|representative)|tech support|"
     r"it (technician|tech|specialist|analyst|associate|coordinator|intern|internship|operations technician)|"
     r"information technology (technician|specialist|support|intern|internship|analyst|associate)|"
-    r"(computer|pc|systems?|user|client|field|onsite|on-site|noc|network|endpoint|hardware|av/it|it/av) "
+    r"(computer|pc|systems?|user|client|field it|onsite it|on-site it|noc|network|endpoint|hardware|av/it|it/av) "
     r"(support )?(technician|tech|specialist|support)|"
-    r"support (technician|specialist|analyst|associate|engineer i\b|engineer 1\b)|"
+    r"(technical|it|desktop|systems?|user|client|technology|computer) support (technician|specialist|analyst|associate|engineer i\b|engineer 1\b)|"
+    r"support (technician|engineer i\b|engineer 1\b)|"
     r"security (systems )?technician|(personal |end[- ]user )?computing (specialist|support|technician)|"
     r"technology (support|specialist|technician|associate)|desktop|low[- ]voltage technician|"
     r"(tier|level) (1|i|2|ii|one|two)\b|data ?cent(er|re) technician|"
@@ -25,7 +26,9 @@ TITLE_EXCLUDE = re.compile(
     r"software (engineer|developer)|developer|sales|account executive|business development|recruiter|"
     r"nurse|rn\b|physician|pharmac|clinical|medical assistant|driver|mechanic|hvac|electrician|plumber|"
     r"automotive|diesel|aircraft|avionics|lab technician|laboratory|veterinary|dental|"
-    r"customer success manager|call center|teacher|professor|faculty)\b",
+    r"customer success manager|call center|teacher|professor|faculty|customer support|customer service|billing|benefits|payroll|"
+    r"hr|human resources|game designer|transformer|turbine|wind|solar|biomedical|radiology|x-ray|imaging|maintenance technician|"
+    r"manufacturing|production|warehouse|forklift|splicer|lineman|line worker|oilfield|drilling|well|cam field)\b",
     re.I,
 )
 
@@ -54,11 +57,31 @@ def title_ok(title):
     return bool(TITLE_INCLUDE.search(t)) and not TITLE_EXCLUDE.search(t)
 
 
+US_OTHER_CODES = re.compile(
+    r"(?:,|-|\(|/|\s)\s*(AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|"
+    r"NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|UT|VT|VA|WA|WV|WI|WY|DC)\b")
+US_OTHER_NAMES = re.compile(
+    r"\b(alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware|florida|georgia|hawaii|idaho|illinois|"
+    r"indiana|iowa|kansas|kentucky|louisiana|maine|maryland|massachusetts|michigan|minnesota|mississippi|missouri|montana|"
+    r"nebraska|nevada|new hampshire|new jersey|new mexico|new york|north carolina|north dakota|ohio|oklahoma|oregon|"
+    r"pennsylvania|rhode island|south carolina|south dakota|tennessee|utah|vermont|virginia|washington|west virginia|"
+    r"wisconsin|wyoming|san francisco|seattle|chicago|boston|atlanta|denver|phoenix|los angeles|san jose|san mateo|"
+    r"san diego|miami|tampa|orlando|charlotte|nashville|minneapolis|detroit|philadelphia|pittsburgh|portland)\b", re.I)
+
+
+def other_place(location):
+    """True when the text names a place outside Texas."""
+    loc = location or ""
+    return bool(US_OTHER_CODES.search(loc) or US_OTHER_NAMES.search(loc) or NON_US.search(loc))
+
+
 def location_kind(location, remote_flag=False):
     """Return 'dfw', 'remote', 'texas', or None."""
     loc = (location or "").lower()
     if any(c in loc for c in DFW):
         return "dfw"
+    if other_place(location):
+        return None
     is_remote = remote_flag or "remote" in loc or "work from home" in loc or "anywhere" in loc
     if is_remote and not NON_US.search(loc):
         return "remote"

@@ -17,6 +17,7 @@ Checks about 1,500 employers' career pages every morning for new IT support, hel
 | `data/resolved.json` | Which job system each company uses. |
 | `results/latest.json` | New matches from the last run. |
 | `results/summary.md` | Readable summary of the last run. |
+| `results/open_now.json` | Every currently open matching job at watched companies, new or not. |
 | `results/status.json` | Per-company health: system, jobs seen, errors. |
 | `results/seen.json` | Everything already reported, so nothing repeats. |
 

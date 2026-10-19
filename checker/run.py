@@ -9,6 +9,7 @@ Outputs (all under results/):
 """
 import csv
 import json
+import re
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -16,10 +17,11 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
+from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).parent))
 from adapters import ADAPTERS  # noqa: E402
-from match import location_kind, parse_date, title_ok  # noqa: E402
+from match import location_kind, other_place, parse_date, title_ok  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 RES = ROOT / "results"
@@ -47,29 +49,59 @@ def fetch(company, cfg):
     return company, cfg, None, last
 
 
+JOB_HREF = re.compile(r"/(jobs?|careers?|positions?|openings?|requisitions?|vacanc\w*|opportunit\w*|apply)(/|\?|=|-|$)|jobid=|job_id=|gh_jid=|/req", re.I)
+ICIMS_TERMS = ["help desk", "desktop support", "IT support", "technician"]
+
+
+def _links_to_jobs(links):
+    jobs = []
+    for href, text in links:
+        title = (text or "")[:160].replace("›", "").strip()
+        if not title or len(title) > 120 or "@" in title or href.startswith("mailto:"):
+            continue
+        if not JOB_HREF.search(href) or not title_ok(title):
+            continue
+        jobs.append({"id": href, "title": title, "location": title, "remote": "remote" in title.lower(),
+                     "url": href, "posted": None})
+    return jobs
+
+
 def pagewatch(items):
-    """Render career pages that have no feed and pick out links that look like matching jobs."""
+    """Render career pages that have no feed and pick out links that look like matching jobs.
+    items: (company_id, url, icims_host_or_None)."""
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
-        return {cid: (None, "playwright not installed") for cid, _ in items}
+        return {it[0]: (None, "playwright not installed") for it in items}
     out = {}
     with sync_playwright() as p:
         b = p.chromium.launch()
         ctx = b.new_context(user_agent=UA)
-        for cid, url in items:
+        for cid, url, icims_host in items:
             page = ctx.new_page()
             try:
-                page.goto(url, timeout=30000, wait_until="domcontentloaded")
-                page.wait_for_timeout(3500)
-                links = page.eval_on_selector_all(
-                    "a[href]", "els => els.map(e => [e.href, (e.innerText||'').trim().replace(/\\s+/g,' ')])")
                 jobs = []
-                for href, text in links:
-                    title = text[:140]
-                    if title and title_ok(title):
-                        jobs.append({"id": href, "title": title, "location": "", "remote": False, "url": href, "posted": None})
-                out[cid] = (jobs, None)
+                targets = ([f"https://{icims_host}/jobs/search?ss=1&in_iframe=1&searchKeyword={quote(t)}" for t in ICIMS_TERMS]
+                           if icims_host else [url])
+                for target in targets:
+                    page.goto(target, timeout=30000, wait_until="domcontentloaded")
+                    page.wait_for_timeout(3000)
+                    if icims_host:
+                        rows = page.eval_on_selector_all(
+                            "a[href*='/jobs/']",
+                            "els => els.map(e => [e.href, (e.innerText||'').trim().replace(/\\s+/g,' '),"
+                            " ((e.closest('.row, li, tr, .iCIMS_JobsTable > div')||e.parentElement).innerText||'').replace(/\\s+/g,' ')])")
+                        for href, title, ctxt in rows:
+                            m = re.search(r"/jobs/(\d+)/", href)
+                            if m and title and title_ok(title):
+                                jobs.append({"id": m.group(1), "title": title[:140], "location": ctxt[:300],
+                                             "remote": "remote" in ctxt.lower(), "url": href.split("?")[0], "posted": None})
+                    else:
+                        links = page.eval_on_selector_all(
+                            "a[href]", "els => els.map(e => [e.href, (e.innerText||'').trim().replace(/\\s+/g,' ')])")
+                        jobs.extend(_links_to_jobs(links))
+                uniq = {j["id"]: j for j in jobs}
+                out[cid] = (list(uniq.values()), None)
             except Exception as e:  # noqa: BLE001
                 out[cid] = (None, f"{type(e).__name__}")
             finally:
@@ -93,7 +125,9 @@ def main():
     for cid, c in companies.items():
         cfg = resolved.get(cid) or {"adapter": "pagewatch", "url": c["url"]}
         if cfg["adapter"] == "pagewatch":
-            page_items.append((cid, cfg.get("url") or c["url"]))
+            page_items.append((cid, cfg.get("url") or c["url"], None))
+        elif cfg["adapter"] == "icims":
+            page_items.append((cid, c["url"], cfg["host"]))
         else:
             feed_items.append((c, cfg))
 
@@ -103,13 +137,21 @@ def main():
         for c, cfg, jobs, err in ex.map(lambda a: fetch(*a), feed_items):
             results[c["id"]] = (cfg, jobs, err)
     print(f"feeds: {len(feed_items)} companies in {time.time() - started:.0f}s")
+    failed = [cid for cid, (cfg, jobs, err) in results.items() if err]
+    for cid in failed:  # a feed that failed today still gets a page check
+        page_items.append((cid, companies[cid]["url"], None))
 
     started = time.time()
+    icims = {cid for cid, _, h in page_items if h}
     for cid, (jobs, err) in pagewatch(page_items).items():
-        results[cid] = ({"adapter": "pagewatch"}, jobs, err)
+        prev = results.get(cid)
+        if prev and prev[2] and err is None:  # fallback worked for a failed feed
+            results[cid] = ({"adapter": prev[0]["adapter"] + "+page"}, jobs, None)
+        elif not prev:
+            results[cid] = ({"adapter": "icims" if cid in icims else "pagewatch"}, jobs, err)
     print(f"pages: {len(page_items)} companies in {time.time() - started:.0f}s")
 
-    latest, status = [], {}
+    latest, status, open_now = [], {}, []
     for cid, (cfg, jobs, err) in results.items():
         c = companies[cid]
         first_time = cid not in seen["companies"]
@@ -120,11 +162,15 @@ def main():
             if not title_ok(title):
                 continue
             kind = location_kind(j.get("location"), j.get("remote"))
-            if cfg.get("adapter") == "pagewatch":
-                kind = kind or "unknown"
+            if cfg.get("adapter") in ("pagewatch", "icims") or str(cfg.get("adapter", "")).endswith("+page"):
+                if kind is None and not other_place(j.get("location") or title):
+                    kind = "unknown"
             if kind is None:
                 continue
             st["matches"] += 1
+            open_now.append({"company": c["company"], "priority": c["priority"], "title": title,
+                             "location": j.get("location") or "", "location_kind": kind, "url": j.get("url"),
+                             "posted": parse_date(j.get("posted"))})
             key = f"{cid}:{j.get('id') or j.get('url')}"
             if key in seen["jobs"]:
                 continue
@@ -145,10 +191,32 @@ def main():
 
     order = {"dfw": 0, "remote": 1, "texas": 2, "unknown": 3}
     latest.sort(key=lambda x: (order.get(x["location_kind"], 9), x["priority"], x["company"]))
+    stamp = now.strftime("%Y-%m-%dT%H%M%S")
+    run_payload = {"run_at": now.isoformat(timespec="seconds"), "date": today.isoformat(), "count": len(latest), "jobs": latest}
+    (RES / "history" / f"{stamp}.json").write_text(json.dumps(run_payload, indent=1))
+    # latest.json = new matches from every run in the last 36 hours, so a mid-day run never hides an earlier find.
+    # Older runs are re-screened with today's rules.
+    window = (now - timedelta(hours=36)).strftime("%Y-%m-%dT%H%M%S")
+    merged = {}
+    for f in sorted((RES / "history").glob("*.json")):
+        if f.stem < window and f.stem[:10] != today.isoformat():
+            continue
+        for j in json.loads(f.read_text()).get("jobs", []):
+            if not title_ok(j["title"]):
+                continue
+            if j["system"] == "pagewatch" and not JOB_HREF.search(j.get("url") or ""):
+                continue
+            kind = location_kind(j.get("location") or j["title"], j.get("remote"))
+            if kind is None and (j["system"] != "pagewatch" or other_place(j.get("location") or j["title"])):
+                continue
+            merged[j.get("url") or j["title"] + j["company"]] = j
+    latest = list(merged.values())
+    latest.sort(key=lambda x: (order.get(x["location_kind"], 9), x["priority"], x["company"]))
     payload = {"run_at": now.isoformat(timespec="seconds"), "date": today.isoformat(), "count": len(latest), "jobs": latest}
     (RES / "latest.json").write_text(json.dumps(payload, indent=1))
-    (RES / "history" / f"{today.isoformat()}.json").write_text(json.dumps(payload, indent=1))
     seen_path.write_text(json.dumps(seen))
+    open_now.sort(key=lambda x: (order.get(x["location_kind"], 9), x["priority"], x["company"]))
+    (RES / "open_now.json").write_text(json.dumps({"date": today.isoformat(), "count": len(open_now), "jobs": open_now}, indent=1))
     (RES / "status.json").write_text(json.dumps(status, indent=1, sort_keys=True))
 
     ok = sum(1 for s in status.values() if s["ok"])
@@ -160,7 +228,8 @@ def main():
         a[2] += s["jobs"]
     lines = [f"# Watchlist run {today.isoformat()}", "",
              f"- Companies checked: {ok} of {len(status)} answered",
-             f"- New matching jobs: {len(latest)}", "", "| System | Companies | Answered | Jobs seen |", "|---|---|---|---|"]
+             f"- New matching jobs: {len(latest)}",
+             f"- All open matching jobs at watched companies: {len(open_now)} (see open_now.json)", "", "| System | Companies | Answered | Jobs seen |", "|---|---|---|---|"]
     for a, (n, k, jn) in sorted(by_adapter.items(), key=lambda x: -x[1][0]):
         lines.append(f"| {a} | {n} | {k} | {jn} |")
     lines += ["", "## New matches", ""]
