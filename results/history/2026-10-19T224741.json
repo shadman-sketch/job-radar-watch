@@ -1,0 +1,21 @@
+{
+ "run_at": "2026-10-19T22:47:41+00:00",
+ "date": "2026-10-19",
+ "count": 1,
+ "jobs": [
+  {
+   "company_id": "47",
+   "company": "Randstad Digital",
+   "priority": "1",
+   "sector": "IT staffing and services",
+   "title": "it/av support specialist",
+   "location": "it/av support specialist",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://www.randstadusa.com/jobs/4/1365328/it-av-support-specialist_houston/",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch"
+  }
+ ]
+}

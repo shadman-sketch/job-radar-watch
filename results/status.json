@@ -11,8 +11,8 @@
   "adapter": "pagewatch",
   "company": "Calance",
   "error": null,
-  "jobs": 5,
-  "matches": 5,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "100": {
@@ -488,12 +488,12 @@
   "ok": true
  },
  "1053": {
-  "adapter": "rippling",
+  "adapter": "rippling+page",
   "company": "Carbon Health",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://api.rippling.com/platform/api/ats/v1/board/cdn-cgi/jobs",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1054": {
   "adapter": "phenom",
@@ -555,8 +555,8 @@
   "adapter": "pagewatch",
   "company": "Ceragon Networks",
   "error": null,
-  "jobs": 1,
-  "matches": 1,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "1061": {
@@ -564,7 +564,7 @@
   "company": "Cerebras Systems",
   "error": null,
   "jobs": 121,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "1062": {
@@ -811,7 +811,7 @@
   "adapter": "workday",
   "company": "ONEOK",
   "error": null,
-  "jobs": 52,
+  "jobs": 53,
   "matches": 0,
   "ok": true
  },
@@ -851,7 +851,7 @@
   "adapter": "ashby",
   "company": "Deepgram",
   "error": null,
-  "jobs": 92,
+  "jobs": 91,
   "matches": 0,
   "ok": true
  },
@@ -899,7 +899,7 @@
   "adapter": "workday",
   "company": "Capital One",
   "error": null,
-  "jobs": 72,
+  "jobs": 74,
   "matches": 0,
   "ok": true
  },
@@ -1050,10 +1050,10 @@
  "1116": {
   "adapter": "icims",
   "company": "DX",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-apac-atlassian.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1117": {
   "adapter": "greenhouse",
@@ -1122,10 +1122,10 @@
  "1124": {
   "adapter": "icims",
   "company": "Endava",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://jobs-galaxe.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1125": {
   "adapter": "jobvite",
@@ -1168,12 +1168,12 @@
   "ok": true
  },
  "113": {
-  "adapter": "phenom",
+  "adapter": "phenom+page",
   "company": "Qualtrics",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://www.qualtrics.com/search-results/?keywords=help%20desk",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1130": {
   "adapter": "pagewatch",
@@ -1195,7 +1195,7 @@
   "adapter": "greenhouse",
   "company": "Ethos Life",
   "error": null,
-  "jobs": 75,
+  "jobs": 74,
   "matches": 0,
   "ok": true
  },
@@ -1251,7 +1251,7 @@
   "adapter": "smartrecruiters",
   "company": "Experian",
   "error": null,
-  "jobs": 383,
+  "jobs": 382,
   "matches": 0,
   "ok": true
  },
@@ -1348,7 +1348,7 @@
   "company": "Robinhood",
   "error": null,
   "jobs": 151,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "1150": {
@@ -1436,7 +1436,7 @@
   "company": "Samsara",
   "error": null,
   "jobs": 1,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "1160": {
@@ -1475,7 +1475,7 @@
   "adapter": "ashby",
   "company": "Fireworks AI",
   "error": null,
-  "jobs": 87,
+  "jobs": 89,
   "matches": 0,
   "ok": true
  },
@@ -1516,7 +1516,7 @@
   "company": "FlockSafety",
   "error": null,
   "jobs": 29,
-  "matches": 18,
+  "matches": 0,
   "ok": true
  },
  "117": {
@@ -1524,7 +1524,7 @@
   "company": "Saronic",
   "error": null,
   "jobs": 233,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "1170": {
@@ -1707,24 +1707,24 @@
   "adapter": "greenhouse",
   "company": "Glance",
   "error": null,
-  "jobs": 37,
+  "jobs": 38,
   "matches": 0,
   "ok": true
  },
  "1191": {
-  "adapter": "workday",
+  "adapter": "workday+page",
   "company": "Global Business Travel",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://travelhrportal.wd1.myworkdayjobs.com/wday/cxs/travelhrportal/videoplayerlabels/jobs",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1192": {
   "adapter": "pagewatch",
   "company": "GlobalStep",
   "error": null,
   "jobs": 1,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "1193": {
@@ -1770,10 +1770,10 @@
  "1198": {
   "adapter": "icims",
   "company": "Granicus",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-granicus.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1199": {
   "adapter": "ashby",
@@ -1860,7 +1860,7 @@
   "company": "HappyRobot",
   "error": null,
   "jobs": 76,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "1208": {
@@ -2011,8 +2011,8 @@
   "adapter": "pagewatch",
   "company": "IGT",
   "error": null,
-  "jobs": 2,
-  "matches": 2,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "1225": {
@@ -2051,7 +2051,7 @@
   "adapter": "workday",
   "company": "Industrial Light & Magic",
   "error": null,
-  "jobs": 60,
+  "jobs": 59,
   "matches": 0,
   "ok": true
  },
@@ -2104,12 +2104,12 @@
   "ok": true
  },
  "1235": {
-  "adapter": "greenhouse",
+  "adapter": "greenhouse+page",
   "company": "Instabase",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/instabase/jobs",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1236": {
   "adapter": "ashby",
@@ -2131,7 +2131,7 @@
   "adapter": "jobvite",
   "company": "Internet Brands",
   "error": null,
-  "jobs": 57,
+  "jobs": 56,
   "matches": 0,
   "ok": true
  },
@@ -2248,12 +2248,12 @@
   "ok": true
  },
  "1251": {
-  "adapter": "greenhouse",
+  "adapter": "greenhouse+page",
   "company": "Kajabi",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/kajabi/jobs",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1252": {
   "adapter": "ashby",
@@ -2275,8 +2275,8 @@
   "adapter": "pagewatch",
   "company": "Kavaliro",
   "error": null,
-  "jobs": 2,
-  "matches": 2,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "1255": {
@@ -2323,8 +2323,8 @@
   "adapter": "pagewatch",
   "company": "Tyler Technologies",
   "error": null,
-  "jobs": 3,
-  "matches": 3,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "1260": {
@@ -2460,7 +2460,7 @@
   "company": "Linear",
   "error": null,
   "jobs": 28,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "1276": {
@@ -2592,12 +2592,12 @@
   "ok": true
  },
  "1290": {
-  "adapter": "lever",
+  "adapter": "lever+page",
   "company": "Lunchbox Entertainment",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/LunchboxEntertainment?mode=json",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1291": {
   "adapter": "pagewatch",
@@ -2674,10 +2674,10 @@
  "13": {
   "adapter": "icims",
   "company": "Charles Schwab",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://career-schwab.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "130": {
   "adapter": "greenhouse",
@@ -2728,12 +2728,12 @@
   "ok": true
  },
  "1305": {
-  "adapter": "ashby",
+  "adapter": "ashby+page",
   "company": "Medsender",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/medsender",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1306": {
   "adapter": "lever",
@@ -2747,7 +2747,7 @@
   "adapter": "workday",
   "company": "Meow Wolf",
   "error": null,
-  "jobs": 21,
+  "jobs": 20,
   "matches": 0,
   "ok": true
  },
@@ -2904,12 +2904,12 @@
   "ok": true
  },
  "1325": {
-  "adapter": "ashby",
+  "adapter": "ashby+page",
   "company": "Moonvalley",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/moonvalley-ai",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1326": {
   "adapter": "workday",
@@ -2963,7 +2963,7 @@
   "adapter": "smartrecruiters",
   "company": "NBC Universal",
   "error": null,
-  "jobs": 454,
+  "jobs": 453,
   "matches": 0,
   "ok": true
  },
@@ -3048,12 +3048,12 @@
   "ok": true
  },
  "1341": {
-  "adapter": "greenhouse",
+  "adapter": "greenhouse+page",
   "company": "Nightfall AI",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/nightfall/jobs",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1342": {
   "adapter": "pagewatch",
@@ -3338,7 +3338,7 @@
  "1374": {
   "adapter": "pagewatch",
   "company": "Play Perfect",
-  "error": "Error",
+  "error": "TimeoutError",
   "jobs": 0,
   "matches": 0,
   "ok": false
@@ -3416,12 +3416,12 @@
   "ok": true
  },
  "1383": {
-  "adapter": "greenhouse",
+  "adapter": "greenhouse+page",
   "company": "Polycam",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/polycamcareers/jobs",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1384": {
   "adapter": "ashby",
@@ -3464,12 +3464,12 @@
   "ok": true
  },
  "1389": {
-  "adapter": "breezy",
+  "adapter": "breezy+page",
   "company": "Prism VR",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://ontainer-div-script-src-https-prisms-vr.breezy.hr/json",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "139": {
   "adapter": "ashby",
@@ -3723,17 +3723,17 @@
   "adapter": "rippling",
   "company": "Rippling",
   "error": null,
-  "jobs": 658,
-  "matches": 12,
+  "jobs": 662,
+  "matches": 1,
   "ok": true
  },
  "1418": {
   "adapter": "icims",
   "company": "Rivian",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://us-careers-rivian.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1419": {
   "adapter": "workday",
@@ -3834,10 +3834,10 @@
  "143": {
   "adapter": "icims",
   "company": "Advanced Micro Devices",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://internal-amd.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1430": {
   "adapter": "lever",
@@ -3908,7 +3908,7 @@
   "company": "Saronic Technologies",
   "error": null,
   "jobs": 233,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "1439": {
@@ -4027,7 +4027,7 @@
   "adapter": "workday",
   "company": "Sony Pictures Entertainment",
   "error": null,
-  "jobs": 39,
+  "jobs": 38,
   "matches": 0,
   "ok": true
  },
@@ -4122,7 +4122,7 @@
  "1462": {
   "adapter": "pagewatch",
   "company": "Symplr",
-  "error": "Error",
+  "error": "TimeoutError",
   "jobs": 0,
   "matches": 0,
   "ok": false
@@ -4344,12 +4344,12 @@
   "ok": true
  },
  "1488": {
-  "adapter": "greenhouse",
+  "adapter": "greenhouse+page",
   "company": "Volley",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/volleythat/jobs",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "1489": {
   "adapter": "workable",
@@ -4396,7 +4396,7 @@
   "company": "Xplor Technologies",
   "error": null,
   "jobs": 19,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "1494": {
@@ -4707,17 +4707,17 @@
   "adapter": "greenhouse",
   "company": "Anthropic",
   "error": null,
-  "jobs": 666,
+  "jobs": 667,
   "matches": 0,
   "ok": true
  },
  "179": {
   "adapter": "icims",
   "company": "Aon plc",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://cookie-policy-scripts.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "18": {
   "adapter": "pagewatch",
@@ -4739,7 +4739,7 @@
   "adapter": "greenhouse",
   "company": "Apollo.io",
   "error": null,
-  "jobs": 55,
+  "jobs": 56,
   "matches": 0,
   "ok": true
  },
@@ -4752,12 +4752,12 @@
   "ok": true
  },
  "183": {
-  "adapter": "eightfold",
+  "adapter": "eightfold+page",
   "company": "Applied Materials",
-  "error": "HTTPError: 403 Client Error: FORBIDDEN for url: https://app.eightfold.ai/api/apply/v2/jobs?domain=appliedmaterials.com&query=help%20desk&num=50&sort_by=timestamp",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "184": {
   "adapter": "greenhouse",
@@ -4803,8 +4803,8 @@
   "adapter": "pagewatch",
   "company": "Archer Daniels Midland",
   "error": null,
-  "jobs": 1,
-  "matches": 1,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "19": {
@@ -4956,7 +4956,7 @@
   "company": "Baseten",
   "error": null,
   "jobs": 104,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "206": {
@@ -4978,10 +4978,10 @@
  "208": {
   "adapter": "icims",
   "company": "Beazer Homes USA",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-beazer.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "209": {
   "adapter": "pagewatch",
@@ -5163,8 +5163,8 @@
   "adapter": "pagewatch",
   "company": "Boston Scientific",
   "error": null,
-  "jobs": 1,
-  "matches": 1,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "23": {
@@ -5251,7 +5251,7 @@
   "adapter": "oracle",
   "company": "Brookdale Senior Living",
   "error": null,
-  "jobs": 61,
+  "jobs": 62,
   "matches": 0,
   "ok": true
  },
@@ -5267,8 +5267,8 @@
   "adapter": "workday",
   "company": "Brown & Brown",
   "error": null,
-  "jobs": 69,
-  "matches": 3,
+  "jobs": 70,
+  "matches": 1,
   "ok": true
  },
  "241": {
@@ -5282,10 +5282,10 @@
  "242": {
   "adapter": "icims",
   "company": "Bruker",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://worldwidecareers-bruker.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "243": {
   "adapter": "pagewatch",
@@ -5482,10 +5482,10 @@
  "265": {
   "adapter": "icims",
   "company": "Centric Brands",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-centricbrands.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "266": {
   "adapter": "pagewatch",
@@ -5512,12 +5512,12 @@
   "ok": true
  },
  "269": {
-  "adapter": "recruitee",
+  "adapter": "recruitee+page",
   "company": "Channable",
-  "error": "HTTPError: 403 Client Error: Forbidden for url: https://careers-analytics.recruitee.com/api/offers/",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "27": {
   "adapter": "pagewatch",
@@ -5546,10 +5546,10 @@
  "272": {
   "adapter": "icims",
   "company": "Cheesecake Factory",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://hourlyjobs-cakecareers.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "273": {
   "adapter": "oracle",
@@ -5603,8 +5603,8 @@
   "adapter": "pagewatch",
   "company": "Cintas",
   "error": null,
-  "jobs": 1,
-  "matches": 1,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "28": {
@@ -5612,7 +5612,7 @@
   "company": "Frost Bank",
   "error": null,
   "jobs": 62,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "280": {
@@ -5634,10 +5634,10 @@
  "282": {
   "adapter": "icims",
   "company": "CIT Group",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://firstcitizens.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "283": {
   "adapter": "oracle",
@@ -5746,7 +5746,7 @@
  "295": {
   "adapter": "pagewatch",
   "company": "Comfort Systems USA",
-  "error": "Error",
+  "error": "TimeoutError",
   "jobs": 0,
   "matches": 0,
   "ok": false
@@ -5826,10 +5826,10 @@
  "303": {
   "adapter": "icims",
   "company": "Constellation Energy",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-constellationenergy.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "304": {
   "adapter": "pagewatch",
@@ -5858,10 +5858,10 @@
  "307": {
   "adapter": "icims",
   "company": "Costco",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-costco.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "308": {
   "adapter": "pagewatch",
@@ -6028,16 +6028,16 @@
   "company": "DaVita",
   "error": null,
   "jobs": 42,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "327": {
-  "adapter": "eightfold",
+  "adapter": "eightfold+page",
   "company": "Deere",
-  "error": "HTTPError: 403 Client Error: FORBIDDEN for url: https://app.eightfold.ai/api/apply/v2/jobs?domain=johndeere.com&query=help%20desk&num=50&sort_by=timestamp",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "328": {
   "adapter": "pagewatch",
@@ -6088,12 +6088,12 @@
   "ok": true
  },
  "333": {
-  "adapter": "eightfold",
+  "adapter": "eightfold+page",
   "company": "Dexcom",
-  "error": "HTTPError: 403 Client Error: FORBIDDEN for url: https://app.eightfold.ai/api/apply/v2/jobs?domain=dexcom.com&query=help%20desk&num=50&sort_by=timestamp",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "334": {
   "adapter": "oracle",
@@ -6147,7 +6147,7 @@
   "adapter": "workday",
   "company": "Johnson Controls",
   "error": null,
-  "jobs": 101,
+  "jobs": 102,
   "matches": 0,
   "ok": true
  },
@@ -6224,12 +6224,12 @@
   "ok": true
  },
  "349": {
-  "adapter": "eightfold",
+  "adapter": "eightfold+page",
   "company": "Eaton Corporation",
-  "error": "HTTPError: 403 Client Error: FORBIDDEN for url: https://eaton.eightfold.ai/api/apply/v2/jobs?domain=eaton.com&query=help%20desk&num=50&sort_by=timestamp",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "35": {
   "adapter": "pagewatch",
@@ -6250,10 +6250,10 @@
  "351": {
   "adapter": "icims",
   "company": "EchoStar",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://attract-careers1-dish.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "352": {
   "adapter": "phenom",
@@ -6292,7 +6292,7 @@
   "company": "Eight Sleep",
   "error": null,
   "jobs": 40,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "357": {
@@ -6338,10 +6338,10 @@
  "361": {
   "adapter": "icims",
   "company": "EMCOR Group",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-emcorgroup.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "362": {
   "adapter": "oracle",
@@ -6362,10 +6362,10 @@
  "364": {
   "adapter": "icims",
   "company": "Energizer Holdings",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://hourlycareers-energizerholdings.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "365": {
   "adapter": "pagewatch",
@@ -6440,12 +6440,12 @@
   "ok": true
  },
  "373": {
-  "adapter": "eightfold",
+  "adapter": "eightfold+page",
   "company": "Est\u00e9e Lauder Companies (The)",
-  "error": "HTTPError: 403 Client Error: FORBIDDEN for url: https://app.eightfold.ai/api/apply/v2/jobs?domain=elcompanies.com&query=help%20desk&num=50&sort_by=timestamp",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "374": {
   "adapter": "workable",
@@ -6482,10 +6482,10 @@
  "378": {
   "adapter": "icims",
   "company": "Exelon",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-exeloncorp.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "379": {
   "adapter": "pagewatch",
@@ -6515,7 +6515,7 @@
   "adapter": "workday",
   "company": "Extra Space Storage",
   "error": null,
-  "jobs": 38,
+  "jobs": 37,
   "matches": 0,
   "ok": true
  },
@@ -6562,24 +6562,24 @@
  "387": {
   "adapter": "icims",
   "company": "Federal Realty Investment Trust",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-federalrealty.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "388": {
   "adapter": "icims",
   "company": "Federated Mutual Insurance",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-federatedinsurance.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "389": {
   "adapter": "workday",
   "company": "FedEx",
   "error": null,
-  "jobs": 24,
+  "jobs": 25,
   "matches": 0,
   "ok": true
  },
@@ -6587,8 +6587,8 @@
   "adapter": "pagewatch",
   "company": "Motion Recruitment",
   "error": null,
-  "jobs": 2,
-  "matches": 2,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "390": {
@@ -6610,10 +6610,10 @@
  "392": {
   "adapter": "icims",
   "company": "Fidelity National Financial",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-fnf.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "393": {
   "adapter": "greenhouse",
@@ -6674,10 +6674,10 @@
  "4": {
   "adapter": "icims",
   "company": "Allied Universal",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://securitycareers-aus.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "40": {
   "adapter": "breezy",
@@ -6706,7 +6706,7 @@
  "402": {
   "adapter": "pagewatch",
   "company": "Flowers Foods",
-  "error": "Error",
+  "error": "TimeoutError",
   "jobs": 0,
   "matches": 0,
   "ok": false
@@ -6722,10 +6722,10 @@
  "404": {
   "adapter": "icims",
   "company": "Foot Locker",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://footlocker.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "405": {
   "adapter": "oracle",
@@ -6762,18 +6762,18 @@
  "409": {
   "adapter": "icims",
   "company": "Foundation Building Materials",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers2-fbmsales.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "41": {
   "adapter": "icims",
   "company": "NTT DATA",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://quebec-nttdata.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "410": {
   "adapter": "greenhouse",
@@ -6866,10 +6866,10 @@
  "420": {
   "adapter": "icims",
   "company": "Garmin",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-garmin.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "421": {
   "adapter": "oracle",
@@ -6899,8 +6899,8 @@
   "adapter": "workday",
   "company": "GE Vernova",
   "error": null,
-  "jobs": 89,
-  "matches": 1,
+  "jobs": 90,
+  "matches": 0,
   "ok": true
  },
  "425": {
@@ -6954,10 +6954,10 @@
  "430": {
   "adapter": "icims",
   "company": "Genesis Healthcare",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-powerback.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "431": {
   "adapter": "pagewatch",
@@ -6978,10 +6978,10 @@
  "433": {
   "adapter": "icims",
   "company": "GEO Group",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://internal-geogroup.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "434": {
   "adapter": "workday",
@@ -7104,12 +7104,12 @@
   "ok": true
  },
  "448": {
-  "adapter": "ultipro",
+  "adapter": "ultipro+page",
   "company": "Gray Television",
-  "error": "TypeError: sequence item 0: expected str instance, NoneType found",
-  "jobs": 0,
+  "error": null,
+  "jobs": 1,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "449": {
   "adapter": "workday",
@@ -7120,12 +7120,12 @@
   "ok": true
  },
  "45": {
-  "adapter": "ultipro",
+  "adapter": "ultipro+page",
   "company": "Presidio",
-  "error": "TypeError: sequence item 0: expected str instance, NoneType found",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "450": {
   "adapter": "phenom",
@@ -7138,10 +7138,10 @@
  "451": {
   "adapter": "icims",
   "company": "Greenbrier",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-gbrx.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "452": {
   "adapter": "greenhouse",
@@ -7187,7 +7187,7 @@
   "adapter": "greenhouse",
   "company": "Gusto",
   "error": null,
-  "jobs": 102,
+  "jobs": 101,
   "matches": 0,
   "ok": true
  },
@@ -7299,8 +7299,8 @@
   "adapter": "pagewatch",
   "company": "Randstad Digital",
   "error": null,
-  "jobs": 0,
-  "matches": 0,
+  "jobs": 1,
+  "matches": 1,
   "ok": true
  },
  "470": {
@@ -7499,7 +7499,7 @@
   "adapter": "workday",
   "company": "Huntsman",
   "error": null,
-  "jobs": 46,
+  "jobs": 45,
   "matches": 0,
   "ok": true
  },
@@ -7572,7 +7572,7 @@
   "company": "Sabre",
   "error": null,
   "jobs": 46,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "500": {
@@ -7586,17 +7586,17 @@
  "501": {
   "adapter": "icims",
   "company": "Incyte",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://globaljobs-incyte.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "502": {
   "adapter": "pagewatch",
   "company": "Infineon Technologies",
   "error": null,
-  "jobs": 1,
-  "matches": 1,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "503": {
@@ -7651,8 +7651,8 @@
   "adapter": "pagewatch",
   "company": "Interactive Brokers Group",
   "error": null,
-  "jobs": 3,
-  "matches": 3,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "51": {
@@ -7674,18 +7674,18 @@
  "511": {
   "adapter": "icims",
   "company": "Intercontinental Exchange",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-ice.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "512": {
   "adapter": "icims",
   "company": "International Motors",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://navistar.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "513": {
   "adapter": "pagewatch",
@@ -7744,12 +7744,12 @@
   "ok": true
  },
  "52": {
-  "adapter": "phenom",
+  "adapter": "phenom+page",
   "company": "Southwest Airlines",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://careers.southwestair.com/us/en/us/search-results?keywords=help%20desk",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "520": {
   "adapter": "workday",
@@ -7810,10 +7810,10 @@
  "527": {
   "adapter": "icims",
   "company": "KB Home",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-kbhome.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "528": {
   "adapter": "pagewatch",
@@ -7834,7 +7834,7 @@
  "53": {
   "adapter": "pagewatch",
   "company": "Stream Data Centers",
-  "error": "Error",
+  "error": "TimeoutError",
   "jobs": 0,
   "matches": 0,
   "ok": false
@@ -7866,10 +7866,10 @@
  "533": {
   "adapter": "icims",
   "company": "Keysight Technologies",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://keysight.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "534": {
   "adapter": "greenhouse",
@@ -7882,10 +7882,10 @@
  "535": {
   "adapter": "icims",
   "company": "Kinder Morgan",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-kindermorgan.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "536": {
   "adapter": "greenhouse",
@@ -7907,17 +7907,17 @@
   "adapter": "pagewatch",
   "company": "Klaviyo",
   "error": null,
-  "jobs": 3,
-  "matches": 3,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "539": {
-  "adapter": "eightfold",
+  "adapter": "eightfold+page",
   "company": "Kraft Heinz",
-  "error": "HTTPError: 403 Client Error: FORBIDDEN for url: https://app.eightfold.ai/api/apply/v2/jobs?domain=kraftheinz.com&query=help%20desk&num=50&sort_by=timestamp",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "54": {
   "adapter": "pagewatch",
@@ -7960,12 +7960,12 @@
   "ok": true
  },
  "544": {
-  "adapter": "eightfold",
+  "adapter": "eightfold+page",
   "company": "Lam Research",
-  "error": "HTTPError: 403 Client Error: FORBIDDEN for url: https://app.eightfold.ai/api/apply/v2/jobs?domain=lamresearch.com&query=help%20desk&num=50&sort_by=timestamp",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "545": {
   "adapter": "workday",
@@ -8003,7 +8003,7 @@
   "adapter": "greenhouse",
   "company": "LaunchDarkly",
   "error": null,
-  "jobs": 51,
+  "jobs": 54,
   "matches": 0,
   "ok": true
  },
@@ -8186,10 +8186,10 @@
  "57": {
   "adapter": "pagewatch",
   "company": "Texas Health Resources",
-  "error": null,
+  "error": "TimeoutError",
   "jobs": 0,
   "matches": 0,
-  "ok": true
+  "ok": false
  },
  "570": {
   "adapter": "pagewatch",
@@ -8244,14 +8244,14 @@
   "company": "Markel",
   "error": null,
   "jobs": 63,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "577": {
   "adapter": "oracle",
   "company": "Marriott International",
   "error": null,
-  "jobs": 118,
+  "jobs": 116,
   "matches": 0,
   "ok": true
  },
@@ -8290,10 +8290,10 @@
  "581": {
   "adapter": "icims",
   "company": "MasTec",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-mastec.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "582": {
   "adapter": "workday",
@@ -8323,7 +8323,7 @@
   "adapter": "smartrecruiters",
   "company": "Mattel",
   "error": null,
-  "jobs": 422,
+  "jobs": 421,
   "matches": 0,
   "ok": true
  },
@@ -8396,16 +8396,16 @@
   "company": "Mercury",
   "error": null,
   "jobs": 77,
-  "matches": 2,
+  "matches": 0,
   "ok": true
  },
  "594": {
   "adapter": "icims",
   "company": "Mercury General",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-mercuryinsurance.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "595": {
   "adapter": "ashby",
@@ -8418,17 +8418,17 @@
  "596": {
   "adapter": "icims",
   "company": "Meritage Homes",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-meritagehomes.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "597": {
   "adapter": "pagewatch",
   "company": "MetLife",
   "error": null,
-  "jobs": 1,
-  "matches": 1,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "598": {
@@ -8451,8 +8451,8 @@
   "adapter": "workday",
   "company": "AT&T",
   "error": null,
-  "jobs": 93,
-  "matches": 12,
+  "jobs": 94,
+  "matches": 1,
   "ok": true
  },
  "60": {
@@ -8464,12 +8464,12 @@
   "ok": true
  },
  "600": {
-  "adapter": "eightfold",
+  "adapter": "eightfold+page",
   "company": "Microsoft",
-  "error": "HTTPError: 403 Client Error: FORBIDDEN for url: https://app.eightfold.ai/api/apply/v2/jobs?domain=microsoft.com&query=help%20desk&num=50&sort_by=timestamp",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "601": {
   "adapter": "ashby",
@@ -8524,7 +8524,7 @@
   "company": "Modern Treasury",
   "error": null,
   "jobs": 9,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "608": {
@@ -8568,12 +8568,12 @@
   "ok": true
  },
  "612": {
-  "adapter": "phenom",
+  "adapter": "phenom+page",
   "company": "Mondelez International",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://www.mondelezinternational.com/search-results?keywords=help%20desk",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "613": {
   "adapter": "greenhouse",
@@ -8595,7 +8595,7 @@
   "adapter": "workday",
   "company": "Moog",
   "error": null,
-  "jobs": 71,
+  "jobs": 68,
   "matches": 0,
   "ok": true
  },
@@ -8611,7 +8611,7 @@
   "adapter": "greenhouse",
   "company": "Motive",
   "error": null,
-  "jobs": 147,
+  "jobs": 146,
   "matches": 0,
   "ok": true
  },
@@ -8620,7 +8620,7 @@
   "company": "Motorola Solutions",
   "error": null,
   "jobs": 99,
-  "matches": 6,
+  "matches": 5,
   "ok": true
  },
  "619": {
@@ -8635,8 +8635,8 @@
   "adapter": "pagewatch",
   "company": "Wipro",
   "error": null,
-  "jobs": 3,
-  "matches": 3,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "620": {
@@ -8658,10 +8658,10 @@
  "622": {
   "adapter": "icims",
   "company": "MSCI Inc.",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://ukcareers-msci.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "623": {
   "adapter": "pagewatch",
@@ -8714,10 +8714,10 @@
  "629": {
   "adapter": "icims",
   "company": "MYR Group",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://internal-myrgroup.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "63": {
   "adapter": "pagewatch",
@@ -8856,12 +8856,12 @@
   "ok": true
  },
  "645": {
-  "adapter": "workday",
+  "adapter": "workday+page",
   "company": "NGL Energy Partners",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://nglenergypartners.wd5.myworkdayjobs.com/wday/cxs/nglenergypartners/es/jobs",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "646": {
   "adapter": "workday",
@@ -8891,8 +8891,8 @@
   "adapter": "pagewatch",
   "company": "Norfolk Southern",
   "error": null,
-  "jobs": 1,
-  "matches": 1,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "65": {
@@ -8922,10 +8922,10 @@
  "652": {
   "adapter": "icims",
   "company": "Northwestern Mutual",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://opportunities-northwesternmutual.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "653": {
   "adapter": "ashby",
@@ -8955,7 +8955,7 @@
   "adapter": "workday",
   "company": "NOW",
   "error": null,
-  "jobs": 30,
+  "jobs": 31,
   "matches": 0,
   "ok": true
  },
@@ -9035,7 +9035,7 @@
   "adapter": "greenhouse",
   "company": "OfferUp",
   "error": null,
-  "jobs": 5,
+  "jobs": 4,
   "matches": 0,
   "ok": true
  },
@@ -9203,7 +9203,7 @@
   "adapter": "greenhouse",
   "company": "PagerDuty",
   "error": null,
-  "jobs": 58,
+  "jobs": 59,
   "matches": 0,
   "ok": true
  },
@@ -9298,26 +9298,26 @@
  "695": {
   "adapter": "icims",
   "company": "Paychex",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://internal-paychex.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "696": {
-  "adapter": "workday",
+  "adapter": "workday+page",
   "company": "PayPal Holdings",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/videoplayerlabels/jobs",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "697": {
   "adapter": "icims",
   "company": "Pediatrix",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://mednax.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "698": {
   "adapter": "greenhouse",
@@ -9498,10 +9498,10 @@
  "717": {
   "adapter": "icims",
   "company": "PPL",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-pplweb.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "718": {
   "adapter": "ashby",
@@ -9530,10 +9530,10 @@
  "720": {
   "adapter": "icims",
   "company": "Principal Financial",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://internalspanish-principal.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "721": {
   "adapter": "greenhouse",
@@ -9616,26 +9616,26 @@
   "ok": true
  },
  "730": {
-  "adapter": "eightfold",
+  "adapter": "eightfold+page",
   "company": "Qualcomm",
-  "error": "HTTPError: 403 Client Error: FORBIDDEN for url: https://app.eightfold.ai/api/apply/v2/jobs?domain=qualcomm.com&query=help%20desk&num=50&sort_by=timestamp",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "731": {
   "adapter": "icims",
   "company": "Quanta Services",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://allcareers-quanta.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "732": {
   "adapter": "oracle",
   "company": "Quest Diagnostics",
   "error": null,
-  "jobs": 64,
+  "jobs": 63,
   "matches": 0,
   "ok": true
  },
@@ -9650,10 +9650,10 @@
  "734": {
   "adapter": "icims",
   "company": "QXO",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://employees-becn.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "735": {
   "adapter": "smartrecruiters",
@@ -9715,7 +9715,7 @@
   "adapter": "greenhouse",
   "company": "Reddit",
   "error": null,
-  "jobs": 151,
+  "jobs": 152,
   "matches": 0,
   "ok": true
  },
@@ -9762,10 +9762,10 @@
  "747": {
   "adapter": "icims",
   "company": "Reliance Steel & Aluminum",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://login.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "748": {
   "adapter": "greenhouse",
@@ -9780,14 +9780,14 @@
   "company": "Replit",
   "error": null,
   "jobs": 64,
-  "matches": 3,
+  "matches": 1,
   "ok": true
  },
  "75": {
   "adapter": "greenhouse",
   "company": "CoreWeave",
   "error": null,
-  "jobs": 314,
+  "jobs": 315,
   "matches": 1,
   "ok": true
  },
@@ -9859,7 +9859,7 @@
   "adapter": "greenhouse",
   "company": "Rocket Lab",
   "error": null,
-  "jobs": 589,
+  "jobs": 585,
   "matches": 0,
   "ok": true
  },
@@ -9896,12 +9896,12 @@
   "ok": true
  },
  "762": {
-  "adapter": "phenom",
+  "adapter": "phenom+page",
   "company": "RTX",
-  "error": "HTTPError: 403 Client Error: Forbidden for url: https://careers.rtx.com/search-results?keywords=help%20desk",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "763": {
   "adapter": "ashby",
@@ -10059,8 +10059,8 @@
   "adapter": "pagewatch",
   "company": "Seagate Technology",
   "error": null,
-  "jobs": 1,
-  "matches": 1,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "781": {
@@ -10154,17 +10154,17 @@
  "791": {
   "adapter": "icims",
   "company": "SiteOne Landscape Supply",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://siteone.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "792": {
   "adapter": "ashby",
   "company": "Skydio",
   "error": null,
   "jobs": 157,
-  "matches": 5,
+  "matches": 2,
   "ok": true
  },
  "793": {
@@ -10179,8 +10179,8 @@
   "adapter": "pagewatch",
   "company": "SLB",
   "error": null,
-  "jobs": 2,
-  "matches": 2,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "795": {
@@ -10202,10 +10202,10 @@
  "797": {
   "adapter": "icims",
   "company": "Snap-on",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-snapon.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "798": {
   "adapter": "greenhouse",
@@ -10224,12 +10224,12 @@
   "ok": true
  },
  "8": {
-  "adapter": "workday",
+  "adapter": "workday+page",
   "company": "Bank of America",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "80": {
   "adapter": "oracle",
@@ -10250,10 +10250,10 @@
  "801": {
   "adapter": "icims",
   "company": "Spirit AeroSystems Holdings",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-spiritaero.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "802": {
   "adapter": "ultipro",
@@ -10274,10 +10274,10 @@
  "804": {
   "adapter": "icims",
   "company": "Sprouts Farmers Market",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://internaljobs-sprouts.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "805": {
   "adapter": "pagewatch",
@@ -10354,10 +10354,10 @@
  "813": {
   "adapter": "icims",
   "company": "Steel Dynamics",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-steeldynamics.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "814": {
   "adapter": "smartrecruiters",
@@ -10378,10 +10378,10 @@
  "816": {
   "adapter": "icims",
   "company": "Stifel Financial",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-stifel.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "817": {
   "adapter": "greenhouse",
@@ -10516,7 +10516,7 @@
   "company": "T-Mobile US",
   "error": null,
   "jobs": 72,
-  "matches": 4,
+  "matches": 0,
   "ok": true
  },
  "832": {
@@ -10571,7 +10571,7 @@
   "adapter": "greenhouse",
   "company": "TaskRabbit",
   "error": null,
-  "jobs": 18,
+  "jobs": 19,
   "matches": 0,
   "ok": true
  },
@@ -10588,7 +10588,7 @@
   "company": "DoorDash",
   "error": null,
   "jobs": 454,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "840": {
@@ -10666,10 +10666,10 @@
  "849": {
   "adapter": "icims",
   "company": "The RMR Group",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-rmrgroup.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "85": {
   "adapter": "greenhouse",
@@ -10722,10 +10722,10 @@
  "855": {
   "adapter": "icims",
   "company": "Toll Brothers",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://jobs-tollbrothers.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "856": {
   "adapter": "phenom",
@@ -10771,8 +10771,8 @@
   "adapter": "pagewatch",
   "company": "Trimble",
   "error": null,
-  "jobs": 1,
-  "matches": 1,
+  "jobs": 0,
+  "matches": 0,
   "ok": true
  },
  "861": {
@@ -10851,7 +10851,7 @@
   "adapter": "smartrecruiters",
   "company": "Equinox",
   "error": null,
-  "jobs": 733,
+  "jobs": 732,
   "matches": 0,
   "ok": true
  },
@@ -10898,10 +10898,10 @@
  "875": {
   "adapter": "icims",
   "company": "Ulta Beauty",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://cdcmcareers-ulta.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "876": {
   "adapter": "phenom",
@@ -10986,10 +10986,10 @@
  "885": {
   "adapter": "icims",
   "company": "Urban Outfitters",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://hub-urbn.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "886": {
   "adapter": "phenom",
@@ -11020,7 +11020,7 @@
   "company": "Vanta",
   "error": null,
   "jobs": 85,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "89": {
@@ -11130,10 +11130,10 @@
  "900": {
   "adapter": "icims",
   "company": "Viasat",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-viasat.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "901": {
   "adapter": "workday",
@@ -11178,10 +11178,10 @@
  "906": {
   "adapter": "icims",
   "company": "W.R. Berkley",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-berkley.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "907": {
   "adapter": "smartrecruiters",
@@ -11235,7 +11235,7 @@
   "adapter": "ashby",
   "company": "Watershed",
   "error": null,
-  "jobs": 38,
+  "jobs": 39,
   "matches": 0,
   "ok": true
  },
@@ -11306,10 +11306,10 @@
  "920": {
   "adapter": "icims",
   "company": "Western & Southern Financial Group",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-westernsouthern.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "921": {
   "adapter": "smartrecruiters",
@@ -11363,7 +11363,7 @@
   "adapter": "oracle",
   "company": "Williams-Sonoma",
   "error": null,
-  "jobs": 56,
+  "jobs": 55,
   "matches": 0,
   "ok": true
  },
@@ -11420,7 +11420,7 @@
   "company": "World Fuel Services",
   "error": null,
   "jobs": 18,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "934": {
@@ -11443,7 +11443,7 @@
   "adapter": "workday",
   "company": "Wyndham Destinations",
   "error": null,
-  "jobs": 98,
+  "jobs": 96,
   "matches": 0,
   "ok": true
  },
@@ -11508,16 +11508,16 @@
   "company": "Zayo Group Holdings",
   "error": null,
   "jobs": 60,
-  "matches": 4,
+  "matches": 0,
   "ok": true
  },
  "944": {
   "adapter": "workday",
   "company": "Zebra Technologies",
-  "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://zebra.wd501.myworkdayjobs.com/wday/cxs/zebra/Zebra_careers/jobs",
-  "jobs": 0,
+  "error": null,
+  "jobs": 48,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "945": {
   "adapter": "phenom",
@@ -11658,7 +11658,7 @@
  "960": {
   "adapter": "pagewatch",
   "company": "ADK Studios",
-  "error": "Error",
+  "error": "TimeoutError",
   "jobs": 0,
   "matches": 0,
   "ok": false
@@ -11682,7 +11682,7 @@
  "963": {
   "adapter": "pagewatch",
   "company": "Aero-Graphics",
-  "error": "Error",
+  "error": "TimeoutError",
   "jobs": 0,
   "matches": 0,
   "ok": false
@@ -11715,7 +11715,7 @@
   "adapter": "smartrecruiters",
   "company": "AFRY",
   "error": null,
-  "jobs": 911,
+  "jobs": 910,
   "matches": 0,
   "ok": true
  },
@@ -11764,7 +11764,7 @@
   "company": "AidKit",
   "error": null,
   "jobs": 3,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "973": {
@@ -11788,7 +11788,7 @@
   "company": "Aiwyn",
   "error": null,
   "jobs": 4,
-  "matches": 1,
+  "matches": 0,
   "ok": true
  },
  "976": {
@@ -11827,15 +11827,15 @@
   "adapter": "pagewatch",
   "company": "IXL Learning",
   "error": null,
-  "jobs": 6,
-  "matches": 6,
+  "jobs": 3,
+  "matches": 0,
   "ok": true
  },
  "980": {
   "adapter": "greenhouse",
   "company": "Alten Technology",
   "error": null,
-  "jobs": 203,
+  "jobs": 202,
   "matches": 0,
   "ok": true
  },
@@ -11939,7 +11939,7 @@
   "adapter": "workday",
   "company": "Ariens Company",
   "error": null,
-  "jobs": 33,
+  "jobs": 34,
   "matches": 0,
   "ok": true
  },
@@ -11947,7 +11947,7 @@
   "adapter": "workday",
   "company": "Aristocrat",
   "error": null,
-  "jobs": 56,
+  "jobs": 55,
   "matches": 0,
   "ok": true
  },
@@ -11970,10 +11970,10 @@
  "996": {
   "adapter": "icims",
   "company": "Arm",
-  "error": "HTTPError: 405 Client Error: Not Allowed for url: https://earlycareers-arm.icims.com/jobs/search?ss=1&searchKeyword=help%20desk&in_iframe=1",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false
+  "ok": true
  },
  "997": {
   "adapter": "jobvite",
