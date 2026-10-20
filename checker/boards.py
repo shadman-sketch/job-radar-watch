@@ -91,17 +91,23 @@ def fetch_board(board):
                     m = re.search(r"/jobs/([^/?#]+)/([^/?#]+)--", href)
                     if not m:
                         continue
-                    lines = [l.strip() for l in (ctext or atext).split("\n") if l.strip()]
-                    title = (atext.split("\n")[0].strip() if atext.strip() else (lines[0] if lines else ""))
-                    if not title:
+                    lines = [l.strip() for l in (ctext or atext).split("\n") if l.strip() and l.strip() != "·"]
+                    # Card layout: company, title, [salary], location, "Posted ...", tags..., Apply
+                    if len(lines) < 2:
                         continue
-                    company = next((l for l in lines if l != title and not LOC_RE.search(l) and len(l) < 60), "") or \
-                        m.group(1).replace("-", " ").title()
-                    loc = next((l for l in lines if l != title and LOC_RE.search(l) and len(l) < 120), "")
+                    company, title = lines[0], lines[1]
+                    posted = next((l for l in lines if l.lower().startswith("posted")), None)
+                    loc = ""
+                    for l in lines[2:]:
+                        if l.lower().startswith("posted"):
+                            break
+                        if re.search(r"[$€£]|offers equity|\bK\b", l):
+                            continue
+                        loc = l
                     if href not in jobs:
                         found += 1
-                        jobs[href] = {"id": m.group(2), "title": title[:160], "company": company, "location": loc,
-                                      "remote": "remote" in (ctext or "").lower(), "url": href.split("?")[0], "posted": None}
+                        jobs[href] = {"id": m.group(2), "title": title[:160], "company": company[:80], "location": loc[:200],
+                                      "remote": "remote" in loc.lower(), "url": href.split("?")[0], "posted": posted}
                     if len(samples) < 3:
                         samples.append(ctext[:300])
                 debug["terms"][term] = {"new_jobs": found, "samples": samples}

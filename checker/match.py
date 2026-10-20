@@ -129,6 +129,12 @@ def parse_date(value):
             return today.isoformat()
         if "yesterday" in low:
             return (today - timedelta(days=1)).isoformat()
+        if re.search(r"\ba day ago", low):
+            return (today - timedelta(days=1)).isoformat()
+        m = re.search(r"(\d+|an?)\s*(week|month|year)s?\s*ago", low)
+        if m:
+            n = 1 if m.group(1) in ("a", "an") else int(m.group(1))
+            return (today - timedelta(days=n * {"week": 7, "month": 30, "year": 365}[m.group(2)])).isoformat()
         m = re.search(r"(\d+)\+?\s*days?\s*ago", low)
         if m:
             if "+" in low:
