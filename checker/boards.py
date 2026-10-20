@@ -49,108 +49,64 @@ def _parse_jobs(payload, host):
     return out, (payload.get("meta") or {}) if isinstance(payload, dict) else {}
 
 
+BOARD_TERMS = ["help desk", "service desk", "IT support", "desktop support", "IT technician", "technical support",
+               "end user", "IT operations", "workplace", "IT specialist", "security operations", "SOC analyst",
+               "access management", "identity", "data center technician", "NOC", "IT intern", "IT asset", "deskside",
+               "systems administrator", "security technician"]
+LOC_RE = re.compile(r"(,\s*[A-Z]{2}\b|remote|united states|\bUSA?\b|, [A-Z][a-z]+)", re.I)
+
+
+def _cards(page):
+    return page.eval_on_selector_all(
+        "a[href*='/jobs/']",
+        "els => els.map(e => [e.href, (e.innerText||'').trim(), "
+        "((e.closest('li, article, [class*=job], [class*=Job]')||e.parentElement||e).innerText||'').trim()])")
+
+
 def fetch_board(board):
-    """board: {"name", "url", "host"}. Returns (jobs, error)."""
+    """board: {"key", "name", "url", "host"}. Searches the board for each target term. Returns (jobs, error)."""
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
         return None, "playwright not installed"
-    host = board["host"]
-    captured = {}
-    jobs, err = [], None
-    debug = {}
+    from urllib.parse import quote
+    jobs, err, debug = {}, None, {"terms": {}}
     with sync_playwright() as p:
         b = p.chromium.launch()
         ctx = b.new_context(user_agent=UA)
         page = ctx.new_page()
-
-        def on_request(rq):
-            if captured or rq.method != "POST":
-                return
-            if re.search(r"/api-boards/search-jobs|search-jobs|/jobs/search|graphql", rq.url):
-                captured.update({"url": rq.url, "body": rq.post_data or "", "headers": rq.headers})
-
-        page.on("request", on_request)
-        net = []
-
-        def on_response(resp):
-            try:
-                rq = resp.request
-                if rq.resource_type in ("xhr", "fetch") and len(net) < 60:
-                    net.append({"url": rq.url[:300], "method": rq.method, "status": resp.status,
-                                "ctype": resp.headers.get("content-type", ""), "body": (rq.post_data or "")[:1500]})
-            except Exception:  # noqa: BLE001
-                pass
-
-        page.on("response", on_response)
         try:
-            page.goto(board["url"], timeout=45000, wait_until="domcontentloaded")
-            page.wait_for_timeout(6000)
-            debug = {"captured_url": captured.get("url"), "captured_body": captured.get("body")}
-            debug["network"] = net
-            try:
-                html = page.content()
-                debug["html_markers"] = {k: (k in html) for k in ["getro", "consider", "__NEXT_DATA__", "api-boards", "algolia", "typesense", "graphql"]}
-                m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
-                debug["next_data_head"] = m.group(1)[:3000] if m else None
-            except Exception:  # noqa: BLE001
-                pass
-            if captured and captured["body"].strip().startswith("{"):
-                body = json.loads(captured["body"])
-                meta = body.setdefault("meta", {})
-                meta["size"] = 100
-                meta.pop("sequence", None)
-                headers = {k: v for k, v in captured["headers"].items()
-                           if k.lower() in ("content-type", "accept", "x-requested-with")}
-                headers.setdefault("content-type", "application/json")
-                seen = set()
-                for _ in range(MAX_PAGES):
-                    r = page.request.post(captured["url"], data=json.dumps(body), headers=headers, timeout=45000)
-                    if not r.ok:
-                        err = f"HTTP {r.status} from board search"
-                        break
-                    raw = r.json()
-                    if "first_response_keys" not in debug:
-                        debug["first_response_keys"] = list(raw.keys()) if isinstance(raw, dict) else str(type(raw))
-                        debug["first_response_meta"] = {k: v for k, v in raw.items() if not isinstance(v, list)} if isinstance(raw, dict) else None
-                        lst = raw.get("jobs") if isinstance(raw, dict) else None
-                        debug["first_job_sample"] = lst[0] if lst else None
-                    batch, rmeta = _parse_jobs(raw, host)
-                    new = [j for j in batch if j["id"] not in seen]
-                    if not new:
-                        break
-                    for j in new:
-                        seen.add(j["id"])
-                    jobs.extend(new)
-                    seq = rmeta.get("sequence")
-                    debug["pages"] = debug.get("pages", 0) + 1
-                    debug["last_batch"] = len(batch)
-                    debug["last_meta"] = rmeta
-                    if not seq or len(batch) < meta["size"]:
-                        break
-                    meta["sequence"] = seq
-            else:
-                # Fallback: read job cards on the page after loading a few more.
-                for _ in range(15):
+            for term in BOARD_TERMS:
+                page.goto(f"{board['url']}?q={quote(term)}&sort=recent", timeout=45000, wait_until="domcontentloaded")
+                page.wait_for_timeout(3500)
+                for _ in range(6):
                     more = page.query_selector("button:has-text('Show more'), button:has-text('Load more')")
                     if not more:
                         break
                     more.click()
                     page.wait_for_timeout(1500)
-                cards = page.eval_on_selector_all(
-                    f"a[href*='/jobs/']",
-                    "els => els.map(e => [e.href, ((e.closest('li, article, [class*=job]')||e).innerText||'').trim()])")
-                for href, text in cards:
-                    if not re.search(r"/jobs/[^/]+/[^/]+--", href):
+                found = 0
+                samples = []
+                for href, atext, ctext in _cards(page):
+                    m = re.search(r"/jobs/([^/?#]+)/([^/?#]+)--", href)
+                    if not m:
                         continue
-                    lines = [l.strip() for l in text.split("\n") if l.strip()]
-                    if not lines:
+                    lines = [l.strip() for l in (ctext or atext).split("\n") if l.strip()]
+                    title = (atext.split("\n")[0].strip() if atext.strip() else (lines[0] if lines else ""))
+                    if not title:
                         continue
-                    jobs.append({"id": href, "title": lines[0], "company": lines[1] if len(lines) > 1 else "",
-                                 "location": " / ".join(lines[2:4]), "remote": "remote" in text.lower(),
-                                 "url": href, "posted": None})
-                if not jobs:
-                    err = "no search API captured and no job cards found"
+                    company = next((l for l in lines if l != title and not LOC_RE.search(l) and len(l) < 60), "") or \
+                        m.group(1).replace("-", " ").title()
+                    loc = next((l for l in lines if l != title and LOC_RE.search(l) and len(l) < 120), "")
+                    if href not in jobs:
+                        found += 1
+                        jobs[href] = {"id": m.group(2), "title": title[:160], "company": company, "location": loc,
+                                      "remote": "remote" in (ctext or "").lower(), "url": href.split("?")[0], "posted": None}
+                    if len(samples) < 3:
+                        samples.append(ctext[:300])
+                debug["terms"][term] = {"new_jobs": found, "samples": samples}
+            if not jobs:
+                err = "no job cards found for any search"
         except Exception as e:  # noqa: BLE001
             err = f"{type(e).__name__}: {str(e)[:160]}"
         finally:
@@ -161,4 +117,4 @@ def fetch_board(board):
         out.write_text(json.dumps(debug, indent=1, default=str)[:200000])
     except Exception:  # noqa: BLE001
         pass
-    return jobs, err
+    return list(jobs.values()), err
