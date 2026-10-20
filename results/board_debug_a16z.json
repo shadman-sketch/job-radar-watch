@@ -1,436 +1,168 @@
 {
- "captured_url": null,
- "captured_body": null,
- "network": [
-  {
-   "url": "https://analytics.google.com/g/collect?v=2&tid=G-TDNC6XM13M&gtm=45je6ag1v9113086572za208zd9113086572xf1&_p=1792478583503&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&are=1&cid=1503384877.1792478584&frm=0&pscdl=noapi&rcb=15&sr=1280x720&uaa=x64&uab=64&uafvl=HeadlessChrome%3B129.0.6668.29%7",
-   "method": "POST",
-   "status": 204,
-   "ctype": "text/plain",
-   "body": ""
+ "terms": {
+  "help desk": {
+   "new_jobs": 31,
+   "samples": [
+    "Apex Space\nHelp Desk Lead\n$80K \u2013 $100K \u2022 Offers Equity\n\u00b7\nLos Angeles, California, United States\n\u00b7\nPosted 6 hours ago\nAmerican Dynamism\n\u00b7\nSeries E\n\u00b7\n201\u2013500 employees\nApply",
+    "Apex Space\nIT Help Desk Technician\n$65K \u2013 $80K\n\u00b7\nLos Angeles, California, United States\n\u00b7\nPosted 6 hours ago\nAmerican Dynamism\n\u00b7\nSeries E\n\u00b7\n201\u2013500 employees\nApply",
+    "Navan\nDeal Desk Manager\nAmsterdam, NL\n\u00b7\nPosted a month ago\nCLF, Enterprise\n\u00b7\nIPO\n\u00b7\n1,000\u20135,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://www.google.com/measurement/conversion?random=1792478583551&cv=11&tid=G-TDNC6XM13M&fst=1792478583551&fmt=8&en=page_view&gtm=45je6ag1v9113086572za208zd9113086572xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119793973~120213116~120385423~120469145~120469153~12124",
-   "method": "POST",
-   "status": 200,
-   "ctype": "",
-   "body": ""
+  "service desk": {
+   "new_jobs": 145,
+   "samples": [
+    "Anduril\nService Desk Analyst\nDublin, Dublin, Ireland\n\u00b7\nPosted 3 months ago\nAmerican Dynamism, CLF, Enterprise\n\u00b7\nSeries H\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Navan\nDeal Desk Manager\nAmsterdam, NL\n\u00b7\nPosted a month ago\nCLF, Enterprise\n\u00b7\nIPO\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Tanium\nDeal Desk Manager\nAddison, TX (Hybrid); Durham, NC (Hybrid); Reston, VA (Hybrid)\n\u00b7\nPosted 15 hours ago\nEnterprise\n\u00b7\nSeries H\n\u00b7\n1,000\u20135,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/ingest/flags/?v=2&compression=base64",
-   "method": "POST",
-   "status": 200,
-   "ctype": "application/json",
-   "body": "data=eyJ0b2tlbiI6InBoY19vVzlLdGtlYmdqQjc0UFA2b0JVejNrRldiV1FKZ2syMmVUUWZiekJZNkdiNiIsImRpc3RpbmN0X2lkIjoiMDFhMTU4MGMtOWE2OS03YjJiLWIxZmEtNjMxNjg0N2U0NjQ0IiwiZ3JvdXBzIjp7fSwicGVyc29uX3Byb3BlcnRpZXMiOnsiJGxpYiI6IndlYiIsIiRsaWJfdmVyc2lvbiI6IjEuNDE4LjEwIn0sInRpbWV6b25lIjoiVVRDIiwiJGRldmljZV9pZCI6IjAxYTE1ODBjLTlhNjktN2IyYi1iMWZhLTYzMTY4NDdlNDY0NCIsInNlbnRfYXQiOiIyMDI2LTEwLTIwVDA2OjQzOjAzLjY0NVoifQ%3D%3D"
+  "IT support": {
+   "new_jobs": 172,
+   "samples": [
+    "Kong\nIT Operations Support\n\u20ac39,610 \u2013 \u20ac48,930\n\u00b7\nMilan, Italy, Milano, Milano, Italy\n\u00b7\nPosted 2 months ago\nEnterprise, Infra\n\u00b7\nSeries E\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Opendoor\nIT Support Technician\nMiami, FL\n\u00b7\nPosted 2 months ago\nConsumer, Fintech\n\u00b7\nIPO\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Stripe\nIT Support Engineer\nNew York\n\u00b7\nPosted 6 days ago\nFintech\n\u00b7\nSeries I\n\u00b7\n5,000\u201310,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/companies?_rsc=ei5oL2u6deBo0B0U",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "desktop support": {
+   "new_jobs": 73,
+   "samples": [
+    "Box\nSenior Software Engineer, Desktop\nWarsaw, Poland\n\u00b7\nPosted 2 months ago\nEnterprise\n\u00b7\nIPO\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Databricks\nStaff Software Engineer \u2013 Genie One Mobile & Desktop\nUSD 190,000\u2013261,250 (Zone 1 Pay Range)\n\u00b7\nMountain View, California; San Francisco, California\n\u00b7\nPosted a month ago\nCLF, Enterprise, Infra\n\u00b7\nSeries J\n\u00b7\n5,000\u201310,000 employees\nApply",
+    "Replit\nSupport Specialist\n$90K \u2013 $125K \u2022 Offers Equity\n\u00b7\nFoster City, California, USA\n\u00b7\nPosted 6 days ago\nConsumer, Enterprise\n\u00b7\nSeries D\n\u00b7\n201\u2013500 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/jobs/andreessen-horowitz?_rsc=ei5oL2u6deBo0B0U",
-   "method": "GET",
-   "status": 308,
-   "ctype": "text/html; charset=UTF-8",
-   "body": ""
+  "IT technician": {
+   "new_jobs": 82,
+   "samples": [
+    "Saronic\nIT Technician\nNew Orleans, LA, New Orleans, Louisiana, United States\n\u00b7\nPosted 2 months ago\nAmerican Dynamism\n\u00b7\nSeries D\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Opendoor\nIT Support Technician\nMiami, FL\n\u00b7\nPosted 2 months ago\nConsumer, Fintech\n\u00b7\nIPO\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Opendoor\nIT Support Technician\nToronto, Canada\n\u00b7\nPosted 2 months ago\nConsumer, Fintech\n\u00b7\nIPO\n\u00b7\n1,000\u20135,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/?_rsc=ei5oL2u6deBo0B0U",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "technical support": {
+   "new_jobs": 12,
+   "samples": [
+    "Yuno\nTechnical Support\nColombia\n\u00b7\nPosted a month ago\nFintech\n\u00b7\nSeries B\n\u00b7\n51\u2013200 employees\nApply",
+    "Socket\nTechnical Support Engineer\n$100K \u2013 $130K \u2022 Offers Equity\n\u00b7\nUnited States\n\u00b7\nPosted 5 days ago\nEnterprise, Infra\n\u00b7\nSeries C\n\u00b7\n51\u2013200 employees\nApply",
+    "Nexthop\nTechnical Support Engineer\nDublin, Dublin\n\u00b7\nPosted 22 days ago\nGrowth\n\u00b7\n51\u2013200 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/jobs/devoted-health?_rsc=ei5oL2u6deBo0B0U",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "end user": {
+   "new_jobs": 140,
+   "samples": [
+    "Stripe\nBackend Engineer, Developer & End-user Experience Platform\nSEA, SF, NY, Toronto\n\u00b7\nPosted 8 months ago\nFintech\n\u00b7\nSeries I\n\u00b7\n5,000\u201310,000 employees\nApply",
+    "Stripe\nBackend Engineer, Developer & End-user Experience Platform\nToronto Canada, San Francisco, Remote in US, Remote in Canada\n\u00b7\nPosted a year ago\nFintech\n\u00b7\nSeries I\n\u00b7\n5,000\u201310,000 employees\nApply",
+    "Stripe\nFull Stack Engineer, Developer & End User Experience Platform\nN/A\n\u00b7\nPosted 2 years ago\nFintech\n\u00b7\nSeries I\n\u00b7\n5,000\u201310,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/jobs?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "IT operations": {
+   "new_jobs": 65,
+   "samples": [
+    "Netris\nIT Operations Administrator\nSanta Clara, CA\n\u00b7\nPosted 24 days ago\nInfra\n\u00b7\n51\u2013200 employees\nApply",
+    "Atoms\nIT Operations Specialist\nSan Francisco, CA\n\u00b7\nPosted 15 days ago\nGrowth\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Kong\nIT Operations Support\n\u20ac39,610 \u2013 \u20ac48,930\n\u00b7\nMilan, Italy, Milano, Milano, Italy\n\u00b7\nPosted 2 months ago\nEnterprise, Infra\n\u00b7\nSeries E\n\u00b7\n1,000\u20135,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "workplace": {
+   "new_jobs": 49,
+   "samples": [
+    "Harvey\nWorkplace Coordinator\nLondon, England, United Kingdom\n\u00b7\nPosted 11 days ago\nSeries H\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Atoms\nWorkplace Associate\nLondon, UK\n\u00b7\nPosted 13 days ago\nGrowth\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Saronic\nWorkplace Specialist\nAustin, TX, Austin, Texas, United States\n\u00b7\nPosted 7 months ago\nAmerican Dynamism\n\u00b7\nSeries D\n\u00b7\n1,000\u20135,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/companies?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "IT specialist": {
+   "new_jobs": 70,
+   "samples": [
+    "OpenAI\nIT Support Specialist\n$60.58 \u2013 $108.17 per hour \u2022 Offers Equity\n\u00b7\nSeattle, Washington, United States, Washington, DC, Washington, District of Columbia, United States\u2026\n\u00b7\nPosted a year ago\nEnterprise, Infra\n\u00b7\nGrowth\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Abridge\nIT Operations Specialist\n$100K \u2013 $115K\n\u00b7\nSF Office, San Francisco, California, USA\n\u00b7\nPosted 25 days ago\nBio + Health\n\u00b7\nSeries E\n\u00b7\n201\u2013500 employees\nApply",
+    "Atoms\nIT Operations Specialist\nS\u00e3o Paulo, BRA\n\u00b7\nPosted a month ago\nGrowth\n\u00b7\n1,000\u20135,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/jobs/a16z",
-   "method": "GET",
-   "status": 307,
-   "ctype": "text/html; charset=UTF-8",
-   "body": ""
+  "security operations": {
+   "new_jobs": 167,
+   "samples": [
+    "Anduril\nSecurity Operations Analyst\nUSD 129,000\u2013171,000 (US Salary Range)\n\u00b7\nCosta Mesa, California, United States\n\u00b7\nPosted 2 months ago\nAmerican Dynamism, CLF, Enterprise\n\u00b7\nSeries H\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Anduril\nSecurity Operations Analyst\nUSD 129,000\u2013171,000 (US Salary Range)\n\u00b7\nWashington, District of Columbia, United States\n\u00b7\nPosted 2 months ago\nAmerican Dynamism, CLF, Enterprise\n\u00b7\nSeries H\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Sky Mavis\nSecurity Operations Intern\nHo Chi Minh City, Vietnam, Vietnam\n\u00b7\nPosted 2 months ago\nCrypto\n\u00b7\nSeries C\n\u00b7\n51\u2013200 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/jobs",
-   "method": "POST",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": "[]"
+  "SOC analyst": {
+   "new_jobs": 154,
+   "samples": [
+    "Apex Space\nSecurity Operations Center (SOC) Analyst\n$88K \u2013 $121K\n\u00b7\nLos Angeles, California, United States\n\u00b7\nPosted a month ago\nAmerican Dynamism\n\u00b7\nSeries E\n\u00b7\n201\u2013500 employees\nApply",
+    "OpenAI\nSoC Engineer\n$287K \u2013 $485K \u2022 Offers Equity\n\u00b7\nSan Francisco, California, United States\n\u00b7\nPosted 6 days ago\nEnterprise, Infra\n\u00b7\nGrowth\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Waymo\nStaff SoC Design Engineer\nUSD 251,000\u2013310,000 / Year\n\u00b7\nMountain View, CA, USA\n\u00b7\nPosted 2 months ago\nEnterprise\n\u00b7\nSeries D\n\u00b7\n1,000\u20135,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/jobs/devoted-health?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "access management": {
+   "new_jobs": 165,
+   "samples": [
+    "Hadrian\nSoftware Engineer, Identity & Access Management\n$192.5K \u2013 $273.5K \u2022 Offers Equity\n\u00b7\nLos Angeles, California, United States, San Francisco Bay Area, CA, United States, Seattle/Bellevue Area, WA, United States\n\u00b7\nPosted 3 days ago\nAmerican Dynamism\n\u00b7\nSeries D\n\u00b7\n51\u2013200 employees\nApply",
+    "Cross River Bank\nVP, Identity & Access Management\nFort Lee, New Jersey, United States\n\u00b7\nPosted 4 months ago\nFintech\n\u00b7\nGrowth\nApply",
+    "Databricks\nSenior Manager, Identity & Access Management (IAM)\nUSD 217,000\u2013264,600 (Local Pay Range)\n\u00b7\nMountain View, California\n\u00b7\nPosted a year ago\nCLF, Enterprise, Infra\n\u00b7\nSeries J\n\u00b7\n5,000\u201310,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/jobs/a16z?_rsc=ei5oL2u6deBo0B0U",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "identity": {
+   "new_jobs": 17,
+   "samples": [
+    "Okta\nStaff Identity Engineer\nUSD 161,000\u2013221,000 (The annual base salary range for this position for candidates located in California (excluding San Francisco Bay Area), Colorado, Illinois, New York, and Washington is between:)\n\u00b7\nBellevue, Washington; Chicago, Illinois; Washington, DC\n\u00b7\nPosted 2 mon",
+    "Hadrian\nSoftware Engineer, Identity\n$170K \u2013 $200K \u2022 Offers Equity\n\u00b7\nLos Angeles, CA, Torrance, CA, United States\n\u00b7\nPosted 22 days ago\nAmerican Dynamism\n\u00b7\nSeries D\n\u00b7\n51\u2013200 employees\nApply",
+    "Stripe\nSoftware Engineer, Internal Identity\nna\n\u00b7\nPosted 11 days ago\nFintech\n\u00b7\nSeries I\n\u00b7\n5,000\u201310,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/jobs/a16z?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "data center technician": {
+   "new_jobs": 135,
+   "samples": [
+    "Gimlet Labs\nData Center Architect\n$225K \u2013 $280K \u2022 Offers Equity\n\u00b7\nSan Francisco, California, United States\n\u00b7\nPosted 5 days ago\n11\u201350 employees\nApply",
+    "OpenAI\nData Center Design Manager\n$225K \u2013 $285K \u2022 Offers Equity\n\u00b7\nUS - Remote, United States\n\u00b7\nPosted 4 days ago\nEnterprise, Infra\n\u00b7\nGrowth\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Gimlet Labs\nSenior Technical Recruiter, Data Center Infrastructure\n$180K \u2013 $250K\n\u00b7\nSan Francisco, California, United States\n\u00b7\nPosted 7 days ago\n11\u201350 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/jobs",
-   "method": "POST",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":1,\"limit\":25}]"
+  "NOC": {
+   "new_jobs": 35,
+   "samples": [
+    "Sequence\nAI Engineer - NYC\n$210K \u2013 $230K \u2022 Offers Equity\n\u00b7\nNew York City, New York, New York, USA\n\u00b7\nPosted 5 months ago\nFintech\n\u00b7\nSeries A\n\u00b7\n51\u2013200 employees\nApply",
+    "Hex\nProduct Manager (NYC)\nNYC\n\u00b7\nPosted 6 months ago\nEnterprise, Infra\n\u00b7\nSeries D\n\u00b7\n51\u2013200 employees\nApply",
+    "Stripe\nData Analyst, NYC\nNew York\n\u00b7\nPosted a month ago\nFintech\n\u00b7\nSeries I\n\u00b7\n5,000\u201310,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/jobs/apex?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "IT intern": {
+   "new_jobs": 75,
+   "samples": [
+    "Apex Space\nIT Manager\n$130K \u2013 $170K \u2022 Offers Equity\n\u00b7\nLos Angeles, California, United States\n\u00b7\nPosted 18 days ago\nAmerican Dynamism\n\u00b7\nSeries E\n\u00b7\n201\u2013500 employees\nApply",
+    "Apex Space\nIT Engineer\n$104K \u2013 $130K \u2022 Offers Equity\n\u00b7\nLos Angeles, California, United States\n\u00b7\nPosted 6 hours ago\nAmerican Dynamism\n\u00b7\nSeries E\n\u00b7\n201\u2013500 employees\nApply",
+    "ElevenLabs\nIT Engineer\nUnited States\n\u00b7\nPosted 14 days ago\nConsumer, Enterprise, Infra\n\u00b7\nSeries D\n\u00b7\n51\u2013200 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/jobs/lime?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "IT asset": {
+   "new_jobs": 43,
+   "samples": [
+    "Anduril\nIT Asset Technician I\nUSD 22.6\u201330.3 (US Hourly Range)\n\u00b7\nCosta Mesa, California, United States\n\u00b7\nPosted a month ago\nAmerican Dynamism, CLF, Enterprise\n\u00b7\nSeries H\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Anduril\nClassified IT Asset & Procurement Administrator\nUSD 112,000\u2013149,000 (US Salary Range)\n\u00b7\nCosta Mesa, California, United States\n\u00b7\nPosted 4 days ago\nAmerican Dynamism, CLF, Enterprise\n\u00b7\nSeries H\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Databricks\nSr. Automation Engineer - IT Asset Management\nUSD 143,400\u2013197,100 (Zone 1 Pay Range); USD 129,000\u2013177,450 (Zone 2 Pay Range); USD 121,800\u2013167,550 (Zone 3 Pay Range)\n\u00b7\nBellevue, Washington; Mountain View, California; San Francisco, California; Seattle, Washington\n\u00b7\nPosted 11 days ago\nCLF, "
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/jobs/okta?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "deskside": {
+   "new_jobs": 0,
+   "samples": []
   },
-  {
-   "url": "https://jobs.a16z.com/company/anduril?_rsc=ei5oL2u6deBo0B0U",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
+  "systems administrator": {
+   "new_jobs": 153,
+   "samples": [
+    "Anduril\nSystem Administrator\nUSD 146,000\u2013194,000 (US Salary Range)\n\u00b7\nReston, Virginia, United States\n\u00b7\nPosted 5 months ago\nAmerican Dynamism, CLF, Enterprise\n\u00b7\nSeries H\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Hadrian\nSystems Administrator\n$100K \u2013 $149K \u2022 Offers Equity\n\u00b7\nMesa, AZ, United States\n\u00b7\nPosted 2 months ago\nAmerican Dynamism\n\u00b7\nSeries D\n\u00b7\n51\u2013200 employees\nApply",
+    "Anduril\nEngineering Systems Administrator\nAbu Dhabi, United Arab Emirates\n\u00b7\nPosted a month ago\nAmerican Dynamism, CLF, Enterprise\n\u00b7\nSeries H\n\u00b7\n1,000\u20135,000 employees\nApply"
+   ]
   },
-  {
-   "url": "https://jobs.a16z.com/company/anduril?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/elevenlabs?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs",
-   "method": "POST",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":2,\"limit\":25}]"
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/cognition?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/shield-ai?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/company/openai?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs",
-   "method": "POST",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":3,\"limit\":25}]"
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/illumio?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/figma?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/asana?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/company/databricks?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs",
-   "method": "POST",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":4,\"limit\":25}]"
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/tessera-labs?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/deel?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://analytics.google.com/g/collect?v=2&tid=G-TDNC6XM13M&gtm=45je6ag1v9113086572za200zd9113086572xf1&_p=1792478583503&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=1503384877.1792478584&frm=0&pscdl=noapi&rcb=15&sr=1280x720&uaa=x64&uab=64&uafvl=HeadlessChrome%3B129.0.6668.29%7CNot%253DA",
-   "method": "POST",
-   "status": 204,
-   "ctype": "text/plain",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/atoms-co?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/heron-power?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs",
-   "method": "POST",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":5,\"limit\":25}]"
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/substack?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/reddit?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/sprinter-health?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs",
-   "method": "POST",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":6,\"limit\":25}]"
-  },
-  {
-   "url": "https://jobs.a16z.com/company/harvey?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/foodology?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs",
-   "method": "POST",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":7,\"limit\":25}]"
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/material-security?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/sprig?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/abridge?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs",
-   "method": "POST",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":8,\"limit\":25}]"
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/bighat-biosciences?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/company/stripe?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs",
-   "method": "POST",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":9,\"limit\":25}]"
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/covenant?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/mariana-minerals?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/clickup?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs",
-   "method": "POST",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":10,\"limit\":25}]"
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/volta?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/branch-international?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs/applied-intuition?_rsc=EFX9vCzbT-iAEYrL",
-   "method": "GET",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": ""
-  },
-  {
-   "url": "https://jobs.a16z.com/jobs",
-   "method": "POST",
-   "status": 200,
-   "ctype": "text/x-component",
-   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":11,\"limit\":25}]"
+  "security technician": {
+   "new_jobs": 22,
+   "samples": [
+    "Fivetran\nTechnical Program Manager, Security\nUSD 158,284\u2013197,855 (Oakland Pay Range)\n\u00b7\nOakland, California, United States, AMER\n\u00b7\nPosted 2 months ago\nCLF, Enterprise, Infra\n\u00b7\nM&A\n\u00b7\n1,000\u20135,000 employees\nApply",
+    "Cape\nTechnical Program Manager, Security\nNew York, NY, New York, New York, United States\n\u00b7\nPosted 2 months ago\nAmerican Dynamism\n\u00b7\nSeries C\n\u00b7\n51\u2013200 employees\nApply",
+    "Databricks\nStaff Technical Program Manager- Security\nUSD 189,800\u2013260,900 (SF Bay Area Hourly Rate)\n\u00b7\nBellevue, Washington; Seattle, Washington\n\u00b7\nPosted 18 days ago\nCLF, Enterprise, Infra\n\u00b7\nSeries J\n\u00b7\n5,000\u201310,000 employees\nApply"
+   ]
   }
- ],
- "html_markers": {
-  "getro": false,
-  "consider": false,
-  "__NEXT_DATA__": false,
-  "api-boards": false,
-  "algolia": false,
-  "typesense": false,
-  "graphql": false
- },
- "next_data_head": null
+ }
 }
