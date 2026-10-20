@@ -71,10 +71,30 @@ def fetch_board(board):
                 captured.update({"url": rq.url, "body": rq.post_data or "", "headers": rq.headers})
 
         page.on("request", on_request)
+        net = []
+
+        def on_response(resp):
+            try:
+                rq = resp.request
+                if rq.resource_type in ("xhr", "fetch") and len(net) < 60:
+                    net.append({"url": rq.url[:300], "method": rq.method, "status": resp.status,
+                                "ctype": resp.headers.get("content-type", ""), "body": (rq.post_data or "")[:1500]})
+            except Exception:  # noqa: BLE001
+                pass
+
+        page.on("response", on_response)
         try:
             page.goto(board["url"], timeout=45000, wait_until="domcontentloaded")
             page.wait_for_timeout(6000)
             debug = {"captured_url": captured.get("url"), "captured_body": captured.get("body")}
+            debug["network"] = net
+            try:
+                html = page.content()
+                debug["html_markers"] = {k: (k in html) for k in ["getro", "consider", "__NEXT_DATA__", "api-boards", "algolia", "typesense", "graphql"]}
+                m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+                debug["next_data_head"] = m.group(1)[:3000] if m else None
+            except Exception:  # noqa: BLE001
+                pass
             if captured and captured["body"].strip().startswith("{"):
                 body = json.loads(captured["body"])
                 meta = body.setdefault("meta", {})
