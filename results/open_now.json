@@ -1,6 +1,6 @@
 {
- "date": "2026-10-19",
- "count": 24,
+ "date": "2026-10-20",
+ "count": 42,
  "jobs": [
   {
    "company": "GM Financial",
@@ -102,6 +102,15 @@
    "posted": "2026-09-23"
   },
   {
+   "company": "CAE",
+   "priority": "4",
+   "title": "Engineering Licensing & Software Asset Specialist",
+   "location": "Arlington, TX",
+   "location_kind": "dfw",
+   "url": "https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Engineering-Licensing---Software-Asset-Specialist_122232",
+   "posted": "2026-09-20"
+  },
+  {
    "company": "AT&T",
    "priority": "1",
    "title": "Network Support Technician (Government)",
@@ -111,6 +120,15 @@
    "posted": "2026-09-29"
   },
   {
+   "company": "Abridge",
+   "priority": "3",
+   "title": "IT Operations Specialist",
+   "location": "SF Office",
+   "location_kind": "remote",
+   "url": "https://jobs.ashbyhq.com/abridge/4e9042bc-b15b-4338-bc7e-b1b358e1cf4f",
+   "posted": "2026-09-25"
+  },
+  {
    "company": "Brown & Brown",
    "priority": "3",
    "title": "RV Technical Support Specialist",
@@ -118,6 +136,15 @@
    "location_kind": "remote",
    "url": "https://bbinsurance.wd1.myworkdayjobs.com/Careers/job/Remote---USA/RV-Technical-Support-Specialist_R26_0000003050",
    "posted": "2026-10-01"
+  },
+  {
+   "company": "Kelly Services",
+   "priority": "3",
+   "title": "VMSA Deployment Specialist",
+   "location": "US-Remote",
+   "location_kind": "remote",
+   "url": "https://kellyservices.wd503.myworkdayjobs.com/corporatecareers-kellyservices-com/job/US-Remote/VMSA-Deployment-Specialist_14957",
+   "posted": "2026-10-06"
   },
   {
    "company": "Skydio",
@@ -201,6 +228,132 @@
    "posted": null
   },
   {
+   "company": "Frost Bank",
+   "priority": "1",
+   "title": "Service Desk Specialist",
+   "location": "San Antonio, TX - One Frost",
+   "location_kind": "tx_metro",
+   "url": "https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---One-Frost/Service-Desk-Specialist_R262004",
+   "posted": "2026-10-20"
+  },
+  {
+   "company": "Netsync",
+   "priority": "1",
+   "title": "Computer Technician",
+   "location": "Houston, TX",
+   "location_kind": "tx_metro",
+   "url": "https://netsync-network-solutions.breezy.hr/p/253976e54c56-computer-technician",
+   "posted": "2026-04-03"
+  },
+  {
+   "company": "Netsync",
+   "priority": "1",
+   "title": "Computer Technician Intern (paid internship)",
+   "location": "Houston, TX",
+   "location_kind": "tx_metro",
+   "url": "https://netsync-network-solutions.breezy.hr/p/3f08937fafd8-computer-technician-intern-paid-internship",
+   "posted": "2026-05-19"
+  },
+  {
+   "company": "Netsync",
+   "priority": "1",
+   "title": "Network Technician",
+   "location": "Houston, TX",
+   "location_kind": "tx_metro",
+   "url": "https://netsync-network-solutions.breezy.hr/p/4671a6a7a6e7-network-technician",
+   "posted": "2026-08-24"
+  },
+  {
+   "company": "Saronic",
+   "priority": "2",
+   "title": "Information Technology Intern (Summer 2027)",
+   "location": "Austin, TX",
+   "location_kind": "tx_metro",
+   "url": "https://jobs.ashbyhq.com/saronic/0fa1ca8f-0dca-43cc-a5fa-59c40840986f",
+   "posted": "2026-09-09"
+  },
+  {
+   "company": "Booz Allen Hamilton Holding",
+   "priority": "3",
+   "title": "Help Desk Specialist",
+   "location": "Austin, TX",
+   "location_kind": "tx_metro",
+   "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Austin-TX/Help-Desk-Specialist_R0250954",
+   "posted": "2026-10-03"
+  },
+  {
+   "company": "CrowdStrike",
+   "priority": "3",
+   "title": "Technology Support Associate",
+   "location": "USA - Austin, TX",
+   "location_kind": "tx_metro",
+   "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Austin-TX/Technology-Support-Associate_R29881",
+   "posted": "2026-09-22"
+  },
+  {
+   "company": "NOV",
+   "priority": "3",
+   "title": "IT Client Support Technician",
+   "location": "Houston, TX, United States",
+   "location_kind": "tx_metro",
+   "url": "https://egay.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/40322",
+   "posted": "2026-08-03"
+  },
+  {
+   "company": "Zayo Group Holdings",
+   "priority": "3",
+   "title": "Deployment Technician II",
+   "location": "TX - Austin",
+   "location_kind": "tx_metro",
+   "url": "https://zayo.wd1.myworkdayjobs.com/Zayo_Careers/job/TX---Austin/Deployment-Technician-II_R0016978",
+   "posted": "2026-09-20"
+  },
+  {
+   "company": "Base Power",
+   "priority": "4",
+   "title": "Hardware Technical Program Management Intern",
+   "location": "Austin, TX",
+   "location_kind": "tx_metro",
+   "url": "https://jobs.ashbyhq.com/base-power/c6228333-5f84-4363-9a3a-fd1dfb8ad1a2",
+   "posted": "2026-08-25"
+  },
+  {
+   "company": "Base Power",
+   "priority": "4",
+   "title": "Deployment Specialist (Field Operations)",
+   "location": "Austin, TX",
+   "location_kind": "tx_metro",
+   "url": "https://jobs.ashbyhq.com/base-power/2d211740-29ae-4306-a542-dff3d9a24531",
+   "posted": "2026-09-15"
+  },
+  {
+   "company": "Nagarro",
+   "priority": "4",
+   "title": "Associate Engineer, Tech support",
+   "location": "Austin, us",
+   "location_kind": "tx_metro",
+   "url": "https://jobs.smartrecruiters.com/Nagarro1/743999905421762",
+   "posted": "2023-05-07"
+  },
+  {
+   "company": "Saronic Technologies",
+   "priority": "4",
+   "title": "Information Technology Intern (Summer 2027)",
+   "location": "Austin, TX",
+   "location_kind": "tx_metro",
+   "url": "https://jobs.ashbyhq.com/saronic/0fa1ca8f-0dca-43cc-a5fa-59c40840986f",
+   "posted": "2026-09-09"
+  },
+  {
+   "company": "Unisys",
+   "priority": "1",
+   "title": "Data Center Technician - Barstow, TX",
+   "location": "Barstow, TX, United States of America",
+   "location_kind": "texas",
+   "url": "https://unisys.wd5.myworkdayjobs.com/External/job/Barstow-TX-United-States-of-America/Data-Center-Technician---Barstow--TX_REQ570885",
+   "posted": "2026-09-20"
+  },
+  {
    "company": "CoreWeave",
    "priority": "2",
    "title": "Data Center Technician - Afton, TX",
@@ -208,6 +361,15 @@
    "location_kind": "texas",
    "url": "https://coreweave.com/careers/job?4687824006&board=coreweave&gh_jid=4687824006",
    "posted": "2026-06-08"
+  },
+  {
+   "company": "Primoris Services",
+   "priority": "2",
+   "title": "Cyber Security Analyst",
+   "location": "Texas",
+   "location_kind": "texas",
+   "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/Cyber-Security-Analyst_JR100681",
+   "posted": "2026-09-20"
   },
   {
    "company": "Oracle",
