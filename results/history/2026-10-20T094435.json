@@ -1,0 +1,37 @@
+{
+ "run_at": "2026-10-20T09:44:35+00:00",
+ "date": "2026-10-20",
+ "count": 2,
+ "jobs": [
+  {
+   "company_id": "704",
+   "company": "PG&E",
+   "board": null,
+   "priority": "3",
+   "sector": "Energy",
+   "title": "Expert Business System Specialist",
+   "location": "Expert Business System Specialist",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://jobs.pge.com/job/oakland/expert-business-system-specialist/29673/100467158224",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch"
+  },
+  {
+   "company_id": "1291",
+   "company": "Luxoft",
+   "board": null,
+   "priority": "4",
+   "sector": "Technology / media / other",
+   "title": "IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support",
+   "location": "IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://career.luxoft.com/jobs/it-systems-management-analyst-28570",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch"
+  }
+ ]
+}
