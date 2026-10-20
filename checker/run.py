@@ -156,11 +156,12 @@ def main():
         c = companies[cid]
         first_time = cid not in seen["companies"]
         st = {"company": c["company"], "adapter": cfg.get("adapter"), "ok": err is None,
-              "error": err, "jobs": len(jobs or []), "matches": 0}
+              "error": err, "jobs": len(jobs or []), "role_matches": 0, "matches": 0}
         for j in jobs or []:
             title = (j.get("title") or "").strip()
             if not title_ok(title):
                 continue
+            st["role_matches"] += 1
             kind = location_kind(j.get("location"), j.get("remote"))
             if cfg.get("adapter") in ("pagewatch", "icims") or str(cfg.get("adapter", "")).endswith("+page"):
                 if kind is None and not other_place(j.get("location") or title):
@@ -189,7 +190,7 @@ def main():
             seen["companies"][cid] = today.isoformat()
         status[cid] = st
 
-    order = {"dfw": 0, "remote": 1, "texas": 2, "unknown": 3}
+    order = {"dfw": 0, "remote": 1, "tx_metro": 2, "texas": 3, "unknown": 4}
     latest.sort(key=lambda x: (order.get(x["location_kind"], 9), x["priority"], x["company"]))
     stamp = now.strftime("%Y-%m-%dT%H%M%S")
     run_payload = {"run_at": now.isoformat(timespec="seconds"), "date": today.isoformat(), "count": len(latest), "jobs": latest}
@@ -228,6 +229,9 @@ def main():
         a[2] += s["jobs"]
     lines = [f"# Watchlist run {today.isoformat()}", "",
              f"- Companies checked: {ok} of {len(status)} answered",
+             f"- Jobs read: {sum(s['jobs'] for s in status.values())}",
+             f"- Jobs matching your roles (any location): {sum(s['role_matches'] for s in status.values())}",
+             f"- ...of those in DFW, remote US or Austin/Houston/San Antonio: {sum(s['matches'] for s in status.values())}",
              f"- New matching jobs: {len(latest)}",
              f"- All open matching jobs at watched companies: {len(open_now)} (see open_now.json)", "", "| System | Companies | Answered | Jobs seen |", "|---|---|---|---|"]
     for a, (n, k, jn) in sorted(by_adapter.items(), key=lambda x: -x[1][0]):

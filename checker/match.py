@@ -16,7 +16,20 @@ TITLE_INCLUDE = re.compile(
     r"technology (support|specialist|technician|associate)|desktop|low[- ]voltage technician|"
     r"(tier|level) (1|i|2|ii|one|two)\b|data ?cent(er|re) technician|"
     r"service ?now (analyst|administrator)|identity (and|&) access (analyst|specialist|associate)|"
-    r"iam (analyst|specialist)|soc analyst (i|1)\b|cyber ?security (analyst|intern|associate) ?(i|1)?\b)",
+    r"iam (analyst|specialist)|soc analyst (i|1)\b|cyber ?security (analyst|intern|associate) ?(i|1)?\b|"
+    # added Oct 19: wider entry-level IT titles
+    r"end[- ]?user services|workplace (technology|support|services|tech)|onsite (it )?support|"
+    r"it operations (technician|analyst|specialist|associate)|campus technology|computer technician|it analyst (i|1)\b|"
+    r"(it )?asset (technician|specialist|coordinator)|(imaging|deployment) (technician|specialist)|"
+    r"noc (technician|analyst|specialist)|network operations (center )?(technician|analyst)|"
+    r"access (administrator|analyst|specialist|management analyst)|user provisioning|provisioning (analyst|specialist)|"
+    r"iam analyst|security operations (center )?analyst (i|1)\b|soc analyst\b|"
+    r"access control (technician|installer)|security systems (technician|installer|specialist)|"
+    r"servicenow (admin|administrator|analyst|developer i)|itsm (analyst|specialist|coordinator)|"
+    r"(microsoft 365|m365|o365|office 365) (administrator|admin|specialist|analyst)|"
+    r"(junior|jr\.?|associate|entry[- ]level) (systems?|network|m365) (administrator|admin)|"
+    r"it apprentice\w*|apprentice\w* (it|information technology|technology)|it rotational|technology rotational|"
+    r"(it|information technology|technology) (co-?op|rotation\w*))",
     re.I,
 )
 
@@ -27,7 +40,7 @@ TITLE_EXCLUDE = re.compile(
     r"nurse|rn\b|physician|pharmac|clinical|medical assistant|driver|mechanic|hvac|electrician|plumber|"
     r"automotive|diesel|aircraft|avionics|lab technician|laboratory|veterinary|dental|"
     r"customer success manager|call center|teacher|professor|faculty|customer support|customer service|billing|benefits|payroll|"
-    r"hr|human resources|game designer|transformer|turbine|wind|solar|biomedical|radiology|x-ray|imaging|maintenance technician|"
+    r"hr|human resources|game designer|transformer|turbine|wind|solar|biomedical|radiology|x-ray|medical imaging|diagnostic imaging|imaging technologist|maintenance technician|"
     r"manufacturing|production|warehouse|forklift|splicer|lineman|line worker|oilfield|drilling|well|cam field)\b",
     re.I,
 )
@@ -76,12 +89,18 @@ def other_place(location):
     return bool(US_OTHER_CODES.search(loc) or US_OTHER_NAMES.search(loc) or NON_US.search(loc))
 
 
+TX_METRO = re.compile(r"\b(austin|round rock|cedar park|georgetown|pflugerville|leander|houston|sugar land|katy|the woodlands|"
+                      r"pearland|spring|cypress|conroe|baytown|san antonio|new braunfels|schertz|boerne)\b")
+
+
 def location_kind(location, remote_flag=False):
-    """Return 'dfw', 'remote', 'texas', or None."""
+    """Return 'dfw', 'remote', 'tx_metro' (Austin/Houston/San Antonio), 'texas', or None."""
     loc = (location or "").lower()
     in_tx = bool(re.search(r"\btexas\b|\btx\b", loc))
     if DFW_RE.search(loc) and (in_tx or not other_place(location)):
         return "dfw"
+    if TX_METRO.search(loc) and (in_tx or not other_place(location)):
+        return "tx_metro"
     if other_place(location):
         return None
     is_remote = remote_flag or "remote" in loc or "work from home" in loc or "anywhere" in loc

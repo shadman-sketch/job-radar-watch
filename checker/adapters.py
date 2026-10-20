@@ -6,7 +6,9 @@ import re
 from urllib.parse import urljoin, urlparse, quote
 
 SEARCH_TERMS = ["help desk", "service desk", "desktop support", "IT support", "IT technician",
-                "technical support", "IT specialist", "security technician", "IT intern"]
+                "technical support", "IT specialist", "end user", "deskside", "security technician",
+                "SOC analyst", "access administrator", "NOC technician", "data center technician",
+                "IT asset", "ServiceNow", "IT intern", "IT apprentice"]
 TIMEOUT = 25
 
 
