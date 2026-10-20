@@ -58,6 +58,7 @@ def fetch_board(board):
     host = board["host"]
     captured = {}
     jobs, err = [], None
+    debug = {}
     with sync_playwright() as p:
         b = p.chromium.launch()
         ctx = b.new_context(user_agent=UA)
@@ -73,6 +74,7 @@ def fetch_board(board):
         try:
             page.goto(board["url"], timeout=45000, wait_until="domcontentloaded")
             page.wait_for_timeout(6000)
+            debug = {"captured_url": captured.get("url"), "captured_body": captured.get("body")}
             if captured and captured["body"].strip().startswith("{"):
                 body = json.loads(captured["body"])
                 meta = body.setdefault("meta", {})
@@ -87,7 +89,13 @@ def fetch_board(board):
                     if not r.ok:
                         err = f"HTTP {r.status} from board search"
                         break
-                    batch, rmeta = _parse_jobs(r.json(), host)
+                    raw = r.json()
+                    if "first_response_keys" not in debug:
+                        debug["first_response_keys"] = list(raw.keys()) if isinstance(raw, dict) else str(type(raw))
+                        debug["first_response_meta"] = {k: v for k, v in raw.items() if not isinstance(v, list)} if isinstance(raw, dict) else None
+                        lst = raw.get("jobs") if isinstance(raw, dict) else None
+                        debug["first_job_sample"] = lst[0] if lst else None
+                    batch, rmeta = _parse_jobs(raw, host)
                     new = [j for j in batch if j["id"] not in seen]
                     if not new:
                         break
@@ -95,6 +103,9 @@ def fetch_board(board):
                         seen.add(j["id"])
                     jobs.extend(new)
                     seq = rmeta.get("sequence")
+                    debug["pages"] = debug.get("pages", 0) + 1
+                    debug["last_batch"] = len(batch)
+                    debug["last_meta"] = rmeta
                     if not seq or len(batch) < meta["size"]:
                         break
                     meta["sequence"] = seq
@@ -124,4 +135,10 @@ def fetch_board(board):
             err = f"{type(e).__name__}: {str(e)[:160]}"
         finally:
             b.close()
+    try:
+        from pathlib import Path
+        out = Path(__file__).resolve().parents[1] / "results" / f"board_debug_{board['key']}.json"
+        out.write_text(json.dumps(debug, indent=1, default=str)[:200000])
+    except Exception:  # noqa: BLE001
+        pass
     return jobs, err
