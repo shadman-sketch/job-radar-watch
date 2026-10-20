@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "count": 30,
+ "count": 24,
  "jobs": [
   {
    "company": "GM Financial",
@@ -36,7 +36,7 @@
    "location": "Dallas/Ft. Worth, TX",
    "location_kind": "dfw",
    "url": "https://vanguard.wd5.myworkdayjobs.com/Vanguard_External/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Risk---Security---Engineer_181851",
-   "posted": "2026-09-19"
+   "posted": "2026-09-20"
   },
   {
    "company": "Vanguard",
@@ -45,43 +45,7 @@
    "location": "Dallas/Ft. Worth, TX",
    "location_kind": "dfw",
    "url": "https://vanguard.wd5.myworkdayjobs.com/Vanguard_External/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Application-Development---TX-_181846",
-   "posted": "2026-09-19"
-  },
-  {
-   "company": "Booz Allen Hamilton Holding",
-   "priority": "3",
-   "title": "Helpdesk SharePoint Specialist",
-   "location": "Arlington, VA",
-   "location_kind": "dfw",
-   "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Arlington-VA/Helpdesk-SharePoint-Specialist_R0248353",
-   "posted": "2026-09-19"
-  },
-  {
-   "company": "Booz Allen Hamilton Holding",
-   "priority": "3",
-   "title": "Cybersecurity & IT Specialist",
-   "location": "Arlington, VA",
-   "location_kind": "dfw",
-   "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Arlington-VA/Cybersecurity---IT-Specialist_R0245939",
-   "posted": "2026-09-19"
-  },
-  {
-   "company": "Booz Allen Hamilton Holding",
-   "priority": "3",
-   "title": "Cybersecurity & IT Specialist",
-   "location": "Arlington, VA",
-   "location_kind": "dfw",
-   "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Arlington-VA/Cybersecurity---IT-Specialist_R0245938",
-   "posted": "2026-09-19"
-  },
-  {
-   "company": "Henry Schein",
-   "priority": "3",
-   "title": "Helpdesk Specialist",
-   "location": "Savannah - Georgia",
-   "location_kind": "dfw",
-   "url": "https://henryschein.wd1.myworkdayjobs.com/External_Careers/job/Savannah---Georgia/Helpdesk-Specialist_R135565",
-   "posted": "2026-10-08"
+   "posted": "2026-09-20"
   },
   {
    "company": "Motorola Solutions",
@@ -90,7 +54,7 @@
    "location": "Allen, TX (TX139), More...",
    "location_kind": "dfw",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Technician--Hybrid-_R66161",
-   "posted": "2026-10-19"
+   "posted": "2026-10-20"
   },
   {
    "company": "Motorola Solutions",
@@ -99,7 +63,7 @@
    "location": "Allen, TX (TX139)",
    "location_kind": "dfw",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/ALPR-Technical-Support-Technician_R69720",
-   "posted": "2026-10-13"
+   "posted": "2026-10-14"
   },
   {
    "company": "Motorola Solutions",
@@ -108,7 +72,7 @@
    "location": "Allen, TX (TX139)",
    "location_kind": "dfw",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Specialist--Hybrid-_R69189",
-   "posted": "2026-10-05"
+   "posted": "2026-10-06"
   },
   {
    "company": "Motorola Solutions",
@@ -117,7 +81,7 @@
    "location": "Allen, TX (TX139)",
    "location_kind": "dfw",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Analyst--Hybrid-_R67849",
-   "posted": "2026-10-06"
+   "posted": "2026-10-07"
   },
   {
    "company": "Motorola Solutions",
@@ -126,7 +90,7 @@
    "location": "Allen, TX (TX139)",
    "location_kind": "dfw",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Specialist---DoD-SkillBridge_R68211",
-   "posted": "2026-09-19"
+   "posted": "2026-09-20"
   },
   {
    "company": "Brillio",
@@ -144,7 +108,7 @@
    "location": "El Paso, Texas",
    "location_kind": "remote",
    "url": "https://att.wd1.myworkdayjobs.com/ATTGeneral/job/El-Paso-Texas/Network-Support-Technician--Government-_R-120865",
-   "posted": "2026-09-28"
+   "posted": "2026-09-29"
   },
   {
    "company": "Brown & Brown",
@@ -153,16 +117,7 @@
    "location": "2 Locations",
    "location_kind": "remote",
    "url": "https://bbinsurance.wd1.myworkdayjobs.com/Careers/job/Remote---USA/RV-Technical-Support-Specialist_R26_0000003050",
-   "posted": "2026-09-30"
-  },
-  {
-   "company": "Replit",
-   "priority": "3",
-   "title": "Support Engineer I (NYC, Weekend Shift)",
-   "location": "NYC (SoHo)",
-   "location_kind": "remote",
-   "url": "https://jobs.ashbyhq.com/replit/4e64e46f-f69d-4454-89b6-bd27302a464d",
-   "posted": "2026-09-23"
+   "posted": "2026-10-01"
   },
   {
    "company": "Skydio",
@@ -189,7 +144,7 @@
    "location": "Remote - United States",
    "location_kind": "remote",
    "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/Remote---United-States/Network-Support-Specialist_R000110382",
-   "posted": "2026-10-15"
+   "posted": "2026-10-16"
   },
   {
    "company": "Inspiren",
@@ -253,15 +208,6 @@
    "location_kind": "texas",
    "url": "https://coreweave.com/careers/job?4687824006&board=coreweave&gh_jid=4687824006",
    "posted": "2026-06-08"
-  },
-  {
-   "company": "Randstad Digital",
-   "priority": "1",
-   "title": "it/av support specialist",
-   "location": "it/av support specialist",
-   "location_kind": "unknown",
-   "url": "https://www.randstadusa.com/jobs/4/1365328/it-av-support-specialist_houston/",
-   "posted": null
   },
   {
    "company": "Oracle",

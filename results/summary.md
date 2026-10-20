@@ -1,23 +1,23 @@
 # Watchlist run 2026-10-19
 
-- Companies checked: 1488 of 1500 answered
+- Companies checked: 1489 of 1500 answered
 - New matching jobs: 5
-- All open matching jobs at watched companies: 30 (see open_now.json)
+- All open matching jobs at watched companies: 24 (see open_now.json)
 
 | System | Companies | Answered | Jobs seen |
 |---|---|---|---|
-| pagewatch | 416 | 404 | 7 |
-| workday | 269 | 269 | 14652 |
+| pagewatch | 416 | 405 | 6 |
+| workday | 269 | 269 | 14662 |
 | greenhouse | 269 | 269 | 15815 |
-| ashby | 149 | 149 | 8230 |
-| lever | 74 | 74 | 3029 |
+| ashby | 149 | 149 | 8236 |
+| lever | 74 | 74 | 3030 |
 | phenom | 63 | 63 | 151 |
 | icims | 62 | 62 | 0 |
-| smartrecruiters | 44 | 44 | 9243 |
-| jobvite | 43 | 43 | 813 |
-| oracle | 32 | 32 | 1844 |
+| smartrecruiters | 44 | 44 | 9241 |
+| jobvite | 43 | 43 | 812 |
+| oracle | 32 | 32 | 1842 |
 | workable | 27 | 27 | 516 |
-| ultipro | 11 | 11 | 268 |
+| ultipro | 11 | 11 | 267 |
 | eightfold+page | 9 | 9 | 0 |
 | greenhouse+page | 5 | 5 | 0 |
 | workday+page | 4 | 4 | 0 |
@@ -26,7 +26,7 @@
 | breezy | 3 | 3 | 31 |
 | ultipro+page | 2 | 2 | 1 |
 | recruitee | 2 | 2 | 60 |
-| rippling | 2 | 2 | 702 |
+| rippling | 2 | 2 | 700 |
 | ashby+page | 2 | 2 | 0 |
 | recruitee+page | 1 | 1 | 0 |
 | rippling+page | 1 | 1 | 0 |
