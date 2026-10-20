@@ -1,4 +1,436 @@
 {
  "captured_url": null,
- "captured_body": null
+ "captured_body": null,
+ "network": [
+  {
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-TDNC6XM13M&gtm=45je6ag1v9113086572za208zd9113086572xf1&_p=1792478583503&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&are=1&cid=1503384877.1792478584&frm=0&pscdl=noapi&rcb=15&sr=1280x720&uaa=x64&uab=64&uafvl=HeadlessChrome%3B129.0.6668.29%7",
+   "method": "POST",
+   "status": 204,
+   "ctype": "text/plain",
+   "body": ""
+  },
+  {
+   "url": "https://www.google.com/measurement/conversion?random=1792478583551&cv=11&tid=G-TDNC6XM13M&fst=1792478583551&fmt=8&en=page_view&gtm=45je6ag1v9113086572za208zd9113086572xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~119793973~120213116~120385423~120469145~120469153~12124",
+   "method": "POST",
+   "status": 200,
+   "ctype": "",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/ingest/flags/?v=2&compression=base64",
+   "method": "POST",
+   "status": 200,
+   "ctype": "application/json",
+   "body": "data=eyJ0b2tlbiI6InBoY19vVzlLdGtlYmdqQjc0UFA2b0JVejNrRldiV1FKZ2syMmVUUWZiekJZNkdiNiIsImRpc3RpbmN0X2lkIjoiMDFhMTU4MGMtOWE2OS03YjJiLWIxZmEtNjMxNjg0N2U0NjQ0IiwiZ3JvdXBzIjp7fSwicGVyc29uX3Byb3BlcnRpZXMiOnsiJGxpYiI6IndlYiIsIiRsaWJfdmVyc2lvbiI6IjEuNDE4LjEwIn0sInRpbWV6b25lIjoiVVRDIiwiJGRldmljZV9pZCI6IjAxYTE1ODBjLTlhNjktN2IyYi1iMWZhLTYzMTY4NDdlNDY0NCIsInNlbnRfYXQiOiIyMDI2LTEwLTIwVDA2OjQzOjAzLjY0NVoifQ%3D%3D"
+  },
+  {
+   "url": "https://jobs.a16z.com/companies?_rsc=ei5oL2u6deBo0B0U",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/andreessen-horowitz?_rsc=ei5oL2u6deBo0B0U",
+   "method": "GET",
+   "status": 308,
+   "ctype": "text/html; charset=UTF-8",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/?_rsc=ei5oL2u6deBo0B0U",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/devoted-health?_rsc=ei5oL2u6deBo0B0U",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/companies?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/a16z",
+   "method": "GET",
+   "status": 307,
+   "ctype": "text/html; charset=UTF-8",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs",
+   "method": "POST",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": "[]"
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/devoted-health?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/a16z?_rsc=ei5oL2u6deBo0B0U",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/a16z?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs",
+   "method": "POST",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":1,\"limit\":25}]"
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/apex?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/lime?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/okta?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/company/anduril?_rsc=ei5oL2u6deBo0B0U",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/company/anduril?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/elevenlabs?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs",
+   "method": "POST",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":2,\"limit\":25}]"
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/cognition?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/shield-ai?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/company/openai?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs",
+   "method": "POST",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":3,\"limit\":25}]"
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/illumio?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/figma?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/asana?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/company/databricks?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs",
+   "method": "POST",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":4,\"limit\":25}]"
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/tessera-labs?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/deel?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://analytics.google.com/g/collect?v=2&tid=G-TDNC6XM13M&gtm=45je6ag1v9113086572za200zd9113086572xf1&_p=1792478583503&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=1503384877.1792478584&frm=0&pscdl=noapi&rcb=15&sr=1280x720&uaa=x64&uab=64&uafvl=HeadlessChrome%3B129.0.6668.29%7CNot%253DA",
+   "method": "POST",
+   "status": 204,
+   "ctype": "text/plain",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/atoms-co?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/heron-power?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs",
+   "method": "POST",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":5,\"limit\":25}]"
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/substack?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/reddit?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/sprinter-health?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs",
+   "method": "POST",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":6,\"limit\":25}]"
+  },
+  {
+   "url": "https://jobs.a16z.com/company/harvey?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/foodology?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs",
+   "method": "POST",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":7,\"limit\":25}]"
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/material-security?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/sprig?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/abridge?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs",
+   "method": "POST",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":8,\"limit\":25}]"
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/bighat-biosciences?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/company/stripe?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs",
+   "method": "POST",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":9,\"limit\":25}]"
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/covenant?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/mariana-minerals?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/clickup?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs",
+   "method": "POST",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":10,\"limit\":25}]"
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/volta?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/branch-international?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs/applied-intuition?_rsc=EFX9vCzbT-iAEYrL",
+   "method": "GET",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": ""
+  },
+  {
+   "url": "https://jobs.a16z.com/jobs",
+   "method": "POST",
+   "status": 200,
+   "ctype": "text/x-component",
+   "body": "[{\"q\":\"$undefined\",\"roles\":\"$undefined\",\"markets\":\"$undefined\",\"funding_stages\":\"$undefined\",\"companySizes\":\"$undefined\",\"locations\":\"$undefined\",\"salaryMin\":\"$undefined\",\"postedWithinDays\":\"$undefined\",\"remote\":\"$undefined\",\"hybrid\":\"$undefined\",\"hybridOrRemote\":\"$undefined\",\"internships\":\"$undefined\",\"sort\":\"recent\"},{\"companyId\":\"$undefined\",\"page\":11,\"limit\":25}]"
+  }
+ ],
+ "html_markers": {
+  "getro": false,
+  "consider": false,
+  "__NEXT_DATA__": false,
+  "api-boards": false,
+  "algolia": false,
+  "typesense": false,
+  "graphql": false
+ },
+ "next_data_head": null
 }
