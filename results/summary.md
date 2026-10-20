@@ -1,25 +1,25 @@
 # Watchlist run 2026-10-20
 
-- Companies checked: 1488 of 1500 answered
-- Jobs read: 61335
-- Jobs matching your roles (any location): 546
+- Companies checked: 1497 of 1501 answered
+- Jobs read: 61664
+- Jobs matching your roles (any location): 547
 - ...of those in DFW, remote US or Austin/Houston/San Antonio: 42
 - New matching jobs: 6
 - All open matching jobs at watched companies: 42 (see open_now.json)
 
 | System | Companies | Answered | Jobs seen |
 |---|---|---|---|
-| pagewatch | 416 | 404 | 6 |
-| workday | 269 | 269 | 20621 |
-| greenhouse | 269 | 269 | 15803 |
-| ashby | 149 | 149 | 8238 |
-| lever | 74 | 74 | 3040 |
-| phenom | 63 | 63 | 148 |
+| pagewatch | 416 | 412 | 6 |
+| workday | 269 | 269 | 20596 |
+| greenhouse | 269 | 269 | 15812 |
+| ashby | 149 | 149 | 8232 |
+| lever | 74 | 74 | 3039 |
+| phenom | 63 | 63 | 151 |
 | icims | 62 | 62 | 0 |
-| smartrecruiters | 44 | 44 | 9229 |
-| jobvite | 43 | 43 | 812 |
-| oracle | 32 | 32 | 1841 |
-| workable | 27 | 27 | 516 |
+| smartrecruiters | 44 | 44 | 9192 |
+| jobvite | 43 | 43 | 810 |
+| oracle | 32 | 32 | 1829 |
+| workable | 27 | 27 | 517 |
 | ultipro | 11 | 11 | 267 |
 | eightfold+page | 9 | 9 | 0 |
 | greenhouse+page | 5 | 5 | 0 |
@@ -29,12 +29,13 @@
 | breezy | 3 | 3 | 31 |
 | ultipro+page | 2 | 2 | 1 |
 | recruitee | 2 | 2 | 60 |
-| rippling | 2 | 2 | 693 |
+| rippling | 2 | 2 | 692 |
 | ashby+page | 2 | 2 | 0 |
 | recruitee+page | 1 | 1 | 0 |
 | rippling+page | 1 | 1 | 0 |
 | lever+page | 1 | 1 | 0 |
 | breezy+page | 1 | 1 | 0 |
+| board | 1 | 1 | 400 |
 
 ## New matches
 

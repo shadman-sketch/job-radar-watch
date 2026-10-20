@@ -120,7 +120,7 @@
   "adapter": "ashby",
   "company": "LangChain",
   "error": null,
-  "jobs": 103,
+  "jobs": 104,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -156,7 +156,7 @@
   "adapter": "lever",
   "company": "Bazaarvoice",
   "error": null,
-  "jobs": 12,
+  "jobs": 13,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -174,7 +174,7 @@
   "adapter": "greenhouse",
   "company": "Bend studio",
   "error": null,
-  "jobs": 196,
+  "jobs": 197,
   "matches": 0,
   "ok": true,
   "role_matches": 3
@@ -381,7 +381,7 @@
   "adapter": "lever",
   "company": "Brillio",
   "error": null,
-  "jobs": 220,
+  "jobs": 219,
   "matches": 1,
   "ok": true,
   "role_matches": 2
@@ -417,7 +417,7 @@
   "adapter": "greenhouse",
   "company": "Natera",
   "error": null,
-  "jobs": 222,
+  "jobs": 225,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -525,7 +525,7 @@
   "adapter": "smartrecruiters",
   "company": "Canva",
   "error": null,
-  "jobs": 110,
+  "jobs": 107,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -912,7 +912,7 @@
   "adapter": "workday",
   "company": "ONEOK",
   "error": null,
-  "jobs": 64,
+  "jobs": 62,
   "matches": 0,
   "ok": true,
   "role_matches": 2
@@ -1119,7 +1119,7 @@
   "adapter": "workday",
   "company": "Primoris Services",
   "error": null,
-  "jobs": 141,
+  "jobs": 142,
   "matches": 1,
   "ok": true,
   "role_matches": 5
@@ -1173,7 +1173,7 @@
   "adapter": "smartrecruiters",
   "company": "Dungarvin",
   "error": null,
-  "jobs": 295,
+  "jobs": 296,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -1398,7 +1398,7 @@
   "adapter": "smartrecruiters",
   "company": "Evolution",
   "error": null,
-  "jobs": 294,
+  "jobs": 293,
   "matches": 0,
   "ok": true,
   "role_matches": 6
@@ -1407,7 +1407,7 @@
   "adapter": "smartrecruiters",
   "company": "Experian",
   "error": null,
-  "jobs": 380,
+  "jobs": 374,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -1542,7 +1542,7 @@
   "adapter": "workday",
   "company": "FICO",
   "error": null,
-  "jobs": 40,
+  "jobs": 39,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -2073,7 +2073,7 @@
   "adapter": "workday",
   "company": "Haleon",
   "error": null,
-  "jobs": 102,
+  "jobs": 100,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -2118,7 +2118,7 @@
   "adapter": "workday",
   "company": "Target",
   "error": null,
-  "jobs": 102,
+  "jobs": 111,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -2217,7 +2217,7 @@
   "adapter": "smartrecruiters",
   "company": "The Wonderful Company",
   "error": null,
-  "jobs": 226,
+  "jobs": 225,
   "matches": 0,
   "ok": true,
   "role_matches": 5
@@ -2334,7 +2334,7 @@
   "adapter": "smartrecruiters",
   "company": "Informa Group",
   "error": null,
-  "jobs": 162,
+  "jobs": 161,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -2460,7 +2460,7 @@
   "adapter": "smartrecruiters",
   "company": "J.S. Held LLC",
   "error": null,
-  "jobs": 115,
+  "jobs": 113,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -2856,7 +2856,7 @@
   "adapter": "workday",
   "company": "London Stock Exchange Group",
   "error": null,
-  "jobs": 130,
+  "jobs": 131,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -3027,7 +3027,7 @@
   "adapter": "ashby",
   "company": "Matic Robots",
   "error": null,
-  "jobs": 27,
+  "jobs": 25,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -3216,7 +3216,7 @@
   "adapter": "greenhouse",
   "company": "Zscaler",
   "error": null,
-  "jobs": 365,
+  "jobs": 363,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -3297,7 +3297,7 @@
   "adapter": "smartrecruiters",
   "company": "Nagarro",
   "error": null,
-  "jobs": 711,
+  "jobs": 710,
   "matches": 5,
   "ok": true,
   "role_matches": 11
@@ -3333,7 +3333,7 @@
   "adapter": "smartrecruiters",
   "company": "NBC Universal",
   "error": null,
-  "jobs": 451,
+  "jobs": 448,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -3423,7 +3423,7 @@
   "adapter": "smartrecruiters",
   "company": "NielsenIQ",
   "error": null,
-  "jobs": 384,
+  "jobs": 378,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -3450,7 +3450,7 @@
   "adapter": "workday",
   "company": "Nissan",
   "error": null,
-  "jobs": 109,
+  "jobs": 108,
   "matches": 0,
   "ok": true,
   "role_matches": 2
@@ -3486,7 +3486,7 @@
   "adapter": "workday",
   "company": "NXP",
   "error": null,
-  "jobs": 117,
+  "jobs": 120,
   "matches": 0,
   "ok": true,
   "role_matches": 2
@@ -3675,7 +3675,7 @@
   "adapter": "workday",
   "company": "Philips",
   "error": null,
-  "jobs": 136,
+  "jobs": 135,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -3755,10 +3755,10 @@
  "1374": {
   "adapter": "pagewatch",
   "company": "Play Perfect",
-  "error": "Error",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false,
+  "ok": true,
   "role_matches": 0
  },
  "1375": {
@@ -3828,7 +3828,7 @@
   "adapter": "workday",
   "company": "Pluralsight",
   "error": null,
-  "jobs": 10,
+  "jobs": 9,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -3882,7 +3882,7 @@
   "adapter": "jobvite",
   "company": "Power Integrations",
   "error": null,
-  "jobs": 48,
+  "jobs": 46,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -3981,7 +3981,7 @@
   "adapter": "workday",
   "company": "PwC",
   "error": null,
-  "jobs": 160,
+  "jobs": 157,
   "matches": 0,
   "ok": true,
   "role_matches": 8
@@ -4188,7 +4188,7 @@
   "adapter": "rippling",
   "company": "Rippling",
   "error": null,
-  "jobs": 653,
+  "jobs": 652,
   "matches": 1,
   "ok": true,
   "role_matches": 1
@@ -4251,7 +4251,7 @@
   "adapter": "greenhouse",
   "company": "ROLLER",
   "error": null,
-  "jobs": 16,
+  "jobs": 17,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -4637,10 +4637,10 @@
  "1462": {
   "adapter": "pagewatch",
   "company": "Symplr",
-  "error": "Error",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false,
+  "ok": true,
   "role_matches": 0
  },
  "1463": {
@@ -4701,7 +4701,7 @@
   "adapter": "workday",
   "company": "Telastra",
   "error": null,
-  "jobs": 31,
+  "jobs": 33,
   "matches": 0,
   "ok": true,
   "role_matches": 3
@@ -4737,7 +4737,7 @@
   "adapter": "workday",
   "company": "Thales",
   "error": null,
-  "jobs": 247,
+  "jobs": 246,
   "matches": 0,
   "ok": true,
   "role_matches": 7
@@ -4782,7 +4782,7 @@
   "adapter": "workday",
   "company": "Trend Micro",
   "error": null,
-  "jobs": 70,
+  "jobs": 69,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -4899,7 +4899,7 @@
   "adapter": "workable",
   "company": "We are social",
   "error": null,
-  "jobs": 56,
+  "jobs": 57,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -4926,7 +4926,7 @@
   "adapter": "greenhouse",
   "company": "Whalar",
   "error": null,
-  "jobs": 15,
+  "jobs": 14,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -4953,7 +4953,7 @@
   "adapter": "workday",
   "company": "Yahoo",
   "error": null,
-  "jobs": 56,
+  "jobs": 57,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -5016,7 +5016,7 @@
   "adapter": "workday",
   "company": "Albemarle",
   "error": null,
-  "jobs": 54,
+  "jobs": 53,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -5034,7 +5034,7 @@
   "adapter": "workday",
   "company": "Alcoa",
   "error": null,
-  "jobs": 59,
+  "jobs": 57,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -5088,7 +5088,7 @@
   "adapter": "workday",
   "company": "Allison Transmission Holdings",
   "error": null,
-  "jobs": 49,
+  "jobs": 50,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -5115,7 +5115,7 @@
   "adapter": "workday",
   "company": "Citi",
   "error": null,
-  "jobs": 229,
+  "jobs": 228,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -5196,7 +5196,7 @@
   "adapter": "workday",
   "company": "American Electric Power",
   "error": null,
-  "jobs": 137,
+  "jobs": 131,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -5295,7 +5295,7 @@
   "adapter": "greenhouse",
   "company": "Anthropic",
   "error": null,
-  "jobs": 667,
+  "jobs": 666,
   "matches": 0,
   "ok": true,
   "role_matches": 6
@@ -5583,7 +5583,7 @@
   "adapter": "workday",
   "company": "Baxter International",
   "error": null,
-  "jobs": 117,
+  "jobs": 116,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -5664,7 +5664,7 @@
   "adapter": "greenhouse",
   "company": "Binance",
   "error": null,
-  "jobs": 212,
+  "jobs": 219,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -5772,7 +5772,7 @@
   "adapter": "workday",
   "company": "Boeing",
   "error": null,
-  "jobs": 175,
+  "jobs": 172,
   "matches": 0,
   "ok": true,
   "role_matches": 2
@@ -5781,7 +5781,7 @@
   "adapter": "workday",
   "company": "Booz Allen Hamilton Holding",
   "error": null,
-  "jobs": 189,
+  "jobs": 190,
   "matches": 1,
   "ok": true,
   "role_matches": 11
@@ -5880,7 +5880,7 @@
   "adapter": "workday",
   "company": "Bristol-Myers Squibb",
   "error": null,
-  "jobs": 160,
+  "jobs": 158,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -5925,7 +5925,7 @@
   "adapter": "workday",
   "company": "Brown & Brown",
   "error": null,
-  "jobs": 89,
+  "jobs": 95,
   "matches": 1,
   "ok": true,
   "role_matches": 1
@@ -6348,7 +6348,7 @@
   "adapter": "oracle",
   "company": "Clean Harbors",
   "error": null,
-  "jobs": 65,
+  "jobs": 64,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -6429,7 +6429,7 @@
   "adapter": "workday",
   "company": "Coca-Cola",
   "error": null,
-  "jobs": 102,
+  "jobs": 101,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -6456,7 +6456,7 @@
   "adapter": "workday",
   "company": "Comcast",
   "error": null,
-  "jobs": 74,
+  "jobs": 75,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -6464,10 +6464,10 @@
  "295": {
   "adapter": "pagewatch",
   "company": "Comfort Systems USA",
-  "error": "Error",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false,
+  "ok": true,
   "role_matches": 0
  },
  "296": {
@@ -6501,7 +6501,7 @@
   "adapter": "workday",
   "company": "ConocoPhillips",
   "error": null,
-  "jobs": 34,
+  "jobs": 33,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -6537,7 +6537,7 @@
   "adapter": "oracle",
   "company": "Consolidated Edison",
   "error": null,
-  "jobs": 41,
+  "jobs": 36,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -6654,7 +6654,7 @@
   "adapter": "workday",
   "company": "CrowdStrike",
   "error": null,
-  "jobs": 113,
+  "jobs": 112,
   "matches": 1,
   "ok": true,
   "role_matches": 2
@@ -6681,7 +6681,7 @@
   "adapter": "greenhouse",
   "company": "Culture Amp",
   "error": null,
-  "jobs": 31,
+  "jobs": 30,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -6780,7 +6780,7 @@
   "adapter": "phenom",
   "company": "DaVita",
   "error": null,
-  "jobs": 39,
+  "jobs": 42,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -6816,7 +6816,7 @@
   "adapter": "workday",
   "company": "JLL",
   "error": null,
-  "jobs": 194,
+  "jobs": 186,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -6915,7 +6915,7 @@
   "adapter": "workday",
   "company": "Johnson Controls",
   "error": null,
-  "jobs": 186,
+  "jobs": 182,
   "matches": 0,
   "ok": true,
   "role_matches": 12
@@ -7068,7 +7068,7 @@
   "adapter": "workday",
   "company": "Edwards Lifesciences",
   "error": null,
-  "jobs": 108,
+  "jobs": 107,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -7104,7 +7104,7 @@
   "adapter": "workday",
   "company": "Elevance Health",
   "error": null,
-  "jobs": 60,
+  "jobs": 56,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -7140,7 +7140,7 @@
   "adapter": "oracle",
   "company": "Emerson Electric",
   "error": null,
-  "jobs": 67,
+  "jobs": 70,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -7473,7 +7473,7 @@
   "adapter": "oracle",
   "company": "First Solar",
   "error": null,
-  "jobs": 42,
+  "jobs": 41,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -7544,10 +7544,10 @@
  "402": {
   "adapter": "pagewatch",
   "company": "Flowers Foods",
-  "error": "Error",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false,
+  "ok": true,
   "role_matches": 0
  },
  "403": {
@@ -7761,7 +7761,7 @@
   "adapter": "workday",
   "company": "GE Vernova",
   "error": null,
-  "jobs": 150,
+  "jobs": 153,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -7779,7 +7779,7 @@
   "adapter": "ashby",
   "company": "Gen Digital",
   "error": null,
-  "jobs": 118,
+  "jobs": 119,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -7905,7 +7905,7 @@
   "adapter": "greenhouse",
   "company": "GoCardless",
   "error": null,
-  "jobs": 33,
+  "jobs": 31,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -7977,7 +7977,7 @@
   "adapter": "workday",
   "company": "Granite Construction",
   "error": null,
-  "jobs": 71,
+  "jobs": 70,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -8067,7 +8067,7 @@
   "adapter": "greenhouse",
   "company": "Groupon",
   "error": null,
-  "jobs": 23,
+  "jobs": 24,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -8175,7 +8175,7 @@
   "adapter": "greenhouse",
   "company": "Hasbro",
   "error": null,
-  "jobs": 109,
+  "jobs": 110,
   "matches": 0,
   "ok": true,
   "role_matches": 2
@@ -8337,7 +8337,7 @@
   "adapter": "oracle",
   "company": "Honeywell",
   "error": null,
-  "jobs": 51,
+  "jobs": 48,
   "matches": 0,
   "ok": true,
   "role_matches": 4
@@ -8427,7 +8427,7 @@
   "adapter": "greenhouse",
   "company": "Huntress",
   "error": null,
-  "jobs": 35,
+  "jobs": 36,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -8589,7 +8589,7 @@
   "adapter": "workday",
   "company": "Insulet Corporation",
   "error": null,
-  "jobs": 92,
+  "jobs": 93,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -8598,7 +8598,7 @@
   "adapter": "workday",
   "company": "Intel",
   "error": null,
-  "jobs": 150,
+  "jobs": 149,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -8733,7 +8733,7 @@
   "adapter": "workday",
   "company": "Jabil",
   "error": null,
-  "jobs": 191,
+  "jobs": 193,
   "matches": 0,
   "ok": true,
   "role_matches": 11
@@ -8813,10 +8813,10 @@
  "53": {
   "adapter": "pagewatch",
   "company": "Stream Data Centers",
-  "error": "Error",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false,
+  "ok": true,
   "role_matches": 0
  },
  "530": {
@@ -8832,7 +8832,7 @@
   "adapter": "workday",
   "company": "Kenvue",
   "error": null,
-  "jobs": 72,
+  "jobs": 70,
   "matches": 0,
   "ok": true,
   "role_matches": 2
@@ -8976,7 +8976,7 @@
   "adapter": "workday",
   "company": "Land O&#8217;Lakes",
   "error": null,
-  "jobs": 71,
+  "jobs": 72,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -9003,7 +9003,7 @@
   "adapter": "greenhouse",
   "company": "LaunchDarkly",
   "error": null,
-  "jobs": 54,
+  "jobs": 53,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -9111,7 +9111,7 @@
   "adapter": "oracle",
   "company": "Tenet Healthcare",
   "error": null,
-  "jobs": 83,
+  "jobs": 80,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -9282,7 +9282,7 @@
   "adapter": "oracle",
   "company": "Marriott International",
   "error": null,
-  "jobs": 115,
+  "jobs": 112,
   "matches": 0,
   "ok": true,
   "role_matches": 6
@@ -9363,7 +9363,7 @@
   "adapter": "smartrecruiters",
   "company": "Mattel",
   "error": null,
-  "jobs": 421,
+  "jobs": 420,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -9408,7 +9408,7 @@
   "adapter": "workday",
   "company": "Toyota North America",
   "error": null,
-  "jobs": 67,
+  "jobs": 65,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -9426,7 +9426,7 @@
   "adapter": "workday",
   "company": "Merck",
   "error": null,
-  "jobs": 118,
+  "jobs": 119,
   "matches": 0,
   "ok": true,
   "role_matches": 2
@@ -9498,7 +9498,7 @@
   "adapter": "workday",
   "company": "Micron Technology",
   "error": null,
-  "jobs": 147,
+  "jobs": 140,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -9615,10 +9615,10 @@
   "adapter": "workday",
   "company": "Unisys",
   "error": null,
-  "jobs": 162,
+  "jobs": 164,
   "matches": 1,
   "ok": true,
-  "role_matches": 18
+  "role_matches": 19
  },
  "610": {
   "adapter": "oracle",
@@ -9669,7 +9669,7 @@
   "adapter": "workday",
   "company": "Moog",
   "error": null,
-  "jobs": 85,
+  "jobs": 88,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -9723,7 +9723,7 @@
   "adapter": "greenhouse",
   "company": "Mozilla",
   "error": null,
-  "jobs": 98,
+  "jobs": 96,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -9984,7 +9984,7 @@
   "adapter": "workday",
   "company": "NiSource",
   "error": null,
-  "jobs": 40,
+  "jobs": 36,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -10020,7 +10020,7 @@
   "adapter": "workday",
   "company": "Northern Trust",
   "error": null,
-  "jobs": 135,
+  "jobs": 136,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -10119,7 +10119,7 @@
   "adapter": "workday",
   "company": "NVIDIA",
   "error": null,
-  "jobs": 183,
+  "jobs": 184,
   "matches": 0,
   "ok": true,
   "role_matches": 2
@@ -10245,7 +10245,7 @@
   "adapter": "ashby",
   "company": "OpenAI",
   "error": null,
-  "jobs": 808,
+  "jobs": 806,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -10271,10 +10271,10 @@
  "676": {
   "adapter": "pagewatch",
   "company": "Orca Security",
-  "error": "Error",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false,
+  "ok": true,
   "role_matches": 0
  },
  "677": {
@@ -10317,7 +10317,7 @@
   "adapter": "greenhouse",
   "company": "Oura",
   "error": null,
-  "jobs": 81,
+  "jobs": 82,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -10380,7 +10380,7 @@
   "adapter": "workday",
   "company": "Palo Alto Networks",
   "error": null,
-  "jobs": 130,
+  "jobs": 132,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -10596,7 +10596,7 @@
   "adapter": "workday",
   "company": "Pitney Bowes",
   "error": null,
-  "jobs": 54,
+  "jobs": 53,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -10839,7 +10839,7 @@
   "adapter": "oracle",
   "company": "Quest Diagnostics",
   "error": null,
-  "jobs": 62,
+  "jobs": 63,
   "matches": 0,
   "ok": true,
   "role_matches": 3
@@ -10929,7 +10929,7 @@
   "adapter": "greenhouse",
   "company": "Reddit",
   "error": null,
-  "jobs": 152,
+  "jobs": 153,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -11001,7 +11001,7 @@
   "adapter": "ashby",
   "company": "Replit",
   "error": null,
-  "jobs": 64,
+  "jobs": 59,
   "matches": 0,
   "ok": true,
   "role_matches": 2
@@ -11073,7 +11073,7 @@
   "adapter": "lever",
   "company": "Ro",
   "error": null,
-  "jobs": 53,
+  "jobs": 52,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -11154,7 +11154,7 @@
   "adapter": "ashby",
   "company": "Runpod",
   "error": null,
-  "jobs": 28,
+  "jobs": 27,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -11208,7 +11208,7 @@
   "adapter": "ashby",
   "company": "Crusoe",
   "error": null,
-  "jobs": 348,
+  "jobs": 347,
   "matches": 0,
   "ok": true,
   "role_matches": 3
@@ -11244,7 +11244,7 @@
   "adapter": "greenhouse",
   "company": "Scale AI",
   "error": null,
-  "jobs": 181,
+  "jobs": 182,
   "matches": 0,
   "ok": true,
   "role_matches": 2
@@ -11487,7 +11487,7 @@
   "adapter": "greenhouse",
   "company": "Snorkel AI",
   "error": null,
-  "jobs": 44,
+  "jobs": 45,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -11712,7 +11712,7 @@
   "adapter": "ashby",
   "company": "Decagon",
   "error": null,
-  "jobs": 135,
+  "jobs": 134,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -11883,7 +11883,7 @@
   "adapter": "workday",
   "company": "Tapestry",
   "error": null,
-  "jobs": 75,
+  "jobs": 76,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -11910,7 +11910,7 @@
   "adapter": "greenhouse",
   "company": "DoorDash",
   "error": null,
-  "jobs": 453,
+  "jobs": 452,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -12207,7 +12207,7 @@
   "adapter": "smartrecruiters",
   "company": "Equinox",
   "error": null,
-  "jobs": 731,
+  "jobs": 724,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -12225,7 +12225,7 @@
   "adapter": "workday",
   "company": "Tyson Foods",
   "error": null,
-  "jobs": 117,
+  "jobs": 116,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -12234,7 +12234,7 @@
   "adapter": "workday",
   "company": "U.S. Bancorp",
   "error": null,
-  "jobs": 175,
+  "jobs": 176,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -12351,7 +12351,7 @@
   "adapter": "workday",
   "company": "Unum Group",
   "error": null,
-  "jobs": 47,
+  "jobs": 46,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -12405,7 +12405,7 @@
   "adapter": "greenhouse",
   "company": "Figure Technologies",
   "error": null,
-  "jobs": 17,
+  "jobs": 19,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -12549,7 +12549,7 @@
   "adapter": "workday",
   "company": "Visa",
   "error": null,
-  "jobs": 117,
+  "jobs": 119,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -12729,7 +12729,7 @@
   "adapter": "smartrecruiters",
   "company": "Western Digital",
   "error": null,
-  "jobs": 331,
+  "jobs": 325,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -12828,7 +12828,7 @@
   "adapter": "greenhouse",
   "company": "Workato",
   "error": null,
-  "jobs": 64,
+  "jobs": 65,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -12837,7 +12837,7 @@
   "adapter": "workday",
   "company": "Workday",
   "error": null,
-  "jobs": 131,
+  "jobs": 132,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -12846,7 +12846,7 @@
   "adapter": "workday",
   "company": "World Fuel Services",
   "error": null,
-  "jobs": 18,
+  "jobs": 19,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -12873,7 +12873,7 @@
   "adapter": "workday",
   "company": "Wyndham Destinations",
   "error": null,
-  "jobs": 114,
+  "jobs": 115,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -12900,7 +12900,7 @@
   "adapter": "workday",
   "company": "Xcel Energy",
   "error": null,
-  "jobs": 96,
+  "jobs": 90,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -12909,7 +12909,7 @@
   "adapter": "ashby",
   "company": "Harvey",
   "error": null,
-  "jobs": 340,
+  "jobs": 341,
   "matches": 0,
   "ok": true,
   "role_matches": 0
@@ -13115,10 +13115,10 @@
  "960": {
   "adapter": "pagewatch",
   "company": "ADK Studios",
-  "error": "Error",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false,
+  "ok": true,
   "role_matches": 0
  },
  "961": {
@@ -13142,10 +13142,10 @@
  "963": {
   "adapter": "pagewatch",
   "company": "Aero-Graphics",
-  "error": "Error",
+  "error": null,
   "jobs": 0,
   "matches": 0,
-  "ok": false,
+  "ok": true,
   "role_matches": 0
  },
  "964": {
@@ -13251,7 +13251,7 @@
   "adapter": "ashby",
   "company": "AirWallex",
   "error": null,
-  "jobs": 498,
+  "jobs": 501,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -13395,7 +13395,7 @@
   "adapter": "greenhouse",
   "company": "Appier",
   "error": null,
-  "jobs": 69,
+  "jobs": 67,
   "matches": 0,
   "ok": true,
   "role_matches": 1
@@ -13495,6 +13495,15 @@
   "company": "Astra",
   "error": null,
   "jobs": 8,
+  "matches": 0,
+  "ok": true,
+  "role_matches": 0
+ },
+ "board:a16z": {
+  "adapter": "board",
+  "company": "a16z portfolio jobs",
+  "error": null,
+  "jobs": 400,
   "matches": 0,
   "ok": true,
   "role_matches": 0
