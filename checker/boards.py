@@ -118,7 +118,10 @@ def fetch_board(board):
         finally:
             b.close()
     try:
+        import os
         from pathlib import Path
+        if not os.environ.get("BOARD_DEBUG"):
+            raise RuntimeError("debug off")
         out = Path(__file__).resolve().parents[1] / "results" / f"board_debug_{board['key']}.json"
         out.write_text(json.dumps(debug, indent=1, default=str)[:200000])
     except Exception:  # noqa: BLE001
