@@ -2,7 +2,7 @@ name: Daily watchlist check
 
 on:
   schedule:
-    - cron: "15 10 * * *"   # 10:15 UTC = 5:15 AM CDT / 4:15 AM CST, before the 6:52 AM dashboard update
+    - cron: "15 8 * * *"    # 08:15 UTC = 3:15 AM CDT / 2:15 AM CST, well before the 6:52 AM dashboard update
   push:
     branches: [main]
     paths: ["checker/**", "data/companies.csv", ".github/workflows/**", "requirements.txt"]

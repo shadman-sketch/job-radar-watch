@@ -6,7 +6,7 @@ Checks about 1,500 employers' career pages every morning for new IT support, hel
 
 1. `checker/discover.py` works out which job system each company uses (Greenhouse, Lever, Ashby, Workday, Oracle, iCIMS, SmartRecruiters, Workable, Jobvite, UKG, ADP, Phenom, Eightfold…). Companies with no detectable system fall back to a page check in a headless browser.
 2. `checker/run.py` pulls each company's openings, keeps titles and locations that fit, and reports only jobs it hasn't reported before (and only those posted in the last 3 days when the post date is known).
-3. The GitHub Actions workflow runs both at 10:15 UTC daily and commits the results.
+3. The GitHub Actions workflow runs both at 08:15 UTC (3:15 AM Central) daily and commits the results.
 4. A Claude scheduled task reads `results/latest.json` each weekday morning, scores the jobs against the resume, and adds them to the Morning Job Radar dashboard.
 
 ## Files
