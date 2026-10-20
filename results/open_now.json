@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "count": 42,
+ "count": 47,
  "jobs": [
   {
    "company": "GM Financial",
@@ -60,7 +60,7 @@
    "location": "Allen, TX (TX139), More...",
    "location_kind": "dfw",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Technician--Hybrid-_R66161",
-   "posted": "2026-10-20"
+   "posted": "2026-10-19"
   },
   {
    "company": "Motorola Solutions",
@@ -70,7 +70,7 @@
    "location": "Allen, TX (TX139)",
    "location_kind": "dfw",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/ALPR-Technical-Support-Technician_R69720",
-   "posted": "2026-10-14"
+   "posted": "2026-10-13"
   },
   {
    "company": "Motorola Solutions",
@@ -80,7 +80,7 @@
    "location": "Allen, TX (TX139)",
    "location_kind": "dfw",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Specialist--Hybrid-_R69189",
-   "posted": "2026-10-06"
+   "posted": "2026-10-05"
   },
   {
    "company": "Motorola Solutions",
@@ -90,7 +90,7 @@
    "location": "Allen, TX (TX139)",
    "location_kind": "dfw",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Analyst--Hybrid-_R67849",
-   "posted": "2026-10-07"
+   "posted": "2026-10-06"
   },
   {
    "company": "Motorola Solutions",
@@ -123,6 +123,16 @@
    "posted": "2026-09-20"
   },
   {
+   "company": "Zipline",
+   "board": "a16z portfolio jobs",
+   "priority": "B",
+   "title": "Field Support Technician",
+   "location": "Dallas-Fort Worth, Texas, USA",
+   "location_kind": "dfw",
+   "url": "https://jobs.a16z.com/jobs/zipline/7996211003--field-support-technician",
+   "posted": "2026-09-20"
+  },
+  {
    "company": "AT&T",
    "board": null,
    "priority": "1",
@@ -130,7 +140,7 @@
    "location": "El Paso, Texas",
    "location_kind": "remote",
    "url": "https://att.wd1.myworkdayjobs.com/ATTGeneral/job/El-Paso-Texas/Network-Support-Technician--Government-_R-120865",
-   "posted": "2026-09-29"
+   "posted": "2026-09-28"
   },
   {
    "company": "Abridge",
@@ -150,7 +160,7 @@
    "location": "2 Locations",
    "location_kind": "remote",
    "url": "https://bbinsurance.wd1.myworkdayjobs.com/Careers/job/Remote---USA/RV-Technical-Support-Specialist_R26_0000003050",
-   "posted": "2026-10-01"
+   "posted": "2026-09-30"
   },
   {
    "company": "Kelly Services",
@@ -160,7 +170,7 @@
    "location": "US-Remote",
    "location_kind": "remote",
    "url": "https://kellyservices.wd503.myworkdayjobs.com/corporatecareers-kellyservices-com/job/US-Remote/VMSA-Deployment-Specialist_14957",
-   "posted": "2026-10-06"
+   "posted": "2026-10-05"
   },
   {
    "company": "Skydio",
@@ -190,7 +200,7 @@
    "location": "Remote - United States",
    "location_kind": "remote",
    "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/Remote---United-States/Network-Support-Specialist_R000110382",
-   "posted": "2026-10-16"
+   "posted": "2026-10-15"
   },
   {
    "company": "Inspiren",
@@ -253,6 +263,16 @@
    "posted": null
   },
   {
+   "company": "Skydio",
+   "board": "a16z portfolio jobs",
+   "priority": "B",
+   "title": "Technical Support Specialist",
+   "location": "US Remote, United States",
+   "location_kind": "remote",
+   "url": "https://jobs.a16z.com/jobs/skydio/3ac81a34-b7fe-4142-9d29-12bcc1376182--technical-support-specialist",
+   "posted": "2026-10-02"
+  },
+  {
    "company": "Frost Bank",
    "board": null,
    "priority": "1",
@@ -260,7 +280,7 @@
    "location": "San Antonio, TX - One Frost",
    "location_kind": "tx_metro",
    "url": "https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---One-Frost/Service-Desk-Specialist_R262004",
-   "posted": "2026-10-20"
+   "posted": "2026-10-19"
   },
   {
    "company": "Netsync",
@@ -310,7 +330,7 @@
    "location": "Austin, TX",
    "location_kind": "tx_metro",
    "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Austin-TX/Help-Desk-Specialist_R0250954",
-   "posted": "2026-10-03"
+   "posted": "2026-10-02"
   },
   {
    "company": "CrowdStrike",
@@ -320,7 +340,7 @@
    "location": "USA - Austin, TX",
    "location_kind": "tx_metro",
    "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Austin-TX/Technology-Support-Associate_R29881",
-   "posted": "2026-09-22"
+   "posted": "2026-09-21"
   },
   {
    "company": "NOV",
@@ -383,6 +403,16 @@
    "posted": "2026-09-09"
   },
   {
+   "company": "Base Power",
+   "board": "a16z portfolio jobs",
+   "priority": "B",
+   "title": "Hardware Technical Program Management Intern",
+   "location": "Austin, TX, Austin, Texas, United States",
+   "location_kind": "tx_metro",
+   "url": "https://jobs.a16z.com/jobs/base-power-company/c6228333-5f84-4363-9a3a-fd1dfb8ad1a2--hardware-technical-program-management-intern",
+   "posted": "2026-08-21"
+  },
+  {
    "company": "Unisys",
    "board": null,
    "priority": "1",
@@ -420,6 +450,26 @@
    "location": "Apply now about data center technician",
    "location_kind": "unknown",
    "url": "https://www.oracle.com/careers/opportunities/data-center-jobs/",
+   "posted": null
+  },
+  {
+   "company": "PG&E",
+   "board": null,
+   "priority": "3",
+   "title": "Expert Business System Specialist",
+   "location": "Expert Business System Specialist",
+   "location_kind": "unknown",
+   "url": "https://jobs.pge.com/job/oakland/expert-business-system-specialist/29673/100467158224",
+   "posted": null
+  },
+  {
+   "company": "Luxoft",
+   "board": null,
+   "priority": "4",
+   "title": "IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support",
+   "location": "IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support",
+   "location_kind": "unknown",
+   "url": "https://career.luxoft.com/jobs/it-systems-management-analyst-28570",
    "posted": null
   }
  ]
