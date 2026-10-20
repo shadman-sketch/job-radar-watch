@@ -15,6 +15,7 @@ Checks about 1,500 employers' career pages every morning for new IT support, hel
 |---|---|
 | `data/companies.csv` | The watchlist. Add a row to watch another company. |
 | `data/resolved.json` | Which job system each company uses. |
+| `data/boards.json` | Multi-company job boards checked daily (e.g. the a16z portfolio board). |
 | `results/latest.json` | New matches from the last run. |
 | `results/summary.md` | Readable summary of the last run. |
 | `results/open_now.json` | Every currently open matching job at watched companies, new or not. |

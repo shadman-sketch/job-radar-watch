@@ -151,6 +151,18 @@ def main():
             results[cid] = ({"adapter": "icims" if cid in icims else "pagewatch"}, jobs, err)
     print(f"pages: {len(page_items)} companies in {time.time() - started:.0f}s")
 
+    # Multi-company job boards (data/boards.json), e.g. the a16z portfolio board.
+    boards_path = ROOT / "data/boards.json"
+    if boards_path.exists():
+        from boards import fetch_board
+        for bd in json.loads(boards_path.read_text()):
+            started = time.time()
+            bid = "board:" + bd["key"]
+            companies[bid] = {"id": bid, "company": bd["name"], "priority": "B", "sector": "Job board", "board": bd["name"]}
+            jobs, err = fetch_board(bd)
+            results[bid] = ({"adapter": "board"}, jobs, err)
+            print(f"board {bd['name']}: {len(jobs or [])} jobs in {time.time() - started:.0f}s {err or ''}")
+
     latest, status, open_now = [], {}, []
     for cid, (cfg, jobs, err) in results.items():
         c = companies[cid]
@@ -169,7 +181,8 @@ def main():
             if kind is None:
                 continue
             st["matches"] += 1
-            open_now.append({"company": c["company"], "priority": c["priority"], "title": title,
+            co_name = j.get("company") or c["company"]
+            open_now.append({"company": co_name, "board": c.get("board"), "priority": c["priority"], "title": title,
                              "location": j.get("location") or "", "location_kind": kind, "url": j.get("url"),
                              "posted": parse_date(j.get("posted"))})
             key = f"{cid}:{j.get('id') or j.get('url')}"
@@ -181,7 +194,7 @@ def main():
                 continue
             seen["jobs"][key] = today.isoformat()
             latest.append({
-                "company_id": cid, "company": c["company"], "priority": c["priority"], "sector": c["sector"],
+                "company_id": cid, "company": co_name, "board": c.get("board"), "priority": c["priority"], "sector": c["sector"],
                 "title": title, "location": j.get("location") or "", "location_kind": kind,
                 "remote": bool(j.get("remote")), "url": j.get("url"), "posted": posted,
                 "baseline": first_time and not posted, "system": cfg.get("adapter"),
