@@ -1,0 +1,15 @@
+name: iCIMS probe (diagnostic, no commits)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install playwright && python -m playwright install --with-deps chromium
+      - run: python tools/icims_probe.py career-schwab.icims.com careers-granicus.icims.com us-careers-rivian.icims.com
