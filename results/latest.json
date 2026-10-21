@@ -1,7 +1,7 @@
 {
- "run_at": "2026-10-20T09:44:35+00:00",
- "date": "2026-10-20",
- "count": 8,
+ "run_at": "2026-10-21T08:37:14+00:00",
+ "date": "2026-10-21",
+ "count": 12,
  "jobs": [
   {
    "company_id": "618",
@@ -15,7 +15,48 @@
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Technician--Hybrid-_R66161",
    "posted": "2026-10-19",
    "baseline": false,
-   "system": "workday"
+   "system": "workday",
+   "role_band": "core"
+  },
+  {
+   "company_id": "1082",
+   "company": "CRB workforce",
+   "board": null,
+   "priority": "4",
+   "sector": "Technology / media / other",
+   "title": "Tier 2 Network Engineer Remote (USA) CONTRACT 6 days ago",
+   "location": "Tier 2 Network Engineer Remote (USA) CONTRACT 6 days ago",
+   "location_kind": "remote",
+   "remote": true,
+   "url": "https://crbworkforce.com/jobs/1768",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "stretch",
+   "req_id": "1768",
+   "canonical_url": "https://crbworkforce.com/jobs/1768",
+   "first_seen": "2026-10-21",
+   "last_verified": "2026-10-21"
+  },
+  {
+   "company_id": "1082",
+   "company": "CRB workforce",
+   "board": null,
+   "priority": "4",
+   "sector": "Technology / media / other",
+   "title": "Tier 2 Network Engineer (U.S.) Remote (USA) DIRECT HIRE 1w ago",
+   "location": "Tier 2 Network Engineer (U.S.) Remote (USA) DIRECT HIRE 1w ago",
+   "location_kind": "remote",
+   "remote": true,
+   "url": "https://crbworkforce.com/jobs/1770",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "stretch",
+   "req_id": "1770",
+   "canonical_url": "https://crbworkforce.com/jobs/1770",
+   "first_seen": "2026-10-21",
+   "last_verified": "2026-10-21"
   },
   {
    "company_id": "1417",
@@ -29,7 +70,28 @@
    "url": "https://ats.rippling.com/rippling/jobs/eae8615d-58fb-4e2f-bf8d-0e4c2bc6dbbd",
    "posted": null,
    "baseline": true,
-   "system": "rippling"
+   "system": "rippling",
+   "role_band": "core"
+  },
+  {
+   "company_id": "board:a16z",
+   "company": "Nash",
+   "board": "a16z portfolio jobs",
+   "priority": "B",
+   "sector": "Job board",
+   "title": "Technical Support Specialist , US",
+   "location": "Remote, US, United States",
+   "location_kind": "remote",
+   "remote": true,
+   "url": "https://jobs.a16z.com/jobs/nash/48e32fea-837b-4c7c-8246-c347543d1861--technical-support-specialist-us",
+   "posted": "2026-10-21",
+   "baseline": false,
+   "system": "board",
+   "role_band": "core",
+   "req_id": "48E32FEA-837B-4C7C-8246-C347543D1861",
+   "canonical_url": "https://jobs.a16z.com/jobs/nash/48e32fea-837b-4c7c-8246-c347543d1861--technical-support-specialist-us",
+   "first_seen": "2026-10-21",
+   "last_verified": "2026-10-21"
   },
   {
    "company_id": "28",
@@ -43,7 +105,28 @@
    "url": "https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---One-Frost/Service-Desk-Specialist_R262004",
    "posted": "2026-10-20",
    "baseline": false,
-   "system": "workday"
+   "system": "workday",
+   "role_band": "core"
+  },
+  {
+   "company_id": "28",
+   "company": "Frost Bank",
+   "board": null,
+   "priority": "1",
+   "sector": "Financial services",
+   "title": "Internal Support Specialist",
+   "location": "San Antonio, TX - Warehouse",
+   "location_kind": "tx_metro",
+   "remote": false,
+   "url": "https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---Warehouse/Internal-Support-Specialist_R261889",
+   "posted": "2026-10-20",
+   "baseline": false,
+   "system": "workday",
+   "role_band": "adjacent",
+   "req_id": "R261889",
+   "canonical_url": "https://frostbank.wd5.myworkdayjobs.com/external/job/san-antonio-tx---warehouse/internal-support-specialist_r261889",
+   "first_seen": "2026-10-21",
+   "last_verified": "2026-10-21"
   },
   {
    "company_id": "47",
@@ -57,7 +140,8 @@
    "url": "https://www.randstadusa.com/jobs/4/1365328/it-av-support-specialist_houston/",
    "posted": null,
    "baseline": false,
-   "system": "pagewatch"
+   "system": "pagewatch",
+   "role_band": "adjacent"
   },
   {
    "company_id": "674",
@@ -71,7 +155,8 @@
    "url": "https://www.oracle.com/careers/opportunities/data-center-jobs/",
    "posted": null,
    "baseline": true,
-   "system": "pagewatch"
+   "system": "pagewatch",
+   "role_band": "adjacent"
   },
   {
    "company_id": "704",
@@ -86,7 +171,8 @@
    "url": "https://jobs.pge.com/job/oakland/expert-business-system-specialist/29673/100467158224",
    "posted": null,
    "baseline": false,
-   "system": "pagewatch"
+   "system": "pagewatch",
+   "role_band": "adjacent"
   },
   {
    "company_id": "1060",
@@ -100,7 +186,8 @@
    "url": "https://www.ceragon.com/about-ceragon/careers/technical-support-engineer-tier-2-34-e62",
    "posted": null,
    "baseline": true,
-   "system": "pagewatch"
+   "system": "pagewatch",
+   "role_band": "stretch"
   },
   {
    "company_id": "1291",
@@ -115,7 +202,8 @@
    "url": "https://career.luxoft.com/jobs/it-systems-management-analyst-28570",
    "posted": null,
    "baseline": false,
-   "system": "pagewatch"
+   "system": "pagewatch",
+   "role_band": "core"
   }
  ]
 }
