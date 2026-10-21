@@ -108,6 +108,8 @@ def pagewatch(items):
                 for target in targets:
                     page.goto(target, timeout=30000, wait_until="domcontentloaded")
                     page.wait_for_timeout(3000)
+                    if "confirm you are human" in (page.inner_text("body") or "").lower()[:400]:
+                        raise RuntimeError("blocked by bot check")
                     if icims_host:
                         rows = page.eval_on_selector_all(
                             "a[href*='/jobs/']",
@@ -125,7 +127,7 @@ def pagewatch(items):
                 uniq = {j["id"]: j for j in jobs}
                 out[cid] = (list(uniq.values()), None)
             except Exception as e:  # noqa: BLE001
-                out[cid] = (None, f"{type(e).__name__}")
+                out[cid] = (None, str(e) if isinstance(e, RuntimeError) else f"{type(e).__name__}")
             finally:
                 page.close()
         b.close()
