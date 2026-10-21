@@ -12,4 +12,4 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install playwright && python -m playwright install --with-deps chromium
-      - run: python tools/icims_probe.py career-schwab.icims.com careers-granicus.icims.com us-careers-rivian.icims.com
+      - run: python tools/icims_probe.py career-schwab.icims.com careers-granicus.icims.com us-careers-rivian.icims.com | cut -c1-900 | sed "s/^/::notice::/"
