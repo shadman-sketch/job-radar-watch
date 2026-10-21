@@ -21,12 +21,34 @@ from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).parent))
 from adapters import ADAPTERS  # noqa: E402
-from match import location_kind, other_place, parse_date, title_ok  # noqa: E402
+from match import location_kind, other_place, parse_date, role_band, title_ok  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 RES = ROOT / "results"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
-FRESH_DAYS = 3
+SETTINGS = json.loads((ROOT / "data/settings.json").read_text()) if (ROOT / "data/settings.json").exists() else {}
+FRESH_DAYS = int(SETTINGS.get("fresh_days", 14))
+NAV_WORDS = re.compile(r"^(jobs?|careers?|search( jobs)?|view (all )?(jobs|openings)|apply( now)?|join (us|our team)|"
+                       r"open positions|all jobs|benefits|culture|students?|internships?|life at .*|our teams?)$", re.I)
+
+
+def req_id(url):
+    """Requisition / posting id pulled from common job URLs, or None."""
+    u = url or ""
+    for pat in [r"_(R-?\d{3,})", r"/(R-?\d{4,})\b", r"[?&]gh_jid=(\d+)", r"greenhouse\.io/[^/]+/jobs/(\d+)",
+                r"/jobs/(\d{4,})", r"lever\.co/[^/]+/([0-9a-f-]{36})", r"ashbyhq\.com/[^/]+/([0-9a-f-]{36})",
+                r"/job/(\d{4,})", r"jobId=([\w-]+)", r"/(JR\d+)", r"/([0-9a-f-]{36})"]:
+        m = re.search(pat, u, re.I)
+        if m:
+            return m.group(1).upper()
+    return None
+
+
+def canon_url(url):
+    u = (url or "").split("#")[0]
+    keep = re.findall(r"[?&]((?:gh_jid|jobId|jobid|id)=[^&]+)", u)
+    u = u.split("?")[0].rstrip("/").lower()
+    return u + ("?" + "&".join(keep) if keep else "")
 
 
 def session():
@@ -59,7 +81,7 @@ def _links_to_jobs(links):
         title = (text or "")[:160].replace("›", "").strip()
         if not title or len(title) > 120 or "@" in title or href.startswith("mailto:"):
             continue
-        if not JOB_HREF.search(href) or not title_ok(title):
+        if not JOB_HREF.search(href) or len(title) < 6 or NAV_WORDS.match(title):
             continue
         jobs.append({"id": href, "title": title, "location": title, "remote": "remote" in title.lower(),
                      "url": href, "posted": None})
@@ -93,7 +115,7 @@ def pagewatch(items):
                             " ((e.closest('.row, li, tr, .iCIMS_JobsTable > div')||e.parentElement).innerText||'').replace(/\\s+/g,' ')])")
                         for href, title, ctxt in rows:
                             m = re.search(r"/jobs/(\d+)/", href)
-                            if m and title and title_ok(title):
+                            if m and title:
                                 jobs.append({"id": m.group(1), "title": title[:140], "location": ctxt[:300],
                                              "remote": "remote" in ctxt.lower(), "url": href.split("?")[0], "posted": None})
                     else:
@@ -163,12 +185,22 @@ def main():
             results[bid] = ({"adapter": "board"}, jobs, err)
             print(f"board {bd['name']}: {len(jobs or [])} jobs in {time.time() - started:.0f}s {err or ''}")
 
+    prev_status = json.loads((RES / "status.json").read_text()) if (RES / "status.json").exists() else {}
     latest, status, open_now = [], {}, []
+    canon_seen = {}
+    dupes_removed = 0
     for cid, (cfg, jobs, err) in results.items():
         c = companies[cid]
         first_time = cid not in seen["companies"]
-        st = {"company": c["company"], "adapter": cfg.get("adapter"), "ok": err is None,
-              "error": err, "jobs": len(jobs or []), "role_matches": 0, "matches": 0}
+        adapter = cfg.get("adapter")
+        page_only = adapter in ("pagewatch", "icims") or str(adapter or "").endswith("+page")
+        # A page that loads but shows no job listings is not a successful extraction.
+        extracted = err is None and (not page_only or len(jobs or []) > 0)
+        state = "failed" if err else ("ok" if extracted else "no_listings_found")
+        last_ok = today.isoformat() if extracted else (prev_status.get(cid) or {}).get("last_success")
+        st = {"company": c["company"], "adapter": adapter, "ok": err is None, "state": state,
+              "extracted": extracted, "last_success": last_ok, "error": err, "jobs": len(jobs or []),
+              "role_matches": 0, "matches": 0, "dupes": 0, "priority": c.get("priority")}
         for j in jobs or []:
             title = (j.get("title") or "").strip()
             if not title_ok(title):
@@ -182,13 +214,25 @@ def main():
                 continue
             st["matches"] += 1
             co_name = j.get("company") or c["company"]
-            open_now.append({"company": co_name, "board": c.get("board"), "priority": c["priority"], "title": title,
-                             "location": j.get("location") or "", "location_kind": kind, "url": j.get("url"),
-                             "posted": parse_date(j.get("posted"))})
+            cu = canon_url(j.get("url"))
+            ck = cu or f"{co_name}|{title}|{j.get('location')}".lower()
+            if ck in canon_seen:
+                st["dupes"] += 1
+                dupes_removed += 1
+                continue
+            canon_seen[ck] = cid
             key = f"{cid}:{j.get('id') or j.get('url')}"
+            first_seen = seen["jobs"].get(key) or today.isoformat()
+            # Posted dates only come from the employer's own system or board; page checks have none.
+            posted_v = None if page_only else parse_date(j.get("posted"))
+            open_now.append({"company": co_name, "board": c.get("board"), "priority": c["priority"], "title": title,
+                             "role_band": role_band(title), "location": j.get("location") or "", "location_kind": kind,
+                             "url": j.get("url"), "canonical_url": cu, "req_id": req_id(j.get("url")),
+                             "posted": posted_v, "posted_source": None if page_only else adapter,
+                             "first_seen": first_seen, "last_verified": today.isoformat(), "system": adapter})
             if key in seen["jobs"]:
                 continue
-            posted = parse_date(j.get("posted"))
+            posted = posted_v
             if posted and posted < cutoff:
                 seen["jobs"][key] = today.isoformat()  # too old: remember it, don't report it
                 continue
@@ -198,8 +242,10 @@ def main():
                 "title": title, "location": j.get("location") or "", "location_kind": kind,
                 "remote": bool(j.get("remote")), "url": j.get("url"), "posted": posted,
                 "baseline": first_time and not posted, "system": cfg.get("adapter"),
+                "role_band": role_band(title), "req_id": req_id(j.get("url")), "canonical_url": cu,
+                "first_seen": today.isoformat(), "last_verified": today.isoformat(),
             })
-        if err is None:
+        if extracted:
             seen["companies"][cid] = today.isoformat()
         status[cid] = st
 
@@ -210,7 +256,7 @@ def main():
     (RES / "history" / f"{stamp}.json").write_text(json.dumps(run_payload, indent=1))
     # latest.json = new matches from every run in the last 36 hours, so a mid-day run never hides an earlier find.
     # Older runs are re-screened with today's rules.
-    window = (now - timedelta(hours=36)).strftime("%Y-%m-%dT%H%M%S")
+    window = (now - timedelta(days=FRESH_DAYS)).strftime("%Y-%m-%dT%H%M%S")
     merged = {}
     for f in sorted((RES / "history").glob("*.json")):
         if f.stem < window and f.stem[:10] != today.isoformat():
@@ -223,7 +269,10 @@ def main():
             kind = location_kind(j.get("location") or j["title"], j.get("remote"))
             if kind is None and (j["system"] != "pagewatch" or other_place(j.get("location") or j["title"])):
                 continue
-            merged[j.get("url") or j["title"] + j["company"]] = j
+            if j.get("posted") and j["posted"] < cutoff:
+                continue
+            j.setdefault("role_band", role_band(j["title"]))
+            merged[canon_url(j.get("url")) or j["title"] + j["company"]] = j
     latest = list(merged.values())
     latest.sort(key=lambda x: (order.get(x["location_kind"], 9), x["priority"], x["company"]))
     payload = {"run_at": now.isoformat(timespec="seconds"), "date": today.isoformat(), "count": len(latest), "jobs": latest}
@@ -233,22 +282,32 @@ def main():
     (RES / "open_now.json").write_text(json.dumps({"date": today.isoformat(), "count": len(open_now), "jobs": open_now}, indent=1))
     (RES / "status.json").write_text(json.dumps(status, indent=1, sort_keys=True))
 
-    ok = sum(1 for s in status.values() if s["ok"])
+    ok = sum(1 for s in status.values() if s["extracted"])
+    no_list = [s for s in status.values() if s["state"] == "no_listings_found"]
+    failed = [s for s in status.values() if s["state"] == "failed"]
     by_adapter = {}
     for s in status.values():
         a = by_adapter.setdefault(s["adapter"], [0, 0, 0])
         a[0] += 1
-        a[1] += 1 if s["ok"] else 0
+        a[1] += 1 if s["extracted"] else 0
         a[2] += s["jobs"]
     lines = [f"# Watchlist run {today.isoformat()}", "",
              f"- Companies checked: {ok} of {len(status)} answered",
+             f"- Sources with listings extracted: {ok} · page loaded but no listings found: {len(no_list)} · failed: {len(failed)}",
+             f"- Duplicates removed across sources: {dupes_removed}",
+             f"- Age window: {FRESH_DAYS} days (jobs with a verified older post date are kept in open_now.json only)",
              f"- Jobs read: {sum(s['jobs'] for s in status.values())}",
              f"- Jobs matching your roles (any location): {sum(s['role_matches'] for s in status.values())}",
              f"- ...of those in DFW, remote US or Austin/Houston/San Antonio: {sum(s['matches'] for s in status.values())}",
              f"- New matching jobs: {len(latest)}",
-             f"- All open matching jobs at watched companies: {len(open_now)} (see open_now.json)", "", "| System | Companies | Answered | Jobs seen |", "|---|---|---|---|"]
+             f"- All open matching jobs at watched companies: {len(open_now)} (see open_now.json)", "", "| System | Companies | Listings extracted | Jobs seen |", "|---|---|---|---|"]
     for a, (n, k, jn) in sorted(by_adapter.items(), key=lambda x: -x[1][0]):
         lines.append(f"| {a} | {n} | {k} | {jn} |")
+    lines += ["", "## Needs attention (priority 1-2, no listings extracted)", ""]
+    for s_ in sorted(no_list + failed, key=lambda x: (str(x.get("priority")), x["company"])):
+        if str(s_.get("priority")) in ("1", "2", "B"):
+            lines.append(f"- {s_['company']} ({s_['adapter']}): {s_['state']}{' - ' + s_['error'] if s_.get('error') else ''}"
+                         f" · last success: {s_.get('last_success') or 'never'}")
     lines += ["", "## New matches", ""]
     for j in latest[:200]:
         lines.append(f"- **{j['title']}** — {j['company']} ({j['location'] or j['location_kind']}) {j['posted'] or ''} {j['url']}")

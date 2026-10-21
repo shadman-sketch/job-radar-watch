@@ -1,4 +1,4 @@
-"""Title, location and date rules for Shadman's IT support search."""
+"""Title, location and date rules for an entry-level IT support job search."""
 import re
 from datetime import datetime, timedelta, timezone
 
@@ -29,7 +29,9 @@ TITLE_INCLUDE = re.compile(
     r"(microsoft 365|m365|o365|office 365) (administrator|admin|specialist|analyst)|"
     r"(junior|jr\.?|associate|entry[- ]level) (systems?|network|m365) (administrator|admin)|"
     r"it apprentice\w*|apprentice\w* (it|information technology|technology)|it rotational|technology rotational|"
-    r"(it|information technology|technology) (co-?op|rotation\w*))",
+    r"(it|information technology|technology) (co-?op|rotation\w*)|"
+    r"field support (technician|specialist)|endpoint (technician|specialist|analyst)|it field (technician|services)|"
+    r"technical support (specialist|technician|analyst|associate)|support specialist\b)",
     re.I,
 )
 
@@ -64,6 +66,30 @@ NON_US = re.compile(
     r"korea|taiwan|vietnam|malaysia|indonesia|pakistan|bangladesh|nigeria|kenya|uae|dubai|saudi)\b",
     re.I,
 )
+
+
+CORE = re.compile(
+    r"\b(help ?desk|service ?desk|desktop support|deskside|end[- ]?user (support|services|technician|specialist)|"
+    r"it support|i\.t\. support|technical support (specialist|technician|analyst|associate)|it (technician|tech)\b|"
+    r"it specialist (i|1)?\b|it analyst (i|1)\b|endpoint support|field (it|support) (technician|specialist)|"
+    r"onsite (it|support)|computer (technician|support)|technology support|campus technology|"
+    r"(systems?|user|client|computer) support (specialist|technician|analyst)|personal computing|"
+    r"(it|information technology) (intern|internship|co-?op|apprentice\w*))", re.I)
+STRETCH = re.compile(
+    r"\b(soc analyst|security operations|cyber ?security (analyst|associate)|support engineer|desktop engineer|"
+    r"network (support|technician)|level (2|ii)|tier (2|ii)|systems? administrator|sysadmin)", re.I)
+
+
+def role_band(title):
+    """'core' = direct match to the help desk / desktop / IT support work on the resume,
+    'adjacent' = related role the resume supports with some framing,
+    'stretch' = plausible but asks for more depth than the resume shows."""
+    t = title or ""
+    if STRETCH.search(t):
+        return "stretch"
+    if CORE.search(t):
+        return "core"
+    return "adjacent"
 
 
 def title_ok(title):

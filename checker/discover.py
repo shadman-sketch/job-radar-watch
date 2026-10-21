@@ -60,7 +60,62 @@ def static_probe(s, url):
     return None, r.url
 
 
-def browser_probe(urls):
+def _norm(x):
+    return re.sub(r"[^a-z0-9]", "", (x or "").lower())
+
+
+def slug_candidates(company, url):
+    from urllib.parse import urlparse
+    name = re.sub(r"\b(inc|llc|corp|corporation|company|co|holdings?|group|the|ltd|plc)\b\.?", "", company, flags=re.I)
+    base = [_norm(name), re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")]
+    host = urlparse(url).netloc.lower().split(":")[0]
+    parts = [p for p in host.split(".") if p not in ("www", "careers", "jobs", "com", "org", "net", "io", "co", "us", "en")]
+    base += [_norm(p) for p in parts[:1]] + [p for p in parts[:1]]
+    out = []
+    for b in base:
+        if b and len(b) >= 3 and b not in out:
+            out.append(b)
+    return out[:4]
+
+
+def slug_probe(company, url):
+    """Try the public job APIs of common systems with slugs guessed from the company name / domain.
+    Accept only boards that return jobs and whose board name resembles the company."""
+    s = session()
+    want = _norm(company)[:8]
+    for slug in slug_candidates(company, url):
+        tries = [
+            ("greenhouse", f"https://boards-api.greenhouse.io/v1/boards/{slug}", None),
+            ("lever", f"https://api.lever.co/v0/postings/{slug}?mode=json&limit=1", None),
+            ("ashby", f"https://api.ashbyhq.com/posting-api/job-board/{slug}", None),
+            ("smartrecruiters", f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=1", None),
+        ]
+        for adapter, api, _ in tries:
+            try:
+                r = s.get(api, timeout=15)
+                if r.status_code != 200:
+                    continue
+                d = r.json()
+                if adapter == "greenhouse":
+                    if want and want[:5] not in _norm(d.get("name")):
+                        continue
+                    jr = s.get(api + "/jobs", timeout=15)
+                    if jr.status_code == 200 and jr.json().get("jobs"):
+                        return {"adapter": "greenhouse", "token": slug}
+                elif adapter == "lever" and isinstance(d, list) and d:
+                    return {"adapter": "lever", "token": slug}
+                elif adapter == "ashby" and d.get("jobs"):
+                    return {"adapter": "ashby", "token": slug}
+                elif adapter == "smartrecruiters" and d.get("totalFound", 0) > 0:
+                    cname = _norm(((d.get("content") or [{}])[0].get("company") or {}).get("name"))
+                    if want[:5] in cname:
+                        return {"adapter": "smartrecruiters", "token": slug}
+            except Exception:  # noqa: BLE001
+                continue
+    return None
+
+
+def browser_probe(urls, depth=1):
     """Render pages that hid their job system behind JavaScript; watch network calls too."""
     try:
         from playwright.sync_api import sync_playwright
@@ -81,6 +136,29 @@ def browser_probe(urls):
                 hrefs = page.eval_on_selector_all("a[href]", "els => els.map(e => e.href + ' ' + (e.innerText||''))")
                 blob = page.url + "\n" + "\n".join(reqs) + "\n" + "\n".join(hrefs) + "\n" + html_text
                 c = detect(blob)
+                if not c and depth > 0:
+                    follow = []
+                    for h in hrefs:
+                        href, _, text = h.partition(" ")
+                        if href.startswith("http") and (JOBLINK.search(text or "") or
+                                                        re.search(r"/(jobs|search-jobs|job-search|openings|positions|opportunities)(/|\?|$)", href, re.I)):
+                            follow.append(href)
+                    for link in list(dict.fromkeys(follow))[:3]:
+                        try:
+                            reqs.clear()
+                            page.goto(link, timeout=30000, wait_until="domcontentloaded")
+                            page.wait_for_timeout(4000)
+                            h2 = page.eval_on_selector_all("a[href]", "els => els.map(e => e.href)")
+                            blob2 = page.url + "\n" + "\n".join(reqs) + "\n" + "\n".join(h2) + "\n" + page.content()
+                            c = detect(blob2)
+                            if c:
+                                break
+                            ph2 = detect_phenom(page.content(), page.url)
+                            if ph2:
+                                c = [ph2]
+                                break
+                        except Exception:  # noqa: BLE001
+                            continue
                 if c:
                     found[cid] = (c[0], "browser")
                 else:
@@ -105,6 +183,8 @@ def main():
     resolved = json.loads(path.read_text()) if path.exists() else {}
     today = date.today()
     week_ago = (today - timedelta(days=7)).isoformat()
+    status_path = ROOT / "results/status.json"
+    last_status = json.loads(status_path.read_text()) if status_path.exists() else {}
 
     todo = []
     for c in companies:
@@ -113,6 +193,9 @@ def main():
             todo.append(c)
         elif r.get("adapter") == "pagewatch" and r.get("resolved_at", "") <= week_ago:
             todo.append(c)
+        elif (r.get("adapter") == "pagewatch" and c.get("priority") in ("1", "2")
+              and (last_status.get(c["id"]) or {}).get("jobs", 0) == 0 and r.get("resolved_at", "") < today.isoformat()):
+            todo.append(c)  # priority employers with no listings: retry every day until fixed
     print(f"discover: {len(todo)} of {len(companies)} companies to resolve")
 
     def work(c):
@@ -121,6 +204,10 @@ def main():
             return c, cands[0], "url"
         try:
             got, via = static_probe(session(), c["url"])
+            if not got:
+                sp = slug_probe(c["company"], c["url"])
+                if sp:
+                    return c, sp, "slug-probe"
             return c, got, via if got else "unresolved:" + str(via)
         except Exception as e:  # noqa: BLE001
             return c, None, f"error: {type(e).__name__}"
