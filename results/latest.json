@@ -1,7 +1,7 @@
 {
- "run_at": "2026-10-22T08:57:36+00:00",
- "date": "2026-10-22",
- "count": 18,
+ "run_at": "2026-10-23T08:53:49+00:00",
+ "date": "2026-10-23",
+ "count": 21,
  "jobs": [
   {
    "company_id": "80",
@@ -99,6 +99,26 @@
    "last_verified": "2026-10-22"
   },
   {
+   "company_id": "54",
+   "company": "Sutherland",
+   "board": null,
+   "priority": "1",
+   "sector": "IT services",
+   "title": "German-Speaking POS & Technical Support Specialist (Remote)",
+   "location": "Sofia, //SOFIA CITY PROVINCE, bg",
+   "location_kind": "remote",
+   "remote": true,
+   "url": "https://jobs.smartrecruiters.com/sutherland/744000157402739",
+   "posted": "2026-10-23",
+   "baseline": false,
+   "system": "smartrecruiters",
+   "role_band": "core",
+   "req_id": null,
+   "canonical_url": "https://jobs.smartrecruiters.com/sutherland/744000157402739",
+   "first_seen": "2026-10-23",
+   "last_verified": "2026-10-23"
+  },
+  {
    "company_id": "155",
    "company": "Allegion",
    "board": null,
@@ -117,6 +137,26 @@
    "canonical_url": "https://allegion.wd5.myworkdayjobs.com/careers/job/remote-alberta/product-configurator-it-analyst_jr38091",
    "first_seen": "2026-10-22",
    "last_verified": "2026-10-22"
+  },
+  {
+   "company_id": "946",
+   "company": "Zoetis",
+   "board": null,
+   "priority": "3",
+   "sector": "Health Care",
+   "title": "Diagnostics Technical Support Representative",
+   "location": "US Remote",
+   "location_kind": "remote",
+   "remote": true,
+   "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/US-Remote/Diagnostics-Technical-Support-Representative_JR00021901",
+   "posted": "2026-10-22",
+   "baseline": false,
+   "system": "workday",
+   "role_band": "adjacent",
+   "req_id": null,
+   "canonical_url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/us-remote/diagnostics-technical-support-representative_jr00021901",
+   "first_seen": "2026-10-23",
+   "last_verified": "2026-10-23"
   },
   {
    "company_id": "1082",
@@ -227,6 +267,26 @@
    "canonical_url": "https://frostbank.wd5.myworkdayjobs.com/external/job/san-antonio-tx---warehouse/internal-support-specialist_r261889",
    "first_seen": "2026-10-21",
    "last_verified": "2026-10-21"
+  },
+  {
+   "company_id": "104",
+   "company": "Natera",
+   "board": null,
+   "priority": "2",
+   "sector": "Technology / business services",
+   "title": "IT Helpdesk Specialist 2",
+   "location": "Austin, TX",
+   "location_kind": "tx_metro",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/natera/jobs/6226381004",
+   "posted": "2026-10-22",
+   "baseline": false,
+   "system": "greenhouse",
+   "role_band": "core",
+   "req_id": "6226381004",
+   "canonical_url": "https://job-boards.greenhouse.io/natera/jobs/6226381004",
+   "first_seen": "2026-10-23",
+   "last_verified": "2026-10-23"
   },
   {
    "company_id": "1044",
