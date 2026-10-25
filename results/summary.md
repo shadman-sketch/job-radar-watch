@@ -1,44 +1,44 @@
-# Watchlist run 2026-10-24
+# Watchlist run 2026-10-25
 
-- Companies checked: 1326 of 1526 answered
-- Sources with listings extracted: 1326 · page loaded but no listings found: 131 · failed: 69
+- Companies checked: 1328 of 1526 answered
+- Sources with listings extracted: 1328 · page loaded but no listings found: 123 · failed: 75
 - Duplicates removed across sources: 1
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 70273
-- Jobs matching your roles (any location): 734
+- Jobs read: 70602
+- Jobs matching your roles (any location): 730
 - ...of those in DFW, remote US or Austin/Houston/San Antonio: 59
 - New matching jobs: 24
 - All open matching jobs at watched companies: 58 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 424 | 299 | 3535 |
-| greenhouse | 275 | 275 | 18056 |
-| workday | 266 | 266 | 20294 |
-| ashby | 149 | 149 | 8239 |
+| pagewatch | 424 | 299 | 3559 |
+| greenhouse | 275 | 275 | 18052 |
+| workday | 272 | 272 | 20693 |
+| ashby | 149 | 149 | 8236 |
 | lever | 75 | 75 | 3959 |
-| phenom | 64 | 64 | 149 |
+| phenom | 64 | 64 | 148 |
 | icims | 63 | 0 | 0 |
-| smartrecruiters | 48 | 48 | 9591 |
+| smartrecruiters | 48 | 48 | 9579 |
 | jobvite | 43 | 43 | 795 |
-| oracle | 32 | 32 | 1854 |
-| workable | 27 | 27 | 506 |
+| oracle | 32 | 32 | 1855 |
+| workable | 27 | 27 | 507 |
 | ultipro | 12 | 12 | 361 |
-| workday+page | 10 | 8 | 75 |
-| eightfold+page | 10 | 10 | 189 |
+| eightfold+page | 10 | 10 | 182 |
 | greenhouse+page | 5 | 2 | 6 |
+| workday+page | 4 | 4 | 56 |
 | phenom+page | 4 | 3 | 55 |
 | adp | 4 | 4 | 29 |
 | breezy | 3 | 3 | 31 |
 | recruitee | 2 | 2 | 57 |
-| rippling | 2 | 2 | 691 |
+| rippling | 2 | 2 | 689 |
 | ashby+page | 2 | 0 | 0 |
 | ultipro+page | 1 | 1 | 2 |
 | recruitee+page | 1 | 0 | 0 |
 | rippling+page | 1 | 0 | 0 |
 | lever+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1799 |
+| board | 1 | 1 | 1751 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
