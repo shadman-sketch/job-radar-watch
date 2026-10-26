@@ -1,44 +1,45 @@
-# Watchlist run 2026-10-25
+# Watchlist run 2026-10-26
 
-- Companies checked: 1328 of 1526 answered
-- Sources with listings extracted: 1328 · page loaded but no listings found: 123 · failed: 75
+- Companies checked: 1336 of 1526 answered
+- Sources with listings extracted: 1336 · page loaded but no listings found: 114 · failed: 76
 - Duplicates removed across sources: 1
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 70602
-- Jobs matching your roles (any location): 730
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 59
-- New matching jobs: 24
-- All open matching jobs at watched companies: 58 (see open_now.json)
+- Jobs read: 78277
+- Jobs matching your roles (any location): 784
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 79
+- New matching jobs: 46
+- All open matching jobs at watched companies: 78 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 424 | 299 | 3559 |
-| greenhouse | 275 | 275 | 18052 |
-| workday | 272 | 272 | 20693 |
-| ashby | 149 | 149 | 8236 |
-| lever | 75 | 75 | 3959 |
-| phenom | 64 | 64 | 148 |
-| icims | 63 | 0 | 0 |
-| smartrecruiters | 48 | 48 | 9579 |
-| jobvite | 43 | 43 | 795 |
-| oracle | 32 | 32 | 1855 |
+| pagewatch | 346 | 231 | 3676 |
+| greenhouse | 313 | 313 | 22570 |
+| workday | 276 | 276 | 20918 |
+| ashby | 155 | 155 | 8303 |
+| lever | 78 | 78 | 3997 |
+| phenom | 64 | 64 | 144 |
+| icims | 64 | 0 | 0 |
+| smartrecruiters | 59 | 59 | 11904 |
+| jobvite | 43 | 43 | 794 |
+| oracle | 37 | 37 | 2208 |
 | workable | 27 | 27 | 507 |
+| eightfold+page | 17 | 16 | 269 |
 | ultipro | 12 | 12 | 361 |
-| eightfold+page | 10 | 10 | 182 |
+| workday+page | 6 | 6 | 68 |
 | greenhouse+page | 5 | 2 | 6 |
-| workday+page | 4 | 4 | 56 |
 | phenom+page | 4 | 3 | 55 |
 | adp | 4 | 4 | 29 |
 | breezy | 3 | 3 | 31 |
 | recruitee | 2 | 2 | 57 |
-| rippling | 2 | 2 | 689 |
+| rippling | 2 | 2 | 690 |
 | ashby+page | 2 | 0 | 0 |
 | ultipro+page | 1 | 1 | 2 |
 | recruitee+page | 1 | 0 | 0 |
+| eightfold | 1 | 1 | 28 |
 | rippling+page | 1 | 0 | 0 |
 | lever+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1751 |
+| board | 1 | 1 | 1660 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
@@ -87,10 +88,32 @@
 - **Internal Support Specialist** — Frost Bank (San Antonio, TX - Warehouse) 2026-10-20 https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---Warehouse/Internal-Support-Specialist_R261889
 - **Imaging Specialist** — Frost Bank (San Antonio, TX - One Frost) 2026-10-23 https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---One-Frost/Imaging-Specialist_R262075
 - **IT Helpdesk Specialist 2** — Natera (Austin, TX) 2026-10-22 https://job-boards.greenhouse.io/natera/jobs/6226381004
+- **Advanced Technical Support Specialist US MDT** — Patterson-UTI Energy (Houston, TX, United States) 2026-10-16 https://fa-elpm-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/6731
 - **IT Service Desk Technician** — CAE (Ft Hood, Texas) 2026-10-21 https://cae.wd3.myworkdayjobs.com/career/job/Ft-Hood-Texas/IT-Service-Desk-Technician_124298
 - **it/av support specialist** — Randstad Digital (it/av support specialist)  https://www.randstadusa.com/jobs/4/1365328/it-av-support-specialist_houston/
 - **Technical Support Specialist II, Ophthalmology** — UT Southwestern Medical Center (Technical Support Specialist II, Ophthalmology)  https://jobs.utsouthwestern.edu/job/23866589/technical-support-specialist-ii-ophthalmology/
+- **Support Technician Nacelle** — AAR (Support Technician Nacelle)  https://www.aarcorp.com/globalassets/6.-careers/thailand/job-descriptions/2026-51component-services-thailand_support-technician-nacelle.pdf
+- **IS Professional, ITSM ServiceNow Administration** — AptarGroup (IS Professional, ITSM ServiceNow Administration)  https://jobs.aptar.com/job/El-Marques-Queretaro-IS-Professional%2C-ITSM-ServiceNow-Administration-Quer-76246/1438134733/
+- **Cyber Security Analyst** — Autoliv (Cyber Security Analyst)  https://careermexico.autoliv.com/jobs/7003209-cyber-security-analyst
+- **Fire Kitchen Systems Technician** — Cintas (Fire Kitchen Systems Technician)  https://careers.cintas.com/job/Jacksonville-Fire-Kitchen-Systems-Technician-FL-32256/1443375900/
+- **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78839ea0f4259801a117a2e00512a4&source=&lang=en
+- **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78839ea0f4259801a117a3c03212f7&source=&lang=en
+- **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a7887a1a150293901a15f58a5e64057&source=&lang=en
+- **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a7887ac9e6b0bf7019e85980f471cd9&source=&lang=en
+- **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a7883ac9e235a1c019e428e951f076c&source=&lang=en
+- **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a7887a8a0abfc8001a0d543aaba74a6&source=&lang=en
+- **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78839ea146082801a146ac119324fc&source=&lang=en
+- **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78879e9fd3ba5c01a03f1bdcfe0702&source=&lang=en
+- **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78839ea146082801a146acb358251e&source=&lang=en
+- **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78879e9fd3ba5c01a03f1abd71067e&source=&lang=en
+- **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78839ea146082801a146ab9a7a24ce&source=&lang=en
+- **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78879e9fd3ba5c01a03f041a437dc8&source=&lang=en
+- **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78879e9fd3ba5c01a03f1c7edb0739&source=&lang=en
+- **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78879e9fd3ba5c01a03f1d91720783&source=&lang=en
 - **Apply now about data center technician** — Oracle (unknown)  https://www.oracle.com/careers/opportunities/data-center-jobs/
 - **Expert Business System Specialist** — PG&E (Expert Business System Specialist)  https://jobs.pge.com/job/oakland/expert-business-system-specialist/29673/100467158224
+- **IT Applications Analyst - Power Generation Systems Support** — WEC Energy Group (IT Applications Analyst - Power Generation Systems Support)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Applications-Analyst-Power-Generation-Systems-Support-WI-53203/1442964900/
+- **IT Cybersecurity Analyst - Vulnerability Management Cyber Security Engineer** — WEC Energy Group (IT Cybersecurity Analyst - Vulnerability Management Cyber Security Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Vulnerability-Management-Cyber-Security-Engineer-WI-53203/1421663300/
+- **Desktop Engineer** — WEC Energy Group (Desktop Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-Desktop-Engineer-WI-53203/1405379100/
 - **Technical Support Engineer (Tier 2) Role Title: Technical Support Engineer (Tier 2) - Microwave transmission Department: Global Support Subd** — Ceragon Networks (unknown)  https://www.ceragon.com/about-ceragon/careers/technical-support-engineer-tier-2-34-e62
 - **IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support** — Luxoft (IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support)  https://career.luxoft.com/jobs/it-systems-management-analyst-28570
