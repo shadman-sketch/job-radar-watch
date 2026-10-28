@@ -1,7 +1,7 @@
 {
- "run_at": "2026-10-27T08:59:35+00:00",
- "date": "2026-10-27",
- "count": 47,
+ "run_at": "2026-10-28T09:14:16+00:00",
+ "date": "2026-10-28",
+ "count": 51,
  "jobs": [
   {
    "company_id": "30",
@@ -484,6 +484,26 @@
    "last_verified": "2026-10-26"
   },
   {
+   "company_id": "227",
+   "company": "BorgWarner",
+   "board": null,
+   "priority": "3",
+   "sector": "Motor Vehicles & Parts",
+   "title": "IT Intern",
+   "location": "IT Intern",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-4069",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "core",
+   "req_id": null,
+   "canonical_url": "https://www.borgwarner.com/careers/job-search?id=R2026-4069",
+   "first_seen": "2026-10-28",
+   "last_verified": "2026-10-28"
+  },
+  {
    "company_id": "279",
    "company": "Cintas",
    "board": null,
@@ -502,6 +522,26 @@
    "canonical_url": "https://careers.cintas.com/job/jacksonville-fire-kitchen-systems-technician-fl-32256/1443375900",
    "first_seen": "2026-10-26",
    "last_verified": "2026-10-26"
+  },
+  {
+   "company_id": "348",
+   "company": "Eastman Chemical",
+   "board": null,
+   "priority": "3",
+   "sector": "Chemicals",
+   "title": "Cybersecurity Analyst",
+   "location": "Cybersecurity Analyst",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://jobs.eastman.com/job/Hyderabad-Cybersecurity-Analyst-500-008/1408082800/",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "stretch",
+   "req_id": null,
+   "canonical_url": "https://jobs.eastman.com/job/hyderabad-cybersecurity-analyst-500-008/1408082800",
+   "first_seen": "2026-10-28",
+   "last_verified": "2026-10-28"
   },
   {
    "company_id": "366",
@@ -784,6 +824,26 @@
    "last_verified": "2026-10-26"
   },
   {
+   "company_id": "575",
+   "company": "ManTech International",
+   "board": null,
+   "priority": "3",
+   "sector": "Technology",
+   "title": "Computer User Support Specialist",
+   "location": "Computer User Support Specialist",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://careers.mantech.com/en_US/careers/JobDetail/Computer-User-Support-Specialist/66801",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "core",
+   "req_id": null,
+   "canonical_url": "https://careers.mantech.com/en_us/careers/jobdetail/computer-user-support-specialist/66801",
+   "first_seen": "2026-10-28",
+   "last_verified": "2026-10-28"
+  },
+  {
    "company_id": "674",
    "company": "Oracle",
    "priority": "3",
@@ -873,6 +933,26 @@
    "canonical_url": "https://careers.wecenergygroup.com/job/milwaukee-desktop-engineer-wi-53203/1405379100",
    "first_seen": "2026-10-26",
    "last_verified": "2026-10-26"
+  },
+  {
+   "company_id": "915",
+   "company": "WEC Energy Group",
+   "board": null,
+   "priority": "3",
+   "sector": "Energy",
+   "title": "IT Cybersecurity Analyst - Identity and Access Management (IAM) Engineer",
+   "location": "IT Cybersecurity Analyst - Identity and Access Management (IAM) Engineer",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Identity-and-Access-Management-%28IAM%29-Engineer-WI-53203/1424641900/",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "stretch",
+   "req_id": null,
+   "canonical_url": "https://careers.wecenergygroup.com/job/milwaukee-it-cybersecurity-analyst-identity-and-access-management-%28iam%29-engineer-wi-53203/1424641900",
+   "first_seen": "2026-10-28",
+   "last_verified": "2026-10-28"
   },
   {
    "company_id": "1060",

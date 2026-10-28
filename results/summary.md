@@ -1,37 +1,37 @@
-# Watchlist run 2026-10-27
+# Watchlist run 2026-10-28
 
-- Companies checked: 1337 of 1526 answered
-- Sources with listings extracted: 1337 · page loaded but no listings found: 122 · failed: 67
+- Companies checked: 1338 of 1526 answered
+- Sources with listings extracted: 1338 · page loaded but no listings found: 115 · failed: 73
 - Duplicates removed across sources: 1
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 78103
-- Jobs matching your roles (any location): 777
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 79
-- New matching jobs: 47
-- All open matching jobs at watched companies: 78 (see open_now.json)
+- Jobs read: 78589
+- Jobs matching your roles (any location): 768
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 81
+- New matching jobs: 51
+- All open matching jobs at watched companies: 80 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 346 | 232 | 3685 |
-| greenhouse | 313 | 313 | 22563 |
-| workday | 276 | 276 | 20940 |
-| ashby | 155 | 155 | 8284 |
-| lever | 78 | 78 | 3971 |
-| phenom | 64 | 64 | 144 |
+| pagewatch | 346 | 233 | 3682 |
+| greenhouse | 313 | 313 | 22561 |
+| workday | 276 | 276 | 21011 |
+| ashby | 155 | 155 | 8288 |
+| lever | 78 | 78 | 3961 |
+| phenom | 64 | 64 | 141 |
 | icims | 64 | 0 | 0 |
-| smartrecruiters | 59 | 59 | 11666 |
-| jobvite | 43 | 43 | 794 |
-| oracle | 37 | 37 | 2195 |
-| workable | 27 | 27 | 506 |
-| eightfold+page | 17 | 16 | 264 |
-| ultipro | 12 | 12 | 365 |
+| smartrecruiters | 59 | 59 | 12001 |
+| jobvite | 43 | 43 | 800 |
+| oracle | 37 | 37 | 2214 |
+| workable | 27 | 27 | 516 |
+| eightfold+page | 17 | 16 | 262 |
+| ultipro | 12 | 12 | 366 |
 | workday+page | 6 | 6 | 68 |
 | greenhouse+page | 5 | 2 | 6 |
-| phenom+page | 4 | 3 | 55 |
+| phenom+page | 4 | 3 | 54 |
 | adp | 4 | 4 | 29 |
 | breezy | 3 | 3 | 31 |
 | recruitee | 2 | 2 | 58 |
-| rippling | 2 | 2 | 696 |
+| rippling | 2 | 2 | 699 |
 | ashby+page | 2 | 0 | 0 |
 | ultipro+page | 1 | 1 | 2 |
 | recruitee+page | 1 | 0 | 0 |
@@ -39,7 +39,7 @@
 | rippling+page | 1 | 0 | 0 |
 | lever+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1754 |
+| board | 1 | 1 | 1812 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
@@ -53,7 +53,7 @@
 - JPS Health Network (pagewatch): no_listings_found · last success: never
 - Motion Recruitment (pagewatch): no_listings_found · last success: never
 - NTT DATA (icims): failed - blocked by bot check · last success: never
-- Stream Data Centers (pagewatch): no_listings_found · last success: never
+- Stream Data Centers (pagewatch): failed - Error · last success: never
 - The Container Store (icims): failed - blocked by bot check · last success: never
 - American Airlines (pagewatch): no_listings_found · last success: never
 - Bell Textron (pagewatch): no_listings_found · last success: never
@@ -96,7 +96,9 @@
 - **Support Technician Nacelle** — AAR (Support Technician Nacelle)  https://www.aarcorp.com/globalassets/6.-careers/thailand/job-descriptions/2026-51component-services-thailand_support-technician-nacelle.pdf
 - **IS Professional, ITSM ServiceNow Administration** — AptarGroup (IS Professional, ITSM ServiceNow Administration)  https://jobs.aptar.com/job/El-Marques-Queretaro-IS-Professional%2C-ITSM-ServiceNow-Administration-Quer-76246/1438134733/
 - **Cyber Security Analyst** — Autoliv (Cyber Security Analyst)  https://careermexico.autoliv.com/jobs/7003209-cyber-security-analyst
+- **IT Intern** — BorgWarner (IT Intern)  https://www.borgwarner.com/careers/job-search?id=R2026-4069
 - **Fire Kitchen Systems Technician** — Cintas (Fire Kitchen Systems Technician)  https://careers.cintas.com/job/Jacksonville-Fire-Kitchen-Systems-Technician-FL-32256/1443375900/
+- **Cybersecurity Analyst** — Eastman Chemical (Cybersecurity Analyst)  https://jobs.eastman.com/job/Hyderabad-Cybersecurity-Analyst-500-008/1408082800/
 - **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78839ea0f4259801a117a2e00512a4&source=&lang=en
 - **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78839ea0f4259801a117a3c03212f7&source=&lang=en
 - **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a7887a1a150293901a15f58a5e64057&source=&lang=en
@@ -111,10 +113,12 @@
 - **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78879e9fd3ba5c01a03f041a437dc8&source=&lang=en
 - **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78879e9fd3ba5c01a03f1c7edb0739&source=&lang=en
 - **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78879e9fd3ba5c01a03f1d91720783&source=&lang=en
+- **Computer User Support Specialist** — ManTech International (Computer User Support Specialist)  https://careers.mantech.com/en_US/careers/JobDetail/Computer-User-Support-Specialist/66801
 - **Apply now about data center technician** — Oracle (unknown)  https://www.oracle.com/careers/opportunities/data-center-jobs/
 - **Expert Business System Specialist** — PG&E (Expert Business System Specialist)  https://jobs.pge.com/job/oakland/expert-business-system-specialist/29673/100467158224
 - **IT Applications Analyst - Power Generation Systems Support** — WEC Energy Group (IT Applications Analyst - Power Generation Systems Support)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Applications-Analyst-Power-Generation-Systems-Support-WI-53203/1442964900/
 - **IT Cybersecurity Analyst - Vulnerability Management Cyber Security Engineer** — WEC Energy Group (IT Cybersecurity Analyst - Vulnerability Management Cyber Security Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Vulnerability-Management-Cyber-Security-Engineer-WI-53203/1421663300/
 - **Desktop Engineer** — WEC Energy Group (Desktop Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-Desktop-Engineer-WI-53203/1405379100/
+- **IT Cybersecurity Analyst - Identity and Access Management (IAM) Engineer** — WEC Energy Group (IT Cybersecurity Analyst - Identity and Access Management (IAM) Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Identity-and-Access-Management-%28IAM%29-Engineer-WI-53203/1424641900/
 - **Technical Support Engineer (Tier 2) Role Title: Technical Support Engineer (Tier 2) - Microwave transmission Department: Global Support Subd** — Ceragon Networks (unknown)  https://www.ceragon.com/about-ceragon/careers/technical-support-engineer-tier-2-34-e62
 - **IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support** — Luxoft (IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support)  https://career.luxoft.com/jobs/it-systems-management-analyst-28570
