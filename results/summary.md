@@ -1,45 +1,45 @@
-# Watchlist run 2026-10-28
+# Watchlist run 2026-10-29
 
 - Companies checked: 1338 of 1526 answered
-- Sources with listings extracted: 1338 · page loaded but no listings found: 115 · failed: 73
+- Sources with listings extracted: 1338 · page loaded but no listings found: 114 · failed: 74
 - Duplicates removed across sources: 1
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 78589
-- Jobs matching your roles (any location): 768
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 81
+- Jobs read: 78661
+- Jobs matching your roles (any location): 759
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 74
 - New matching jobs: 51
-- All open matching jobs at watched companies: 80 (see open_now.json)
+- All open matching jobs at watched companies: 73 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 346 | 233 | 3682 |
-| greenhouse | 313 | 313 | 22561 |
-| workday | 276 | 276 | 21011 |
-| ashby | 155 | 155 | 8288 |
-| lever | 78 | 78 | 3961 |
-| phenom | 64 | 64 | 141 |
+| pagewatch | 346 | 233 | 3668 |
+| greenhouse | 314 | 314 | 22582 |
+| workday | 276 | 276 | 21046 |
+| ashby | 155 | 155 | 8280 |
+| lever | 78 | 78 | 3934 |
+| phenom | 64 | 64 | 143 |
 | icims | 64 | 0 | 0 |
-| smartrecruiters | 59 | 59 | 12001 |
-| jobvite | 43 | 43 | 800 |
-| oracle | 37 | 37 | 2214 |
-| workable | 27 | 27 | 516 |
-| eightfold+page | 17 | 16 | 262 |
-| ultipro | 12 | 12 | 366 |
+| smartrecruiters | 59 | 59 | 12027 |
+| jobvite | 43 | 43 | 807 |
+| oracle | 37 | 37 | 2213 |
+| workable | 27 | 27 | 512 |
+| eightfold+page | 17 | 16 | 263 |
+| ultipro | 12 | 12 | 371 |
 | workday+page | 6 | 6 | 68 |
-| greenhouse+page | 5 | 2 | 6 |
-| phenom+page | 4 | 3 | 54 |
+| phenom+page | 4 | 3 | 55 |
 | adp | 4 | 4 | 29 |
+| greenhouse+page | 4 | 1 | 2 |
 | breezy | 3 | 3 | 31 |
 | recruitee | 2 | 2 | 58 |
-| rippling | 2 | 2 | 699 |
+| rippling | 2 | 2 | 727 |
 | ashby+page | 2 | 0 | 0 |
 | ultipro+page | 1 | 1 | 2 |
 | recruitee+page | 1 | 0 | 0 |
-| eightfold | 1 | 1 | 27 |
+| eightfold | 1 | 1 | 28 |
 | rippling+page | 1 | 0 | 0 |
 | lever+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1812 |
+| board | 1 | 1 | 1815 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
