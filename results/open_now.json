@@ -1,6 +1,6 @@
 {
- "date": "2026-10-29",
- "count": 73,
+ "date": "2026-10-30",
+ "count": 76,
  "jobs": [
   {
    "company": "Frost Bank",
@@ -16,7 +16,7 @@
    "posted": "2026-10-01",
    "posted_source": "workday",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -33,7 +33,7 @@
    "posted": "2026-09-16",
    "posted_source": "oracle",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "oracle"
   },
   {
@@ -50,7 +50,7 @@
    "posted": "2026-10-26",
    "posted_source": "oracle",
    "first_seen": "2026-10-27",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "oracle"
   },
   {
@@ -67,7 +67,7 @@
    "posted": "2026-09-30",
    "posted_source": "workday",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -84,7 +84,7 @@
    "posted": "2026-10-02",
    "posted_source": "oracle",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "oracle"
   },
   {
@@ -101,7 +101,7 @@
    "posted": "2026-10-21",
    "posted_source": "oracle",
    "first_seen": "2026-10-22",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "oracle"
   },
   {
@@ -115,10 +115,10 @@
    "url": "https://vanguard.wd5.myworkdayjobs.com/Vanguard_External/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Application-Development---TX-_181846",
    "canonical_url": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/dallasft-worth-tx/college-to-corporate-it-internship---application-development---tx-_181846",
    "req_id": null,
-   "posted": "2026-09-29",
+   "posted": "2026-09-30",
    "posted_source": "workday",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -132,11 +132,62 @@
    "url": "https://vanguard.wd5.myworkdayjobs.com/Vanguard_External/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Risk---Security---Engineer_181851",
    "canonical_url": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/dallasft-worth-tx/college-to-corporate-it-internship---risk---security---engineer_181851",
    "req_id": null,
-   "posted": "2026-09-29",
+   "posted": "2026-09-30",
    "posted_source": "workday",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
+  },
+  {
+   "company": "Fortinet",
+   "board": null,
+   "priority": "3",
+   "title": "Network Support Engineer",
+   "role_band": "stretch",
+   "location": "Frisco, TX, United States",
+   "location_kind": "dfw",
+   "url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/20800",
+   "canonical_url": "https://edel.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_2001/job/20800",
+   "req_id": "20800",
+   "posted": "2026-10-29",
+   "posted_source": "oracle",
+   "first_seen": "2026-10-30",
+   "last_verified": "2026-10-30",
+   "system": "oracle"
+  },
+  {
+   "company": "Fortinet",
+   "board": null,
+   "priority": "3",
+   "title": "Network Support Engineer",
+   "role_band": "stretch",
+   "location": "Frisco, TX, United States",
+   "location_kind": "dfw",
+   "url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/20823",
+   "canonical_url": "https://edel.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_2001/job/20823",
+   "req_id": "20823",
+   "posted": "2026-10-29",
+   "posted_source": "oracle",
+   "first_seen": "2026-10-30",
+   "last_verified": "2026-10-30",
+   "system": "oracle"
+  },
+  {
+   "company": "Fortinet",
+   "board": null,
+   "priority": "3",
+   "title": "Network Support Engineer",
+   "role_band": "stretch",
+   "location": "Frisco, TX, United States",
+   "location_kind": "dfw",
+   "url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/21761",
+   "canonical_url": "https://edel.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_2001/job/21761",
+   "req_id": "21761",
+   "posted": "2026-10-29",
+   "posted_source": "oracle",
+   "first_seen": "2026-10-30",
+   "last_verified": "2026-10-30",
+   "system": "oracle"
   },
   {
    "company": "Motorola Solutions",
@@ -152,7 +203,7 @@
    "posted": "2026-10-19",
    "posted_source": "workday",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -169,7 +220,7 @@
    "posted": "2026-10-05",
    "posted_source": "workday",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -186,7 +237,7 @@
    "posted": "2026-10-06",
    "posted_source": "workday",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -200,10 +251,10 @@
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Specialist---DoD-SkillBridge_R68211",
    "canonical_url": "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/allen-tx-tx139/technical-support-specialist---dod-skillbridge_r68211",
    "req_id": "R68211",
-   "posted": "2026-09-29",
+   "posted": "2026-09-30",
    "posted_source": "workday",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -220,7 +271,7 @@
    "posted": "2026-10-09",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "smartrecruiters"
   },
   {
@@ -237,7 +288,7 @@
    "posted": "2026-09-23",
    "posted_source": "lever",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "lever"
   },
   {
@@ -251,10 +302,10 @@
    "url": "https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Engineering-Licensing---Software-Asset-Specialist_122232",
    "canonical_url": "https://cae.wd3.myworkdayjobs.com/career/job/arlington-tx/engineering-licensing---software-asset-specialist_122232",
    "req_id": null,
-   "posted": "2026-09-29",
+   "posted": "2026-09-30",
    "posted_source": "workday",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -268,10 +319,10 @@
    "url": "https://jobs.a16z.com/jobs/zipline/7996211003--field-support-technician",
    "canonical_url": "https://jobs.a16z.com/jobs/zipline/7996211003--field-support-technician",
    "req_id": null,
-   "posted": "2026-09-29",
+   "posted": "2026-09-30",
    "posted_source": "board",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "board"
   },
   {
@@ -288,7 +339,7 @@
    "posted": "2026-10-26",
    "posted_source": "workday",
    "first_seen": "2026-10-22",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -305,7 +356,7 @@
    "posted": "2026-10-23",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-23",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "smartrecruiters"
   },
   {
@@ -322,7 +373,7 @@
    "posted": "2026-07-15",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "ashby"
   },
   {
@@ -339,7 +390,7 @@
    "posted": "2026-10-02",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "ashby"
   },
   {
@@ -356,7 +407,7 @@
    "posted": "2026-10-23",
    "posted_source": "ashby",
    "first_seen": "2026-10-24",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "ashby"
   },
   {
@@ -373,7 +424,7 @@
    "posted": "2026-10-07",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "ashby"
   },
   {
@@ -390,7 +441,7 @@
    "posted": "2026-10-22",
    "posted_source": "workday",
    "first_seen": "2026-10-23",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -407,7 +458,7 @@
    "posted": "2026-05-18",
    "posted_source": "lever",
    "first_seen": "2026-10-27",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "lever"
   },
   {
@@ -424,7 +475,7 @@
    "posted": "2026-09-14",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "ashby"
   },
   {
@@ -441,7 +492,7 @@
    "posted": "2026-05-28",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "ashby"
   },
   {
@@ -458,7 +509,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "smartrecruiters"
   },
   {
@@ -475,7 +526,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "smartrecruiters"
   },
   {
@@ -492,7 +543,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "smartrecruiters"
   },
   {
@@ -509,7 +560,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "smartrecruiters"
   },
   {
@@ -526,7 +577,7 @@
    "posted": null,
    "posted_source": "rippling",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "rippling"
   },
   {
@@ -543,7 +594,7 @@
    "posted": "2026-10-20",
    "posted_source": "board",
    "first_seen": "2026-10-21",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "board"
   },
   {
@@ -557,28 +608,11 @@
    "url": "https://jobs.a16z.com/jobs/skydio/3ac81a34-b7fe-4142-9d29-12bcc1376182--technical-support-specialist",
    "canonical_url": "https://jobs.a16z.com/jobs/skydio/3ac81a34-b7fe-4142-9d29-12bcc1376182--technical-support-specialist",
    "req_id": "3AC81A34-B7FE-4142-9D29-12BCC1376182",
-   "posted": "2026-09-29",
+   "posted": "2026-09-30",
    "posted_source": "board",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "board"
-  },
-  {
-   "company": "Frost Bank",
-   "board": null,
-   "priority": "1",
-   "title": "Imaging Specialist",
-   "role_band": "adjacent",
-   "location": "San Antonio, TX - One Frost",
-   "location_kind": "tx_metro",
-   "url": "https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---One-Frost/Imaging-Specialist_R262075",
-   "canonical_url": "https://frostbank.wd5.myworkdayjobs.com/external/job/san-antonio-tx---one-frost/imaging-specialist_r262075",
-   "req_id": "R262075",
-   "posted": "2026-10-23",
-   "posted_source": "workday",
-   "first_seen": "2026-10-24",
-   "last_verified": "2026-10-29",
-   "system": "workday"
   },
   {
    "company": "Frost Bank",
@@ -594,7 +628,7 @@
    "posted": "2026-10-20",
    "posted_source": "workday",
    "first_seen": "2026-10-21",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -611,7 +645,7 @@
    "posted": "2026-04-03",
    "posted_source": "breezy",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "breezy"
   },
   {
@@ -628,7 +662,7 @@
    "posted": "2026-05-19",
    "posted_source": "breezy",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "breezy"
   },
   {
@@ -645,7 +679,7 @@
    "posted": "2026-08-24",
    "posted_source": "breezy",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "breezy"
   },
   {
@@ -662,7 +696,7 @@
    "posted": "2026-10-22",
    "posted_source": "greenhouse",
    "first_seen": "2026-10-23",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "greenhouse"
   },
   {
@@ -679,7 +713,7 @@
    "posted": "2026-09-09",
    "posted_source": "ashby",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "ashby"
   },
   {
@@ -693,10 +727,10 @@
    "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Austin-TX/Technology-Support-Associate_R29881",
    "canonical_url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/usa---austin-tx/technology-support-associate_r29881",
    "req_id": "R29881",
-   "posted": "2026-09-29",
+   "posted": "2026-09-30",
    "posted_source": "workday",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -713,7 +747,7 @@
    "posted": "2026-08-03",
    "posted_source": "oracle",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "oracle"
   },
   {
@@ -730,7 +764,7 @@
    "posted": "2026-10-16",
    "posted_source": "oracle",
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "oracle"
   },
   {
@@ -744,10 +778,10 @@
    "url": "https://zayo.wd1.myworkdayjobs.com/Zayo_Careers/job/TX---Austin/Deployment-Technician-II_R0016978",
    "canonical_url": "https://zayo.wd1.myworkdayjobs.com/zayo_careers/job/tx---austin/deployment-technician-ii_r0016978",
    "req_id": "R0016978",
-   "posted": "2026-09-29",
+   "posted": "2026-09-30",
    "posted_source": "workday",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -764,7 +798,7 @@
    "posted": "2026-08-25",
    "posted_source": "ashby",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "ashby"
   },
   {
@@ -781,7 +815,24 @@
    "posted": "2026-09-15",
    "posted_source": "ashby",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
+   "system": "ashby"
+  },
+  {
+   "company": "FlockSafety",
+   "board": null,
+   "priority": "4",
+   "title": "Field Deployment Specialist",
+   "role_band": "adjacent",
+   "location": "Atlanta, GA / San Francisco, CA / Remote - USA / Chicago, IL / Denver, CO / Boston, MA / Los Angeles, CA / Austin, TX",
+   "location_kind": "tx_metro",
+   "url": "https://jobs.ashbyhq.com/Flock%20Safety/3f4a9ae5-dff0-4a1c-9436-df5e61d67cdd",
+   "canonical_url": "https://jobs.ashbyhq.com/flock%20safety/3f4a9ae5-dff0-4a1c-9436-df5e61d67cdd",
+   "req_id": "3F4A9AE5-DFF0-4A1C-9436-DF5E61D67CDD",
+   "posted": "2026-10-29",
+   "posted_source": "ashby",
+   "first_seen": "2026-10-30",
+   "last_verified": "2026-10-30",
    "system": "ashby"
   },
   {
@@ -798,7 +849,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "smartrecruiters"
   },
   {
@@ -812,10 +863,10 @@
    "url": "https://jobs.a16z.com/jobs/base-power-company/c6228333-5f84-4363-9a3a-fd1dfb8ad1a2--hardware-technical-program-management-intern",
    "canonical_url": "https://jobs.a16z.com/jobs/base-power-company/c6228333-5f84-4363-9a3a-fd1dfb8ad1a2--hardware-technical-program-management-intern",
    "req_id": "C6228333-5F84-4363-9A3A-FD1DFB8AD1A2",
-   "posted": "2026-08-30",
+   "posted": "2026-08-31",
    "posted_source": "board",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "board"
   },
   {
@@ -829,10 +880,10 @@
    "url": "https://unisys.wd5.myworkdayjobs.com/External/job/Barstow-TX-United-States-of-America/Data-Center-Technician---Barstow--TX_REQ570885",
    "canonical_url": "https://unisys.wd5.myworkdayjobs.com/external/job/barstow-tx-united-states-of-america/data-center-technician---barstow--tx_req570885",
    "req_id": null,
-   "posted": "2026-09-29",
+   "posted": "2026-09-30",
    "posted_source": "workday",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -849,7 +900,7 @@
    "posted": "2026-06-08",
    "posted_source": "greenhouse",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "greenhouse"
   },
   {
@@ -863,10 +914,10 @@
    "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/Cyber-Security-Analyst_JR100681",
    "canonical_url": "https://prim.wd108.myworkdayjobs.com/primoris/job/texas/cyber-security-analyst_jr100681",
    "req_id": null,
-   "posted": "2026-09-29",
+   "posted": "2026-09-30",
    "posted_source": "workday",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -883,7 +934,7 @@
    "posted": "2026-10-26",
    "posted_source": "workday",
    "first_seen": "2026-10-22",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "workday"
   },
   {
@@ -900,7 +951,24 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
+   "system": "pagewatch"
+  },
+  {
+   "company": "Ametek",
+   "board": null,
+   "priority": "3",
+   "title": "ServiceNow Administrator & Platform Analyst",
+   "role_band": "adjacent",
+   "location": "ServiceNow Administrator & Platform Analyst",
+   "location_kind": "unknown",
+   "url": "https://jobs.ametek.com/job/Bangalore-ServiceNow-Administrator-&-Platform-Analyst-KA-560048/1415705500/",
+   "canonical_url": "https://jobs.ametek.com/job/bangalore-servicenow-administrator-&-platform-analyst-ka-560048/1415705500",
+   "req_id": null,
+   "posted": null,
+   "posted_source": null,
+   "first_seen": "2026-10-30",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -917,7 +985,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -934,7 +1002,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -951,7 +1019,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-28",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -968,7 +1036,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -985,7 +1053,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1002,7 +1070,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1019,7 +1087,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1036,7 +1104,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1053,7 +1121,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1070,7 +1138,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1087,7 +1155,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1104,7 +1172,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1121,7 +1189,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1138,7 +1206,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1155,7 +1223,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1172,7 +1240,24 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
+   "system": "pagewatch"
+  },
+  {
+   "company": "Supermicro",
+   "board": null,
+   "priority": "3",
+   "title": "Quality System Specialist",
+   "role_band": "adjacent",
+   "location": "Quality System Specialist",
+   "location_kind": "unknown",
+   "url": "https://jobs.supermicro.com/job/Chungho-Quality-System-Specialist-Taiw/1339217900/",
+   "canonical_url": "https://jobs.supermicro.com/job/chungho-quality-system-specialist-taiw/1339217900",
+   "req_id": null,
+   "posted": null,
+   "posted_source": null,
+   "first_seen": "2026-10-30",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1189,7 +1274,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-28",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   },
   {
@@ -1206,41 +1291,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
-   "system": "pagewatch"
-  },
-  {
-   "company": "WEC Energy Group",
-   "board": null,
-   "priority": "3",
-   "title": "IT Cybersecurity Analyst - Vulnerability Management Cyber Security Engineer",
-   "role_band": "stretch",
-   "location": "IT Cybersecurity Analyst - Vulnerability Management Cyber Security Engineer",
-   "location_kind": "unknown",
-   "url": "https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Vulnerability-Management-Cyber-Security-Engineer-WI-53203/1421663300/",
-   "canonical_url": "https://careers.wecenergygroup.com/job/milwaukee-it-cybersecurity-analyst-vulnerability-management-cyber-security-engineer-wi-53203/1421663300",
-   "req_id": null,
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
-   "system": "pagewatch"
-  },
-  {
-   "company": "WEC Energy Group",
-   "board": null,
-   "priority": "3",
-   "title": "Desktop Engineer",
-   "role_band": "stretch",
-   "location": "Desktop Engineer",
-   "location_kind": "unknown",
-   "url": "https://careers.wecenergygroup.com/job/Milwaukee-Desktop-Engineer-WI-53203/1405379100/",
-   "canonical_url": "https://careers.wecenergygroup.com/job/milwaukee-desktop-engineer-wi-53203/1405379100",
-   "req_id": null,
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-10-26",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "system": "pagewatch"
   }
  ]
