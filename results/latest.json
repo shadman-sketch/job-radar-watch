@@ -1,7 +1,7 @@
 {
- "run_at": "2026-10-30T09:07:54+00:00",
- "date": "2026-10-30",
- "count": 57,
+ "run_at": "2026-10-31T08:58:00+00:00",
+ "date": "2026-10-31",
+ "count": 58,
  "jobs": [
   {
    "company_id": "30",
@@ -409,26 +409,6 @@
    "last_verified": "2026-10-23"
   },
   {
-   "company_id": "694",
-   "company": "Patterson-UTI Energy",
-   "board": null,
-   "priority": "3",
-   "sector": "Energy",
-   "title": "Advanced Technical Support Specialist US MDT",
-   "location": "Houston, TX, United States",
-   "location_kind": "tx_metro",
-   "remote": false,
-   "url": "https://fa-elpm-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/6731",
-   "posted": "2026-10-16",
-   "baseline": false,
-   "system": "oracle",
-   "role_band": "core",
-   "req_id": "6731",
-   "canonical_url": "https://fa-elpm-saasfaprod1.fa.ocs.oraclecloud.com/hcmui/candidateexperience/en/sites/cx/job/6731",
-   "first_seen": "2026-10-26",
-   "last_verified": "2026-10-26"
-  },
-  {
    "company_id": "1169",
    "company": "FlockSafety",
    "board": null,
@@ -447,6 +427,26 @@
    "canonical_url": "https://jobs.ashbyhq.com/flock%20safety/3f4a9ae5-dff0-4a1c-9436-df5e61d67cdd",
    "first_seen": "2026-10-30",
    "last_verified": "2026-10-30"
+  },
+  {
+   "company_id": "297",
+   "company": "Community Health Systems",
+   "board": null,
+   "priority": "3",
+   "sector": "Health Care",
+   "title": "Network Technician",
+   "location": "Corsicana, TX, United States",
+   "location_kind": "texas",
+   "remote": false,
+   "url": "https://fa-evxo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/169133",
+   "posted": "2026-10-30",
+   "baseline": false,
+   "system": "oracle",
+   "role_band": "stretch",
+   "req_id": "169133",
+   "canonical_url": "https://fa-evxo-saasfaprod1.fa.ocs.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1/job/169133",
+   "first_seen": "2026-10-31",
+   "last_verified": "2026-10-31"
   },
   {
    "company_id": "1044",
@@ -1104,6 +1104,26 @@
    "baseline": false,
    "system": "pagewatch",
    "role_band": "core"
+  },
+  {
+   "company_id": "1093",
+   "company": "dbt Labs",
+   "board": null,
+   "priority": "4",
+   "sector": "Technology / media / other",
+   "title": "IT Operations Analyst II",
+   "location": "IT Operations Analyst II",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://www.fivetran.com/careers/job?gh_jid=8007247003",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "adjacent",
+   "req_id": "8007247003",
+   "canonical_url": "https://www.fivetran.com/careers/job?gh_jid=8007247003",
+   "first_seen": "2026-10-31",
+   "last_verified": "2026-10-31"
   }
  ]
 }

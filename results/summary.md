@@ -1,45 +1,45 @@
-# Watchlist run 2026-10-30
+# Watchlist run 2026-10-31
 
-- Companies checked: 1335 of 1526 answered
-- Sources with listings extracted: 1335 · page loaded but no listings found: 116 · failed: 75
+- Companies checked: 1328 of 1526 answered
+- Sources with listings extracted: 1328 · page loaded but no listings found: 125 · failed: 73
 - Duplicates removed across sources: 1
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 78984
-- Jobs matching your roles (any location): 766
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 77
-- New matching jobs: 57
-- All open matching jobs at watched companies: 76 (see open_now.json)
+- Jobs read: 75119
+- Jobs matching your roles (any location): 696
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 73
+- New matching jobs: 58
+- All open matching jobs at watched companies: 72 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 346 | 230 | 3605 |
-| greenhouse | 314 | 314 | 22634 |
-| workday | 276 | 276 | 20863 |
-| ashby | 155 | 155 | 8308 |
-| lever | 78 | 78 | 3939 |
+| pagewatch | 346 | 230 | 3601 |
+| greenhouse | 314 | 314 | 22619 |
+| workday | 226 | 226 | 16569 |
+| ashby | 155 | 155 | 8336 |
+| lever | 78 | 78 | 3936 |
+| phenom | 64 | 64 | 148 |
 | icims | 64 | 0 | 0 |
-| phenom | 63 | 63 | 147 |
-| smartrecruiters | 59 | 59 | 12145 |
-| jobvite | 43 | 43 | 808 |
-| oracle | 37 | 37 | 2197 |
-| workable | 27 | 27 | 513 |
-| eightfold+page | 17 | 16 | 243 |
-| ultipro | 11 | 11 | 272 |
-| workday+page | 6 | 6 | 68 |
-| phenom+page | 5 | 4 | 56 |
+| smartrecruiters | 59 | 59 | 12087 |
+| workday+page | 56 | 49 | 559 |
+| jobvite | 43 | 43 | 799 |
+| oracle | 37 | 37 | 2208 |
+| workable | 27 | 27 | 517 |
+| eightfold+page | 17 | 16 | 251 |
+| ultipro | 11 | 11 | 269 |
+| phenom+page | 4 | 3 | 55 |
 | adp | 4 | 4 | 30 |
 | greenhouse+page | 4 | 1 | 2 |
-| breezy | 3 | 3 | 31 |
-| ultipro+page | 2 | 2 | 504 |
-| recruitee | 2 | 2 | 54 |
-| rippling | 2 | 2 | 709 |
+| breezy | 3 | 3 | 30 |
+| ultipro+page | 2 | 2 | 507 |
+| recruitee | 2 | 2 | 55 |
+| rippling | 2 | 2 | 707 |
 | ashby+page | 2 | 0 | 0 |
 | recruitee+page | 1 | 0 | 0 |
-| eightfold | 1 | 1 | 29 |
+| eightfold | 1 | 1 | 28 |
 | rippling+page | 1 | 0 | 0 |
 | lever+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1827 |
+| board | 1 | 1 | 1806 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
@@ -92,8 +92,8 @@
 - **Internal Support Specialist** — Frost Bank (San Antonio, TX - Warehouse) 2026-10-20 https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---Warehouse/Internal-Support-Specialist_R261889
 - **Imaging Specialist** — Frost Bank (San Antonio, TX - One Frost) 2026-10-23 https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---One-Frost/Imaging-Specialist_R262075
 - **IT Helpdesk Specialist 2** — Natera (Austin, TX) 2026-10-22 https://job-boards.greenhouse.io/natera/jobs/6226381004
-- **Advanced Technical Support Specialist US MDT** — Patterson-UTI Energy (Houston, TX, United States) 2026-10-16 https://fa-elpm-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/6731
 - **Field Deployment Specialist** — FlockSafety (Atlanta, GA / San Francisco, CA / Remote - USA / Chicago, IL / Denver, CO / Boston, MA / Los Angeles, CA / Austin, TX) 2026-10-29 https://jobs.ashbyhq.com/Flock%20Safety/3f4a9ae5-dff0-4a1c-9436-df5e61d67cdd
+- **Network Technician** — Community Health Systems (Corsicana, TX, United States) 2026-10-30 https://fa-evxo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/169133
 - **IT Service Desk Technician** — CAE (Ft Hood, Texas) 2026-10-21 https://cae.wd3.myworkdayjobs.com/career/job/Ft-Hood-Texas/IT-Service-Desk-Technician_124298
 - **it/av support specialist** — Randstad Digital (it/av support specialist)  https://www.randstadusa.com/jobs/4/1365328/it-av-support-specialist_houston/
 - **Technical Support Specialist II, Ophthalmology** — UT Southwestern Medical Center (Technical Support Specialist II, Ophthalmology)  https://jobs.utsouthwestern.edu/job/23866589/technical-support-specialist-ii-ophthalmology/
@@ -128,3 +128,4 @@
 - **IT Cybersecurity Analyst - Identity and Access Management (IAM) Engineer** — WEC Energy Group (IT Cybersecurity Analyst - Identity and Access Management (IAM) Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Identity-and-Access-Management-%28IAM%29-Engineer-WI-53203/1424641900/
 - **Technical Support Engineer (Tier 2) Role Title: Technical Support Engineer (Tier 2) - Microwave transmission Department: Global Support Subd** — Ceragon Networks (unknown)  https://www.ceragon.com/about-ceragon/careers/technical-support-engineer-tier-2-34-e62
 - **IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support** — Luxoft (IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support)  https://career.luxoft.com/jobs/it-systems-management-analyst-28570
+- **IT Operations Analyst II** — dbt Labs (IT Operations Analyst II)  https://www.fivetran.com/careers/job?gh_jid=8007247003
