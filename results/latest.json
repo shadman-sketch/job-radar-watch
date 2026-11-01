@@ -1,7 +1,7 @@
 {
- "run_at": "2026-10-31T08:58:00+00:00",
- "date": "2026-10-31",
- "count": 58,
+ "run_at": "2026-11-01T09:01:53+00:00",
+ "date": "2026-11-01",
+ "count": 59,
  "jobs": [
   {
    "company_id": "30",
@@ -922,6 +922,26 @@
    "canonical_url": "https://recruitingbypaycor.com/career/jobintroduction.action?id=8a78879e9fd3ba5c01a03f1d91720783",
    "first_seen": "2026-10-26",
    "last_verified": "2026-10-26"
+  },
+  {
+   "company_id": "504",
+   "company": "Ingles Markets",
+   "board": null,
+   "priority": "3",
+   "sector": "Food & Drug Stores",
+   "title": "Helpdesk Technician",
+   "location": "Helpdesk Technician",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://jobs.inglescareers.com/job/Black-Mountain-Helpdesk-Technician-NC-28711/1416638900/",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "core",
+   "req_id": null,
+   "canonical_url": "https://jobs.inglescareers.com/job/black-mountain-helpdesk-technician-nc-28711/1416638900",
+   "first_seen": "2026-11-01",
+   "last_verified": "2026-11-01"
   },
   {
    "company_id": "575",

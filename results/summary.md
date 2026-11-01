@@ -1,31 +1,31 @@
-# Watchlist run 2026-10-31
+# Watchlist run 2026-11-01
 
-- Companies checked: 1328 of 1526 answered
-- Sources with listings extracted: 1328 · page loaded but no listings found: 125 · failed: 73
+- Companies checked: 1335 of 1526 answered
+- Sources with listings extracted: 1335 · page loaded but no listings found: 117 · failed: 74
 - Duplicates removed across sources: 1
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 75119
-- Jobs matching your roles (any location): 696
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 73
-- New matching jobs: 58
-- All open matching jobs at watched companies: 72 (see open_now.json)
+- Jobs read: 78726
+- Jobs matching your roles (any location): 768
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 77
+- New matching jobs: 59
+- All open matching jobs at watched companies: 76 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 346 | 230 | 3601 |
-| greenhouse | 314 | 314 | 22619 |
-| workday | 226 | 226 | 16569 |
+| pagewatch | 346 | 231 | 3654 |
+| greenhouse | 314 | 314 | 22615 |
+| workday | 277 | 276 | 20707 |
 | ashby | 155 | 155 | 8336 |
-| lever | 78 | 78 | 3936 |
-| phenom | 64 | 64 | 148 |
+| lever | 78 | 78 | 3940 |
+| phenom | 64 | 64 | 147 |
 | icims | 64 | 0 | 0 |
-| smartrecruiters | 59 | 59 | 12087 |
-| workday+page | 56 | 49 | 559 |
+| smartrecruiters | 59 | 59 | 12003 |
 | jobvite | 43 | 43 | 799 |
-| oracle | 37 | 37 | 2208 |
+| oracle | 37 | 37 | 2206 |
 | workable | 27 | 27 | 517 |
-| eightfold+page | 17 | 16 | 251 |
+| eightfold+page | 17 | 16 | 257 |
 | ultipro | 11 | 11 | 269 |
+| workday+page | 5 | 5 | 58 |
 | phenom+page | 4 | 3 | 55 |
 | adp | 4 | 4 | 30 |
 | greenhouse+page | 4 | 1 | 2 |
@@ -39,11 +39,12 @@
 | rippling+page | 1 | 0 | 0 |
 | lever+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1806 |
+| board | 1 | 1 | 1804 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
 - Allied Universal (icims): failed - blocked by bot check · last success: never
+- Bank of America (workday): failed - HTTPError: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs · last success: 2026-10-31
 - Calance (pagewatch): no_listings_found · last success: never
 - Charles Schwab (icims): failed - blocked by bot check · last success: never
 - CompuCom (pagewatch): no_listings_found · last success: never
@@ -118,6 +119,7 @@
 - **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78879e9fd3ba5c01a03f041a437dc8&source=&lang=en
 - **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78879e9fd3ba5c01a03f1c7edb0739&source=&lang=en
 - **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78879e9fd3ba5c01a03f1d91720783&source=&lang=en
+- **Helpdesk Technician** — Ingles Markets (Helpdesk Technician)  https://jobs.inglescareers.com/job/Black-Mountain-Helpdesk-Technician-NC-28711/1416638900/
 - **Computer User Support Specialist** — ManTech International (Computer User Support Specialist)  https://careers.mantech.com/en_US/careers/JobDetail/Computer-User-Support-Specialist/66801
 - **Apply now about data center technician** — Oracle (unknown)  https://www.oracle.com/careers/opportunities/data-center-jobs/
 - **Expert Business System Specialist** — PG&E (Expert Business System Specialist)  https://jobs.pge.com/job/oakland/expert-business-system-specialist/29673/100467158224
