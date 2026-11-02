@@ -1,29 +1,29 @@
-# Watchlist run 2026-11-01
+# Watchlist run 2026-11-02
 
 - Companies checked: 1335 of 1526 answered
 - Sources with listings extracted: 1335 · page loaded but no listings found: 117 · failed: 74
 - Duplicates removed across sources: 1
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 78726
-- Jobs matching your roles (any location): 768
+- Jobs read: 78516
+- Jobs matching your roles (any location): 762
 - ...of those in DFW, remote US or Austin/Houston/San Antonio: 77
-- New matching jobs: 59
+- New matching jobs: 60
 - All open matching jobs at watched companies: 76 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 346 | 231 | 3654 |
-| greenhouse | 314 | 314 | 22615 |
-| workday | 277 | 276 | 20707 |
-| ashby | 155 | 155 | 8336 |
-| lever | 78 | 78 | 3940 |
+| pagewatch | 344 | 229 | 3585 |
+| greenhouse | 315 | 315 | 22604 |
+| workday | 277 | 276 | 20721 |
+| ashby | 155 | 155 | 8308 |
+| lever | 78 | 78 | 3934 |
 | phenom | 64 | 64 | 147 |
 | icims | 64 | 0 | 0 |
-| smartrecruiters | 59 | 59 | 12003 |
-| jobvite | 43 | 43 | 799 |
-| oracle | 37 | 37 | 2206 |
-| workable | 27 | 27 | 517 |
-| eightfold+page | 17 | 16 | 257 |
+| smartrecruiters | 59 | 59 | 11984 |
+| jobvite | 43 | 43 | 796 |
+| oracle | 38 | 38 | 2260 |
+| workable | 27 | 27 | 515 |
+| eightfold+page | 17 | 16 | 251 |
 | ultipro | 11 | 11 | 269 |
 | workday+page | 5 | 5 | 58 |
 | phenom+page | 4 | 3 | 55 |
@@ -31,15 +31,15 @@
 | greenhouse+page | 4 | 1 | 2 |
 | breezy | 3 | 3 | 30 |
 | ultipro+page | 2 | 2 | 507 |
-| recruitee | 2 | 2 | 55 |
-| rippling | 2 | 2 | 707 |
+| recruitee | 2 | 2 | 54 |
+| rippling | 2 | 2 | 702 |
 | ashby+page | 2 | 0 | 0 |
 | recruitee+page | 1 | 0 | 0 |
 | eightfold | 1 | 1 | 28 |
 | rippling+page | 1 | 0 | 0 |
 | lever+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1804 |
+| board | 1 | 1 | 1676 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
@@ -129,5 +129,6 @@
 - **Desktop Engineer** — WEC Energy Group (Desktop Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-Desktop-Engineer-WI-53203/1405379100/
 - **IT Cybersecurity Analyst - Identity and Access Management (IAM) Engineer** — WEC Energy Group (IT Cybersecurity Analyst - Identity and Access Management (IAM) Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Identity-and-Access-Management-%28IAM%29-Engineer-WI-53203/1424641900/
 - **Technical Support Engineer (Tier 2) Role Title: Technical Support Engineer (Tier 2) - Microwave transmission Department: Global Support Subd** — Ceragon Networks (unknown)  https://www.ceragon.com/about-ceragon/careers/technical-support-engineer-tier-2-34-e62
+- **IT Support Spec I** — IGT (IT Support Spec I)  https://jobs.igt.com/IGT/job/Austin-IT-Support-Spec-I-TX-78727/1368885457/
 - **IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support** — Luxoft (IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support)  https://career.luxoft.com/jobs/it-systems-management-analyst-28570
 - **IT Operations Analyst II** — dbt Labs (IT Operations Analyst II)  https://www.fivetran.com/careers/job?gh_jid=8007247003

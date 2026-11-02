@@ -1,0 +1,27 @@
+{
+ "run_at": "2026-11-02T10:14:35+00:00",
+ "date": "2026-11-02",
+ "count": 1,
+ "jobs": [
+  {
+   "company_id": "1224",
+   "company": "IGT",
+   "board": null,
+   "priority": "4",
+   "sector": "Technology / media / other",
+   "title": "IT Support Spec I",
+   "location": "IT Support Spec I",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://jobs.igt.com/IGT/job/Austin-IT-Support-Spec-I-TX-78727/1368885457/",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "core",
+   "req_id": null,
+   "canonical_url": "https://jobs.igt.com/igt/job/austin-it-support-spec-i-tx-78727/1368885457",
+   "first_seen": "2026-11-02",
+   "last_verified": "2026-11-02"
+  }
+ ]
+}
