@@ -1,7 +1,7 @@
 {
- "run_at": "2026-11-02T10:14:35+00:00",
- "date": "2026-11-02",
- "count": 60,
+ "run_at": "2026-11-03T09:07:18+00:00",
+ "date": "2026-11-03",
+ "count": 61,
  "jobs": [
   {
    "company_id": "30",
@@ -124,21 +124,6 @@
    "last_verified": "2026-10-30"
   },
   {
-   "company_id": "618",
-   "company": "Motorola Solutions",
-   "priority": "3",
-   "sector": "Technology",
-   "title": "Technical Support Technician (Hybrid)",
-   "location": "Allen, TX (TX139), More...",
-   "location_kind": "dfw",
-   "remote": false,
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Technician--Hybrid-_R66161",
-   "posted": "2026-10-19",
-   "baseline": false,
-   "system": "workday",
-   "role_band": "core"
-  },
-  {
    "company_id": "6",
    "company": "AT&T",
    "board": null,
@@ -217,6 +202,26 @@
    "canonical_url": "https://allegion.wd5.myworkdayjobs.com/careers/job/remote-alberta/product-configurator-it-analyst_jr38091",
    "first_seen": "2026-10-22",
    "last_verified": "2026-10-22"
+  },
+  {
+   "company_id": "161",
+   "company": "Alpaca",
+   "board": null,
+   "priority": "3",
+   "sector": "Technology / business services",
+   "title": "IT Operations Specialist",
+   "location": "Remote - North America",
+   "location_kind": "remote",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/alpaca/jobs/6240586004",
+   "posted": "2026-11-02",
+   "baseline": false,
+   "system": "greenhouse",
+   "role_band": "adjacent",
+   "req_id": "6240586004",
+   "canonical_url": "https://job-boards.greenhouse.io/alpaca/jobs/6240586004",
+   "first_seen": "2026-11-03",
+   "last_verified": "2026-11-03"
   },
   {
    "company_id": "792",
@@ -299,21 +304,6 @@
    "last_verified": "2026-10-21"
   },
   {
-   "company_id": "1417",
-   "company": "Rippling",
-   "priority": "4",
-   "sector": "Technology / media / other",
-   "title": "Technical Support Specialist, Platform",
-   "location": "Remote (United States)",
-   "location_kind": "remote",
-   "remote": true,
-   "url": "https://ats.rippling.com/rippling/jobs/eae8615d-58fb-4e2f-bf8d-0e4c2bc6dbbd",
-   "posted": null,
-   "baseline": true,
-   "system": "rippling",
-   "role_band": "core"
-  },
-  {
    "company_id": "board:a16z",
    "company": "Nash",
    "board": "a16z portfolio jobs",
@@ -332,21 +322,6 @@
    "canonical_url": "https://jobs.a16z.com/jobs/nash/48e32fea-837b-4c7c-8246-c347543d1861--technical-support-specialist-us",
    "first_seen": "2026-10-21",
    "last_verified": "2026-10-21"
-  },
-  {
-   "company_id": "28",
-   "company": "Frost Bank",
-   "priority": "1",
-   "sector": "Financial services",
-   "title": "Service Desk Specialist",
-   "location": "San Antonio, TX - One Frost",
-   "location_kind": "tx_metro",
-   "remote": false,
-   "url": "https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---One-Frost/Service-Desk-Specialist_R262004",
-   "posted": "2026-10-20",
-   "baseline": false,
-   "system": "workday",
-   "role_band": "core"
   },
   {
    "company_id": "28",
@@ -467,21 +442,6 @@
    "canonical_url": "https://cae.wd3.myworkdayjobs.com/career/job/ft-hood-texas/it-service-desk-technician_124298",
    "first_seen": "2026-10-22",
    "last_verified": "2026-10-22"
-  },
-  {
-   "company_id": "47",
-   "company": "Randstad Digital",
-   "priority": "1",
-   "sector": "IT staffing and services",
-   "title": "it/av support specialist",
-   "location": "it/av support specialist",
-   "location_kind": "unknown",
-   "remote": false,
-   "url": "https://www.randstadusa.com/jobs/4/1365328/it-av-support-specialist_houston/",
-   "posted": null,
-   "baseline": false,
-   "system": "pagewatch",
-   "role_band": "adjacent"
   },
   {
    "company_id": "1502",
@@ -622,6 +582,26 @@
    "canonical_url": "https://careers.cintas.com/job/jacksonville-fire-kitchen-systems-technician-fl-32256/1443375900",
    "first_seen": "2026-10-26",
    "last_verified": "2026-10-26"
+  },
+  {
+   "company_id": "321",
+   "company": "Dana",
+   "board": null,
+   "priority": "3",
+   "sector": "Motor Vehicles & Parts",
+   "title": "Operating Engineer Level 1",
+   "location": "Operating Engineer Level 1",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1398846000/",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "adjacent",
+   "req_id": null,
+   "canonical_url": "https://jobs.dana.com/job/pune-operating-engineer-level-1-mh-410501/1398846000",
+   "first_seen": "2026-11-03",
+   "last_verified": "2026-11-03"
   },
   {
    "company_id": "348",
@@ -924,6 +904,26 @@
    "last_verified": "2026-10-26"
   },
   {
+   "company_id": "367",
+   "company": "Entergy",
+   "board": null,
+   "priority": "3",
+   "sector": "Energy",
+   "title": "Student, Intern, IT Workplace Services, Summer 2027",
+   "location": "Student, Intern, IT Workplace Services, Summer 2027",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://jobs.entergy.com/job/New-Orleans-Student%2C-Intern%2C-IT-Workplace-Services%2C-Summer-2027-Loui/1437086300/",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "adjacent",
+   "req_id": null,
+   "canonical_url": "https://jobs.entergy.com/job/new-orleans-student%2c-intern%2c-it-workplace-services%2c-summer-2027-loui/1437086300",
+   "first_seen": "2026-11-03",
+   "last_verified": "2026-11-03"
+  },
+  {
    "company_id": "504",
    "company": "Ingles Markets",
    "board": null,
@@ -964,19 +964,24 @@
    "last_verified": "2026-10-28"
   },
   {
-   "company_id": "674",
-   "company": "Oracle",
+   "company_id": "609",
+   "company": "Mohawk Industries",
+   "board": null,
    "priority": "3",
-   "sector": "Health Care",
-   "title": "Apply now about data center technician",
-   "location": "",
+   "sector": "Household Products",
+   "title": "IT Intern - Summer 2027",
+   "location": "IT Intern - Summer 2027",
    "location_kind": "unknown",
    "remote": false,
-   "url": "https://www.oracle.com/careers/opportunities/data-center-jobs/",
+   "url": "https://careers.mohawkind.com/mohawk/job/Calhoun-IT-Intern-Summer-2027-Geor-30701/1436568900/",
    "posted": null,
-   "baseline": true,
+   "baseline": false,
    "system": "pagewatch",
-   "role_band": "adjacent"
+   "role_band": "core",
+   "req_id": null,
+   "canonical_url": "https://careers.mohawkind.com/mohawk/job/calhoun-it-intern-summer-2027-geor-30701/1436568900",
+   "first_seen": "2026-11-03",
+   "last_verified": "2026-11-03"
   },
   {
    "company_id": "704",
@@ -1013,6 +1018,26 @@
    "canonical_url": "https://jobs.supermicro.com/job/chungho-quality-system-specialist-taiw/1339217900",
    "first_seen": "2026-10-30",
    "last_verified": "2026-10-30"
+  },
+  {
+   "company_id": "827",
+   "company": "Synopsys",
+   "board": null,
+   "priority": "3",
+   "sector": "Technology",
+   "title": "IT Support Administrator",
+   "location": "IT Support Administrator",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://careers.synopsys.com/job/cluj-napoca/it-support-administrator/44408/99760751952",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "core",
+   "req_id": null,
+   "canonical_url": "https://careers.synopsys.com/job/cluj-napoca/it-support-administrator/44408/99760751952",
+   "first_seen": "2026-11-03",
+   "last_verified": "2026-11-03"
   },
   {
    "company_id": "915",
@@ -1095,19 +1120,44 @@
    "last_verified": "2026-10-28"
   },
   {
-   "company_id": "1060",
-   "company": "Ceragon Networks",
-   "priority": "4",
-   "sector": "Technology / media / other",
-   "title": "Technical Support Engineer (Tier 2) Role Title: Technical Support Engineer (Tier 2) - Microwave transmission Department: Global Support Subd",
-   "location": "",
+   "company_id": "915",
+   "company": "WEC Energy Group",
+   "board": null,
+   "priority": "3",
+   "sector": "Energy",
+   "title": "IT Cybersecurity Analyst - Cloud Security Engineer",
+   "location": "IT Cybersecurity Analyst - Cloud Security Engineer",
    "location_kind": "unknown",
    "remote": false,
-   "url": "https://www.ceragon.com/about-ceragon/careers/technical-support-engineer-tier-2-34-e62",
+   "url": "https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Cloud-Security-Engineer-WI-53203/1421959900/",
    "posted": null,
-   "baseline": true,
+   "baseline": false,
    "system": "pagewatch",
-   "role_band": "stretch"
+   "role_band": "stretch",
+   "req_id": null,
+   "canonical_url": "https://careers.wecenergygroup.com/job/milwaukee-it-cybersecurity-analyst-cloud-security-engineer-wi-53203/1421959900",
+   "first_seen": "2026-11-03",
+   "last_verified": "2026-11-03"
+  },
+  {
+   "company_id": "915",
+   "company": "WEC Energy Group",
+   "board": null,
+   "priority": "3",
+   "sector": "Energy",
+   "title": "IT Cybersecurity Analyst - Data Security Engineer",
+   "location": "IT Cybersecurity Analyst - Data Security Engineer",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Data-Security-Engineer-WI-53203/1421548900/",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "stretch",
+   "req_id": null,
+   "canonical_url": "https://careers.wecenergygroup.com/job/milwaukee-it-cybersecurity-analyst-data-security-engineer-wi-53203/1421548900",
+   "first_seen": "2026-11-03",
+   "last_verified": "2026-11-03"
   },
   {
    "company_id": "1224",
