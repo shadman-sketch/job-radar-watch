@@ -1,45 +1,45 @@
-# Watchlist run 2026-11-03
+# Watchlist run 2026-11-05
 
 - Companies checked: 1316 of 1526 answered
 - Sources with listings extracted: 1316 · page loaded but no listings found: 134 · failed: 76
 - Duplicates removed across sources: 1
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 71605
-- Jobs matching your roles (any location): 651
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 72
-- New matching jobs: 61
-- All open matching jobs at watched companies: 71 (see open_now.json)
+- Jobs read: 69220
+- Jobs matching your roles (any location): 627
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 79
+- New matching jobs: 60
+- All open matching jobs at watched companies: 78 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 344 | 225 | 3609 |
-| greenhouse | 315 | 315 | 22569 |
-| workday | 184 | 181 | 13284 |
-| ashby | 155 | 155 | 8284 |
-| workday+page | 98 | 86 | 994 |
-| lever | 78 | 78 | 3920 |
+| pagewatch | 344 | 229 | 3614 |
+| greenhouse | 315 | 315 | 22527 |
+| ashby | 155 | 155 | 8234 |
+| workday | 143 | 140 | 10371 |
+| workday+page | 139 | 122 | 1377 |
+| lever | 78 | 78 | 3955 |
 | phenom | 64 | 64 | 141 |
 | icims | 64 | 0 | 0 |
-| smartrecruiters | 59 | 59 | 11949 |
-| jobvite | 43 | 43 | 812 |
-| oracle | 38 | 38 | 2291 |
-| workable | 27 | 27 | 514 |
-| eightfold+page | 17 | 15 | 243 |
-| ultipro | 12 | 12 | 327 |
+| smartrecruiters | 59 | 59 | 11983 |
+| jobvite | 43 | 43 | 799 |
+| oracle | 38 | 38 | 2338 |
+| workable | 27 | 27 | 520 |
+| eightfold+page | 17 | 16 | 260 |
+| ultipro | 12 | 12 | 336 |
 | phenom+page | 4 | 3 | 55 |
-| adp | 4 | 4 | 30 |
+| adp | 4 | 4 | 31 |
 | greenhouse+page | 4 | 1 | 2 |
-| breezy | 3 | 3 | 30 |
-| recruitee | 2 | 2 | 54 |
-| rippling | 2 | 2 | 713 |
+| breezy | 3 | 3 | 31 |
+| recruitee | 2 | 2 | 59 |
+| rippling | 2 | 2 | 745 |
 | ashby+page | 2 | 0 | 0 |
 | ultipro+page | 1 | 1 | 2 |
 | recruitee+page | 1 | 0 | 0 |
-| eightfold | 1 | 1 | 28 |
+| eightfold | 1 | 1 | 27 |
 | rippling+page | 1 | 0 | 0 |
 | lever+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1754 |
+| board | 1 | 1 | 1813 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
@@ -72,35 +72,31 @@
 ## New matches
 
 - **Cybersecurity Analyst - Tiger Team** — GM Financial (Irving, TX, United States) 2026-10-26 https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261111
-- **Service Desk Specialist** — Darling Ingredients (Irving, TX, United States) 2026-10-21 https://ekgz.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/DarlingII/job/1591
-- **Asset Coordinator - PTD Denton** — Primoris Services (Denton, TX) 2026-10-21 https://prim.wd108.myworkdayjobs.com/Primoris/job/Denton-TX/Asset-Coordinator---PTD-Denton_JR102968
 - **Network Support Engineer** — Fortinet (Frisco, TX, United States) 2026-10-29 https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/20800
 - **Network Support Engineer** — Fortinet (Frisco, TX, United States) 2026-10-29 https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/20823
 - **Network Support Engineer** — Fortinet (Frisco, TX, United States) 2026-10-29 https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/21761
-- **Specialist Network Technology Support** — AT&T (2 Locations) 2026-10-21 https://att.wd1.myworkdayjobs.com/ATTGeneral/job/Dallas-Texas/Specialist-Network-Technology-Support_R-125940
-- **Support Technician I - IN** — Rackspace Technology (IND-Work from Home-Remote) 2026-10-22 https://rackspace.wd1.myworkdayjobs.com/External/job/IND-Work-from-Home-Remote/Support-Technician-I_R-24047
 - **German-Speaking POS & Technical Support Specialist (Remote)** — Sutherland (Sofia, //SOFIA CITY PROVINCE, bg) 2026-10-23 https://jobs.smartrecruiters.com/sutherland/744000157402739
-- **Product Configurator IT Analyst** — Allegion (Remote, Alberta) 2026-10-21 https://allegion.wd5.myworkdayjobs.com/careers/job/Remote-Alberta/Product-Configurator-IT-Analyst_JR38091
+- **Level 2 NOC Systems Administrator – Linux/Unix Focus** — Unisys (USA Remote) 2026-11-03 https://unisys.wd5.myworkdayjobs.com/External/job/USA-Remote/Level-2-NOC-Systems-Administrator---Linux-Unix-Focus_REQ576786
 - **IT Operations Specialist** — Alpaca (Remote - North America) 2026-11-02 https://job-boards.greenhouse.io/alpaca/jobs/6240586004
 - **Network Specialist – Launch Team** — Skydio (US Remote) 2026-10-23 https://jobs.ashbyhq.com/skydio/8ba69d85-b786-4399-a5c0-ee0969054315
 - **Diagnostics Technical Support Representative** — Zoetis (US Remote) 2026-10-22 https://zoetis.wd5.myworkdayjobs.com/zoetis/job/US-Remote/Diagnostics-Technical-Support-Representative_JR00021901
-- **Tier 2 Network Engineer Remote (USA) CONTRACT 6 days ago** — CRB workforce (Tier 2 Network Engineer Remote (USA) CONTRACT 6 days ago)  https://crbworkforce.com/jobs/1768
-- **Tier 2 Network Engineer (U.S.) Remote (USA) DIRECT HIRE 1w ago** — CRB workforce (Tier 2 Network Engineer (U.S.) Remote (USA) DIRECT HIRE 1w ago)  https://crbworkforce.com/jobs/1770
-- **Technical Support Specialist , US** — Nash (Remote, US, United States) 2026-10-21 https://jobs.a16z.com/jobs/nash/48e32fea-837b-4c7c-8246-c347543d1861--technical-support-specialist-us
-- **Internal Support Specialist** — Frost Bank (San Antonio, TX - Warehouse) 2026-10-20 https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---Warehouse/Internal-Support-Specialist_R261889
+- **Product Support Specialist, Eastern/Central Time** — Linear (North America) 2026-11-03 https://jobs.ashbyhq.com/linear/b4df9dbe-618e-4a3b-874c-c9abf87ca5c0
 - **Imaging Specialist** — Frost Bank (San Antonio, TX - One Frost) 2026-10-23 https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---One-Frost/Imaging-Specialist_R262075
 - **IT Helpdesk Specialist 2** — Natera (Austin, TX) 2026-10-22 https://job-boards.greenhouse.io/natera/jobs/6226381004
+- **Industrial IT Support Specialist** — Base Power (Austin, TX) 2026-11-03 https://jobs.ashbyhq.com/base-power/070fee5a-4235-4588-9751-33f3664f9655
 - **Field Deployment Specialist** — FlockSafety (Atlanta, GA / San Francisco, CA / Remote - USA / Chicago, IL / Denver, CO / Boston, MA / Los Angeles, CA / Austin, TX) 2026-10-29 https://jobs.ashbyhq.com/Flock%20Safety/3f4a9ae5-dff0-4a1c-9436-df5e61d67cdd
+- **Industrial IT Support Specialist** — Base Power (Austin, TX, Austin, Texas, United States) 2026-11-03 https://jobs.a16z.com/jobs/base-power-company/070fee5a-4235-4588-9751-33f3664f9655--industrial-it-support-specialist
 - **Network Technician** — Community Health Systems (Corsicana, TX, United States) 2026-10-30 https://fa-evxo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/169133
-- **IT Service Desk Technician** — CAE (Ft Hood, Texas) 2026-10-21 https://cae.wd3.myworkdayjobs.com/career/job/Ft-Hood-Texas/IT-Service-Desk-Technician_124298
 - **Technical Support Specialist II, Ophthalmology** — UT Southwestern Medical Center (Technical Support Specialist II, Ophthalmology)  https://jobs.utsouthwestern.edu/job/23866589/technical-support-specialist-ii-ophthalmology/
 - **Support Technician Nacelle** — AAR (Support Technician Nacelle)  https://www.aarcorp.com/globalassets/6.-careers/thailand/job-descriptions/2026-51component-services-thailand_support-technician-nacelle.pdf
 - **ServiceNow Administrator & Platform Analyst** — Ametek (ServiceNow Administrator & Platform Analyst)  https://jobs.ametek.com/job/Bangalore-ServiceNow-Administrator-&-Platform-Analyst-KA-560048/1415705500/
+- **Technical Support Representative** — Ametek (Technical Support Representative)  https://jobs.ametek.com/job/Waukegan-Technical-Support-Representative-IL-60085/1417928300/
 - **IS Professional, ITSM ServiceNow Administration** — AptarGroup (IS Professional, ITSM ServiceNow Administration)  https://jobs.aptar.com/job/El-Marques-Queretaro-IS-Professional%2C-ITSM-ServiceNow-Administration-Quer-76246/1438134733/
 - **Cyber Security Analyst** — Autoliv (Cyber Security Analyst)  https://careermexico.autoliv.com/jobs/7003209-cyber-security-analyst
 - **IT Intern** — BorgWarner (IT Intern)  https://www.borgwarner.com/careers/job-search?id=R2026-4069
 - **Fire Kitchen Systems Technician** — Cintas (Fire Kitchen Systems Technician)  https://careers.cintas.com/job/Jacksonville-Fire-Kitchen-Systems-Technician-FL-32256/1443375900/
 - **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1398846000/
+- **Toolmaker Tier I** — Dana (Toolmaker Tier I)  https://jobs.dana.com/job/Pottstown-Toolmaker-Tier-I-PA-19464-6042/1382551000/
 - **Cybersecurity Analyst** — Eastman Chemical (Cybersecurity Analyst)  https://jobs.eastman.com/job/Hyderabad-Cybersecurity-Analyst-500-008/1408082800/
 - **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78839ea0f4259801a117a2e00512a4&source=&lang=en
 - **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78839ea0f4259801a117a3c03212f7&source=&lang=en
@@ -118,9 +114,13 @@
 - **Credentialing and Support Specialist** — Ensign Group (Credentialing and Support Specialist)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78879e9fd3ba5c01a03f1d91720783&source=&lang=en
 - **Student, Intern, IT Workplace Services, Summer 2027** — Entergy (Student, Intern, IT Workplace Services, Summer 2027)  https://jobs.entergy.com/job/New-Orleans-Student%2C-Intern%2C-IT-Workplace-Services%2C-Summer-2027-Loui/1437086300/
 - **Helpdesk Technician** — Ingles Markets (Helpdesk Technician)  https://jobs.inglescareers.com/job/Black-Mountain-Helpdesk-Technician-NC-28711/1416638900/
+- **IT Coordinator** — Lear (IT Coordinator)  https://jobs.lear.com/job/Duncan-IT-Coordinator-SC-29334/1454448133/
 - **Computer User Support Specialist** — ManTech International (Computer User Support Specialist)  https://careers.mantech.com/en_US/careers/JobDetail/Computer-User-Support-Specialist/66801
+- **IT Specialist** — ManTech International (IT Specialist)  https://careers.mantech.com/en_US/careers/JobDetail/IT-Specialist/66928
+- **IT Specialist** — ManTech International (IT Specialist)  https://careers.mantech.com/en_US/careers/JobDetail/IT-Specialist/66927
+- **Cybersecurity Analyst, Offensive Security** — McCormick (Cybersecurity Analyst, Offensive Security)  https://careers.mccormick.com/job/GURGAON-Cybersecurity-Analyst%2C-Offensive-Security-122001/1437794000/
 - **IT Intern - Summer 2027** — Mohawk Industries (IT Intern - Summer 2027)  https://careers.mohawkind.com/mohawk/job/Calhoun-IT-Intern-Summer-2027-Geor-30701/1436568900/
-- **Expert Business System Specialist** — PG&E (Expert Business System Specialist)  https://jobs.pge.com/job/oakland/expert-business-system-specialist/29673/100467158224
+- **Cybersecurity Analyst** — NextEra Energy (Cybersecurity Analyst)  https://jobs.nexteraenergy.com/job/St_-Paul-Cybersecurity-Analyst-MN-55107/1437253100/
 - **Quality System Specialist** — Supermicro (Quality System Specialist)  https://jobs.supermicro.com/job/Chungho-Quality-System-Specialist-Taiw/1339217900/
 - **IT Support Administrator** — Synopsys (IT Support Administrator)  https://careers.synopsys.com/job/cluj-napoca/it-support-administrator/44408/99760751952
 - **IT Applications Analyst - Power Generation Systems Support** — WEC Energy Group (IT Applications Analyst - Power Generation Systems Support)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Applications-Analyst-Power-Generation-Systems-Support-WI-53203/1442964900/
@@ -130,5 +130,4 @@
 - **IT Cybersecurity Analyst - Cloud Security Engineer** — WEC Energy Group (IT Cybersecurity Analyst - Cloud Security Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Cloud-Security-Engineer-WI-53203/1421959900/
 - **IT Cybersecurity Analyst - Data Security Engineer** — WEC Energy Group (IT Cybersecurity Analyst - Data Security Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Data-Security-Engineer-WI-53203/1421548900/
 - **IT Support Spec I** — IGT (IT Support Spec I)  https://jobs.igt.com/IGT/job/Austin-IT-Support-Spec-I-TX-78727/1368885457/
-- **IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support** — Luxoft (IT Systems Management Analyst North Las Vegas, United States of America Help Desk Support)  https://career.luxoft.com/jobs/it-systems-management-analyst-28570
 - **IT Operations Analyst II** — dbt Labs (IT Operations Analyst II)  https://www.fivetran.com/careers/job?gh_jid=8007247003
