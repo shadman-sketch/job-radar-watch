@@ -1,5 +1,5 @@
 {
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "count": 78,
  "jobs": [
   {
@@ -13,10 +13,10 @@
    "url": "https://frostbank.wd5.myworkdayjobs.com/external/job/Dallas-TX---Uptown/Commercial-Real-Estate-Support-Specialist_R261180",
    "canonical_url": "https://frostbank.wd5.myworkdayjobs.com/external/job/dallas-tx---uptown/commercial-real-estate-support-specialist_r261180",
    "req_id": "R261180",
-   "posted": "2026-10-06",
+   "posted": "2026-10-07",
    "posted_source": "workday",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday"
   },
   {
@@ -33,7 +33,7 @@
    "posted": "2026-09-16",
    "posted_source": "oracle",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "oracle"
   },
   {
@@ -50,7 +50,7 @@
    "posted": "2026-10-26",
    "posted_source": "oracle",
    "first_seen": "2026-10-27",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "oracle"
   },
   {
@@ -67,7 +67,7 @@
    "posted": "2026-10-02",
    "posted_source": "oracle",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "oracle"
   },
   {
@@ -84,7 +84,7 @@
    "posted": "2026-10-21",
    "posted_source": "oracle",
    "first_seen": "2026-10-22",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "oracle"
   },
   {
@@ -98,10 +98,10 @@
    "url": "https://vanguard.wd5.myworkdayjobs.com/Vanguard_External/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Risk---Security---Engineer_181851",
    "canonical_url": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/dallasft-worth-tx/college-to-corporate-it-internship---risk---security---engineer_181851",
    "req_id": null,
-   "posted": "2026-10-06",
+   "posted": "2026-10-07",
    "posted_source": "workday",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday"
   },
   {
@@ -115,10 +115,10 @@
    "url": "https://vanguard.wd5.myworkdayjobs.com/Vanguard_External/job/DallasFt-Worth-TX/College-to-Corporate-IT-Internship---Application-Development---TX-_181846",
    "canonical_url": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/dallasft-worth-tx/college-to-corporate-it-internship---application-development---tx-_181846",
    "req_id": null,
-   "posted": "2026-10-06",
+   "posted": "2026-10-07",
    "posted_source": "workday",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday"
   },
   {
@@ -135,7 +135,7 @@
    "posted": "2026-10-29",
    "posted_source": "oracle",
    "first_seen": "2026-10-30",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "oracle"
   },
   {
@@ -152,24 +152,7 @@
    "posted": "2026-10-29",
    "posted_source": "oracle",
    "first_seen": "2026-10-30",
-   "last_verified": "2026-11-05",
-   "system": "oracle"
-  },
-  {
-   "company": "Fortinet",
-   "board": null,
-   "priority": "3",
-   "title": "Network Support Engineer",
-   "role_band": "stretch",
-   "location": "Frisco, TX, United States",
-   "location_kind": "dfw",
-   "url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/21761",
-   "canonical_url": "https://edel.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_2001/job/21761",
-   "req_id": "21761",
-   "posted": "2026-10-29",
-   "posted_source": "oracle",
-   "first_seen": "2026-10-30",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "oracle"
   },
   {
@@ -186,7 +169,7 @@
    "posted": "2026-10-09",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "smartrecruiters"
   },
   {
@@ -203,7 +186,7 @@
    "posted": "2026-09-23",
    "posted_source": "lever",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "lever"
   },
   {
@@ -217,10 +200,10 @@
    "url": "https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Engineering-Licensing---Software-Asset-Specialist_122232",
    "canonical_url": "https://cae.wd3.myworkdayjobs.com/career/job/arlington-tx/engineering-licensing---software-asset-specialist_122232",
    "req_id": null,
-   "posted": "2026-10-06",
+   "posted": "2026-10-07",
    "posted_source": "workday",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday"
   },
   {
@@ -234,10 +217,10 @@
    "url": "https://jobs.a16z.com/jobs/zipline/7996211003--field-support-technician",
    "canonical_url": "https://jobs.a16z.com/jobs/zipline/7996211003--field-support-technician",
    "req_id": null,
-   "posted": "2026-09-06",
+   "posted": "2026-09-07",
    "posted_source": "board",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "board"
   },
   {
@@ -254,7 +237,7 @@
    "posted": "2026-10-26",
    "posted_source": "workday",
    "first_seen": "2026-10-22",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday"
   },
   {
@@ -271,7 +254,7 @@
    "posted": "2026-10-23",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-23",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "smartrecruiters"
   },
   {
@@ -288,7 +271,7 @@
    "posted": "2026-11-03",
    "posted_source": "workday",
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday"
   },
   {
@@ -305,7 +288,7 @@
    "posted": "2026-11-02",
    "posted_source": "greenhouse",
    "first_seen": "2026-11-03",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "greenhouse"
   },
   {
@@ -322,7 +305,7 @@
    "posted": "2026-07-15",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "ashby"
   },
   {
@@ -339,7 +322,7 @@
    "posted": "2026-10-02",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "ashby"
   },
   {
@@ -356,7 +339,7 @@
    "posted": "2026-10-23",
    "posted_source": "ashby",
    "first_seen": "2026-10-24",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "ashby"
   },
   {
@@ -373,25 +356,8 @@
    "posted": "2026-10-07",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "ashby"
-  },
-  {
-   "company": "Zoetis",
-   "board": null,
-   "priority": "3",
-   "title": "Diagnostics Technical Support Representative",
-   "role_band": "adjacent",
-   "location": "US Remote",
-   "location_kind": "remote",
-   "url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/US-Remote/Diagnostics-Technical-Support-Representative_JR00021901",
-   "canonical_url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/us-remote/diagnostics-technical-support-representative_jr00021901",
-   "req_id": null,
-   "posted": "2026-10-22",
-   "posted_source": "workday",
-   "first_seen": "2026-10-23",
-   "last_verified": "2026-11-05",
-   "system": "workday"
   },
   {
    "company": "Entrata",
@@ -407,7 +373,7 @@
    "posted": "2026-05-18",
    "posted_source": "lever",
    "first_seen": "2026-10-27",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "lever"
   },
   {
@@ -424,7 +390,7 @@
    "posted": "2026-09-14",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "ashby"
   },
   {
@@ -441,7 +407,7 @@
    "posted": "2026-05-28",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "ashby"
   },
   {
@@ -458,7 +424,7 @@
    "posted": "2026-11-03",
    "posted_source": "ashby",
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "ashby"
   },
   {
@@ -475,7 +441,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "smartrecruiters"
   },
   {
@@ -492,7 +458,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "smartrecruiters"
   },
   {
@@ -509,7 +475,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "smartrecruiters"
   },
   {
@@ -526,7 +492,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "smartrecruiters"
   },
   {
@@ -543,7 +509,7 @@
    "posted": null,
    "posted_source": "rippling",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "rippling"
   },
   {
@@ -560,7 +526,7 @@
    "posted": "2026-10-20",
    "posted_source": "board",
    "first_seen": "2026-10-21",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "board"
   },
   {
@@ -574,10 +540,10 @@
    "url": "https://jobs.a16z.com/jobs/skydio/3ac81a34-b7fe-4142-9d29-12bcc1376182--technical-support-specialist",
    "canonical_url": "https://jobs.a16z.com/jobs/skydio/3ac81a34-b7fe-4142-9d29-12bcc1376182--technical-support-specialist",
    "req_id": "3AC81A34-B7FE-4142-9D29-12BCC1376182",
-   "posted": "2026-10-06",
+   "posted": "2026-10-07",
    "posted_source": "board",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "board"
   },
   {
@@ -594,7 +560,7 @@
    "posted": "2026-04-03",
    "posted_source": "breezy",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "breezy"
   },
   {
@@ -611,7 +577,7 @@
    "posted": "2026-05-19",
    "posted_source": "breezy",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "breezy"
   },
   {
@@ -628,7 +594,7 @@
    "posted": "2026-08-24",
    "posted_source": "breezy",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "breezy"
   },
   {
@@ -645,7 +611,7 @@
    "posted": "2026-10-22",
    "posted_source": "greenhouse",
    "first_seen": "2026-10-23",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "greenhouse"
   },
   {
@@ -662,8 +628,25 @@
    "posted": "2026-09-09",
    "posted_source": "ashby",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "ashby"
+  },
+  {
+   "company": "CrowdStrike",
+   "board": null,
+   "priority": "3",
+   "title": "Technology Support Associate",
+   "role_band": "core",
+   "location": "USA - Austin, TX",
+   "location_kind": "tx_metro",
+   "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Austin-TX/Technology-Support-Associate_R29881",
+   "canonical_url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/usa---austin-tx/technology-support-associate_r29881",
+   "req_id": "R29881",
+   "posted": "2026-10-07",
+   "posted_source": "workday",
+   "first_seen": "2026-10-20",
+   "last_verified": "2026-11-06",
+   "system": "workday"
   },
   {
    "company": "NOV",
@@ -679,7 +662,7 @@
    "posted": "2026-08-03",
    "posted_source": "oracle",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "oracle"
   },
   {
@@ -696,7 +679,7 @@
    "posted": "2026-10-16",
    "posted_source": "oracle",
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "oracle"
   },
   {
@@ -713,7 +696,24 @@
    "posted": "2026-08-25",
    "posted_source": "ashby",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
+   "system": "ashby"
+  },
+  {
+   "company": "Base Power",
+   "board": null,
+   "priority": "4",
+   "title": "Test Systems Technician",
+   "role_band": "adjacent",
+   "location": "Austin, TX",
+   "location_kind": "tx_metro",
+   "url": "https://jobs.ashbyhq.com/base-power/a9eeb03c-a1c7-4098-95d9-b8bdf8354fdf",
+   "canonical_url": "https://jobs.ashbyhq.com/base-power/a9eeb03c-a1c7-4098-95d9-b8bdf8354fdf",
+   "req_id": "A9EEB03C-A1C7-4098-95D9-B8BDF8354FDF",
+   "posted": "2026-11-05",
+   "posted_source": "ashby",
+   "first_seen": "2026-11-06",
+   "last_verified": "2026-11-06",
    "system": "ashby"
   },
   {
@@ -730,7 +730,7 @@
    "posted": "2026-11-03",
    "posted_source": "ashby",
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "ashby"
   },
   {
@@ -747,7 +747,7 @@
    "posted": "2026-10-29",
    "posted_source": "ashby",
    "first_seen": "2026-10-30",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "ashby"
   },
   {
@@ -764,7 +764,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "smartrecruiters"
   },
   {
@@ -781,7 +781,24 @@
    "posted": "2026-11-03",
    "posted_source": "board",
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
+   "system": "board"
+  },
+  {
+   "company": "Base Power",
+   "board": "a16z portfolio jobs",
+   "priority": "B",
+   "title": "Test Systems Technician",
+   "role_band": "adjacent",
+   "location": "Austin, TX, Austin, Texas, United States",
+   "location_kind": "tx_metro",
+   "url": "https://jobs.a16z.com/jobs/base-power-company/a9eeb03c-a1c7-4098-95d9-b8bdf8354fdf--test-systems-technician",
+   "canonical_url": "https://jobs.a16z.com/jobs/base-power-company/a9eeb03c-a1c7-4098-95d9-b8bdf8354fdf--test-systems-technician",
+   "req_id": "A9EEB03C-A1C7-4098-95D9-B8BDF8354FDF",
+   "posted": "2026-11-06",
+   "posted_source": "board",
+   "first_seen": "2026-11-06",
+   "last_verified": "2026-11-06",
    "system": "board"
   },
   {
@@ -795,10 +812,10 @@
    "url": "https://jobs.a16z.com/jobs/base-power-company/c6228333-5f84-4363-9a3a-fd1dfb8ad1a2--hardware-technical-program-management-intern",
    "canonical_url": "https://jobs.a16z.com/jobs/base-power-company/c6228333-5f84-4363-9a3a-fd1dfb8ad1a2--hardware-technical-program-management-intern",
    "req_id": "C6228333-5F84-4363-9A3A-FD1DFB8AD1A2",
-   "posted": "2026-09-06",
+   "posted": "2026-09-07",
    "posted_source": "board",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "board"
   },
   {
@@ -812,10 +829,10 @@
    "url": "https://unisys.wd5.myworkdayjobs.com/External/job/Barstow-TX-United-States-of-America/Data-Center-Technician---Barstow--TX_REQ570885",
    "canonical_url": "https://unisys.wd5.myworkdayjobs.com/external/job/barstow-tx-united-states-of-america/data-center-technician---barstow--tx_req570885",
    "req_id": null,
-   "posted": "2026-10-06",
+   "posted": "2026-10-07",
    "posted_source": "workday",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday"
   },
   {
@@ -832,7 +849,7 @@
    "posted": "2026-06-08",
    "posted_source": "greenhouse",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "greenhouse"
   },
   {
@@ -846,10 +863,10 @@
    "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/Cyber-Security-Analyst_JR100681",
    "canonical_url": "https://prim.wd108.myworkdayjobs.com/primoris/job/texas/cyber-security-analyst_jr100681",
    "req_id": null,
-   "posted": "2026-10-06",
+   "posted": "2026-10-07",
    "posted_source": "workday",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday"
   },
   {
@@ -866,7 +883,7 @@
    "posted": "2026-10-30",
    "posted_source": "oracle",
    "first_seen": "2026-10-31",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "oracle"
   },
   {
@@ -883,25 +900,8 @@
    "posted": "2026-10-26",
    "posted_source": "workday",
    "first_seen": "2026-10-22",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday"
-  },
-  {
-   "company": "UT Southwestern Medical Center",
-   "board": null,
-   "priority": "2",
-   "title": "Technical Support Specialist II, Ophthalmology",
-   "role_band": "core",
-   "location": "Technical Support Specialist II, Ophthalmology",
-   "location_kind": "unknown",
-   "url": "https://jobs.utsouthwestern.edu/job/23866589/technical-support-specialist-ii-ophthalmology/",
-   "canonical_url": "https://jobs.utsouthwestern.edu/job/23866589/technical-support-specialist-ii-ophthalmology",
-   "req_id": "23866589",
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-10-24",
-   "last_verified": "2026-11-05",
-   "system": "pagewatch"
   },
   {
    "company": "AAR",
@@ -917,24 +917,24 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
    "company": "Ametek",
    "board": null,
    "priority": "3",
-   "title": "Technical Support Representative",
-   "role_band": "adjacent",
-   "location": "Technical Support Representative",
+   "title": "IT User Support Analyst II",
+   "role_band": "core",
+   "location": "IT User Support Analyst II",
    "location_kind": "unknown",
-   "url": "https://jobs.ametek.com/job/Waukegan-Technical-Support-Representative-IL-60085/1417928300/",
-   "canonical_url": "https://jobs.ametek.com/job/waukegan-technical-support-representative-il-60085/1417928300",
+   "url": "https://jobs.ametek.com/job/Oak-Ridge-IT-User-Support-Analyst-II-TN-37831/1438146800/",
+   "canonical_url": "https://jobs.ametek.com/job/oak-ridge-it-user-support-analyst-ii-tn-37831/1438146800",
    "req_id": null,
    "posted": null,
    "posted_source": null,
-   "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "first_seen": "2026-11-06",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
@@ -951,7 +951,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
@@ -968,24 +968,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
-   "system": "pagewatch"
-  },
-  {
-   "company": "Ensign Group",
-   "board": null,
-   "priority": "3",
-   "title": "IT Help Desk",
-   "role_band": "core",
-   "location": "IT Help Desk",
-   "location_kind": "unknown",
-   "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a7887a1a150293901a15f58a5e64057&source=&lang=en",
-   "canonical_url": "https://recruitingbypaycor.com/career/jobintroduction.action?id=8a7887a1a150293901a15f58a5e64057",
-   "req_id": null,
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-10-26",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
@@ -1002,7 +985,24 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
+   "system": "pagewatch"
+  },
+  {
+   "company": "Ensign Group",
+   "board": null,
+   "priority": "3",
+   "title": "IT Help Desk",
+   "role_band": "core",
+   "location": "IT Help Desk",
+   "location_kind": "unknown",
+   "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a7887a1a150293901a15f58a5e64057&source=&lang=en",
+   "canonical_url": "https://recruitingbypaycor.com/career/jobintroduction.action?id=8a7887a1a150293901a15f58a5e64057",
+   "req_id": null,
+   "posted": null,
+   "posted_source": null,
+   "first_seen": "2026-10-26",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
@@ -1019,7 +1019,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
@@ -1036,58 +1036,41 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
-   "company": "Lear",
+   "company": "IBM",
    "board": null,
    "priority": "3",
-   "title": "IT Coordinator",
+   "title": "AI Specialist (Technical Support Representative) Professional PETALING JAYA, MY",
    "role_band": "adjacent",
-   "location": "IT Coordinator",
+   "location": "AI Specialist (Technical Support Representative) Professional PETALING JAYA, MY",
    "location_kind": "unknown",
-   "url": "https://jobs.lear.com/job/Duncan-IT-Coordinator-SC-29334/1454448133/",
-   "canonical_url": "https://jobs.lear.com/job/duncan-it-coordinator-sc-29334/1454448133",
-   "req_id": null,
+   "url": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=133513&source=WEB_Search_NA",
+   "canonical_url": "https://careers.ibm.com/en_us/careers/jobdetail?jobId=133513",
+   "req_id": "133513",
    "posted": null,
    "posted_source": null,
-   "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
-   "system": "pagewatch"
-  },
-  {
-   "company": "ManTech International",
-   "board": null,
-   "priority": "3",
-   "title": "IT Specialist",
-   "role_band": "adjacent",
-   "location": "IT Specialist",
-   "location_kind": "unknown",
-   "url": "https://careers.mantech.com/en_US/careers/JobDetail/IT-Specialist/66928",
-   "canonical_url": "https://careers.mantech.com/en_us/careers/jobdetail/it-specialist/66928",
-   "req_id": null,
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "first_seen": "2026-11-06",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
    "company": "ManTech International",
    "board": null,
    "priority": "3",
-   "title": "IT Specialist",
-   "role_band": "adjacent",
-   "location": "IT Specialist",
+   "title": "Cybersecurity Analyst",
+   "role_band": "stretch",
+   "location": "Cybersecurity Analyst",
    "location_kind": "unknown",
-   "url": "https://careers.mantech.com/en_US/careers/JobDetail/IT-Specialist/66927",
-   "canonical_url": "https://careers.mantech.com/en_us/careers/jobdetail/it-specialist/66927",
+   "url": "https://careers.mantech.com/en_US/careers/JobDetail/Cybersecurity-Analyst/66965",
+   "canonical_url": "https://careers.mantech.com/en_us/careers/jobdetail/cybersecurity-analyst/66965",
    "req_id": null,
    "posted": null,
    "posted_source": null,
-   "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "first_seen": "2026-11-06",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
@@ -1104,24 +1087,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
-   "system": "pagewatch"
-  },
-  {
-   "company": "NextEra Energy",
-   "board": null,
-   "priority": "3",
-   "title": "Cybersecurity Analyst",
-   "role_band": "stretch",
-   "location": "Cybersecurity Analyst",
-   "location_kind": "unknown",
-   "url": "https://jobs.nexteraenergy.com/job/St_-Paul-Cybersecurity-Analyst-MN-55107/1437253100/",
-   "canonical_url": "https://jobs.nexteraenergy.com/job/st_-paul-cybersecurity-analyst-mn-55107/1437253100",
-   "req_id": null,
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
@@ -1138,25 +1104,42 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday+page"
   },
   {
-   "company": "S&P Global",
+   "company": "Synopsys",
    "board": null,
    "priority": "3",
-   "title": "CCS Process & Implementations Support Specialist",
-   "role_band": "adjacent",
-   "location": "CCS Process & Implementations Support Specialist",
+   "title": "Service Desk Engineer",
+   "role_band": "core",
+   "location": "Service Desk Engineer",
    "location_kind": "unknown",
-   "url": "https://careers.spglobal.com/jobs/332110?lang=en-us",
-   "canonical_url": "https://careers.spglobal.com/jobs/332110",
-   "req_id": "332110",
+   "url": "https://careers.synopsys.com/job/exton/service-desk-engineer/44408/102923301632",
+   "canonical_url": "https://careers.synopsys.com/job/exton/service-desk-engineer/44408/102923301632",
+   "req_id": null,
    "posted": null,
    "posted_source": null,
-   "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
-   "system": "workday+page"
+   "first_seen": "2026-11-06",
+   "last_verified": "2026-11-06",
+   "system": "pagewatch"
+  },
+  {
+   "company": "WEC Energy Group",
+   "board": null,
+   "priority": "3",
+   "title": "Associate IT Cybersecurity Analyst",
+   "role_band": "stretch",
+   "location": "Associate IT Cybersecurity Analyst",
+   "location_kind": "unknown",
+   "url": "https://careers.wecenergygroup.com/job/Milwaukee-Associate-IT-Cybersecurity-Analyst-WI-53203/1448259800/",
+   "canonical_url": "https://careers.wecenergygroup.com/job/milwaukee-associate-it-cybersecurity-analyst-wi-53203/1448259800",
+   "req_id": null,
+   "posted": null,
+   "posted_source": null,
+   "first_seen": "2026-11-06",
+   "last_verified": "2026-11-06",
+   "system": "pagewatch"
   },
   {
    "company": "WEC Energy Group",
@@ -1172,24 +1155,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-28",
-   "last_verified": "2026-11-05",
-   "system": "pagewatch"
-  },
-  {
-   "company": "WEC Energy Group",
-   "board": null,
-   "priority": "3",
-   "title": "IT Cybersecurity Analyst - Data Security Engineer",
-   "role_band": "stretch",
-   "location": "IT Cybersecurity Analyst - Data Security Engineer",
-   "location_kind": "unknown",
-   "url": "https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Data-Security-Engineer-WI-53203/1421548900/",
-   "canonical_url": "https://careers.wecenergygroup.com/job/milwaukee-it-cybersecurity-analyst-data-security-engineer-wi-53203/1421548900",
-   "req_id": null,
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-11-03",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
@@ -1206,24 +1172,24 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-03",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
    "company": "WEC Energy Group",
    "board": null,
    "priority": "3",
-   "title": "IT Applications Analyst - Power Generation Systems Support",
-   "role_band": "adjacent",
-   "location": "IT Applications Analyst - Power Generation Systems Support",
+   "title": "IT Cybersecurity Analyst - Data Security Engineer",
+   "role_band": "stretch",
+   "location": "IT Cybersecurity Analyst - Data Security Engineer",
    "location_kind": "unknown",
-   "url": "https://careers.wecenergygroup.com/job/Milwaukee-IT-Applications-Analyst-Power-Generation-Systems-Support-WI-53203/1442964900/",
-   "canonical_url": "https://careers.wecenergygroup.com/job/milwaukee-it-applications-analyst-power-generation-systems-support-wi-53203/1442964900",
+   "url": "https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Data-Security-Engineer-WI-53203/1421548900/",
+   "canonical_url": "https://careers.wecenergygroup.com/job/milwaukee-it-cybersecurity-analyst-data-security-engineer-wi-53203/1421548900",
    "req_id": null,
    "posted": null,
    "posted_source": null,
-   "first_seen": "2026-10-26",
-   "last_verified": "2026-11-05",
+   "first_seen": "2026-11-03",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
@@ -1240,7 +1206,41 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
+   "system": "workday+page"
+  },
+  {
+   "company": "Clearwater Analytics",
+   "board": null,
+   "priority": "4",
+   "title": "IT Support Specialist",
+   "role_band": "core",
+   "location": "IT Support Specialist",
+   "location_kind": "unknown",
+   "url": "https://clearwateranalytics.wd1.myworkdayjobs.com/en-US/Clearwater_Analytics_Careers/job/Office---Boise/IT-Support-Specialist_R3402-2",
+   "canonical_url": "https://clearwateranalytics.wd1.myworkdayjobs.com/en-us/clearwater_analytics_careers/job/office---boise/it-support-specialist_r3402-2",
+   "req_id": "R3402",
+   "posted": null,
+   "posted_source": null,
+   "first_seen": "2026-11-06",
+   "last_verified": "2026-11-06",
+   "system": "workday+page"
+  },
+  {
+   "company": "Cubic corporation",
+   "board": null,
+   "priority": "4",
+   "title": "Systems Support Engineer (Linux)",
+   "role_band": "stretch",
+   "location": "Systems Support Engineer (Linux)",
+   "location_kind": "unknown",
+   "url": "https://cubic.wd1.myworkdayjobs.com/en-US/cubic_global_careers/job/United-Kingdom---Remote/Systems-Support-Engineer--Linux-_REQ_49786",
+   "canonical_url": "https://cubic.wd1.myworkdayjobs.com/en-us/cubic_global_careers/job/united-kingdom---remote/systems-support-engineer--linux-_req_49786",
+   "req_id": null,
+   "posted": null,
+   "posted_source": null,
+   "first_seen": "2026-11-06",
+   "last_verified": "2026-11-06",
    "system": "workday+page"
   },
   {
@@ -1257,7 +1257,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday+page"
   },
   {
@@ -1274,7 +1274,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-02",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   },
   {
@@ -1291,7 +1291,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday+page"
   },
   {
@@ -1308,7 +1308,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "workday+page"
   },
   {
@@ -1325,7 +1325,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-31",
-   "last_verified": "2026-11-05",
+   "last_verified": "2026-11-06",
    "system": "pagewatch"
   }
  ]
