@@ -1,30 +1,30 @@
-# Watchlist run 2026-11-07
+# Watchlist run 2026-11-08
 
-- Companies checked: 1317 of 1526 answered
-- Sources with listings extracted: 1317 · page loaded but no listings found: 133 · failed: 76
+- Companies checked: 1328 of 1526 answered
+- Sources with listings extracted: 1328 · page loaded but no listings found: 123 · failed: 75
 - Duplicates removed across sources: 1
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 70046
-- Jobs matching your roles (any location): 630
+- Jobs read: 74688
+- Jobs matching your roles (any location): 713
 - ...of those in DFW, remote US or Austin/Houston/San Antonio: 78
 - New matching jobs: 70
 - All open matching jobs at watched companies: 77 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 344 | 231 | 3683 |
-| greenhouse | 315 | 315 | 22417 |
-| workday | 165 | 161 | 11578 |
-| ashby | 155 | 155 | 8253 |
-| workday+page | 117 | 101 | 1205 |
-| lever | 78 | 78 | 3938 |
-| phenom | 64 | 64 | 140 |
+| pagewatch | 344 | 230 | 3646 |
+| greenhouse | 315 | 315 | 22418 |
+| workday | 215 | 213 | 16647 |
+| ashby | 155 | 155 | 8248 |
+| lever | 78 | 78 | 3939 |
+| workday+page | 67 | 60 | 681 |
+| phenom | 64 | 64 | 144 |
 | icims | 64 | 0 | 0 |
-| smartrecruiters | 59 | 59 | 12041 |
+| smartrecruiters | 59 | 59 | 12029 |
 | jobvite | 43 | 43 | 804 |
-| oracle | 37 | 37 | 2221 |
-| workable | 27 | 27 | 516 |
-| eightfold+page | 17 | 16 | 245 |
+| oracle | 38 | 38 | 2305 |
+| workable | 27 | 27 | 517 |
+| eightfold+page | 17 | 16 | 253 |
 | ultipro | 12 | 12 | 332 |
 | phenom+page | 4 | 3 | 55 |
 | adp | 4 | 4 | 31 |
@@ -35,12 +35,11 @@
 | ashby+page | 2 | 0 | 0 |
 | ultipro+page | 1 | 1 | 2 |
 | recruitee+page | 1 | 0 | 0 |
-| oracle+page | 1 | 0 | 0 |
 | eightfold | 1 | 1 | 26 |
 | rippling+page | 1 | 0 | 0 |
 | lever+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1748 |
+| board | 1 | 1 | 1800 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
