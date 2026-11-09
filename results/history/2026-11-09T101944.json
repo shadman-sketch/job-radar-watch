@@ -1,0 +1,47 @@
+{
+ "run_at": "2026-11-09T10:19:44+00:00",
+ "date": "2026-11-09",
+ "count": 2,
+ "jobs": [
+  {
+   "company_id": "321",
+   "company": "Dana",
+   "board": null,
+   "priority": "3",
+   "sector": "Motor Vehicles & Parts",
+   "title": "Maintenance Tech Tier II",
+   "location": "Maintenance Tech Tier II",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://jobs.dana.com/job/Louisville-Maintenance-Tech-Tier-II-KY-40245-1900/1060829100/",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "stretch",
+   "req_id": null,
+   "canonical_url": "https://jobs.dana.com/job/louisville-maintenance-tech-tier-ii-ky-40245-1900/1060829100",
+   "first_seen": "2026-11-09",
+   "last_verified": "2026-11-09"
+  },
+  {
+   "company_id": "486",
+   "company": "HP",
+   "board": null,
+   "priority": "3",
+   "sector": "Technology",
+   "title": "Operations Support Specialist",
+   "location": "Operations Support Specialist",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Dalian-Liaoning-China/Operations-Support-Specialist_3170724-1",
+   "posted": null,
+   "baseline": false,
+   "system": "workday+page",
+   "role_band": "adjacent",
+   "req_id": null,
+   "canonical_url": "https://hp.wd5.myworkdayjobs.com/en-us/externalcareersite/job/dalian-liaoning-china/operations-support-specialist_3170724-1",
+   "first_seen": "2026-11-09",
+   "last_verified": "2026-11-09"
+  }
+ ]
+}
