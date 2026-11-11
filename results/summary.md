@@ -1,37 +1,37 @@
-# Watchlist run 2026-11-10
+# Watchlist run 2026-11-11
 
-- Companies checked: 1321 of 1526 answered
-- Sources with listings extracted: 1321 · page loaded but no listings found: 130 · failed: 75
+- Companies checked: 1322 of 1526 answered
+- Sources with listings extracted: 1322 · page loaded but no listings found: 130 · failed: 74
 - Duplicates removed across sources: 2
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 71789
-- Jobs matching your roles (any location): 643
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 77
-- New matching jobs: 59
-- All open matching jobs at watched companies: 75 (see open_now.json)
+- Jobs read: 74322
+- Jobs matching your roles (any location): 715
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 81
+- New matching jobs: 67
+- All open matching jobs at watched companies: 79 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 340 | 225 | 3650 |
-| greenhouse | 317 | 317 | 22414 |
-| workday | 181 | 178 | 13342 |
-| ashby | 155 | 155 | 8195 |
-| workday+page | 102 | 90 | 1075 |
-| lever | 78 | 78 | 3910 |
-| phenom | 64 | 64 | 140 |
+| pagewatch | 340 | 225 | 3657 |
+| greenhouse | 316 | 316 | 22448 |
+| workday | 209 | 207 | 16245 |
+| ashby | 155 | 155 | 8172 |
+| lever | 78 | 78 | 3905 |
+| workday+page | 74 | 63 | 723 |
+| phenom | 64 | 64 | 136 |
 | icims | 64 | 0 | 0 |
-| smartrecruiters | 59 | 59 | 12043 |
-| jobvite | 43 | 43 | 791 |
-| oracle | 39 | 39 | 2377 |
-| workable | 27 | 27 | 521 |
-| eightfold+page | 17 | 16 | 258 |
-| ultipro | 12 | 12 | 331 |
-| phenom+page | 4 | 3 | 52 |
+| smartrecruiters | 59 | 59 | 12006 |
+| jobvite | 43 | 43 | 789 |
+| oracle | 39 | 39 | 2360 |
+| workable | 27 | 27 | 525 |
+| eightfold+page | 17 | 16 | 265 |
+| ultipro | 12 | 12 | 332 |
+| greenhouse+page | 5 | 1 | 2 |
+| phenom+page | 4 | 3 | 55 |
 | adp | 4 | 4 | 30 |
-| greenhouse+page | 4 | 1 | 2 |
 | breezy | 3 | 3 | 33 |
-| recruitee | 2 | 2 | 54 |
-| rippling | 2 | 2 | 734 |
+| recruitee | 2 | 2 | 55 |
+| rippling | 2 | 2 | 748 |
 | ashby+page | 2 | 0 | 0 |
 | ultipro+page | 1 | 1 | 2 |
 | recruitee+page | 1 | 0 | 0 |
@@ -39,7 +39,7 @@
 | rippling+page | 1 | 0 | 0 |
 | lever+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1807 |
+| board | 1 | 1 | 1806 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
@@ -73,9 +73,11 @@
 ## New matches
 
 - **Power Generation Field Service Technician - Level I** — Cummins (Dallas, TX, United States) 2026-11-09 https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2441946
+- **Power Generation Field Service Technician - Level I** — Cummins (Dallas, TX, United States) 2026-11-10 https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2441944
 - **Network Support Engineer** — Fortinet (Frisco, TX, United States) 2026-10-29 https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/20800
 - **Network Support Engineer** — Fortinet (Frisco, TX, United States) 2026-10-29 https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/20823
 - **Network Support Engineer** — Fortinet (Frisco, TX, United States) 2026-10-29 https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/21761
+- **Software System Technologist Intern (Summer 2027 Internship)** — Motorola Solutions (Allen, TX (TX139)) 2026-11-10 https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Software-System-Technologist-Intern--Summer-2027-Internship-_R70511
 - **Level 2 NOC Systems Administrator – Linux/Unix Focus** — Unisys (USA Remote) 2026-11-03 https://unisys.wd5.myworkdayjobs.com/External/job/USA-Remote/Level-2-NOC-Systems-Administrator---Linux-Unix-Focus_REQ576786
 - **IT Operations Specialist** — Alpaca (Remote - North America) 2026-11-02 https://job-boards.greenhouse.io/alpaca/jobs/6240586004
 - **Product Support Specialist, Eastern/Central Time** — Linear (North America) 2026-11-03 https://jobs.ashbyhq.com/linear/b4df9dbe-618e-4a3b-874c-c9abf87ca5c0
@@ -83,6 +85,7 @@
 - **Theater Account Provisioning Specialist — Federal Health IT** — Rackner (Remote) 2026-11-09 https://job-boards.greenhouse.io/rackner/jobs/4752627005
 - **Treasury and Cash Support Specialist I** — Frost Bank (San Antonio, TX - One Frost) 2026-11-09 https://frostbank.wd5.myworkdayjobs.com/external/job/San-Antonio-TX---One-Frost/Treasury-and-Cash-Support-Specialist-I_R262200
 - **IT Technician (Austin)** — Saronic (Austin, TX) 2026-11-09 https://jobs.ashbyhq.com/saronic/62636523-c7da-4076-aee4-bc7c0d8685d0
+- **Order Support Specialist** — Crown Castle (Canonsburg, PA / Houston, TX / Chandler, AZ / Charlotte, NC) 2026-11-10 https://recruiting2.ultipro.com/CRO1010CCUSA/JobBoard/74c30440-80fa-4099-8981-2e10b7193d27/OpportunityDetail?opportunityId=5c68e56d-7ff8-48f0-84cc-741c0e9def0d
 - **Industrial IT Support Specialist** — Base Power (Austin, TX) 2026-11-03 https://jobs.ashbyhq.com/base-power/070fee5a-4235-4588-9751-33f3664f9655
 - **Test Systems Technician** — Base Power (Austin, TX) 2026-11-05 https://jobs.ashbyhq.com/base-power/a9eeb03c-a1c7-4098-95d9-b8bdf8354fdf
 - **Field Deployment Specialist** — FlockSafety (Atlanta, GA / San Francisco, CA / Remote - USA / Chicago, IL / Denver, CO / Boston, MA / Los Angeles, CA / Austin, TX) 2026-10-29 https://jobs.ashbyhq.com/Flock%20Safety/3f4a9ae5-dff0-4a1c-9436-df5e61d67cdd
@@ -90,12 +93,15 @@
 - **Test Systems Technician** — Base Power (Austin, TX, Austin, Texas, United States) 2026-11-06 https://jobs.a16z.com/jobs/base-power-company/a9eeb03c-a1c7-4098-95d9-b8bdf8354fdf--test-systems-technician
 - **IT Technician (Austin)** — Saronic (Austin, TX, Austin, Texas, United States) 2026-11-10 https://jobs.a16z.com/jobs/saronic-technologies/62636523-c7da-4076-aee4-bc7c0d8685d0--it-technician-austin
 - **Network Technician** — Community Health Systems (Corsicana, TX, United States) 2026-10-30 https://fa-evxo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/169133
+- **Computing Specialist II** — Tarrant County (Computing Specialist II)  https://www.governmentjobs.com/jobs/5524001-0/computing-specialist-ii
 - **Temporary Data Center Technician I** — UT Southwestern Medical Center (Temporary Data Center Technician I)  https://jobs.utsouthwestern.edu/job/23934564/temporary-data-center-technician-i/
 - **ServiceNow Administrator & Platform Analyst** — Ametek (ServiceNow Administrator & Platform Analyst)  https://jobs.ametek.com/job/Bangalore-ServiceNow-Administrator-&-Platform-Analyst-KA-560048/1415705500/
 - **Technical Support Representative** — Ametek (Technical Support Representative)  https://jobs.ametek.com/job/Waukegan-Technical-Support-Representative-IL-60085/1417928300/
 - **IT User Support Analyst II** — Ametek (IT User Support Analyst II)  https://jobs.ametek.com/job/Oak-Ridge-IT-User-Support-Analyst-II-TN-37831/1438146800/
 - **IT Intern** — BorgWarner (IT Intern)  https://www.borgwarner.com/careers/job-search?id=R2026-4069
 - **Professional Internship Information Technology - Client Support (m/f/d)** — BorgWarner (Professional Internship Information Technology - Client Support (m/f/d))  https://www.borgwarner.com/careers/job-search?id=R2026-4421
+- **IAM Administrator-Level 2** — Cintas (IAM Administrator-Level 2)  https://careers.cintas.com/job/Mason-IAM-Administrator-Level-2-OH-45040/1441898600/
+- **SAP Functional Analyst-Level 2-CRM** — Cintas (SAP Functional Analyst-Level 2-CRM)  https://careers.cintas.com/job/Mason-SAP-Functional-Analyst-Level-2-CRM-OH-45040/1444341500/
 - **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1398846000/
 - **Toolmaker Tier I** — Dana (Toolmaker Tier I)  https://jobs.dana.com/job/Pottstown-Toolmaker-Tier-I-PA-19464-6042/1382551000/
 - **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399707900/
@@ -105,6 +111,7 @@
 - **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399707700/
 - **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399708000/
 - **Maintenance Tech Tier II** — Dana (Maintenance Tech Tier II)  https://jobs.dana.com/job/Louisville-Maintenance-Tech-Tier-II-KY-40245-1900/1060829100/
+- **Assembly Technician Tier II** — Dana (Assembly Technician Tier II)  https://jobs.dana.com/job/Gordonsville-Assembly-Technician-Tier-II-TN-38563-2143/1347211400/
 - **Cybersecurity Analyst** — Eastman Chemical (Cybersecurity Analyst)  https://jobs.eastman.com/job/Hyderabad-Cybersecurity-Analyst-500-008/1408082800/
 - **Student, Intern, IT Workplace Services, Summer 2027** — Entergy (Student, Intern, IT Workplace Services, Summer 2027)  https://jobs.entergy.com/job/New-Orleans-Student%2C-Intern%2C-IT-Workplace-Services%2C-Summer-2027-Loui/1437086300/
 - **AI Specialist (Technical Support Representative) Professional PETALING JAYA, MY** — IBM (AI Specialist (Technical Support Representative) Professional PETALING JAYA, MY)  https://careers.ibm.com/en_US/careers/JobDetail?jobId=133513&source=WEB_Search_NA
@@ -130,4 +137,5 @@
 - **IT Cybersecurity Analyst - Data Security Engineer** — WEC Energy Group (IT Cybersecurity Analyst - Data Security Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Data-Security-Engineer-WI-53203/1421548900/
 - **Associate IT Cybersecurity Analyst** — WEC Energy Group (Associate IT Cybersecurity Analyst)  https://careers.wecenergygroup.com/job/Milwaukee-Associate-IT-Cybersecurity-Analyst-WI-53203/1448259800/
 - **IT Support Spec I** — IGT (IT Support Spec I)  https://jobs.igt.com/IGT/job/Austin-IT-Support-Spec-I-TX-78727/1368885457/
+- **Desktop Support Specialist II** — IGT (Desktop Support Specialist II)  https://jobs.igt.com/job/Chicago-Desktop-Support-Specialist-II-IL-60661/1374754757/
 - **IT Operations Analyst II** — dbt Labs (IT Operations Analyst II)  https://www.fivetran.com/careers/job?gh_jid=8007247003
