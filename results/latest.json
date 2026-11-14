@@ -1,7 +1,7 @@
 {
- "run_at": "2026-11-13T09:16:15+00:00",
- "date": "2026-11-13",
- "count": 68,
+ "run_at": "2026-11-14T09:04:41+00:00",
+ "date": "2026-11-14",
+ "count": 66,
  "jobs": [
   {
    "company_id": "38",
@@ -442,26 +442,6 @@
    "canonical_url": "https://jobs.a16z.com/jobs/saronic-technologies/62636523-c7da-4076-aee4-bc7c0d8685d0--it-technician-austin",
    "first_seen": "2026-11-10",
    "last_verified": "2026-11-10"
-  },
-  {
-   "company_id": "297",
-   "company": "Community Health Systems",
-   "board": null,
-   "priority": "3",
-   "sector": "Health Care",
-   "title": "Network Technician",
-   "location": "Corsicana, TX, United States",
-   "location_kind": "texas",
-   "remote": false,
-   "url": "https://fa-evxo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/169133",
-   "posted": "2026-10-30",
-   "baseline": false,
-   "system": "oracle",
-   "role_band": "stretch",
-   "req_id": "169133",
-   "canonical_url": "https://fa-evxo-saasfaprod1.fa.ocs.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1/job/169133",
-   "first_seen": "2026-10-31",
-   "last_verified": "2026-10-31"
   },
   {
    "company_id": "48",
@@ -1342,26 +1322,6 @@
    "canonical_url": "https://jobs.igt.com/job/chicago-desktop-support-specialist-ii-il-60661/1374754757",
    "first_seen": "2026-11-11",
    "last_verified": "2026-11-11"
-  },
-  {
-   "company_id": "1093",
-   "company": "dbt Labs",
-   "board": null,
-   "priority": "4",
-   "sector": "Technology / media / other",
-   "title": "IT Operations Analyst II",
-   "location": "IT Operations Analyst II",
-   "location_kind": "unknown",
-   "remote": false,
-   "url": "https://www.fivetran.com/careers/job?gh_jid=8007247003",
-   "posted": null,
-   "baseline": false,
-   "system": "pagewatch",
-   "role_band": "adjacent",
-   "req_id": "8007247003",
-   "canonical_url": "https://www.fivetran.com/careers/job?gh_jid=8007247003",
-   "first_seen": "2026-10-31",
-   "last_verified": "2026-10-31"
   }
  ]
 }

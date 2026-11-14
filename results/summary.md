@@ -1,48 +1,50 @@
-# Watchlist run 2026-11-13
+# Watchlist run 2026-11-14
 
-- Companies checked: 1323 of 1526 answered
-- Sources with listings extracted: 1323 · page loaded but no listings found: 130 · failed: 73
+- Companies checked: 1227 of 1526 answered
+- Sources with listings extracted: 1227 · page loaded but no listings found: 227 · failed: 72
 - Duplicates removed across sources: 2
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 74885
-- Jobs matching your roles (any location): 728
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 82
-- New matching jobs: 68
-- All open matching jobs at watched companies: 80 (see open_now.json)
+- Jobs read: 62315
+- Jobs matching your roles (any location): 437
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 61
+- New matching jobs: 66
+- All open matching jobs at watched companies: 59 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 340 | 224 | 3671 |
-| greenhouse | 316 | 316 | 22447 |
-| workday | 231 | 231 | 17185 |
-| ashby | 155 | 155 | 8155 |
-| lever | 77 | 77 | 3862 |
+| pagewatch | 340 | 220 | 3495 |
+| greenhouse | 316 | 316 | 22380 |
+| workday+page | 223 | 140 | 1171 |
+| ashby | 154 | 154 | 8167 |
+| lever | 77 | 77 | 3876 |
+| phenom | 64 | 64 | 135 |
 | icims | 64 | 0 | 0 |
-| phenom | 63 | 63 | 134 |
-| smartrecruiters | 59 | 59 | 11941 |
-| workday+page | 52 | 42 | 461 |
-| jobvite | 43 | 43 | 774 |
-| oracle | 39 | 39 | 2364 |
-| workable | 27 | 27 | 522 |
-| eightfold+page | 17 | 16 | 245 |
-| ultipro | 12 | 12 | 325 |
-| phenom+page | 5 | 4 | 70 |
+| workday | 60 | 56 | 3985 |
+| smartrecruiters | 59 | 59 | 11986 |
+| jobvite | 43 | 43 | 776 |
+| oracle | 39 | 39 | 2369 |
+| eightfold+page | 17 | 16 | 260 |
+| workable+page | 15 | 0 | 0 |
+| workable | 12 | 12 | 190 |
+| ultipro | 11 | 11 | 225 |
 | greenhouse+page | 5 | 1 | 2 |
+| phenom+page | 4 | 4 | 71 |
 | adp | 4 | 4 | 29 |
-| breezy | 3 | 3 | 33 |
-| recruitee | 2 | 2 | 53 |
+| breezy | 3 | 3 | 34 |
+| ashby+page | 3 | 0 | 0 |
+| ultipro+page | 2 | 2 | 512 |
+| recruitee | 2 | 2 | 52 |
 | lever+page | 2 | 0 | 0 |
-| rippling | 2 | 2 | 771 |
-| ashby+page | 2 | 0 | 0 |
-| ultipro+page | 1 | 1 | 2 |
+| rippling | 2 | 2 | 772 |
 | recruitee+page | 1 | 0 | 0 |
 | eightfold | 1 | 1 | 28 |
 | rippling+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1811 |
+| board | 1 | 1 | 1800 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
+- AT&T (workday+page): no_listings_found · last success: 2026-11-13
 - Allied Universal (icims): failed - blocked by bot check · last success: never
 - Bank of America (workday+page): no_listings_found · last success: 2026-11-05
 - Calance (pagewatch): no_listings_found · last success: never
@@ -54,21 +56,26 @@
 - JPS Health Network (pagewatch): no_listings_found · last success: never
 - Motion Recruitment (pagewatch): no_listings_found · last success: never
 - NTT DATA (icims): failed - blocked by bot check · last success: never
-- Stream Data Centers (pagewatch): failed - Error · last success: never
+- Rackspace Technology (workday+page): no_listings_found · last success: 2026-11-13
+- Stream Data Centers (pagewatch): no_listings_found · last success: never
 - The Container Store (icims): failed - blocked by bot check · last success: never
 - American Airlines (pagewatch): no_listings_found · last success: never
 - Bell Textron (pagewatch): no_listings_found · last success: never
 - Cinemark Holdings (pagewatch): no_listings_found · last success: never
+- City of Dallas (workday+page): no_listings_found · last success: 2026-11-13
 - Core-Mark Holding (pagewatch): no_listings_found · last success: never
 - D.R. Horton (pagewatch): no_listings_found · last success: never
+- Dallas County (pagewatch): failed - TimeoutError · last success: 2026-11-13
 - E*Trade Financial (pagewatch): failed - Error · last success: never
 - General Motors (pagewatch): no_listings_found · last success: never
 - Medical City Healthcare (HCA) (pagewatch): no_listings_found · last success: never
 - Range Resources (pagewatch): no_listings_found · last success: never
 - Southern Methodist University (pagewatch): no_listings_found · last success: never
+- Tarrant County (pagewatch): failed - TimeoutError · last success: 2026-11-13
 - Texas Christian University (pagewatch): no_listings_found · last success: never
 - TravelCenters of America (pagewatch): no_listings_found · last success: never
 - University of Texas at Dallas (pagewatch): no_listings_found · last success: never
+- Vanguard (workday+page): no_listings_found · last success: 2026-11-13
 
 ## New matches
 
@@ -94,7 +101,6 @@
 - **Industrial IT Support Specialist** — Base Power (Austin, TX, Austin, Texas, United States) 2026-11-03 https://jobs.a16z.com/jobs/base-power-company/070fee5a-4235-4588-9751-33f3664f9655--industrial-it-support-specialist
 - **Test Systems Technician** — Base Power (Austin, TX, Austin, Texas, United States) 2026-11-06 https://jobs.a16z.com/jobs/base-power-company/a9eeb03c-a1c7-4098-95d9-b8bdf8354fdf--test-systems-technician
 - **IT Technician (Austin)** — Saronic (Austin, TX, Austin, Texas, United States) 2026-11-10 https://jobs.a16z.com/jobs/saronic-technologies/62636523-c7da-4076-aee4-bc7c0d8685d0--it-technician-austin
-- **Network Technician** — Community Health Systems (Corsicana, TX, United States) 2026-10-30 https://fa-evxo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/169133
 - **IT Help Desk Support Specialist** — Robert Half (IT Help Desk Support Specialist)  https://www.roberthalf.com/us/en/job/century-city-ca/it-help-desk-support-specialist/00350-9504417586-usen
 - **Computing Specialist II** — Tarrant County (Computing Specialist II)  https://www.governmentjobs.com/jobs/5524001-0/computing-specialist-ii
 - **Temporary Data Center Technician I** — UT Southwestern Medical Center (Temporary Data Center Technician I)  https://jobs.utsouthwestern.edu/job/23934564/temporary-data-center-technician-i/
@@ -139,4 +145,3 @@
 - **Jr Assoc, IT Support** — West Pharmaceutical Services (Jr Assoc, IT Support)  https://careers.westpharma.com/job/Horsens-Jr-Assoc%2C-IT-Support-DK/1448044133/
 - **IT Support Spec I** — IGT (IT Support Spec I)  https://jobs.igt.com/IGT/job/Austin-IT-Support-Spec-I-TX-78727/1368885457/
 - **Desktop Support Specialist II** — IGT (Desktop Support Specialist II)  https://jobs.igt.com/job/Chicago-Desktop-Support-Specialist-II-IL-60661/1374754757/
-- **IT Operations Analyst II** — dbt Labs (IT Operations Analyst II)  https://www.fivetran.com/careers/job?gh_jid=8007247003
