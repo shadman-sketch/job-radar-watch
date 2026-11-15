@@ -1,50 +1,48 @@
-# Watchlist run 2026-11-14
+# Watchlist run 2026-11-15
 
-- Companies checked: 1227 of 1526 answered
-- Sources with listings extracted: 1227 · page loaded but no listings found: 227 · failed: 72
+- Companies checked: 1304 of 1526 answered
+- Sources with listings extracted: 1304 · page loaded but no listings found: 152 · failed: 70
 - Duplicates removed across sources: 2
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 62315
-- Jobs matching your roles (any location): 437
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 61
+- Jobs read: 69668
+- Jobs matching your roles (any location): 614
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 75
 - New matching jobs: 66
-- All open matching jobs at watched companies: 59 (see open_now.json)
+- All open matching jobs at watched companies: 73 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 340 | 220 | 3495 |
-| greenhouse | 316 | 316 | 22380 |
-| workday+page | 223 | 140 | 1171 |
-| ashby | 154 | 154 | 8167 |
-| lever | 77 | 77 | 3876 |
-| phenom | 64 | 64 | 135 |
+| pagewatch | 340 | 217 | 3739 |
+| greenhouse | 316 | 316 | 22375 |
+| ashby | 154 | 154 | 8170 |
+| workday | 147 | 144 | 10557 |
+| workday+page | 136 | 118 | 1377 |
+| lever | 77 | 77 | 3874 |
 | icims | 64 | 0 | 0 |
-| workday | 60 | 56 | 3985 |
-| smartrecruiters | 59 | 59 | 11986 |
+| phenom | 63 | 63 | 137 |
+| smartrecruiters | 59 | 59 | 11973 |
 | jobvite | 43 | 43 | 776 |
-| oracle | 39 | 39 | 2369 |
-| eightfold+page | 17 | 16 | 260 |
-| workable+page | 15 | 0 | 0 |
-| workable | 12 | 12 | 190 |
+| oracle | 39 | 39 | 2377 |
+| workable | 27 | 27 | 521 |
+| eightfold+page | 17 | 15 | 254 |
 | ultipro | 11 | 11 | 225 |
+| phenom+page | 5 | 4 | 71 |
 | greenhouse+page | 5 | 1 | 2 |
-| phenom+page | 4 | 4 | 71 |
 | adp | 4 | 4 | 29 |
 | breezy | 3 | 3 | 34 |
 | ashby+page | 3 | 0 | 0 |
-| ultipro+page | 2 | 2 | 512 |
+| ultipro+page | 2 | 2 | 513 |
 | recruitee | 2 | 2 | 52 |
 | lever+page | 2 | 0 | 0 |
-| rippling | 2 | 2 | 772 |
+| rippling | 2 | 2 | 773 |
 | recruitee+page | 1 | 0 | 0 |
 | eightfold | 1 | 1 | 28 |
-| rippling+page | 1 | 0 | 0 |
+| rippling+page | 1 | 1 | 1 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1800 |
+| board | 1 | 1 | 1810 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
-- AT&T (workday+page): no_listings_found · last success: 2026-11-13
 - Allied Universal (icims): failed - blocked by bot check · last success: never
 - Bank of America (workday+page): no_listings_found · last success: 2026-11-05
 - Calance (pagewatch): no_listings_found · last success: never
@@ -56,13 +54,11 @@
 - JPS Health Network (pagewatch): no_listings_found · last success: never
 - Motion Recruitment (pagewatch): no_listings_found · last success: never
 - NTT DATA (icims): failed - blocked by bot check · last success: never
-- Rackspace Technology (workday+page): no_listings_found · last success: 2026-11-13
 - Stream Data Centers (pagewatch): no_listings_found · last success: never
 - The Container Store (icims): failed - blocked by bot check · last success: never
 - American Airlines (pagewatch): no_listings_found · last success: never
 - Bell Textron (pagewatch): no_listings_found · last success: never
 - Cinemark Holdings (pagewatch): no_listings_found · last success: never
-- City of Dallas (workday+page): no_listings_found · last success: 2026-11-13
 - Core-Mark Holding (pagewatch): no_listings_found · last success: never
 - D.R. Horton (pagewatch): no_listings_found · last success: never
 - Dallas County (pagewatch): failed - TimeoutError · last success: 2026-11-13
@@ -75,7 +71,6 @@
 - Texas Christian University (pagewatch): no_listings_found · last success: never
 - TravelCenters of America (pagewatch): no_listings_found · last success: never
 - University of Texas at Dallas (pagewatch): no_listings_found · last success: never
-- Vanguard (workday+page): no_listings_found · last success: 2026-11-13
 
 ## New matches
 
@@ -119,9 +114,9 @@
 - **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399708000/
 - **Maintenance Tech Tier II** — Dana (Maintenance Tech Tier II)  https://jobs.dana.com/job/Louisville-Maintenance-Tech-Tier-II-KY-40245-1900/1060829100/
 - **Assembly Technician Tier II** — Dana (Assembly Technician Tier II)  https://jobs.dana.com/job/Gordonsville-Assembly-Technician-Tier-II-TN-38563-2143/1347211400/
+- **Assembler Tier II** — Dana (Assembler Tier II)  https://jobs.dana.com/job/Henderson-Assembler-Tier-II-KY-42420-9667/1411740400/
 - **Student, Intern, IT Workplace Services, Summer 2027** — Entergy (Student, Intern, IT Workplace Services, Summer 2027)  https://jobs.entergy.com/job/New-Orleans-Student%2C-Intern%2C-IT-Workplace-Services%2C-Summer-2027-Loui/1437086300/
 - **AI Specialist (Technical Support Representative) Professional PETALING JAYA, MY** — IBM (AI Specialist (Technical Support Representative) Professional PETALING JAYA, MY)  https://careers.ibm.com/en_US/careers/JobDetail?jobId=133513&source=WEB_Search_NA
-- **Helpdesk Technician** — Ingles Markets (Helpdesk Technician)  https://jobs.inglescareers.com/job/Black-Mountain-Helpdesk-Technician-NC-28711/1416638900/
 - **Endpoint Support Technician** — Jack Henry & Associates (Endpoint Support Technician)  https://careers.jackhenry.com/job/allen/endpoint-support-technician/42859/100637258496
 - **IT Coordinator** — Lear (IT Coordinator)  https://jobs.lear.com/job/Duncan-IT-Coordinator-SC-29334/1454448133/
 - **IT Specialist** — Lear (IT Specialist)  https://jobs.lear.com/job/Vigo-IT-Specialist-PO-36312/1445963433/

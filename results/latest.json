@@ -1,6 +1,6 @@
 {
- "run_at": "2026-11-14T09:04:41+00:00",
- "date": "2026-11-14",
+ "run_at": "2026-11-15T09:04:46+00:00",
+ "date": "2026-11-15",
  "count": 66,
  "jobs": [
   {
@@ -804,6 +804,26 @@
    "last_verified": "2026-11-11"
   },
   {
+   "company_id": "321",
+   "company": "Dana",
+   "board": null,
+   "priority": "3",
+   "sector": "Motor Vehicles & Parts",
+   "title": "Assembler Tier II",
+   "location": "Assembler Tier II",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://jobs.dana.com/job/Henderson-Assembler-Tier-II-KY-42420-9667/1411740400/",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "stretch",
+   "req_id": null,
+   "canonical_url": "https://jobs.dana.com/job/henderson-assembler-tier-ii-ky-42420-9667/1411740400",
+   "first_seen": "2026-11-15",
+   "last_verified": "2026-11-15"
+  },
+  {
    "company_id": "367",
    "company": "Entergy",
    "board": null,
@@ -842,26 +862,6 @@
    "canonical_url": "https://careers.ibm.com/en_us/careers/jobdetail?jobId=133513",
    "first_seen": "2026-11-06",
    "last_verified": "2026-11-06"
-  },
-  {
-   "company_id": "504",
-   "company": "Ingles Markets",
-   "board": null,
-   "priority": "3",
-   "sector": "Food & Drug Stores",
-   "title": "Helpdesk Technician",
-   "location": "Helpdesk Technician",
-   "location_kind": "unknown",
-   "remote": false,
-   "url": "https://jobs.inglescareers.com/job/Black-Mountain-Helpdesk-Technician-NC-28711/1416638900/",
-   "posted": null,
-   "baseline": false,
-   "system": "pagewatch",
-   "role_band": "core",
-   "req_id": null,
-   "canonical_url": "https://jobs.inglescareers.com/job/black-mountain-helpdesk-technician-nc-28711/1416638900",
-   "first_seen": "2026-11-01",
-   "last_verified": "2026-11-01"
   },
   {
    "company_id": "522",
