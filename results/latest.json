@@ -1,7 +1,7 @@
 {
- "run_at": "2026-11-15T09:04:46+00:00",
- "date": "2026-11-15",
- "count": 66,
+ "run_at": "2026-11-16T11:14:24+00:00",
+ "date": "2026-11-16",
+ "count": 67,
  "jobs": [
   {
    "company_id": "38",
@@ -824,6 +824,26 @@
    "last_verified": "2026-11-15"
   },
   {
+   "company_id": "321",
+   "company": "Dana",
+   "board": null,
+   "priority": "3",
+   "sector": "Motor Vehicles & Parts",
+   "title": "Machine Repair Tier I",
+   "location": "Machine Repair Tier I",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://jobs.dana.com/job/Pottstown-Machine-Repair-Tier-I-PA-19464-6042/1360677800/",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "adjacent",
+   "req_id": null,
+   "canonical_url": "https://jobs.dana.com/job/pottstown-machine-repair-tier-i-pa-19464-6042/1360677800",
+   "first_seen": "2026-11-16",
+   "last_verified": "2026-11-16"
+  },
+  {
    "company_id": "367",
    "company": "Entergy",
    "board": null,
@@ -1084,6 +1104,26 @@
    "last_verified": "2026-11-05"
   },
   {
+   "company_id": "598",
+   "company": "Mettler Toledo",
+   "board": null,
+   "priority": "3",
+   "sector": "Health Care",
+   "title": "Global Service Desk Analyst with German (all genders)",
+   "location": "Global Service Desk Analyst with German (all genders)",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://careers.mt.com/en_US/careers/JobDetail/Global-Service-Desk-Analyst-KEEP/23653",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "core",
+   "req_id": null,
+   "canonical_url": "https://careers.mt.com/en_us/careers/jobdetail/global-service-desk-analyst-keep/23653",
+   "first_seen": "2026-11-16",
+   "last_verified": "2026-11-16"
+  },
+  {
    "company_id": "609",
    "company": "Mohawk Industries",
    "board": null,
@@ -1282,26 +1322,6 @@
    "canonical_url": "https://careers.westpharma.com/job/horsens-jr-assoc%2c-it-support-dk/1448044133",
    "first_seen": "2026-11-13",
    "last_verified": "2026-11-13"
-  },
-  {
-   "company_id": "1224",
-   "company": "IGT",
-   "board": null,
-   "priority": "4",
-   "sector": "Technology / media / other",
-   "title": "IT Support Spec I",
-   "location": "IT Support Spec I",
-   "location_kind": "unknown",
-   "remote": false,
-   "url": "https://jobs.igt.com/IGT/job/Austin-IT-Support-Spec-I-TX-78727/1368885457/",
-   "posted": null,
-   "baseline": false,
-   "system": "pagewatch",
-   "role_band": "core",
-   "req_id": null,
-   "canonical_url": "https://jobs.igt.com/igt/job/austin-it-support-spec-i-tx-78727/1368885457",
-   "first_seen": "2026-11-02",
-   "last_verified": "2026-11-02"
   },
   {
    "company_id": "1224",
