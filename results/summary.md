@@ -1,45 +1,45 @@
-# Watchlist run 2026-11-16
+# Watchlist run 2026-11-17
 
-- Companies checked: 1295 of 1526 answered
-- Sources with listings extracted: 1295 · page loaded but no listings found: 152 · failed: 79
+- Companies checked: 1299 of 1526 answered
+- Sources with listings extracted: 1299 · page loaded but no listings found: 150 · failed: 77
 - Duplicates removed across sources: 2
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 60265
-- Jobs matching your roles (any location): 383
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 67
+- Jobs read: 60082
+- Jobs matching your roles (any location): 382
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 74
 - New matching jobs: 67
-- All open matching jobs at watched companies: 65 (see open_now.json)
+- All open matching jobs at watched companies: 72 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 338 | 223 | 3674 |
-| greenhouse | 317 | 317 | 22368 |
-| workday+page | 279 | 245 | 2700 |
-| ashby | 154 | 154 | 8164 |
-| lever | 77 | 77 | 3859 |
+| pagewatch | 338 | 225 | 3646 |
+| greenhouse | 317 | 317 | 22195 |
+| workday+page | 280 | 249 | 2739 |
+| ashby | 154 | 154 | 8156 |
+| lever | 77 | 77 | 3867 |
 | icims | 65 | 0 | 0 |
-| phenom | 64 | 64 | 135 |
-| smartrecruiters | 59 | 59 | 11942 |
-| jobvite | 43 | 43 | 776 |
-| oracle | 39 | 39 | 2388 |
-| workable | 27 | 27 | 508 |
-| eightfold+page | 17 | 16 | 259 |
-| ultipro | 11 | 11 | 225 |
+| phenom | 61 | 61 | 129 |
+| smartrecruiters | 59 | 59 | 11916 |
+| jobvite | 43 | 43 | 772 |
+| oracle | 39 | 39 | 2387 |
+| workable | 27 | 27 | 503 |
+| eightfold+page | 17 | 16 | 251 |
+| ultipro | 11 | 11 | 222 |
+| phenom+page | 7 | 5 | 78 |
 | greenhouse+page | 5 | 1 | 2 |
-| phenom+page | 4 | 4 | 71 |
-| adp | 4 | 4 | 29 |
-| workday | 4 | 0 | 0 |
+| adp | 4 | 4 | 30 |
 | breezy | 3 | 3 | 34 |
+| workday | 3 | 0 | 0 |
 | ashby+page | 3 | 0 | 0 |
-| ultipro+page | 2 | 2 | 513 |
-| recruitee | 2 | 2 | 52 |
+| ultipro+page | 2 | 2 | 527 |
+| recruitee | 2 | 2 | 51 |
 | lever+page | 2 | 0 | 0 |
-| rippling | 2 | 2 | 769 |
+| rippling | 2 | 2 | 759 |
 | recruitee+page | 1 | 0 | 0 |
 | eightfold | 1 | 1 | 28 |
 | rippling+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1769 |
+| board | 1 | 1 | 1790 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
@@ -63,20 +63,19 @@
 - City of Dallas (workday+page): no_listings_found · last success: 2026-11-15
 - Core-Mark Holding (pagewatch): no_listings_found · last success: never
 - D.R. Horton (pagewatch): no_listings_found · last success: never
-- Dallas County (pagewatch): failed - TimeoutError · last success: 2026-11-13
 - E*Trade Financial (pagewatch): failed - Error · last success: never
 - General Motors (pagewatch): no_listings_found · last success: never
 - Medical City Healthcare (HCA) (pagewatch): no_listings_found · last success: never
 - Primoris Services (workday+page): no_listings_found · last success: 2026-11-15
 - Range Resources (pagewatch): no_listings_found · last success: never
 - Southern Methodist University (pagewatch): no_listings_found · last success: never
-- Tarrant County (pagewatch): failed - TimeoutError · last success: 2026-11-13
 - Texas Christian University (pagewatch): no_listings_found · last success: never
 - TravelCenters of America (pagewatch): no_listings_found · last success: never
 - University of Texas at Dallas (pagewatch): no_listings_found · last success: never
 
 ## New matches
 
+- **Treasury System Support Analyst II - Global Finance** — GM Financial (Arlington, TX, United States) 2026-11-16 https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261307
 - **HELP DESK ANALYST** — Methodist Health System (Dallas, Texas) 2026-11-11 https://methodisthealthsystem.wd1.myworkdayjobs.com/MHS_Careers/job/Dallas-Texas/HELP-DESK-ANALYST_JR1000039796
 - **Computer Technician** — Netsync (Richardson, TX) 2026-11-11 https://netsync-network-solutions.breezy.hr/p/82fd30aa8eaf-computer-technician
 - **Power Generation Field Service Technician - Level I** — Cummins (Dallas, TX, United States) 2026-11-09 https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2441946
@@ -85,7 +84,9 @@
 - **System Specialist** — Vertiv Holdings (Dallas, TX, United States) 2026-11-12 https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20286237
 - **System Specialist** — Vertiv Holdings (Dallas, TX, United States) 2026-11-12 https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20286241
 - **Level 2 NOC Systems Administrator – Linux/Unix Focus** — Unisys (USA Remote) 2026-11-03 https://unisys.wd5.myworkdayjobs.com/External/job/USA-Remote/Level-2-NOC-Systems-Administrator---Linux-Unix-Focus_REQ576786
-- **IT Operations Specialist** — Alpaca (Remote - North America) 2026-11-02 https://job-boards.greenhouse.io/alpaca/jobs/6240586004
+- **IT Helpdesk Specialist 2** — Natera (US Remote) 2026-11-16 https://job-boards.greenhouse.io/natera/jobs/6261749004
+- **Patient Outreach and Support Specialist-Temp** — Natera (US Remote) 2026-11-16 https://job-boards.greenhouse.io/natera/jobs/6263353004
+- **IT Support Specialist, US & Studio Technology** — Atari (Atari - US (Remote); Digital Eclipse Entertainment Partners ) 2026-11-16 https://job-boards.greenhouse.io/atariinc/jobs/5483125008
 - **Product Support Specialist, Eastern/Central Time** — Linear (North America) 2026-11-03 https://jobs.ashbyhq.com/linear/b4df9dbe-618e-4a3b-874c-c9abf87ca5c0
 - **IT Support Engineer** — Monarch Money (Remote) 2026-11-10 https://jobs.ashbyhq.com/monarchmoney/85e2fa51-0142-4373-9a4c-673ad1db7070
 - **Enterprise Account Provisioning Specialist — Federal Health IT** — Rackner (Remote — United States) 2026-11-09 https://job-boards.greenhouse.io/rackner/jobs/4752621005
@@ -100,6 +101,7 @@
 - **Test Systems Technician** — Base Power (Austin, TX, Austin, Texas, United States) 2026-11-06 https://jobs.a16z.com/jobs/base-power-company/a9eeb03c-a1c7-4098-95d9-b8bdf8354fdf--test-systems-technician
 - **IT Technician (Austin)** — Saronic (Austin, TX, Austin, Texas, United States) 2026-11-10 https://jobs.a16z.com/jobs/saronic-technologies/62636523-c7da-4076-aee4-bc7c0d8685d0--it-technician-austin
 - **IT Help Desk Support Specialist** — Robert Half (IT Help Desk Support Specialist)  https://www.roberthalf.com/us/en/job/century-city-ca/it-help-desk-support-specialist/00350-9504417586-usen
+- **Help Desk/Desktop Support Analyst** — Robert Half (Help Desk/Desktop Support Analyst)  https://www.roberthalf.com/us/en/job/huntington-park-ca/help-deskdesktop-support-analyst/00290-0013544244-usen
 - **Computing Specialist II** — Tarrant County (Computing Specialist II)  https://www.governmentjobs.com/jobs/5524001-0/computing-specialist-ii
 - **Temporary Data Center Technician I** — UT Southwestern Medical Center (Temporary Data Center Technician I)  https://jobs.utsouthwestern.edu/job/23934564/temporary-data-center-technician-i/
 - **Technical Support Representative** — Ametek (Technical Support Representative)  https://jobs.ametek.com/job/Waukegan-Technical-Support-Representative-IL-60085/1417928300/
@@ -107,7 +109,7 @@
 - **Professional Internship Information Technology - Client Support (m/f/d)** — BorgWarner (Professional Internship Information Technology - Client Support (m/f/d))  https://www.borgwarner.com/careers/job-search?id=R2026-4421
 - **IAM Administrator-Level 2** — Cintas (IAM Administrator-Level 2)  https://careers.cintas.com/job/Mason-IAM-Administrator-Level-2-OH-45040/1441898600/
 - **SAP Functional Analyst-Level 2-CRM** — Cintas (SAP Functional Analyst-Level 2-CRM)  https://careers.cintas.com/job/Mason-SAP-Functional-Analyst-Level-2-CRM-OH-45040/1444341500/
-- **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1398846000/
+- **Direct Sale Support Specialist** — Cintas (Direct Sale Support Specialist)  https://careers.cintas.com/job/Tuscaloosa-Direct-Sale-Support-Specialist-AL-35401/1451006600/
 - **Toolmaker Tier I** — Dana (Toolmaker Tier I)  https://jobs.dana.com/job/Pottstown-Toolmaker-Tier-I-PA-19464-6042/1382551000/
 - **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399707900/
 - **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399708500/
@@ -119,7 +121,7 @@
 - **Assembly Technician Tier II** — Dana (Assembly Technician Tier II)  https://jobs.dana.com/job/Gordonsville-Assembly-Technician-Tier-II-TN-38563-2143/1347211400/
 - **Assembler Tier II** — Dana (Assembler Tier II)  https://jobs.dana.com/job/Henderson-Assembler-Tier-II-KY-42420-9667/1411740400/
 - **Machine Repair Tier I** — Dana (Machine Repair Tier I)  https://jobs.dana.com/job/Pottstown-Machine-Repair-Tier-I-PA-19464-6042/1360677800/
-- **Student, Intern, IT Workplace Services, Summer 2027** — Entergy (Student, Intern, IT Workplace Services, Summer 2027)  https://jobs.entergy.com/job/New-Orleans-Student%2C-Intern%2C-IT-Workplace-Services%2C-Summer-2027-Loui/1437086300/
+- **Field Support IT Analyst** — Dana (Field Support IT Analyst)  https://jobs.dana.com/job/Reggio-Emilia-Field-Support-IT-Analyst-42124/1340439300/
 - **AI Specialist (Technical Support Representative) Professional PETALING JAYA, MY** — IBM (AI Specialist (Technical Support Representative) Professional PETALING JAYA, MY)  https://careers.ibm.com/en_US/careers/JobDetail?jobId=133513&source=WEB_Search_NA
 - **Endpoint Support Technician** — Jack Henry & Associates (Endpoint Support Technician)  https://careers.jackhenry.com/job/allen/endpoint-support-technician/42859/100637258496
 - **IT Coordinator** — Lear (IT Coordinator)  https://jobs.lear.com/job/Duncan-IT-Coordinator-SC-29334/1454448133/
@@ -133,13 +135,9 @@
 - **Tier 2 Service Desk Specialist** — ManTech International (Tier 2 Service Desk Specialist)  https://careers.mantech.com/en_US/careers/JobDetail/Tier-2-Service-Desk-Specialist/67060
 - **Cybersecurity Analyst, Offensive Security** — McCormick (Cybersecurity Analyst, Offensive Security)  https://careers.mccormick.com/job/GURGAON-Cybersecurity-Analyst%2C-Offensive-Security-122001/1437794000/
 - **Global Service Desk Analyst with German (all genders)** — Mettler Toledo (Global Service Desk Analyst with German (all genders))  https://careers.mt.com/en_US/careers/JobDetail/Global-Service-Desk-Analyst-KEEP/23653
-- **IT Intern - Summer 2027** — Mohawk Industries (IT Intern - Summer 2027)  https://careers.mohawkind.com/mohawk/job/Calhoun-IT-Intern-Summer-2027-Geor-30701/1436568900/
 - **Cybersecurity Analyst** — NextEra Energy (Cybersecurity Analyst)  https://jobs.nexteraenergy.com/job/St_-Paul-Cybersecurity-Analyst-MN-55107/1437253100/
 - **IT Technology Leader** — NextEra Energy (IT Technology Leader)  https://jobs.nexteraenergy.com/job/Juno-Beach-IT-Technology-Leader-FL-33408/1448947800/
-- **IT Support Administrator** — Synopsys (IT Support Administrator)  https://careers.synopsys.com/job/cluj-napoca/it-support-administrator/44408/99760751952
 - **Service Desk Engineer** — Synopsys (Service Desk Engineer)  https://careers.synopsys.com/job/exton/service-desk-engineer/44408/102923301632
-- **IT Cybersecurity Analyst - Cloud Security Engineer** — WEC Energy Group (IT Cybersecurity Analyst - Cloud Security Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Cloud-Security-Engineer-WI-53203/1421959900/
-- **IT Cybersecurity Analyst - Data Security Engineer** — WEC Energy Group (IT Cybersecurity Analyst - Data Security Engineer)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Data-Security-Engineer-WI-53203/1421548900/
 - **Associate IT Cybersecurity Analyst** — WEC Energy Group (Associate IT Cybersecurity Analyst)  https://careers.wecenergygroup.com/job/Milwaukee-Associate-IT-Cybersecurity-Analyst-WI-53203/1448259800/
 - **Jr Assoc, IT Support** — West Pharmaceutical Services (Jr Assoc, IT Support)  https://careers.westpharma.com/job/Horsens-Jr-Assoc%2C-IT-Support-DK/1448044233/
 - **Jr Assoc, IT Support** — West Pharmaceutical Services (Jr Assoc, IT Support)  https://careers.westpharma.com/job/Horsens-Jr-Assoc%2C-IT-Support-DK/1448044133/
