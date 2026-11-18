@@ -1,6 +1,6 @@
 {
- "date": "2026-11-17",
- "count": 72,
+ "date": "2026-11-18",
+ "count": 73,
  "jobs": [
   {
    "company": "GM Financial",
@@ -16,7 +16,24 @@
    "posted": "2026-09-16",
    "posted_source": "oracle",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
+   "system": "oracle"
+  },
+  {
+   "company": "GM Financial",
+   "board": null,
+   "priority": "1",
+   "title": "Associate Cybersecurity Analyst",
+   "role_band": "stretch",
+   "location": "Arlington, TX, United States",
+   "location_kind": "dfw",
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261312",
+   "canonical_url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1/job/261312",
+   "req_id": "261312",
+   "posted": "2026-11-17",
+   "posted_source": "oracle",
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
    "system": "oracle"
   },
   {
@@ -33,7 +50,7 @@
    "posted": "2026-11-16",
    "posted_source": "oracle",
    "first_seen": "2026-11-17",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "oracle"
   },
   {
@@ -50,7 +67,7 @@
    "posted": "2026-11-12",
    "posted_source": "breezy",
    "first_seen": "2026-11-12",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "breezy"
   },
   {
@@ -67,7 +84,7 @@
    "posted": "2026-10-02",
    "posted_source": "oracle",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "oracle"
   },
   {
@@ -84,8 +101,25 @@
    "posted": "2026-10-21",
    "posted_source": "oracle",
    "first_seen": "2026-10-22",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "oracle"
+  },
+  {
+   "company": "Expeditors Intl. of Washington",
+   "board": null,
+   "priority": "3",
+   "title": "Domestic Operations & Systems Specialist",
+   "role_band": "adjacent",
+   "location": "Irving, TX, us",
+   "location_kind": "dfw",
+   "url": "https://jobs.smartrecruiters.com/expeditors/744000162182499",
+   "canonical_url": "https://jobs.smartrecruiters.com/expeditors/744000162182499",
+   "req_id": null,
+   "posted": "2026-11-17",
+   "posted_source": "smartrecruiters",
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
+   "system": "smartrecruiters"
   },
   {
    "company": "Public Storage",
@@ -101,7 +135,7 @@
    "posted": "2026-10-09",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "smartrecruiters"
   },
   {
@@ -118,7 +152,7 @@
    "posted": "2026-09-23",
    "posted_source": "lever",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "lever"
   },
   {
@@ -135,7 +169,7 @@
    "posted": "2026-09-14",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
   },
   {
@@ -149,10 +183,10 @@
    "url": "https://jobs.a16z.com/jobs/zipline/7996211003--field-support-technician",
    "canonical_url": "https://jobs.a16z.com/jobs/zipline/7996211003--field-support-technician",
    "req_id": null,
-   "posted": "2026-09-18",
+   "posted": "2026-09-19",
    "posted_source": "board",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "board"
   },
   {
@@ -169,7 +203,7 @@
    "posted": "2026-10-23",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-23",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "smartrecruiters"
   },
   {
@@ -186,7 +220,7 @@
    "posted": "2026-10-16",
    "posted_source": "greenhouse",
    "first_seen": "2026-11-07",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "greenhouse"
   },
   {
@@ -203,24 +237,7 @@
    "posted": "2026-11-16",
    "posted_source": "greenhouse",
    "first_seen": "2026-11-17",
-   "last_verified": "2026-11-17",
-   "system": "greenhouse"
-  },
-  {
-   "company": "Natera",
-   "board": null,
-   "priority": "2",
-   "title": "Patient Outreach and Support Specialist-Temp",
-   "role_band": "adjacent",
-   "location": "US Remote",
-   "location_kind": "remote",
-   "url": "https://job-boards.greenhouse.io/natera/jobs/6263353004",
-   "canonical_url": "https://job-boards.greenhouse.io/natera/jobs/6263353004",
-   "req_id": "6263353004",
-   "posted": "2026-11-16",
-   "posted_source": "greenhouse",
-   "first_seen": "2026-11-17",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "greenhouse"
   },
   {
@@ -237,7 +254,7 @@
    "posted": "2026-07-15",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
   },
   {
@@ -254,7 +271,7 @@
    "posted": "2026-10-02",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
   },
   {
@@ -271,7 +288,7 @@
    "posted": "2026-10-23",
    "posted_source": "ashby",
    "first_seen": "2026-10-24",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
   },
   {
@@ -288,25 +305,8 @@
    "posted": "2026-10-07",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
-  },
-  {
-   "company": "Atari",
-   "board": null,
-   "priority": "4",
-   "title": "IT Support Specialist, US & Studio Technology",
-   "role_band": "core",
-   "location": "Atari - US (Remote); Digital Eclipse Entertainment Partners ",
-   "location_kind": "remote",
-   "url": "https://job-boards.greenhouse.io/atariinc/jobs/5483125008",
-   "canonical_url": "https://job-boards.greenhouse.io/atariinc/jobs/5483125008",
-   "req_id": "5483125008",
-   "posted": "2026-11-16",
-   "posted_source": "greenhouse",
-   "first_seen": "2026-11-17",
-   "last_verified": "2026-11-17",
-   "system": "greenhouse"
   },
   {
    "company": "Entrata",
@@ -322,7 +322,7 @@
    "posted": "2026-05-18",
    "posted_source": "lever",
    "first_seen": "2026-10-27",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "lever"
   },
   {
@@ -339,7 +339,7 @@
    "posted": "2026-05-28",
    "posted_source": "ashby",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
   },
   {
@@ -356,7 +356,7 @@
    "posted": "2026-11-03",
    "posted_source": "ashby",
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
   },
   {
@@ -373,7 +373,7 @@
    "posted": "2026-11-10",
    "posted_source": "ashby",
    "first_seen": "2026-11-12",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
   },
   {
@@ -390,7 +390,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "smartrecruiters"
   },
   {
@@ -407,7 +407,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "smartrecruiters"
   },
   {
@@ -424,7 +424,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "smartrecruiters"
   },
   {
@@ -441,7 +441,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "smartrecruiters"
   },
   {
@@ -458,7 +458,7 @@
    "posted": "2026-11-09",
    "posted_source": "greenhouse",
    "first_seen": "2026-11-10",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "greenhouse"
   },
   {
@@ -475,7 +475,7 @@
    "posted": "2026-11-09",
    "posted_source": "greenhouse",
    "first_seen": "2026-11-10",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "greenhouse"
   },
   {
@@ -492,7 +492,7 @@
    "posted": null,
    "posted_source": "rippling",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "rippling"
   },
   {
@@ -509,7 +509,7 @@
    "posted": "2026-11-11",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-11-12",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "smartrecruiters"
   },
   {
@@ -523,10 +523,10 @@
    "url": "https://jobs.a16z.com/jobs/nash/48e32fea-837b-4c7c-8246-c347543d1861--technical-support-specialist-us-east-coast",
    "canonical_url": "https://jobs.a16z.com/jobs/nash/48e32fea-837b-4c7c-8246-c347543d1861--technical-support-specialist-us-east-coast",
    "req_id": "48E32FEA-837B-4C7C-8246-C347543D1861",
-   "posted": "2026-10-18",
+   "posted": "2026-10-19",
    "posted_source": "board",
    "first_seen": "2026-10-21",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "board"
   },
   {
@@ -540,10 +540,10 @@
    "url": "https://jobs.a16z.com/jobs/skydio/3ac81a34-b7fe-4142-9d29-12bcc1376182--technical-support-specialist",
    "canonical_url": "https://jobs.a16z.com/jobs/skydio/3ac81a34-b7fe-4142-9d29-12bcc1376182--technical-support-specialist",
    "req_id": "3AC81A34-B7FE-4142-9D29-12BCC1376182",
-   "posted": "2026-09-18",
+   "posted": "2026-09-19",
    "posted_source": "board",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "board"
   },
   {
@@ -560,7 +560,7 @@
    "posted": "2026-04-03",
    "posted_source": "breezy",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "breezy"
   },
   {
@@ -577,7 +577,7 @@
    "posted": "2026-05-19",
    "posted_source": "breezy",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "breezy"
   },
   {
@@ -594,7 +594,7 @@
    "posted": "2026-08-24",
    "posted_source": "breezy",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "breezy"
   },
   {
@@ -611,7 +611,24 @@
    "posted": "2026-09-09",
    "posted_source": "ashby",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
+   "system": "ashby"
+  },
+  {
+   "company": "Saronic",
+   "board": null,
+   "priority": "2",
+   "title": "Teamcenter Systems Specialist",
+   "role_band": "adjacent",
+   "location": "Austin, TX",
+   "location_kind": "tx_metro",
+   "url": "https://jobs.ashbyhq.com/saronic/075bb754-ad9e-448c-a2b3-4de4e435bf57",
+   "canonical_url": "https://jobs.ashbyhq.com/saronic/075bb754-ad9e-448c-a2b3-4de4e435bf57",
+   "req_id": "075BB754-AD9E-448C-A2B3-4DE4E435BF57",
+   "posted": "2026-11-17",
+   "posted_source": "ashby",
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
    "system": "ashby"
   },
   {
@@ -628,25 +645,8 @@
    "posted": "2026-11-09",
    "posted_source": "ashby",
    "first_seen": "2026-11-10",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
-  },
-  {
-   "company": "Crown Castle",
-   "board": null,
-   "priority": "3",
-   "title": "Order Support Specialist",
-   "role_band": "adjacent",
-   "location": "Canonsburg, PA / Houston, TX / Chandler, AZ / Charlotte, NC",
-   "location_kind": "tx_metro",
-   "url": "https://recruiting2.ultipro.com/CRO1010CCUSA/JobBoard/74c30440-80fa-4099-8981-2e10b7193d27/OpportunityDetail?opportunityId=5c68e56d-7ff8-48f0-84cc-741c0e9def0d",
-   "canonical_url": "https://recruiting2.ultipro.com/cro1010ccusa/jobboard/74c30440-80fa-4099-8981-2e10b7193d27/opportunitydetail",
-   "req_id": "74C30440-80FA-4099-8981-2E10B7193D27",
-   "posted": "2026-11-10",
-   "posted_source": "ultipro",
-   "first_seen": "2026-11-11",
-   "last_verified": "2026-11-17",
-   "system": "ultipro"
   },
   {
    "company": "NOV",
@@ -662,8 +662,25 @@
    "posted": "2026-08-03",
    "posted_source": "oracle",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "oracle"
+  },
+  {
+   "company": "Teradyne",
+   "board": null,
+   "priority": "3",
+   "title": "Customer Account Support Specialist (Global Customer Services GCS) - Austin, TX",
+   "role_band": "adjacent",
+   "location": "Customer Account Support Specialist (Global Customer Services GCS) - Austin, TX",
+   "location_kind": "tx_metro",
+   "url": "https://jobs.teradyne.com/Teradyne/job/Austin-Customer-Account-Support-Specialist-%28Global-Customer-Services-GCS%29-Austin%2C-TX-TX-73301/1442091100/",
+   "canonical_url": "https://jobs.teradyne.com/teradyne/job/austin-customer-account-support-specialist-%28global-customer-services-gcs%29-austin%2c-tx-tx-73301/1442091100",
+   "req_id": null,
+   "posted": null,
+   "posted_source": null,
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
+   "system": "pagewatch"
   },
   {
    "company": "Base Power",
@@ -679,7 +696,7 @@
    "posted": "2026-08-25",
    "posted_source": "ashby",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
   },
   {
@@ -696,7 +713,7 @@
    "posted": "2026-11-05",
    "posted_source": "ashby",
    "first_seen": "2026-11-06",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
   },
   {
@@ -713,7 +730,7 @@
    "posted": "2026-11-03",
    "posted_source": "ashby",
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
   },
   {
@@ -730,7 +747,7 @@
    "posted": "2026-10-29",
    "posted_source": "ashby",
    "first_seen": "2026-10-30",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "ashby"
   },
   {
@@ -747,7 +764,7 @@
    "posted": "2023-05-07",
    "posted_source": "smartrecruiters",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "smartrecruiters"
   },
   {
@@ -764,7 +781,7 @@
    "posted": "2026-11-03",
    "posted_source": "board",
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "board"
   },
   {
@@ -778,10 +795,10 @@
    "url": "https://jobs.a16z.com/jobs/base-power-company/c6228333-5f84-4363-9a3a-fd1dfb8ad1a2--hardware-technical-program-management-intern",
    "canonical_url": "https://jobs.a16z.com/jobs/base-power-company/c6228333-5f84-4363-9a3a-fd1dfb8ad1a2--hardware-technical-program-management-intern",
    "req_id": "C6228333-5F84-4363-9A3A-FD1DFB8AD1A2",
-   "posted": "2026-08-19",
+   "posted": "2026-08-20",
    "posted_source": "board",
    "first_seen": "2026-10-20",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "board"
   },
   {
@@ -798,7 +815,7 @@
    "posted": "2026-11-05",
    "posted_source": "board",
    "first_seen": "2026-11-06",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "board"
   },
   {
@@ -815,7 +832,24 @@
    "posted": "2026-11-09",
    "posted_source": "board",
    "first_seen": "2026-11-10",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
+   "system": "board"
+  },
+  {
+   "company": "Saronic",
+   "board": "a16z portfolio jobs",
+   "priority": "B",
+   "title": "Teamcenter Systems Specialist",
+   "role_band": "adjacent",
+   "location": "Austin, TX, Austin, Texas, United States",
+   "location_kind": "tx_metro",
+   "url": "https://jobs.a16z.com/jobs/saronic-technologies/075bb754-ad9e-448c-a2b3-4de4e435bf57--teamcenter-systems-specialist",
+   "canonical_url": "https://jobs.a16z.com/jobs/saronic-technologies/075bb754-ad9e-448c-a2b3-4de4e435bf57--teamcenter-systems-specialist",
+   "req_id": "075BB754-AD9E-448C-A2B3-4DE4E435BF57",
+   "posted": "2026-11-18",
+   "posted_source": "board",
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
    "system": "board"
   },
   {
@@ -832,7 +866,7 @@
    "posted": "2026-06-08",
    "posted_source": "greenhouse",
    "first_seen": "2026-10-19",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "greenhouse"
   },
   {
@@ -849,25 +883,8 @@
    "posted": "2026-10-30",
    "posted_source": "oracle",
    "first_seen": "2026-10-31",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "oracle"
-  },
-  {
-   "company": "Robert Half",
-   "board": null,
-   "priority": "1",
-   "title": "Help Desk/Desktop Support Analyst",
-   "role_band": "core",
-   "location": "Help Desk/Desktop Support Analyst",
-   "location_kind": "unknown",
-   "url": "https://www.roberthalf.com/us/en/job/huntington-park-ca/help-deskdesktop-support-analyst/00290-0013544244-usen",
-   "canonical_url": "https://www.roberthalf.com/us/en/job/huntington-park-ca/help-deskdesktop-support-analyst/00290-0013544244-usen",
-   "req_id": null,
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-11-17",
-   "last_verified": "2026-11-17",
-   "system": "pagewatch"
   },
   {
    "company": "AAR",
@@ -883,7 +900,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "pagewatch"
   },
   {
@@ -900,24 +917,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-17",
-   "system": "pagewatch"
-  },
-  {
-   "company": "Cintas",
-   "board": null,
-   "priority": "3",
-   "title": "Direct Sale Support Specialist",
-   "role_band": "adjacent",
-   "location": "Direct Sale Support Specialist",
-   "location_kind": "unknown",
-   "url": "https://careers.cintas.com/job/Tuscaloosa-Direct-Sale-Support-Specialist-AL-35401/1451006600/",
-   "canonical_url": "https://careers.cintas.com/job/tuscaloosa-direct-sale-support-specialist-al-35401/1451006600",
-   "req_id": null,
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-11-17",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "pagewatch"
   },
   {
@@ -934,7 +934,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-17",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "pagewatch"
   },
   {
@@ -951,7 +951,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-16",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "pagewatch"
   },
   {
@@ -968,25 +968,8 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-15",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "pagewatch"
-  },
-  {
-   "company": "Edwards Lifesciences",
-   "board": null,
-   "priority": "3",
-   "title": "EDI Operations Support Specialist",
-   "role_band": "adjacent",
-   "location": "EDI Operations Support Specialist",
-   "location_kind": "unknown",
-   "url": "https://edwards.wd5.myworkdayjobs.com/en-US/edwardscareers/job/USA---California--Irvine/Business-Analyst--EDI-and-Customer-Service-Operations_Req-48769",
-   "canonical_url": "https://edwards.wd5.myworkdayjobs.com/en-us/edwardscareers/job/usa---california--irvine/business-analyst--edi-and-customer-service-operations_req-48769",
-   "req_id": null,
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-11-17",
-   "last_verified": "2026-11-17",
-   "system": "workday+page"
   },
   {
    "company": "Ensign Group",
@@ -996,13 +979,30 @@
    "role_band": "core",
    "location": "IT Help Desk",
    "location_kind": "unknown",
-   "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a7887a1a150293901a15f58a5e64057&source=&lang=en",
-   "canonical_url": "https://recruitingbypaycor.com/career/jobintroduction.action?id=8a7887a1a150293901a15f58a5e64057",
+   "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a78839ea0f4259801a117a3c03212f7&source=&lang=en",
+   "canonical_url": "https://recruitingbypaycor.com/career/jobintroduction.action?id=8a78839ea0f4259801a117a3c03212f7",
    "req_id": null,
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
+   "system": "pagewatch"
+  },
+  {
+   "company": "Ensign Group",
+   "board": null,
+   "priority": "3",
+   "title": "IT Help Desk",
+   "role_band": "core",
+   "location": "IT Help Desk",
+   "location_kind": "unknown",
+   "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a7887a1a1ccdd3201a1ebcd14b8486d&source=&lang=en",
+   "canonical_url": "https://recruitingbypaycor.com/career/jobintroduction.action?id=8a7887a1a1ccdd3201a1ebcd14b8486d",
+   "req_id": null,
+   "posted": null,
+   "posted_source": null,
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
    "system": "pagewatch"
   },
   {
@@ -1019,7 +1019,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "pagewatch"
   },
   {
@@ -1036,93 +1036,93 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-26",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "pagewatch"
   },
   {
-   "company": "Granite Construction",
+   "company": "Jack Henry & Associates",
    "board": null,
    "priority": "3",
-   "title": "Regional Technology Associate",
+   "title": "Technical Support Representative: ImageCenter Support",
    "role_band": "adjacent",
-   "location": "Regional Technology Associate",
+   "location": "Technical Support Representative: ImageCenter Support",
    "location_kind": "unknown",
-   "url": "https://granite.wd1.myworkdayjobs.com/en-US/careers/job/Kennewick-Washington/Regional-Technology-Associate_R0000008470",
-   "canonical_url": "https://granite.wd1.myworkdayjobs.com/en-us/careers/job/kennewick-washington/regional-technology-associate_r0000008470",
-   "req_id": "R0000008470",
+   "url": "https://careers.jackhenry.com/job/troy/technical-support-representative-imagecenter-support/42859/103418454192",
+   "canonical_url": "https://careers.jackhenry.com/job/troy/technical-support-representative-imagecenter-support/42859/103418454192",
+   "req_id": null,
    "posted": null,
    "posted_source": null,
-   "first_seen": "2026-11-15",
-   "last_verified": "2026-11-17",
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
+   "system": "pagewatch"
+  },
+  {
+   "company": "Leggett & Platt",
+   "board": null,
+   "priority": "3",
+   "title": "Quality Systems Technician",
+   "role_band": "adjacent",
+   "location": "Quality Systems Technician",
+   "location_kind": "unknown",
+   "url": "https://leggett.com/careers/search?posting=36708",
+   "canonical_url": "https://leggett.com/careers/search",
+   "req_id": null,
+   "posted": null,
+   "posted_source": null,
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
+   "system": "pagewatch"
+  },
+  {
+   "company": "McCormick",
+   "board": null,
+   "priority": "3",
+   "title": "Cybersecurity Analyst II, GRC",
+   "role_band": "stretch",
+   "location": "Cybersecurity Analyst II, GRC",
+   "location_kind": "unknown",
+   "url": "https://careers.mccormick.com/job/GURGAON-Cybersecurity-Analyst-II%2C-GRC-122001/1451289300/",
+   "canonical_url": "https://careers.mccormick.com/job/gurgaon-cybersecurity-analyst-ii%2c-grc-122001/1451289300",
+   "req_id": null,
+   "posted": null,
+   "posted_source": null,
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
+   "system": "pagewatch"
+  },
+  {
+   "company": "S&P Global",
+   "board": null,
+   "priority": "3",
+   "title": "Associate Client Support",
+   "role_band": "adjacent",
+   "location": "Associate Client Support",
+   "location_kind": "unknown",
+   "url": "https://careers.spglobal.com/jobs/332488?lang=en-us",
+   "canonical_url": "https://careers.spglobal.com/jobs/332488",
+   "req_id": "332488",
+   "posted": null,
+   "posted_source": null,
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
    "system": "workday+page"
   },
   {
-   "company": "Lamb Weston Holdings",
+   "company": "Xcel Energy",
    "board": null,
    "priority": "3",
-   "title": "Level 2 Water Treatment",
+   "title": "Construction Superintendent, Level II",
    "role_band": "stretch",
-   "location": "Level 2 Water Treatment",
+   "location": "Construction Superintendent, Level II",
    "location_kind": "unknown",
-   "url": "https://careers.lambweston.com/job/taber/level-2-water-treatment/46162/103395387984",
-   "canonical_url": "https://careers.lambweston.com/job/taber/level-2-water-treatment/46162/103395387984",
+   "url": "https://jobs.xcelenergy.com/construction-superintendent-level-ii/job/0AB7B800B96CB881AFA08403CDDB7F96?utm_source=CorpSite&utm_campaign=XECareers",
+   "canonical_url": "https://jobs.xcelenergy.com/construction-superintendent-level-ii/job/0ab7b800b96cb881afa08403cddb7f96",
    "req_id": null,
    "posted": null,
    "posted_source": null,
-   "first_seen": "2026-11-17",
-   "last_verified": "2026-11-17",
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
    "system": "workday+page"
-  },
-  {
-   "company": "WEC Energy Group",
-   "board": null,
-   "priority": "3",
-   "title": "Associate IT Cybersecurity Analyst",
-   "role_band": "stretch",
-   "location": "Associate IT Cybersecurity Analyst",
-   "location_kind": "unknown",
-   "url": "https://careers.wecenergygroup.com/job/Milwaukee-Associate-IT-Cybersecurity-Analyst-WI-53203/1448259800/",
-   "canonical_url": "https://careers.wecenergygroup.com/job/milwaukee-associate-it-cybersecurity-analyst-wi-53203/1448259800",
-   "req_id": null,
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-11-06",
-   "last_verified": "2026-11-17",
-   "system": "pagewatch"
-  },
-  {
-   "company": "West Pharmaceutical Services",
-   "board": null,
-   "priority": "3",
-   "title": "Jr Assoc, IT Support",
-   "role_band": "core",
-   "location": "Jr Assoc, IT Support",
-   "location_kind": "unknown",
-   "url": "https://careers.westpharma.com/job/Horsens-Jr-Assoc%2C-IT-Support-DK/1448044133/",
-   "canonical_url": "https://careers.westpharma.com/job/horsens-jr-assoc%2c-it-support-dk/1448044133",
-   "req_id": null,
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-11-13",
-   "last_verified": "2026-11-17",
-   "system": "pagewatch"
-  },
-  {
-   "company": "West Pharmaceutical Services",
-   "board": null,
-   "priority": "3",
-   "title": "Jr Assoc, IT Support",
-   "role_band": "core",
-   "location": "Jr Assoc, IT Support",
-   "location_kind": "unknown",
-   "url": "https://careers.westpharma.com/job/Horsens-Jr-Assoc%2C-IT-Support-DK/1448044233/",
-   "canonical_url": "https://careers.westpharma.com/job/horsens-jr-assoc%2c-it-support-dk/1448044233",
-   "req_id": null,
-   "posted": null,
-   "posted_source": null,
-   "first_seen": "2026-11-13",
-   "last_verified": "2026-11-17",
-   "system": "pagewatch"
   },
   {
    "company": "Comscore",
@@ -1138,7 +1138,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-10-31",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "workday+page"
   },
   {
@@ -1155,7 +1155,24 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-05",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
+   "system": "workday+page"
+  },
+  {
+   "company": "Global Business Travel",
+   "board": null,
+   "priority": "4",
+   "title": "Product Support Specialist",
+   "role_band": "adjacent",
+   "location": "Product Support Specialist",
+   "location_kind": "unknown",
+   "url": "https://travelhrportal.wd1.myworkdayjobs.com/en-US/Jobs/job/United-States/Product-Support-Specialist_J-86373",
+   "canonical_url": "https://travelhrportal.wd1.myworkdayjobs.com/en-us/jobs/job/united-states/product-support-specialist_j-86373",
+   "req_id": null,
+   "posted": null,
+   "posted_source": null,
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
    "system": "workday+page"
   },
   {
@@ -1172,25 +1189,25 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-17",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "workday+page"
   },
   {
-   "company": "IGT",
+   "company": "Nissan",
    "board": null,
    "priority": "4",
-   "title": "Desktop Support Specialist II",
-   "role_band": "core",
-   "location": "Desktop Support Specialist II",
+   "title": "ASE Master Certified Techline Support Specialist 1",
+   "role_band": "adjacent",
+   "location": "ASE Master Certified Techline Support Specialist 1",
    "location_kind": "unknown",
-   "url": "https://jobs.igt.com/job/Chicago-Desktop-Support-Specialist-II-IL-60661/1374754757/",
-   "canonical_url": "https://jobs.igt.com/job/chicago-desktop-support-specialist-ii-il-60661/1374754757",
-   "req_id": null,
+   "url": "https://alliance.wd3.myworkdayjobs.com/en-US/nissanjobs/job/Canton-Mississippi---United-States-of-America/ASE-Master-Certified-Techline-Support-Specialist-1_R00216705",
+   "canonical_url": "https://alliance.wd3.myworkdayjobs.com/en-us/nissanjobs/job/canton-mississippi---united-states-of-america/ase-master-certified-techline-support-specialist-1_r00216705",
+   "req_id": "R00216705",
    "posted": null,
    "posted_source": null,
-   "first_seen": "2026-11-11",
-   "last_verified": "2026-11-17",
-   "system": "pagewatch"
+   "first_seen": "2026-11-18",
+   "last_verified": "2026-11-18",
+   "system": "workday+page"
   },
   {
    "company": "TAG",
@@ -1206,7 +1223,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-16",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "workday+page"
   },
   {
@@ -1223,7 +1240,7 @@
    "posted": null,
    "posted_source": null,
    "first_seen": "2026-11-17",
-   "last_verified": "2026-11-17",
+   "last_verified": "2026-11-18",
    "system": "workday+page"
   }
  ]
