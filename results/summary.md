@@ -1,45 +1,46 @@
-# Watchlist run 2026-11-18
+# Watchlist run 2026-11-19
 
-- Companies checked: 1299 of 1526 answered
-- Sources with listings extracted: 1299 · page loaded but no listings found: 151 · failed: 76
+- Companies checked: 1301 of 1526 answered
+- Sources with listings extracted: 1301 · page loaded but no listings found: 149 · failed: 76
 - Duplicates removed across sources: 3
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 60080
-- Jobs matching your roles (any location): 381
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 76
+- Jobs read: 60242
+- Jobs matching your roles (any location): 377
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 77
 - New matching jobs: 72
-- All open matching jobs at watched companies: 73 (see open_now.json)
+- All open matching jobs at watched companies: 74 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 338 | 226 | 3817 |
-| greenhouse | 317 | 317 | 22130 |
-| workday+page | 280 | 248 | 2744 |
-| ashby | 154 | 154 | 8161 |
-| lever | 77 | 77 | 3866 |
+| pagewatch | 338 | 225 | 3737 |
+| greenhouse | 317 | 317 | 22234 |
+| workday+page | 280 | 250 | 2788 |
+| ashby | 154 | 154 | 8174 |
+| lever | 77 | 77 | 3869 |
 | icims | 65 | 0 | 0 |
-| phenom | 61 | 61 | 133 |
-| smartrecruiters | 59 | 59 | 11875 |
-| jobvite | 43 | 43 | 768 |
-| oracle | 39 | 39 | 2366 |
-| workable | 27 | 27 | 497 |
-| eightfold+page | 17 | 16 | 230 |
-| ultipro | 11 | 11 | 213 |
-| phenom+page | 7 | 5 | 78 |
+| phenom | 61 | 61 | 136 |
+| smartrecruiters | 59 | 59 | 11945 |
+| jobvite | 43 | 43 | 763 |
+| oracle | 38 | 38 | 2303 |
+| workable | 27 | 27 | 502 |
+| eightfold+page | 17 | 16 | 244 |
+| ultipro | 11 | 11 | 212 |
+| phenom+page | 7 | 6 | 80 |
 | greenhouse+page | 5 | 1 | 2 |
-| adp | 4 | 4 | 30 |
-| breezy | 3 | 3 | 31 |
+| adp | 4 | 4 | 32 |
+| breezy | 3 | 3 | 30 |
 | workday | 3 | 0 | 0 |
 | ashby+page | 3 | 0 | 0 |
-| ultipro+page | 2 | 2 | 525 |
+| ultipro+page | 2 | 2 | 535 |
 | recruitee | 2 | 2 | 48 |
 | lever+page | 2 | 0 | 0 |
-| rippling | 2 | 2 | 750 |
+| rippling | 2 | 2 | 735 |
 | recruitee+page | 1 | 0 | 0 |
+| oracle+page | 1 | 1 | 27 |
 | eightfold | 1 | 1 | 28 |
 | rippling+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1788 |
+| board | 1 | 1 | 1818 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
@@ -105,13 +106,11 @@
 - **Help Desk/Desktop Support Analyst** — Robert Half (Help Desk/Desktop Support Analyst)  https://www.roberthalf.com/us/en/job/huntington-park-ca/help-deskdesktop-support-analyst/00290-0013544244-usen
 - **Computing Specialist II** — Tarrant County (Computing Specialist II)  https://www.governmentjobs.com/jobs/5524001-0/computing-specialist-ii
 - **Temporary Data Center Technician I** — UT Southwestern Medical Center (Temporary Data Center Technician I)  https://jobs.utsouthwestern.edu/job/23934564/temporary-data-center-technician-i/
-- **Technical Support Representative** — Ametek (Technical Support Representative)  https://jobs.ametek.com/job/Waukegan-Technical-Support-Representative-IL-60085/1417928300/
 - **IT User Support Analyst II** — Ametek (IT User Support Analyst II)  https://jobs.ametek.com/job/Oak-Ridge-IT-User-Support-Analyst-II-TN-37831/1438146800/
 - **Professional Internship Information Technology - Client Support (m/f/d)** — BorgWarner (Professional Internship Information Technology - Client Support (m/f/d))  https://www.borgwarner.com/careers/job-search?id=R2026-4421
 - **IAM Administrator-Level 2** — Cintas (IAM Administrator-Level 2)  https://careers.cintas.com/job/Mason-IAM-Administrator-Level-2-OH-45040/1441898600/
 - **SAP Functional Analyst-Level 2-CRM** — Cintas (SAP Functional Analyst-Level 2-CRM)  https://careers.cintas.com/job/Mason-SAP-Functional-Analyst-Level-2-CRM-OH-45040/1444341500/
 - **Direct Sale Support Specialist** — Cintas (Direct Sale Support Specialist)  https://careers.cintas.com/job/Tuscaloosa-Direct-Sale-Support-Specialist-AL-35401/1451006600/
-- **Toolmaker Tier I** — Dana (Toolmaker Tier I)  https://jobs.dana.com/job/Pottstown-Toolmaker-Tier-I-PA-19464-6042/1382551000/
 - **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399707900/
 - **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399708500/
 - **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399708400/
@@ -123,26 +122,28 @@
 - **Assembler Tier II** — Dana (Assembler Tier II)  https://jobs.dana.com/job/Henderson-Assembler-Tier-II-KY-42420-9667/1411740400/
 - **Machine Repair Tier I** — Dana (Machine Repair Tier I)  https://jobs.dana.com/job/Pottstown-Machine-Repair-Tier-I-PA-19464-6042/1360677800/
 - **Field Support IT Analyst** — Dana (Field Support IT Analyst)  https://jobs.dana.com/job/Reggio-Emilia-Field-Support-IT-Analyst-42124/1340439300/
+- **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1386855800/
+- **Associate Design Support Specialist (Williamsburg, Hybrid)** — Dominion Energy (Associate Design Support Specialist (Williamsburg, Hybrid))  https://careers.dominionenergy.com/job/WILLIAMSBURG-Associate-Design-Support-Specialist-%28Williamsburg%2C-Hybrid%29-VA-23188/1451956200/
 - **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a7887a1a1ccdd3201a1ebcd14b8486d&source=&lang=en
 - **AI Specialist (Technical Support Representative) Professional PETALING JAYA, MY** — IBM (AI Specialist (Technical Support Representative) Professional PETALING JAYA, MY)  https://careers.ibm.com/en_US/careers/JobDetail?jobId=133513&source=WEB_Search_NA
 - **Endpoint Support Technician** — Jack Henry & Associates (Endpoint Support Technician)  https://careers.jackhenry.com/job/allen/endpoint-support-technician/42859/100637258496
 - **Technical Support Representative: ImageCenter Support** — Jack Henry & Associates (Technical Support Representative: ImageCenter Support)  https://careers.jackhenry.com/job/troy/technical-support-representative-imagecenter-support/42859/103418454192
-- **IT Coordinator** — Lear (IT Coordinator)  https://jobs.lear.com/job/Duncan-IT-Coordinator-SC-29334/1454448133/
+- **Client Support Representative II: Bill Pay** — Jack Henry & Associates (Client Support Representative II: Bill Pay)  https://careers.jackhenry.com/job/louisville/client-support-representative-ii-bill-pay/42859/103480075456
 - **IT Specialist** — Lear (IT Specialist)  https://jobs.lear.com/job/Vigo-IT-Specialist-PO-36312/1445963433/
 - **Site IT Support Analyst I** — Lear (Site IT Support Analyst I)  https://jobs.lear.com/job/Auburn-Hills-Site-IT-Support-Analyst-I-MI-48326/1455696733/
 - **Quality Systems Technician** — Leggett & Platt (Quality Systems Technician)  https://leggett.com/careers/search?posting=36708
-- **IT Specialist** — ManTech International (IT Specialist)  https://careers.mantech.com/en_US/careers/JobDetail/IT-Specialist/66928
-- **IT Specialist** — ManTech International (IT Specialist)  https://careers.mantech.com/en_US/careers/JobDetail/IT-Specialist/66927
 - **Cybersecurity Analyst** — ManTech International (Cybersecurity Analyst)  https://careers.mantech.com/en_US/careers/JobDetail/Cybersecurity-Analyst/66965
 - **Software Application Helpdesk Support Engineer** — ManTech International (Software Application Helpdesk Support Engineer)  https://careers.mantech.com/en_US/careers/JobDetail/Software-Application-Helpdesk-Support-Engineer/66978
 - **Cybersecurity Analyst** — ManTech International (Cybersecurity Analyst)  https://careers.mantech.com/en_US/careers/JobDetail/Cybersecurity-Analyst/67061
 - **Tier 2 Service Desk Specialist** — ManTech International (Tier 2 Service Desk Specialist)  https://careers.mantech.com/en_US/careers/JobDetail/Tier-2-Service-Desk-Specialist/67060
-- **Cybersecurity Analyst, Offensive Security** — McCormick (Cybersecurity Analyst, Offensive Security)  https://careers.mccormick.com/job/GURGAON-Cybersecurity-Analyst%2C-Offensive-Security-122001/1437794000/
 - **Cybersecurity Analyst II, GRC** — McCormick (Cybersecurity Analyst II, GRC)  https://careers.mccormick.com/job/GURGAON-Cybersecurity-Analyst-II%2C-GRC-122001/1451289300/
+- **Cybersecurity Analyst II, GRC** — McCormick (Cybersecurity Analyst II, GRC)  https://careers.mccormick.com/job/GURGAON-Cybersecurity-Analyst-II%2C-GRC-122001/1452093500/
+- **Cybersecurity Analyst, GRC** — McCormick (Cybersecurity Analyst, GRC)  https://careers.mccormick.com/job/GURGAON-Cybersecurity-Analyst%2C-GRC-122001/1452094600/
+- **Cybersecurity Analyst, GRC** — McCormick (Cybersecurity Analyst, GRC)  https://careers.mccormick.com/job/GURGAON-Cybersecurity-Analyst%2C-GRC-122001/1452096700/
 - **Global Service Desk Analyst with German (all genders)** — Mettler Toledo (Global Service Desk Analyst with German (all genders))  https://careers.mt.com/en_US/careers/JobDetail/Global-Service-Desk-Analyst-KEEP/23653
-- **Cybersecurity Analyst** — NextEra Energy (Cybersecurity Analyst)  https://jobs.nexteraenergy.com/job/St_-Paul-Cybersecurity-Analyst-MN-55107/1437253100/
 - **IT Technology Leader** — NextEra Energy (IT Technology Leader)  https://jobs.nexteraenergy.com/job/Juno-Beach-IT-Technology-Leader-FL-33408/1448947800/
 - **Service Desk Engineer** — Synopsys (Service Desk Engineer)  https://careers.synopsys.com/job/exton/service-desk-engineer/44408/102923301632
+- **Customer Account Support Specialist** — Teradyne (Customer Account Support Specialist)  https://jobs.teradyne.com/Teradyne/job/Haifa-Customer-Account-Support-Specialist/1442153100/
 - **Associate IT Cybersecurity Analyst** — WEC Energy Group (Associate IT Cybersecurity Analyst)  https://careers.wecenergygroup.com/job/Milwaukee-Associate-IT-Cybersecurity-Analyst-WI-53203/1448259800/
 - **Jr Assoc, IT Support** — West Pharmaceutical Services (Jr Assoc, IT Support)  https://careers.westpharma.com/job/Horsens-Jr-Assoc%2C-IT-Support-DK/1448044233/
 - **Jr Assoc, IT Support** — West Pharmaceutical Services (Jr Assoc, IT Support)  https://careers.westpharma.com/job/Horsens-Jr-Assoc%2C-IT-Support-DK/1448044133/
