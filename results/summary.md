@@ -1,45 +1,45 @@
-# Watchlist run 2026-11-20
+# Watchlist run 2026-11-21
 
-- Companies checked: 1297 of 1526 answered
-- Sources with listings extracted: 1297 · page loaded but no listings found: 151 · failed: 78
+- Companies checked: 1319 of 1526 answered
+- Sources with listings extracted: 1319 · page loaded but no listings found: 131 · failed: 76
 - Duplicates removed across sources: 6
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 60266
-- Jobs matching your roles (any location): 396
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 84
-- New matching jobs: 71
-- All open matching jobs at watched companies: 78 (see open_now.json)
+- Jobs read: 67920
+- Jobs matching your roles (any location): 517
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 79
+- New matching jobs: 66
+- All open matching jobs at watched companies: 73 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 338 | 225 | 3792 |
-| greenhouse | 317 | 317 | 22086 |
-| workday+page | 275 | 241 | 2643 |
-| ashby | 153 | 153 | 8192 |
-| lever | 77 | 77 | 3885 |
+| pagewatch | 338 | 224 | 3721 |
+| greenhouse | 317 | 317 | 22049 |
+| ashby | 153 | 153 | 8206 |
+| workday+page | 147 | 136 | 1557 |
+| workday | 136 | 134 | 9073 |
+| lever | 77 | 77 | 3891 |
 | icims | 65 | 0 | 0 |
-| phenom | 62 | 62 | 137 |
-| smartrecruiters | 59 | 59 | 11954 |
-| jobvite | 43 | 43 | 767 |
-| oracle | 39 | 39 | 2348 |
-| workable | 27 | 27 | 505 |
-| eightfold+page | 17 | 16 | 253 |
-| ultipro | 11 | 11 | 210 |
-| workday | 8 | 5 | 252 |
-| phenom+page | 6 | 6 | 81 |
+| phenom | 61 | 61 | 140 |
+| smartrecruiters | 59 | 59 | 11941 |
+| jobvite | 43 | 43 | 763 |
+| oracle | 39 | 39 | 2365 |
+| workable | 27 | 27 | 503 |
+| eightfold+page | 17 | 16 | 250 |
+| ultipro | 11 | 11 | 202 |
+| phenom+page | 7 | 6 | 81 |
 | greenhouse+page | 5 | 1 | 2 |
 | adp | 4 | 4 | 33 |
 | ashby+page | 4 | 0 | 0 |
 | breezy | 3 | 3 | 31 |
-| ultipro+page | 2 | 2 | 534 |
+| ultipro+page | 2 | 2 | 538 |
 | recruitee | 2 | 2 | 49 |
 | lever+page | 2 | 0 | 0 |
-| rippling | 2 | 2 | 785 |
+| rippling | 2 | 2 | 807 |
 | recruitee+page | 1 | 0 | 0 |
 | eightfold | 1 | 1 | 28 |
 | rippling+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1699 |
+| board | 1 | 1 | 1690 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
@@ -61,17 +61,13 @@
 - American Airlines (pagewatch): no_listings_found · last success: never
 - Bell Textron (pagewatch): no_listings_found · last success: never
 - Cinemark Holdings (pagewatch): no_listings_found · last success: never
-- City of Dallas (workday+page): no_listings_found · last success: 2026-11-15
 - Core-Mark Holding (pagewatch): no_listings_found · last success: never
 - D.R. Horton (pagewatch): no_listings_found · last success: never
-- Dallas County (pagewatch): failed - TimeoutError · last success: 2026-11-19
 - E*Trade Financial (pagewatch): failed - Error · last success: never
 - General Motors (pagewatch): no_listings_found · last success: never
 - Medical City Healthcare (HCA) (pagewatch): no_listings_found · last success: never
-- Primoris Services (workday+page): no_listings_found · last success: 2026-11-15
 - Range Resources (pagewatch): no_listings_found · last success: never
 - Southern Methodist University (pagewatch): no_listings_found · last success: never
-- Tarrant County (pagewatch): failed - TimeoutError · last success: 2026-11-19
 - Texas Christian University (pagewatch): no_listings_found · last success: never
 - TravelCenters of America (pagewatch): no_listings_found · last success: never
 - University of Texas at Dallas (pagewatch): no_listings_found · last success: never
@@ -82,6 +78,7 @@
 - **Associate Cybersecurity Analyst** — GM Financial (Arlington, TX, United States) 2026-11-17 https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261312
 - **HELP DESK ANALYST** — Methodist Health System (Dallas, Texas) 2026-11-11 https://methodisthealthsystem.wd1.myworkdayjobs.com/MHS_Careers/job/Dallas-Texas/HELP-DESK-ANALYST_JR1000039796
 - **Computer Technician** — Netsync (Richardson, TX) 2026-11-11 https://netsync-network-solutions.breezy.hr/p/82fd30aa8eaf-computer-technician
+- **Asset Coordinator - PTD Denton** — Primoris Services (Denton, TX) 2026-11-16 https://prim.wd108.myworkdayjobs.com/Primoris/job/Denton-TX/Asset-Coordinator---PTD-Denton_JR103330-1
 - **Power Generation Field Service Technician - Level I** — Cummins (Dallas, TX, United States) 2026-11-09 https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2441946
 - **Power Generation Field Service Technician - Level I** — Cummins (Dallas, TX, United States) 2026-11-10 https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2441944
 - **Domestic Operations & Systems Specialist** — Expeditors Intl. of Washington (Irving, TX, us) 2026-11-17 https://jobs.smartrecruiters.com/expeditors/744000162182499
@@ -100,9 +97,11 @@
 - **IT Technician (Austin)** — Saronic (Austin, TX) 2026-11-09 https://jobs.ashbyhq.com/saronic/62636523-c7da-4076-aee4-bc7c0d8685d0
 - **Teamcenter Systems Specialist** — Saronic (Austin, TX) 2026-11-17 https://jobs.ashbyhq.com/saronic/075bb754-ad9e-448c-a2b3-4de4e435bf57
 - **Order Support Specialist** — Crown Castle (Canonsburg, PA / Houston, TX / Chandler, AZ / Charlotte, NC) 2026-11-10 https://recruiting2.ultipro.com/CRO1010CCUSA/JobBoard/74c30440-80fa-4099-8981-2e10b7193d27/OpportunityDetail?opportunityId=5c68e56d-7ff8-48f0-84cc-741c0e9def0d
+- **ServiceNow Administrator** — HP (Spring, Texas, United States of America) 2026-11-18 https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/ServiceNow-Administrator_3170525-2
 - **Customer Account Support Specialist (Global Customer Services GCS) - Austin, TX** — Teradyne (Customer Account Support Specialist (Global Customer Services GCS) - Austin, TX)  https://jobs.teradyne.com/Teradyne/job/Austin-Customer-Account-Support-Specialist-%28Global-Customer-Services-GCS%29-Austin%2C-TX-TX-73301/1442091100/
 - **IT Technician (Austin)** — Saronic (Austin, TX, Austin, Texas, United States) 2026-11-10 https://jobs.a16z.com/jobs/saronic-technologies/62636523-c7da-4076-aee4-bc7c0d8685d0--it-technician-austin
 - **Teamcenter Systems Specialist** — Saronic (Austin, TX, Austin, Texas, United States) 2026-11-18 https://jobs.a16z.com/jobs/saronic-technologies/075bb754-ad9e-448c-a2b3-4de4e435bf57--teamcenter-systems-specialist
+- **System Specialist - Red Oak** — Vertiv Holdings (Red Oak, TX, United States) 2026-11-21 https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20289087
 - **IT Help Desk Support Specialist** — Robert Half (IT Help Desk Support Specialist)  https://www.roberthalf.com/us/en/job/century-city-ca/it-help-desk-support-specialist/00350-9504417586-usen
 - **Help Desk/Desktop Support Analyst** — Robert Half (Help Desk/Desktop Support Analyst)  https://www.roberthalf.com/us/en/job/huntington-park-ca/help-deskdesktop-support-analyst/00290-0013544244-usen
 - **Help Desk/Desktop Support Analyst** — Robert Half (Help Desk/Desktop Support Analyst)  https://www.roberthalf.com/us/en/job/rochester-ny/help-deskdesktop-support-analyst/00700-0013543755-usen
@@ -113,12 +112,6 @@
 - **SAP Functional Analyst-Level 2-CRM** — Cintas (SAP Functional Analyst-Level 2-CRM)  https://careers.cintas.com/job/Mason-SAP-Functional-Analyst-Level-2-CRM-OH-45040/1444341500/
 - **Direct Sale Support Specialist** — Cintas (Direct Sale Support Specialist)  https://careers.cintas.com/job/Tuscaloosa-Direct-Sale-Support-Specialist-AL-35401/1451006600/
 - **Help Desk Specialist** — CrossAmerica Partners (Help Desk Specialist)  https://vucinc.isolvedhire.com/jobs/1909131
-- **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399707900/
-- **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399708500/
-- **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399708400/
-- **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399708100/
-- **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399707700/
-- **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1399708000/
 - **Maintenance Tech Tier II** — Dana (Maintenance Tech Tier II)  https://jobs.dana.com/job/Louisville-Maintenance-Tech-Tier-II-KY-40245-1900/1060829100/
 - **Assembly Technician Tier II** — Dana (Assembly Technician Tier II)  https://jobs.dana.com/job/Gordonsville-Assembly-Technician-Tier-II-TN-38563-2143/1347211400/
 - **Assembler Tier II** — Dana (Assembler Tier II)  https://jobs.dana.com/job/Henderson-Assembler-Tier-II-KY-42420-9667/1411740400/
@@ -127,17 +120,15 @@
 - **Operating Engineer Level 1** — Dana (Operating Engineer Level 1)  https://jobs.dana.com/job/Pune-Operating-Engineer-Level-1-MH-410501/1386855800/
 - **Associate Design Support Specialist (Williamsburg, Hybrid)** — Dominion Energy (Associate Design Support Specialist (Williamsburg, Hybrid))  https://careers.dominionenergy.com/job/WILLIAMSBURG-Associate-Design-Support-Specialist-%28Williamsburg%2C-Hybrid%29-VA-23188/1451956200/
 - **IT Help Desk** — Ensign Group (IT Help Desk)  https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d080d90be90180dd1b6d6300d7&id=8a7887a1a1ccdd3201a1ebcd14b8486d&source=&lang=en
-- **Endpoint Support Technician** — Jack Henry & Associates (Endpoint Support Technician)  https://careers.jackhenry.com/job/allen/endpoint-support-technician/42859/100637258496
 - **Technical Support Representative: ImageCenter Support** — Jack Henry & Associates (Technical Support Representative: ImageCenter Support)  https://careers.jackhenry.com/job/troy/technical-support-representative-imagecenter-support/42859/103418454192
 - **Client Support Representative II: Bill Pay** — Jack Henry & Associates (Client Support Representative II: Bill Pay)  https://careers.jackhenry.com/job/louisville/client-support-representative-ii-bill-pay/42859/103480075456
-- **IT Specialist** — Lear (IT Specialist)  https://jobs.lear.com/job/Vigo-IT-Specialist-PO-36312/1445963433/
 - **Site IT Support Analyst I** — Lear (Site IT Support Analyst I)  https://jobs.lear.com/job/Auburn-Hills-Site-IT-Support-Analyst-I-MI-48326/1455696733/
 - **AR Coiler Operator Level 1 - Nights** — Leggett & Platt (AR Coiler Operator Level 1 - Nights)  https://leggett.com/careers/search?posting=36720
-- **Software Application Helpdesk Support Engineer** — ManTech International (Software Application Helpdesk Support Engineer)  https://careers.mantech.com/en_US/careers/JobDetail/Software-Application-Helpdesk-Support-Engineer/66978
 - **Cybersecurity Analyst** — ManTech International (Cybersecurity Analyst)  https://careers.mantech.com/en_US/careers/JobDetail/Cybersecurity-Analyst/67061
 - **Tier 2 Service Desk Specialist** — ManTech International (Tier 2 Service Desk Specialist)  https://careers.mantech.com/en_US/careers/JobDetail/Tier-2-Service-Desk-Specialist/67060
 - **Information Systems Support Coordinator** — ManTech International (Information Systems Support Coordinator)  https://careers.mantech.com/en_US/careers/JobDetail/Information-Systems-Support-Coordinator/67209
 - **Program Operations Support Specialist** — ManTech International (Program Operations Support Specialist)  https://careers.mantech.com/en_US/careers/JobDetail/Program-Operations-Support-Specialist/67208
+- **Computer User Support Specialist** — ManTech International (Computer User Support Specialist)  https://careers.mantech.com/en_US/careers/JobDetail/Computer-User-Support-Specialist/67219
 - **Cybersecurity Analyst II, GRC** — McCormick (Cybersecurity Analyst II, GRC)  https://careers.mccormick.com/job/GURGAON-Cybersecurity-Analyst-II%2C-GRC-122001/1451289300/
 - **Cybersecurity Analyst II, GRC** — McCormick (Cybersecurity Analyst II, GRC)  https://careers.mccormick.com/job/GURGAON-Cybersecurity-Analyst-II%2C-GRC-122001/1452093500/
 - **Cybersecurity Analyst, GRC** — McCormick (Cybersecurity Analyst, GRC)  https://careers.mccormick.com/job/GURGAON-Cybersecurity-Analyst%2C-GRC-122001/1452094600/
