@@ -1,32 +1,32 @@
-# Watchlist run 2026-11-21
+# Watchlist run 2026-11-22
 
-- Companies checked: 1319 of 1526 answered
-- Sources with listings extracted: 1319 · page loaded but no listings found: 131 · failed: 76
-- Duplicates removed across sources: 6
+- Companies checked: 1313 of 1526 answered
+- Sources with listings extracted: 1313 · page loaded but no listings found: 138 · failed: 75
+- Duplicates removed across sources: 7
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 67920
-- Jobs matching your roles (any location): 517
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 79
-- New matching jobs: 66
-- All open matching jobs at watched companies: 73 (see open_now.json)
+- Jobs read: 70493
+- Jobs matching your roles (any location): 577
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 83
+- New matching jobs: 71
+- All open matching jobs at watched companies: 76 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 338 | 224 | 3721 |
-| greenhouse | 317 | 317 | 22049 |
-| ashby | 153 | 153 | 8206 |
-| workday+page | 147 | 136 | 1557 |
-| workday | 136 | 134 | 9073 |
-| lever | 77 | 77 | 3891 |
+| pagewatch | 338 | 225 | 3675 |
+| greenhouse | 317 | 317 | 22040 |
+| workday | 172 | 171 | 12007 |
+| ashby | 153 | 153 | 8210 |
+| workday+page | 111 | 92 | 1119 |
+| lever | 77 | 77 | 3894 |
 | icims | 65 | 0 | 0 |
 | phenom | 61 | 61 | 140 |
-| smartrecruiters | 59 | 59 | 11941 |
-| jobvite | 43 | 43 | 763 |
-| oracle | 39 | 39 | 2365 |
+| smartrecruiters | 59 | 59 | 11943 |
+| jobvite | 43 | 43 | 762 |
+| oracle | 39 | 39 | 2369 |
 | workable | 27 | 27 | 503 |
-| eightfold+page | 17 | 16 | 250 |
+| eightfold+page | 17 | 16 | 240 |
 | ultipro | 11 | 11 | 202 |
-| phenom+page | 7 | 6 | 81 |
+| phenom+page | 7 | 6 | 80 |
 | greenhouse+page | 5 | 1 | 2 |
 | adp | 4 | 4 | 33 |
 | ashby+page | 4 | 0 | 0 |
@@ -39,7 +39,7 @@
 | eightfold | 1 | 1 | 28 |
 | rippling+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1690 |
+| board | 1 | 1 | 1821 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
@@ -66,6 +66,7 @@
 - E*Trade Financial (pagewatch): failed - Error · last success: never
 - General Motors (pagewatch): no_listings_found · last success: never
 - Medical City Healthcare (HCA) (pagewatch): no_listings_found · last success: never
+- Primoris Services (workday+page): no_listings_found · last success: 2026-11-21
 - Range Resources (pagewatch): no_listings_found · last success: never
 - Southern Methodist University (pagewatch): no_listings_found · last success: never
 - Texas Christian University (pagewatch): no_listings_found · last success: never
@@ -83,11 +84,16 @@
 - **Power Generation Field Service Technician - Level I** — Cummins (Dallas, TX, United States) 2026-11-10 https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2441944
 - **Domestic Operations & Systems Specialist** — Expeditors Intl. of Washington (Irving, TX, us) 2026-11-17 https://jobs.smartrecruiters.com/expeditors/744000162182499
 - **IT Support Associate I** — Expeditors Intl. of Washington (Irving, TX, us) 2026-11-20 https://jobs.smartrecruiters.com/expeditors/744000162744330
+- **Underwriting Support Specialist, Cortex** — Markel (Plano TX) 2026-11-18 https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Plano-TX/Underwriting-Support-Specialist--Cortex_R0024212
 - **Software System Technologist Intern (Summer 2027 Internship)** — Motorola Solutions (Allen, TX (TX139)) 2026-11-10 https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Software-System-Technologist-Intern--Summer-2027-Internship-_R70511
+- **Technical Support Analyst (Hybrid)** — Motorola Solutions (Allen, TX (TX139)) 2026-11-13 https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Specialist--Hybrid-_R66641
 - **System Specialist** — Vertiv Holdings (Dallas, TX, United States) 2026-11-12 https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20286237
 - **System Specialist** — Vertiv Holdings (Dallas, TX, United States) 2026-11-12 https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20286241
+- **Tech Service Desk L2** — Unisys (USA Remote) 2026-11-16 https://unisys.wd5.myworkdayjobs.com/External/job/USA-Remote/Tech-Service-Desk-L2_REQ575835-1
+- **Tech Service Desk L2** — Unisys (USA Remote) 2026-11-16 https://unisys.wd5.myworkdayjobs.com/External/job/USA-Remote/Tech-Service-Desk-L2_REQ575834-1
 - **IT Helpdesk Specialist 2** — Natera (US Remote) 2026-11-16 https://job-boards.greenhouse.io/natera/jobs/6261749004
 - **Patient Outreach and Support Specialist-Temp** — Natera (US Remote) 2026-11-16 https://job-boards.greenhouse.io/natera/jobs/6263353004
+- **Support Specialist - Tier 1 (Remote)** — Patterson (12 Locations) 2026-11-16 https://pattersoncompanies.wd501.myworkdayjobs.com/PDCO/job/IL---Effingham---PTC/Support-Specialist---Tier-1--Remote-_R109821-1
 - **IT Support Specialist, US & Studio Technology** — Atari (Atari - US (Remote); Digital Eclipse Entertainment Partners ) 2026-11-16 https://job-boards.greenhouse.io/atariinc/jobs/5483125008
 - **IT Support Engineer** — Monarch Money (Remote) 2026-11-10 https://jobs.ashbyhq.com/monarchmoney/85e2fa51-0142-4373-9a4c-673ad1db7070
 - **Enterprise Account Provisioning Specialist — Federal Health IT** — Rackner (Remote — United States) 2026-11-09 https://job-boards.greenhouse.io/rackner/jobs/4752621005
