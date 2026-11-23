@@ -1,45 +1,45 @@
-# Watchlist run 2026-11-22
+# Watchlist run 2026-11-23
 
-- Companies checked: 1313 of 1526 answered
-- Sources with listings extracted: 1313 · page loaded but no listings found: 138 · failed: 75
-- Duplicates removed across sources: 7
+- Companies checked: 1303 of 1526 answered
+- Sources with listings extracted: 1303 · page loaded but no listings found: 145 · failed: 78
+- Duplicates removed across sources: 4
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 70493
-- Jobs matching your roles (any location): 577
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 83
+- Jobs read: 65834
+- Jobs matching your roles (any location): 511
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 79
 - New matching jobs: 71
-- All open matching jobs at watched companies: 76 (see open_now.json)
+- All open matching jobs at watched companies: 75 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 338 | 225 | 3675 |
-| greenhouse | 317 | 317 | 22040 |
-| workday | 172 | 171 | 12007 |
-| ashby | 153 | 153 | 8210 |
-| workday+page | 111 | 92 | 1119 |
-| lever | 77 | 77 | 3894 |
+| pagewatch | 337 | 223 | 3717 |
+| greenhouse | 317 | 317 | 21928 |
+| workday+page | 189 | 162 | 1711 |
+| ashby | 153 | 153 | 8190 |
+| workday | 94 | 92 | 7456 |
+| lever | 77 | 77 | 3878 |
 | icims | 65 | 0 | 0 |
-| phenom | 61 | 61 | 140 |
-| smartrecruiters | 59 | 59 | 11943 |
-| jobvite | 43 | 43 | 762 |
-| oracle | 39 | 39 | 2369 |
-| workable | 27 | 27 | 503 |
-| eightfold+page | 17 | 16 | 240 |
-| ultipro | 11 | 11 | 202 |
-| phenom+page | 7 | 6 | 80 |
+| phenom | 62 | 62 | 138 |
+| smartrecruiters | 59 | 59 | 11935 |
+| jobvite | 43 | 43 | 748 |
+| oracle | 39 | 39 | 2387 |
+| workable | 27 | 27 | 495 |
+| eightfold+page | 18 | 16 | 255 |
+| ultipro | 12 | 12 | 310 |
+| phenom+page | 6 | 6 | 81 |
 | greenhouse+page | 5 | 1 | 2 |
 | adp | 4 | 4 | 33 |
 | ashby+page | 4 | 0 | 0 |
-| breezy | 3 | 3 | 31 |
-| ultipro+page | 2 | 2 | 538 |
-| recruitee | 2 | 2 | 49 |
+| breezy | 3 | 3 | 30 |
+| recruitee | 2 | 2 | 48 |
 | lever+page | 2 | 0 | 0 |
-| rippling | 2 | 2 | 807 |
+| rippling | 2 | 2 | 804 |
+| ultipro+page | 1 | 1 | 2 |
 | recruitee+page | 1 | 0 | 0 |
 | eightfold | 1 | 1 | 28 |
 | rippling+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1821 |
+| board | 1 | 1 | 1658 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
@@ -63,12 +63,14 @@
 - Cinemark Holdings (pagewatch): no_listings_found · last success: never
 - Core-Mark Holding (pagewatch): no_listings_found · last success: never
 - D.R. Horton (pagewatch): no_listings_found · last success: never
+- Dallas County (pagewatch): failed - TimeoutError · last success: 2026-11-22
 - E*Trade Financial (pagewatch): failed - Error · last success: never
 - General Motors (pagewatch): no_listings_found · last success: never
 - Medical City Healthcare (HCA) (pagewatch): no_listings_found · last success: never
 - Primoris Services (workday+page): no_listings_found · last success: 2026-11-21
 - Range Resources (pagewatch): no_listings_found · last success: never
 - Southern Methodist University (pagewatch): no_listings_found · last success: never
+- Tarrant County (pagewatch): failed - TimeoutError · last success: 2026-11-22
 - Texas Christian University (pagewatch): no_listings_found · last success: never
 - TravelCenters of America (pagewatch): no_listings_found · last success: never
 - University of Texas at Dallas (pagewatch): no_listings_found · last success: never
@@ -107,6 +109,7 @@
 - **Customer Account Support Specialist (Global Customer Services GCS) - Austin, TX** — Teradyne (Customer Account Support Specialist (Global Customer Services GCS) - Austin, TX)  https://jobs.teradyne.com/Teradyne/job/Austin-Customer-Account-Support-Specialist-%28Global-Customer-Services-GCS%29-Austin%2C-TX-TX-73301/1442091100/
 - **IT Technician (Austin)** — Saronic (Austin, TX, Austin, Texas, United States) 2026-11-10 https://jobs.a16z.com/jobs/saronic-technologies/62636523-c7da-4076-aee4-bc7c0d8685d0--it-technician-austin
 - **Teamcenter Systems Specialist** — Saronic (Austin, TX, Austin, Texas, United States) 2026-11-18 https://jobs.a16z.com/jobs/saronic-technologies/075bb754-ad9e-448c-a2b3-4de4e435bf57--teamcenter-systems-specialist
+- **Network Technician (Associate Level)** — Oncor (Wichita Falls, TX) 2026-11-23 https://recruiting2.ultipro.com/ONC1003OEDC/JobBoard/de43ded3-2d19-4562-a2bc-bc2c9b595f44/OpportunityDetail?opportunityId=f634a5c9-2568-45c0-a63d-24e15d86f575
 - **System Specialist - Red Oak** — Vertiv Holdings (Red Oak, TX, United States) 2026-11-21 https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20289087
 - **IT Help Desk Support Specialist** — Robert Half (IT Help Desk Support Specialist)  https://www.roberthalf.com/us/en/job/century-city-ca/it-help-desk-support-specialist/00350-9504417586-usen
 - **Help Desk/Desktop Support Analyst** — Robert Half (Help Desk/Desktop Support Analyst)  https://www.roberthalf.com/us/en/job/huntington-park-ca/help-deskdesktop-support-analyst/00290-0013544244-usen
@@ -118,7 +121,6 @@
 - **SAP Functional Analyst-Level 2-CRM** — Cintas (SAP Functional Analyst-Level 2-CRM)  https://careers.cintas.com/job/Mason-SAP-Functional-Analyst-Level-2-CRM-OH-45040/1444341500/
 - **Direct Sale Support Specialist** — Cintas (Direct Sale Support Specialist)  https://careers.cintas.com/job/Tuscaloosa-Direct-Sale-Support-Specialist-AL-35401/1451006600/
 - **Help Desk Specialist** — CrossAmerica Partners (Help Desk Specialist)  https://vucinc.isolvedhire.com/jobs/1909131
-- **Maintenance Tech Tier II** — Dana (Maintenance Tech Tier II)  https://jobs.dana.com/job/Louisville-Maintenance-Tech-Tier-II-KY-40245-1900/1060829100/
 - **Assembly Technician Tier II** — Dana (Assembly Technician Tier II)  https://jobs.dana.com/job/Gordonsville-Assembly-Technician-Tier-II-TN-38563-2143/1347211400/
 - **Assembler Tier II** — Dana (Assembler Tier II)  https://jobs.dana.com/job/Henderson-Assembler-Tier-II-KY-42420-9667/1411740400/
 - **Machine Repair Tier I** — Dana (Machine Repair Tier I)  https://jobs.dana.com/job/Pottstown-Machine-Repair-Tier-I-PA-19464-6042/1360677800/
