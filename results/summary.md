@@ -1,47 +1,49 @@
-# Watchlist run 2026-11-25
+# Watchlist run 2026-11-26
 
-- Companies checked: 1309 of 1526 answered
-- Sources with listings extracted: 1309 · page loaded but no listings found: 143 · failed: 74
+- Companies checked: 1299 of 1526 answered
+- Sources with listings extracted: 1299 · page loaded but no listings found: 151 · failed: 76
 - Duplicates removed across sources: 6
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 67373
-- Jobs matching your roles (any location): 526
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 79
-- New matching jobs: 63
-- All open matching jobs at watched companies: 73 (see open_now.json)
+- Jobs read: 59688
+- Jobs matching your roles (any location): 367
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 84
+- New matching jobs: 62
+- All open matching jobs at watched companies: 78 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 337 | 221 | 3637 |
-| greenhouse | 317 | 317 | 21952 |
-| ashby | 153 | 153 | 8180 |
-| workday+page | 144 | 123 | 1373 |
-| workday | 139 | 139 | 9478 |
-| lever | 77 | 77 | 3892 |
+| pagewatch | 337 | 225 | 3663 |
+| greenhouse | 317 | 317 | 21978 |
+| workday+page | 280 | 248 | 2794 |
+| ashby | 153 | 153 | 8194 |
+| lever | 77 | 77 | 3901 |
 | icims | 65 | 0 | 0 |
 | phenom | 61 | 61 | 139 |
-| smartrecruiters | 59 | 59 | 12013 |
-| jobvite | 43 | 43 | 757 |
-| oracle | 39 | 39 | 2351 |
-| workable | 27 | 27 | 484 |
-| eightfold+page | 19 | 18 | 275 |
-| ultipro | 12 | 12 | 289 |
+| smartrecruiters | 59 | 59 | 12054 |
+| jobvite | 43 | 43 | 759 |
+| oracle | 39 | 39 | 2362 |
+| workable | 27 | 27 | 489 |
+| eightfold+page | 18 | 17 | 252 |
+| ultipro | 12 | 12 | 290 |
 | phenom+page | 7 | 6 | 81 |
 | greenhouse+page | 5 | 1 | 2 |
 | adp | 4 | 4 | 33 |
 | ashby+page | 4 | 0 | 0 |
 | breezy | 3 | 3 | 27 |
-| recruitee | 2 | 2 | 44 |
+| workday | 3 | 0 | 0 |
+| recruitee | 2 | 2 | 43 |
 | lever+page | 2 | 0 | 0 |
-| rippling | 2 | 2 | 800 |
+| rippling | 2 | 2 | 793 |
 | ultipro+page | 1 | 1 | 2 |
 | recruitee+page | 1 | 0 | 0 |
+| eightfold | 1 | 1 | 28 |
 | rippling+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1564 |
+| board | 1 | 1 | 1804 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
+- AT&T (workday+page): no_listings_found · last success: 2026-11-25
 - Allied Universal (icims): failed - blocked by bot check · last success: never
 - Bank of America (workday+page): no_listings_found · last success: 2026-11-05
 - Calance (pagewatch): no_listings_found · last success: never
@@ -55,14 +57,15 @@
 - NTT DATA (icims): failed - blocked by bot check · last success: never
 - Stream Data Centers (pagewatch): failed - Error · last success: never
 - The Container Store (icims): failed - blocked by bot check · last success: never
+- Toyota North America (workday+page): no_listings_found · last success: 2026-11-25
 - American Airlines (pagewatch): no_listings_found · last success: never
 - Bell Textron (pagewatch): no_listings_found · last success: never
 - Cinemark Holdings (pagewatch): no_listings_found · last success: never
+- City of Dallas (workday+page): no_listings_found · last success: 2026-11-25
 - Core-Mark Holding (pagewatch): no_listings_found · last success: never
 - D.R. Horton (pagewatch): no_listings_found · last success: never
 - E*Trade Financial (pagewatch): failed - Error · last success: never
 - General Motors (pagewatch): no_listings_found · last success: never
-- Globe Life (pagewatch): failed - TimeoutError · last success: 2026-11-24
 - Medical City Healthcare (HCA) (pagewatch): no_listings_found · last success: never
 - Primoris Services (workday+page): no_listings_found · last success: 2026-11-21
 - Range Resources (pagewatch): no_listings_found · last success: never
@@ -74,8 +77,6 @@
 
 - **Treasury System Support Analyst II - Global Finance** — GM Financial (Arlington, TX, United States) 2026-11-16 https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261307
 - **Associate Cybersecurity Analyst** — GM Financial (Arlington, TX, United States) 2026-11-17 https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261312
-- **HELP DESK ANALYST** — Methodist Health System (Dallas, Texas) 2026-11-11 https://methodisthealthsystem.wd1.myworkdayjobs.com/MHS_Careers/job/Dallas-Texas/HELP-DESK-ANALYST_JR1000039796
-- **Computer Technician** — Netsync (Richardson, TX) 2026-11-11 https://netsync-network-solutions.breezy.hr/p/82fd30aa8eaf-computer-technician
 - **Tier 2 Product Engineer - Supply Chain** — Toyota North America (Plano, Texas) 2026-11-23 https://toyota.wd503.myworkdayjobs.com/TMNA/job/Plano-Texas/Tier-2-Product-Engineer---Supply-Chain_10340797
 - **Asset Coordinator - PTD Denton** — Primoris Services (Denton, TX) 2026-11-16 https://prim.wd108.myworkdayjobs.com/Primoris/job/Denton-TX/Asset-Coordinator---PTD-Denton_JR103330-1
 - **Domestic Operations & Systems Specialist** — Expeditors Intl. of Washington (Irving, TX, us) 2026-11-17 https://jobs.smartrecruiters.com/expeditors/744000162182499
@@ -89,10 +90,10 @@
 - **Tech Service Desk L2** — Unisys (USA Remote) 2026-11-16 https://unisys.wd5.myworkdayjobs.com/External/job/USA-Remote/Tech-Service-Desk-L2_REQ575834-1
 - **IT Helpdesk Specialist 2** — Natera (US Remote) 2026-11-16 https://job-boards.greenhouse.io/natera/jobs/6261749004
 - **Patient Outreach and Support Specialist-Temp** — Natera (US Remote) 2026-11-16 https://job-boards.greenhouse.io/natera/jobs/6263353004
+- **IT Network Technical Planning and Engineering Specialist** — Ford Motor (United States) 2026-11-25 https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/73960
 - **Support Specialist - Tier 1 (Remote)** — Patterson (12 Locations) 2026-11-16 https://pattersoncompanies.wd501.myworkdayjobs.com/PDCO/job/IL---Effingham---PTC/Support-Specialist---Tier-1--Remote-_R109821-1
 - **Support Specialist** — Rula (Remote - United States) 2026-11-23 https://jobs.ashbyhq.com/rula/fd0dcca0-3a11-4152-b8ca-e1774b47276c
 - **IT Support Specialist, US & Studio Technology** — Atari (Atari - US (Remote); Digital Eclipse Entertainment Partners ) 2026-11-16 https://job-boards.greenhouse.io/atariinc/jobs/5483125008
-- **Cyber Security Analyst (US team)** — Sigma Software (São Paulo, SP, br) 2026-11-11 https://jobs.smartrecruiters.com/sigmasoftware2/744000161130368
 - **Teamcenter Systems Specialist** — Saronic (Austin, TX) 2026-11-17 https://jobs.ashbyhq.com/saronic/075bb754-ad9e-448c-a2b3-4de4e435bf57
 - **ServiceNow Administrator** — HP (Spring, Texas, United States of America) 2026-11-18 https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/ServiceNow-Administrator_3170525-2
 - **Executive IT Support Engineer** — Take-Two Interactive (Austin, Texas, United States) 2026-11-25 https://job-boards.greenhouse.io/taketwo/jobs/8355949
@@ -135,3 +136,4 @@
 - **IT Cybersecurity Analyst - Threat & Vulnerability Management / Incident Response** — WEC Energy Group (IT Cybersecurity Analyst - Threat & Vulnerability Management / Incident Response)  https://careers.wecenergygroup.com/job/Milwaukee-IT-Cybersecurity-Analyst-Threat-&-Vulnerability-Management-Incident-Response-WI-53203/1453233900/
 - **Jr Assoc, IT Support** — West Pharmaceutical Services (Jr Assoc, IT Support)  https://careers.westpharma.com/job/Horsens-Jr-Assoc%2C-IT-Support-DK/1448044233/
 - **Jr Assoc, IT Support** — West Pharmaceutical Services (Jr Assoc, IT Support)  https://careers.westpharma.com/job/Horsens-Jr-Assoc%2C-IT-Support-DK/1448044133/
+- **Desktop Systems Specialist 2** — IGT (Desktop Systems Specialist 2)  https://jobs.igt.com/job/Reno-Desktop-Systems-Specialist-2-NV-89521/1378518657/

@@ -1,7 +1,7 @@
 {
- "run_at": "2026-11-25T18:43:40+00:00",
- "date": "2026-11-25",
- "count": 63,
+ "run_at": "2026-11-26T18:36:45+00:00",
+ "date": "2026-11-26",
+ "count": 62,
  "jobs": [
   {
    "company_id": "30",
@@ -42,46 +42,6 @@
    "canonical_url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1/job/261312",
    "first_seen": "2026-11-18",
    "last_verified": "2026-11-18"
-  },
-  {
-   "company_id": "38",
-   "company": "Methodist Health System",
-   "board": null,
-   "priority": "1",
-   "sector": "Healthcare",
-   "title": "HELP DESK ANALYST",
-   "location": "Dallas, Texas",
-   "location_kind": "dfw",
-   "remote": false,
-   "url": "https://methodisthealthsystem.wd1.myworkdayjobs.com/MHS_Careers/job/Dallas-Texas/HELP-DESK-ANALYST_JR1000039796",
-   "posted": "2026-11-11",
-   "baseline": false,
-   "system": "workday",
-   "role_band": "core",
-   "req_id": null,
-   "canonical_url": "https://methodisthealthsystem.wd1.myworkdayjobs.com/mhs_careers/job/dallas-texas/help-desk-analyst_jr1000039796",
-   "first_seen": "2026-11-12",
-   "last_verified": "2026-11-12"
-  },
-  {
-   "company_id": "40",
-   "company": "Netsync",
-   "board": null,
-   "priority": "1",
-   "sector": "IT services",
-   "title": "Computer Technician",
-   "location": "Richardson, TX",
-   "location_kind": "dfw",
-   "remote": false,
-   "url": "https://netsync-network-solutions.breezy.hr/p/82fd30aa8eaf-computer-technician",
-   "posted": "2026-11-11",
-   "baseline": false,
-   "system": "breezy",
-   "role_band": "core",
-   "req_id": null,
-   "canonical_url": "https://netsync-network-solutions.breezy.hr/p/82fd30aa8eaf-computer-technician",
-   "first_seen": "2026-11-12",
-   "last_verified": "2026-11-12"
   },
   {
    "company_id": "59",
@@ -344,6 +304,26 @@
    "last_verified": "2026-11-17"
   },
   {
+   "company_id": "405",
+   "company": "Ford Motor",
+   "board": null,
+   "priority": "3",
+   "sector": "Motor Vehicles & Parts",
+   "title": "IT Network Technical Planning and Engineering Specialist",
+   "location": "United States",
+   "location_kind": "remote",
+   "remote": true,
+   "url": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/73960",
+   "posted": "2026-11-25",
+   "baseline": false,
+   "system": "oracle",
+   "role_band": "adjacent",
+   "req_id": "73960",
+   "canonical_url": "https://efds.fa.em5.oraclecloud.com/hcmui/candidateexperience/en/sites/cx_1/job/73960",
+   "first_seen": "2026-11-26",
+   "last_verified": "2026-11-26"
+  },
+  {
    "company_id": "693",
    "company": "Patterson",
    "board": null,
@@ -402,26 +382,6 @@
    "canonical_url": "https://job-boards.greenhouse.io/atariinc/jobs/5483125008",
    "first_seen": "2026-11-17",
    "last_verified": "2026-11-17"
-  },
-  {
-   "company_id": "1443",
-   "company": "Sigma Software",
-   "board": null,
-   "priority": "4",
-   "sector": "Technology / media / other",
-   "title": "Cyber Security Analyst (US team)",
-   "location": "S\u00e3o Paulo, SP, br",
-   "location_kind": "remote",
-   "remote": true,
-   "url": "https://jobs.smartrecruiters.com/sigmasoftware2/744000161130368",
-   "posted": "2026-11-11",
-   "baseline": false,
-   "system": "smartrecruiters",
-   "role_band": "stretch",
-   "req_id": null,
-   "canonical_url": "https://jobs.smartrecruiters.com/sigmasoftware2/744000161130368",
-   "first_seen": "2026-11-12",
-   "last_verified": "2026-11-12"
   },
   {
    "company_id": "117",
@@ -1262,6 +1222,26 @@
    "canonical_url": "https://careers.westpharma.com/job/horsens-jr-assoc%2c-it-support-dk/1448044133",
    "first_seen": "2026-11-13",
    "last_verified": "2026-11-13"
+  },
+  {
+   "company_id": "1224",
+   "company": "IGT",
+   "board": null,
+   "priority": "4",
+   "sector": "Technology / media / other",
+   "title": "Desktop Systems Specialist 2",
+   "location": "Desktop Systems Specialist 2",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://jobs.igt.com/job/Reno-Desktop-Systems-Specialist-2-NV-89521/1378518657/",
+   "posted": null,
+   "baseline": false,
+   "system": "pagewatch",
+   "role_band": "adjacent",
+   "req_id": null,
+   "canonical_url": "https://jobs.igt.com/job/reno-desktop-systems-specialist-2-nv-89521/1378518657",
+   "first_seen": "2026-11-26",
+   "last_verified": "2026-11-26"
   }
  ]
 }
