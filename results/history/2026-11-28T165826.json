@@ -1,0 +1,27 @@
+{
+ "run_at": "2026-11-28T16:58:26+00:00",
+ "date": "2026-11-28",
+ "count": 1,
+ "jobs": [
+  {
+   "company_id": "767",
+   "company": "S&P Global",
+   "board": null,
+   "priority": "3",
+   "sector": "Business Services",
+   "title": "Apprentice, Client Support",
+   "location": "Apprentice, Client Support",
+   "location_kind": "unknown",
+   "remote": false,
+   "url": "https://careers.spglobal.com/jobs/332888?lang=en-us",
+   "posted": null,
+   "baseline": false,
+   "system": "workday+page",
+   "role_band": "adjacent",
+   "req_id": "332888",
+   "canonical_url": "https://careers.spglobal.com/jobs/332888",
+   "first_seen": "2026-11-28",
+   "last_verified": "2026-11-28"
+  }
+ ]
+}

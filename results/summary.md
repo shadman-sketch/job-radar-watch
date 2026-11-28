@@ -1,32 +1,32 @@
-# Watchlist run 2026-11-27
+# Watchlist run 2026-11-28
 
-- Companies checked: 1310 of 1526 answered
-- Sources with listings extracted: 1310 · page loaded but no listings found: 141 · failed: 75
-- Duplicates removed across sources: 7
+- Companies checked: 1309 of 1526 answered
+- Sources with listings extracted: 1309 · page loaded but no listings found: 141 · failed: 76
+- Duplicates removed across sources: 6
 - Age window: 14 days (jobs with a verified older post date are kept in open_now.json only)
-- Jobs read: 66842
-- Jobs matching your roles (any location): 472
-- ...of those in DFW, remote US or Austin/Houston/San Antonio: 83
-- New matching jobs: 56
-- All open matching jobs at watched companies: 76 (see open_now.json)
+- Jobs read: 66565
+- Jobs matching your roles (any location): 501
+- ...of those in DFW, remote US or Austin/Houston/San Antonio: 86
+- New matching jobs: 55
+- All open matching jobs at watched companies: 80 (see open_now.json)
 
 | System | Companies | Listings extracted | Jobs seen |
 |---|---|---|---|
-| pagewatch | 337 | 223 | 3678 |
-| greenhouse | 317 | 317 | 21962 |
-| ashby | 153 | 153 | 8191 |
-| workday+page | 152 | 132 | 1421 |
-| workday | 131 | 129 | 8494 |
-| lever | 77 | 77 | 3889 |
+| pagewatch | 337 | 225 | 3684 |
+| greenhouse | 317 | 317 | 21951 |
+| workday+page | 162 | 140 | 1558 |
+| ashby | 153 | 153 | 8185 |
+| workday | 121 | 118 | 8161 |
+| lever | 77 | 77 | 3888 |
 | icims | 65 | 0 | 0 |
-| phenom | 61 | 61 | 136 |
-| smartrecruiters | 59 | 59 | 12117 |
+| phenom | 60 | 60 | 132 |
+| smartrecruiters | 59 | 59 | 12096 |
 | jobvite | 43 | 43 | 759 |
-| oracle | 39 | 39 | 2354 |
-| workable | 27 | 27 | 490 |
-| eightfold+page | 18 | 17 | 247 |
-| ultipro | 12 | 12 | 291 |
-| phenom+page | 7 | 6 | 81 |
+| oracle | 39 | 39 | 2358 |
+| workable | 27 | 27 | 488 |
+| eightfold+page | 18 | 17 | 250 |
+| ultipro | 12 | 12 | 290 |
+| phenom+page | 8 | 7 | 102 |
 | greenhouse+page | 5 | 1 | 2 |
 | adp | 4 | 4 | 33 |
 | ashby+page | 4 | 0 | 0 |
@@ -39,7 +39,7 @@
 | eightfold | 1 | 1 | 28 |
 | rippling+page | 1 | 0 | 0 |
 | breezy+page | 1 | 0 | 0 |
-| board | 1 | 1 | 1799 |
+| board | 1 | 1 | 1730 |
 
 ## Needs attention (priority 1-2, no listings extracted)
 
@@ -55,10 +55,8 @@
 - JPS Health Network (pagewatch): no_listings_found · last success: never
 - Motion Recruitment (pagewatch): no_listings_found · last success: never
 - NTT DATA (icims): failed - blocked by bot check · last success: never
-- Ryan (workday+page): no_listings_found · last success: 2026-11-26
 - Stream Data Centers (pagewatch): failed - Error · last success: never
 - The Container Store (icims): failed - blocked by bot check · last success: never
-- Toyota North America (workday+page): no_listings_found · last success: 2026-11-25
 - American Airlines (pagewatch): no_listings_found · last success: never
 - Bell Textron (pagewatch): no_listings_found · last success: never
 - Cinemark Holdings (pagewatch): no_listings_found · last success: never
@@ -84,7 +82,6 @@
 - **IT Support Associate I** — Expeditors Intl. of Washington (Irving, TX, us) 2026-11-20 https://jobs.smartrecruiters.com/expeditors/744000162744330
 - **Underwriting Support Specialist, Cortex** — Markel (Plano TX) 2026-11-18 https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers/job/Plano-TX/Underwriting-Support-Specialist--Cortex_R0024212
 - **Property Systems Technician** — Marriott International (Grapevine, TX, United States) 2026-11-24 https://ejwl.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/26153519
-- **Technical Support Analyst (Hybrid)** — Motorola Solutions (Allen, TX (TX139)) 2026-11-13 https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Specialist--Hybrid-_R66641
 - **Tech Service Desk L2** — Unisys (USA Remote) 2026-11-16 https://unisys.wd5.myworkdayjobs.com/External/job/USA-Remote/Tech-Service-Desk-L2_REQ575835-1
 - **Tech Service Desk L2** — Unisys (USA Remote) 2026-11-16 https://unisys.wd5.myworkdayjobs.com/External/job/USA-Remote/Tech-Service-Desk-L2_REQ575834-1
 - **IT Helpdesk Specialist 2** — Natera (US Remote) 2026-11-16 https://job-boards.greenhouse.io/natera/jobs/6261749004

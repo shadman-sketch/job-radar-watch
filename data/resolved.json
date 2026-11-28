@@ -8,7 +8,7 @@
  },
  "10": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://www.calancejobs.com/",
   "url_source": "https://www.calanceus.com/careers",
   "via": "browser-none"
@@ -1136,8 +1136,8 @@
  },
  "114": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
-  "url": "https://myjobs.adp.com/rangeexternal/cx?__tx_annotation=false&c=1160751&d=&sor=adprm",
+  "resolved_at": "2026-11-28",
+  "url": "https://myjobs.adp.com/rangeexternal?__tx_annotation=false&c=1160751&d=&&sor=adprm",
   "url_source": "https://www.rangeresources.com/careers/",
   "via": "browser-none"
  },
@@ -2012,8 +2012,8 @@
  },
  "125": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
-  "url": "https://travelcenters.csod.com/login/render.aspx?id=defaultclp&ReturnUrl=%2fglobalsso%2fgssooutboundsso.aspx%3fou_id%3d-12285%26SAMLRequest%3dfVJNbxshEP0riDv7Qbw1Ql5bTqOokVLVtTc95GKxeNZB3YUNA5Z%252Ffok%252FlKSHXBBoZt6b9x6zxXHoyQE8GmdrWmYFJWC12xm7r%252BlTc88EXcxnqIaej3IZw4tdw2sEDCQNWpTnSk2jt9IpNCitGgBl0HKz%252FPkoeVbI0bvgtOspWSKCD4nqu7MYB%252FAb8Aej4Wn9WNOXEEaUeW5Vyfa9a1XPEPBtscyELtPodpl2Q967vbH5iThHdLnGI7MdxFcAgyYOfyNScpdWNFaFk6wrcvDqAL0GG5Lgd8Az2RvUPh0uhtZFu0vXTOF4XLi4NbualZyLipJ75zWcjKhpl6aAkoe7mi7Xv6uiE1VRMH4zFWzCBbBWJSndjajEpC3VtNSpF1cqaTrA%252BzRihAeLQdlQU17wb6wsGZ82pZBlJasi42LyTMnq4uKtsed0vrK8PTeh%252FNE0K7b6tWko%252BXNNOTXQS6byxO4%252Fhvk1sLomSOc4bpP1W5W8ENv%252FApjlH%252BHnl%252BfnHzT%252FBw%253D%253D%26RelayState%3d47f182c7-32a3-418f-83d0-96d0ee1e66ae",
+  "resolved_at": "2026-11-28",
+  "url": "https://travelcenters.csod.com/login/render.aspx?id=defaultclp&ReturnUrl=%2fglobalsso%2fgssooutboundsso.aspx%3fou_id%3d-12285%26SAMLRequest%3dfVJdb%252BIwEPwrlt%252BdEAdosAiIu6oqUqujkN7DvSDHWcC6xE69NuLnn8uH2t5DXyyvvDOzO%252BPp%252FNS15AgOtTUlzZIBJWCUbbTZl%252FS1emAFnc%252BmKLuW92IR%252FMGs4S0AehKBBsXlpaTBGWElahRGdoDCK7FZPD8JngxE76y3yraULBDB%252BSj10xoMHbgNuKNW8Lp%252BKunB%252Bx5FmhqZsX1ra9kyBHwfLNF%252Blyi0TaJsl7Z2r016Fk4RbarwxMwOwhuARh26vwEpuY8jaiP9ea0bs3fyCK0C4%252BPCH4QXsXeqfTxs8LUNponXRGJ%252Fmtuw1U3JMs6LESUP1ik4G1HSXUQBJcv7ki7WL7lUd8OsYWrCazbMlWJ1nvNY1kWhJjvJ6whf4krGnY7wgUYMsDTopfEl5QM%252BZlnGeFFlYzG6E%252FkomYyLP5Ssri7%252B0OaSzneW15cmFI9VtWKrX5uKkt%252B3lGMDvWYqzuruc5jfE8tbgnSG%252FTZav5XRi2L7XwDT9DP97Fp%252B%252FUGzfw%253D%253D%26RelayState%3ded4a533a-3592-42c2-be40-65ffe1d79356",
   "url_source": "https://www.ta-petro.com/careers/",
   "via": "browser-none"
  },
@@ -4090,7 +4090,7 @@
  },
  "1503": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://jobs.utdallas.edu/postings/search",
   "url_source": "https://jobs.utdallas.edu/",
   "via": "browser-none"
@@ -4104,14 +4104,14 @@
  },
  "1505": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-25",
-  "url": "https://www.smu.edu/businessfinance/hr/careers#gsc.tab=0",
+  "resolved_at": "2026-11-28",
+  "url": "https://smu.taleo.net/careersection/ex/jobsearch.ftl?lang=en&portal=101430233",
   "url_source": "https://www.smu.edu/businessfinance/hr/careers",
   "via": "browser-none"
  },
  "1506": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://hr.tcu.edu/careers/",
   "url_source": "https://hr.tcu.edu/careers/",
   "via": "browser-none"
@@ -4203,7 +4203,7 @@
  },
  "1517": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://careers.hcahealthcare.com/",
   "url_source": "https://careers.hcahealthcare.com/",
   "via": "browser-none"
@@ -4217,7 +4217,7 @@
  },
  "1519": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://jobs.aa.com/",
   "url_source": "https://jobs.aa.com/",
   "via": "browser-none"
@@ -4231,14 +4231,14 @@
  },
  "1520": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://textron.taleo.net/careersection/bell/jobsearch.ftl?lang=en",
   "url_source": "https://www.bellflight.com/company/careers",
   "via": "browser-none"
  },
  "1521": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://search-careers.gm.com/en/",
   "url_source": "https://search-careers.gm.com/",
   "via": "browser-none"
@@ -4417,7 +4417,7 @@
  },
  "17": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://www1.jobdiva.com/portal/?a=k3jdnw5isk3uqiefzvya3xv2fyxnaz0aa1mjddyzvkufiylxtt34fkf0h14p30zn&compid=-1#/",
   "url_source": "https://www.compucom.com/careers",
   "via": "browser-none"
@@ -5413,7 +5413,7 @@
  },
  "29": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://www.genesis10.com/find-a-job",
   "url_source": "https://www.genesis10.com/careers",
   "via": "browser-none"
@@ -5672,7 +5672,7 @@
  },
  "32": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://jobsearch.insight.com/topjobs/",
   "url_source": "https://jobsearch.insight.com/",
   "via": "browser-none"
@@ -5916,7 +5916,7 @@
  },
  "35": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
   "url_source": "https://www.jpmorganchase.com/careers?redirect=careers_jpm",
   "via": "browser-none"
@@ -6001,7 +6001,7 @@
  },
  "36": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://www.jpshealthnet.org/careers",
   "url_source": "https://www.jpshealthnet.org/careers",
   "via": "browser-none"
@@ -6245,7 +6245,7 @@
  },
  "39": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://motionrecruitment.com/tech-jobs",
   "url_source": "https://motionrecruitment.com/tech-jobs",
   "via": "browser-none"
@@ -7418,7 +7418,7 @@
  },
  "53": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://www.streamdatacenters.com/company/careers/",
   "url_source": "https://www.streamdatacenters.com/company/careers/",
   "via": "browser-error: Error"
@@ -8911,7 +8911,7 @@
  },
  "71": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://www.cinemark.com/#xsFooterNavCareers",
   "url_source": "https://www.cinemark.com/#xsFooterNavCareers",
   "via": "browser-none"
@@ -9154,7 +9154,7 @@
  },
  "74": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FCoreMarkCareers%2F",
   "url_source": "https://www.facebook.com/CoreMarkCareers/",
   "via": "browser-none"
@@ -9561,7 +9561,7 @@
  },
  "79": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://www.drhorton.com/careers",
   "url_source": "https://www.drhorton.com/careers",
   "via": "browser-none"
@@ -10137,7 +10137,7 @@
  },
  "86": {
   "adapter": "pagewatch",
-  "resolved_at": "2026-11-27",
+  "resolved_at": "2026-11-28",
   "url": "https://www.morganstanley.com/people?icid=etrade_globalfooterdefault_careers",
   "url_source": "https://www.morganstanley.com/people?icid=etrade_globalfooterdefault_careers",
   "via": "browser-error: Error"

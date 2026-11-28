@@ -1,7 +1,7 @@
 {
- "run_at": "2026-11-27T18:16:30+00:00",
- "date": "2026-11-27",
- "count": 56,
+ "run_at": "2026-11-28T16:58:26+00:00",
+ "date": "2026-11-28",
+ "count": 55,
  "jobs": [
   {
    "company_id": "30",
@@ -162,26 +162,6 @@
    "canonical_url": "https://ejwl.fa.us2.oraclecloud.com/hcmui/candidateexperience/en/sites/cx/job/26153519",
    "first_seen": "2026-11-24",
    "last_verified": "2026-11-24"
-  },
-  {
-   "company_id": "618",
-   "company": "Motorola Solutions",
-   "board": null,
-   "priority": "3",
-   "sector": "Technology",
-   "title": "Technical Support Analyst (Hybrid)",
-   "location": "Allen, TX (TX139)",
-   "location_kind": "dfw",
-   "remote": false,
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Technical-Support-Specialist--Hybrid-_R66641",
-   "posted": "2026-11-13",
-   "baseline": false,
-   "system": "workday",
-   "role_band": "core",
-   "req_id": "R66641",
-   "canonical_url": "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/allen-tx-tx139/technical-support-specialist--hybrid-_r66641",
-   "first_seen": "2026-11-22",
-   "last_verified": "2026-11-22"
   },
   {
    "company_id": "61",
